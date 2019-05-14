@@ -8,7 +8,7 @@ title: Coordonnées et informations juridiques
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
@@ -23,7 +23,7 @@ Informations vous permettant de contacter Adobe et de comprendre les implication
 
 L’équipe d’assistance d’Adobe Marketing Cloud est là pour vous aider et propose les différentes solutions de support suivantes :
 
-Voir [Contacter l’assistance Adobe pour les entreprises](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+Voir [Contacter l’assistance Adobe pour les entreprises](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
 
 ## Service, performance et facturation {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -33,7 +33,7 @@ En fonction de la configuration de votre solution, il est possible que vous n’
 ## Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 Adobe Systems welcome any suggestions or feedback regarding this solution. You can add enhancement ideas and suggestions for the Analytics suite to our [Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3). -->
 
-## Mentions légales {#section_A6E1844D4AC2485CADBF6D05116E3D59}
+## Mentions légales  {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 
 <ul class="simplelist"> 
@@ -41,7 +41,7 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Conditions d’utilisation](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centre de traitement des données personnelles](https://www.adobe.com/privacy/policy.html)
+[Conditions d’utilisation](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centre de confidentialité](https://www.adobe.com/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
