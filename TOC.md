@@ -1,9 +1,9 @@
 ---
 cloud: experience-cloud
-product: 'Activation '
+product: Experience Cloud
 user-guide-title: Notes de mise à jour d’Adobe Experience Cloud
 user-guide-url: https://www.adobe.com/fr
-solution-title: 'Activation '
+solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud.html
 solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: Prise en main
@@ -11,17 +11,18 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 mini-toc-levels: '1'
-translation-type: ht
-source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
+translation-type: tm+mt
+source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
 
 ---
 
 
-# Notes de mise à jour d’Experience Cloud {#experience-cloud}
+# Notes de mise à jour d’Experience Cloud   {#experience-cloud}
 
 + [Notes de mise à jour d’Adobe Experience Cloud](current.md)
 + Notes de mise à jour précédentes {#previous}
    + 2019 {#2019}
+      + [Avril 2019](c-legacy-releases/2019/04112019.md)
       + [Mars 2019](c-legacy-releases/2019/03072019.md)
       + [Février 2019](c-legacy-releases/2019/02072019.md)
       + [Janvier 2019](c-legacy-releases/2019/01172019.md)
