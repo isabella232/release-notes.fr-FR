@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Mai 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
+source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
 
 ---
 
@@ -20,7 +20,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 **Date de publication : Mai 2019**
 
-* [Plateforme d&#39;expérience](#platform)
+* [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -30,21 +30,25 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [Magento](#magento)
 * [Primetime](#primetime)
 
-## Plateforme d&#39;expérience {#platform}
+## Adobe Experience Platform {#platform}
 
-Notes de mise à jour de la plate-forme Experience Cloud, notamment Administration, Activation (Lancement de plateforme Experience), Service d&#39;ID, Ressources, Offres et Personnes.
+### Notes de mise à jour d&#39;Adobe Experience Platform
 
-### Lancement de plateforme d&#39;expérience
+Version 1.0, 15 mai 2019
+
+* Voir [Notes de mise à jour sur Platform Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) sur Adobe. io pour connaître les dernières mises à jour apportées à la plateforme Experience Platform.
+
+### Experience Platform Launch
 
 * Voir [Lancement de plateforme Experience](https://docs.adobelaunch.com/) pour obtenir les informations les plus récentes.
 
 ### Service Experience Cloud ID
 
-Publication **du 13 mai 2019**
+Parution **le 13 mai 2019**
 
-* Prise en charge de l&#39;API visiteur version 4.3.0
-* Prise en charge ITP 2.1.
-* Correction d&#39;un problème lié à la configuration securecookie.
+* Prise en charge de Visitor API 4.3.0
+* Prise en charge d’ITP 2.1.
+* Correction d’un problème concernant la configuration secureCookie.
 
 ## Analytics {#analytics}
 
