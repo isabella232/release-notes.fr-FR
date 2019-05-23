@@ -36,11 +36,11 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 Version 1.0, 15 mai 2019
 
-* Voir [Notes de mise à jour sur Platform Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) sur Adobe. io pour connaître les dernières mises à jour apportées à la plateforme Experience Platform.
+* Voir [Notes de mise à jour sur Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) sur Adobe. io pour connaître les dernières mises à jour apportées à la plateforme Experience Platform.
 
 ### Experience Platform Launch
 
-* Voir [Lancement de plateforme Experience](https://docs.adobelaunch.com/) pour obtenir les informations les plus récentes.
+* Voir [Experience Platform Launch](https://docs.adobelaunch.com/) pour obtenir les informations les plus récentes.
 
 ### Service Experience Cloud ID
 
@@ -245,5 +245,5 @@ Les notes de mise à jour des éditions open source et de commerce sont disponib
 
 Adobe Primetime est une plateforme télévisée multi-écran grâce à laquelle les entreprises multimédias peuvent créer et rentabiliser des contenus personnalisés et attrayants.
 
-[Notes de mise à jour de Primetime](http://help.adobe.com/en_US/primetime/release_notes/index.html)
-[Accueil de l’aide de Primetime](http://help.adobe.com/en_US/primetime/)
+[Notes de mise à jour de Primetime](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
+[Accueil de l’aide de Primetime](https://helpx.adobe.com/fr/support/primetime.html)
