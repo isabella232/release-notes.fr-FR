@@ -245,5 +245,5 @@ Les notes de mise à jour des éditions open source et de commerce sont disponib
 
 Adobe Primetime est une plateforme télévisée multi-écran grâce à laquelle les entreprises multimédias peuvent créer et rentabiliser des contenus personnalisés et attrayants.
 
-[Notes de mise à jour de Primetime](http://help.adobe.com/en_US/primetime/release_notes/index.html)
-[Accueil de l’aide de Primetime](http://help.adobe.com/en_US/primetime/)
+[Notes de mise à jour de Primetime](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
+[Accueil de l’aide de Primetime](https://helpx.adobe.com/fr/support/primetime.html)
