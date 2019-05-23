@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Mai 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
+source-git-commit: eb567f2f7b740c2fab9b95540cfdf240cf1f6955
 
 ---
 
@@ -63,6 +63,7 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 
 | Fonction | Description |
 | -----------| ---------- |  
+| **Appmeasurement version 2.14.0** <ul><li>Correction de problèmes liés à la gestion de l&#39;état des paramètres de suivi lorsque plusieurs accès sont en attente. (AN -176931, AN -176629, DTM -12758)</li><li>Appmeasurement mis à jour pour inclure Visitor. js 4.3.0 (AN -180049)</li></ul> |
 | **Analysis Workspace :** Nouveau _paramètre de visualisation Inclure les instances_ répétées | Le paramètre de visualisation de flux _Inclure les instances répétées_ vous permet d’inclure ou d’exclure des instances répétées, telles que le rechargement de pages. De plus, toutes les visualisations de flux sont maintenant basées uniquement sur des instances. |
 | **Ad - Analyses ad hoc :** Compatibilité avec Java 11 | Ad Hoc Analysis est désormais compatible avec Java 11. Découvrez comment exécuter [Ad - Analyses ad hoc sur Java 11](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html). |
 | **Collecte de données :** Nouveau cookie s_ ecid | Ajout d’un cookie de serveur propriétaire, s_ecid, dans lequel la collecte de données stocke l’ECID du visiteur. |
