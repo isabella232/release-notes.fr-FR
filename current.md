@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Mai 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8517ef177c10b4a0e5228ccbcb9168d0e35577e0
+source-git-commit: c8db350233cea9b83993e4723601b01a8e301f87
 
 ---
 
@@ -15,8 +15,7 @@ source-git-commit: 8517ef177c10b4a0e5228ccbcb9168d0e35577e0
 Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!NOTE]
->>Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour. Vous recevrez une notification trois à cinq jours ouvrables avant la sortie de la mise à jour. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
-
+>Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour. Vous recevrez une notification trois à cinq jours ouvrables avant la sortie de la mise à jour. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
 
 **Date de publication : Mai 2019**
 
