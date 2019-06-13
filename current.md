@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juin 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
+source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
 
 ---
 
@@ -58,6 +58,8 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 | **Débogueur** | Lorsque vous êtes connecté avec votre Adobe ID, vous avez désormais la possibilité de récupérer les accès post-traités dans le débogueur Experience Cloud. Les accès post-traités sont des appels serveur après qu&#39;ils ont été passés par [!UICONTROL les règles de traitement] et les règles VISTA, ce qui vous permet de valider [!UICONTROL les règles] de traitement et vos règles VISTA. **Remarque**: Si vous utilisez A 4 T (supplementaldataid), les données post-traitement peuvent prendre quelques minutes pour revenir. |
 | **Analysis Workspace:** | Ajout de nouveaux filtres prêts à l&#39;emploi dans la recherche de rail gauche. Outre ce que vous voyez aujourd&#39;hui (dimensions, mesures, approuvés, etc.), nouveaux filtres tels que Mesures calculées, Attributs du client, evars, Props, Vidéo, etc. ont été ajoutés afin de faciliter la recherche des composants dont vous avez besoin. |
 | **Analysis Workspace** | Nous avons ajouté un avertissement à la visualisation Abandons qui s&#39;affichera lorsque vous ajouterez un segment comme touchpoint de contact : certaines combinaisons de conteneur de segments non valides généraient des diagrammes d&#39;abandons non valides, tels que <ul><li>Utilisation d&#39;un segment basé sur les visiteurs comme touchpoint de contact dans une visualisation Abandons du visiteur</li><li>Utilisation d&#39;un segment basé sur les visiteurs comme touchpoint de contact dans une visualisation Abandons de la visite</li><li>Utilisation d&#39;un segment basé sur les visites comme touchpoint de contact dans une visualisation Abandons de la visite</li></ul> <br> [Plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
+| **Améliorations de la documentation Analytics** | La documentation Analytics a été réorganisée et inclut désormais des fonctions de collaboration qui vous permettent d&#39;améliorer le contenu. Vous pouvez enregistrer des problèmes par rapport à la documentation et suggérer des modifications. Le jeu de documents a été déplacé vers un [nouveau domaine](https://docs.adobe.com/content/help/en/analytics/landing/home.html). Les redirections doivent être en place. |
+| **Nouveau Guide de l&#39;utilisateur Notes techniques** | Le guide de l&#39;utilisateur Notes [techniques](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) est désormais disponible. Actuellement, elle vise à aider les utilisateurs à mieux comprendre les outils d&#39;analyse tiers, tels que Google Analytics, pour mieux connaître Adobe Analytics. Le guide de l&#39;utilisateur des notes techniques s&#39;étend sur les mois à venir pour inclure du contenu supplémentaire. |
 
 **Correctifs d’Analysis Workspace**
 
