@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juin 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3db1b9386db42a9b63a9a313ef80f05f377f1c65
+source-git-commit: a4233ae2bcb89b8695b92385142ee25b654a2300
 
 ---
 
@@ -227,7 +227,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 | Messagerie SMS sécurisée (TLS) | SMS sécurisé est désormais pris en charge via le connecteur SMPP générique étendu. Cela permet une connexion chiffrée au fournisseur. <br>Pour plus d’informations, consultez la [documentation détaillée](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html). |
 | Mise à jour de la matrice de compatibilité | Avec cette nouvelle version, Adobe Campaign prend désormais en charge les systèmes de base de données suivants. Reportez-vous à [la Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18 c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>Postgresql 11</li></ul> |
 
-Voir [les Notes] de mise à jour Adobe Campaign Classic] (http://docs.campaign.adobe.com/doc/AC/en/RN.html) pour obtenir des correctifs et des améliorations.
+Voir les [Notes de mise à jour d’Adobe Campaign Classic](http://docs.campaign.adobe.com/doc/AC/en/RN.html) pour les correctifs et améliorations.
 
 ### [!DNL Campaign Standard] Version de printemps 19.2
 
