@@ -34,7 +34,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 ### Notes de mise à jour d’Adobe Experience Platform
 
-* Pour [obtenir les dernières mises à jour, reportez-vous aux Notes](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) de mise à jour d&#39;Adobe Experience Platform sur Adobe. io [!DNL Experience Platform].
+* Consultez les [notes de mise à jour d’ Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) sur Adobe.io pour connaître les dernières mises à jour d’[!DNL Experience Platform].
 
 ### [!DNL Experience Platform Launch]
 
