@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juin 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 271087e92e26cd3b0aa382fe9760021d50414a13
+source-git-commit: 382a2936c5294fe04bb65fb0cfa6415175ce1da6
 
 ---
 
@@ -278,5 +278,5 @@ Release Notes for both our Open Source and Commerce editions can be found on the
 
 Adobe Primetime est une plateforme télévisée multi-écran grâce à laquelle les entreprises multimédias peuvent créer et rentabiliser des contenus personnalisés et attrayants.
 
-[Accueil de l&#39;aide Primetime sur](http://help.adobe.com/en_US/primetime/release_notes/index.html)
-[Primetime](http://help.adobe.com/en_US/primetime/)
+[Notes de mise à jour de Primetime](http://help.adobe.com/en_US/primetime/release_notes/index.html)
+[Accueil de l’aide de Primetime](http://help.adobe.com/en_US/primetime/)
