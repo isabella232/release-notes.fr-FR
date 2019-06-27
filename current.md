@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juin 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6af4853d00495a347671d31700c969c4d431b9b8
+source-git-commit: bce30f27c81de2552fca9cce91235f7a649b0d91
 
 ---
 
@@ -20,7 +20,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 **Date de publication : 13 juin 2019**
 
 * [Adobe Experience Platform](#platform)
-* [Analytics](#analytics) **(Mis à jour le 25 juin 2019)**
+* [Analytics](#analytics) **(Mis à jour le 27 juin 2019)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -45,7 +45,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités et correctifs d’Adobe Analytics](#aa-features)
-* [Remarques importantes concernant les administrateurs Analytics](#aa-notices) **(mis à jour le 25 juin 2019)**
+* [Remarques importantes concernant les administrateurs Analytics](#aa-notices) **(mis à jour le 27 juin 2019)**
 
 Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide d’Analytics](https://marketing.adobe.com/resources/help/en_US/reference/).
 
@@ -77,7 +77,8 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 ### Avis importants pour les administrateurs d’Analytics {#aa-notices}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
-| -----------| ---------- | ---------- | 
+| -----------| ---------- | ---------- |
+| Mise à jour de la collecte de données | Ajout le 27 juin 2019 | All Adobe Analytics cookies with the “same-site-by-default-cookies” flag now have this flag set to `SameSite=None`. |
 | Modifications de l&#39;interface utilisateur du journal d&#39;audit | Mis à jour le 25 juin 2019 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>Le format d&#39;horodatage est passé de l&#39;horodatage Unix à l&#39;heure ISO 8601.</li></ul><br>Dans l&#39;API ainsi que dans l&#39;interface utilisateur du journal d&#39;administration, les journaux d&#39;audit contiennent désormais l&#39;identifiant de suite de rapports plutôt que le nom de la suite de rapports. |
 | Limites du créateur de règles de classification | Ajout le 5 juin 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | Nouvelles limites des opérateurs de segment | Ajout le 31 mai 2019 | À compter du 18 juillet 2019, les opérateurs de segment « contient n’importe lequel », « ne contient pas n’importe lequel », « contient tous les » et « ne contient pas tous les » seront limités à 100 mots par champ d’entrée. Après cette date, la limite sera appliquée à tous les segments nouveaux et modifiés. Les segments existants qui dépassent la limite continueront à être pris en charge, mais ne pourront pas être modifiés ou enregistrés tant que le champ d’entrée dépasse la limite. Ces limites sont appliquées dans le cadre d’efforts continus visant à améliorer les performances des requêtes. |
