@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juillet 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 91126cc2d75b6c50afe429a1b4313309ab76108a
+source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
 
 ---
 
@@ -25,7 +25,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 **Date de publication : 18 juillet 2019**
 
 * [Services principaux d’Experience Cloud et administration](#experiencecloud)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics)**(Mis à jour le 15 juillet)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -84,7 +84,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Nouvelles fonctionnalités et correctifs d’Adobe Analytics](#aa-features)
+* [Nouvelles fonctionnalités et correctifs d&#39;Adobe Analytics](#aa-features) **(Mis à jour le 15 juillet)**
 * [Avis importants pour les administrateurs d’Analytics](#aa-notices)
 
 ### Nouveautés de la version [!DNL Analytics] {#aa-features}
@@ -95,7 +95,7 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 | -----------| ---------- |   
 | Analysis Workspace - Améliorations de l&#39;analyse des cohortes | Les nouveaux paramètres d&#39;analyse des cohortes ont été ajoutés : <ul><li>Afficher uniquement %</li><li>Arrondi % à la valeur entière la plus proche</li><li>Afficher une mosaïque de % sur le haut</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. Auparavant, la période de recherche était de 6 mois au maximum. Cela facilite la comparaison des pages ou des campagnes à partir de l&#39;année dernière, jusqu&#39;à 18 mois auparavant. |
-| Flux de données Analytics | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
+| Nouveau modèle Analysis Workspace | Nous avons ajouté un nouveau modèle intitulé « Magento : Marketing et commerce » à Analysis Workspace. Il est spécialement conçu pour les clients de commerce électronique Magento, mais tout détaillant peut l&#39;utiliser pour obtenir des informations uniques sur ses activités commerciales. |
 
 #### [!DNL Analysis Workspace] correctifs
 
@@ -103,9 +103,10 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 * Correction d&#39;un problème lié aux erreurs de visualisation : nous affichons maintenant une barre d&#39;erreur rouge lorsqu&#39;une erreur de visualisation se produisait.(AN-175542)
 * Correction d&#39;un problème en raison duquel les noms de dimension s&#39;affichaient comme anglais dans les environnements localisés.(AN-178695)
 
-#### [!DNL Reports & Analytics] correctifs
+#### [!DNL Analytics] correctifs
 
 * Correction d&#39;un problème en raison duquel le graphique linéaire dans un rapport d&#39;analyse en temps réel était vide. (AN-181690)
+* Correction d&#39;un problème en raison duquel certaines portions de l&#39;historique des flux de données n&#39;étaient pas affichées dans l&#39;interface utilisateur de la Console d&#39;administration. (AN-176219)
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
