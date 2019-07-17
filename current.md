@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juillet 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
+source-git-commit: 9d10de6924f3c40435d172602746f312195a675e
 
 ---
 
@@ -45,10 +45,10 @@ Notes de mise à jour de l’interface d’Experience Cloud, notamment les servi
 
 **Correctifs et mises à jour**
 
-* `cookieDomain` config update : La bibliothèque attribue automatiquement un domaine de cookie de niveau supérieur lorsque `cookieDomain` dans `initConfig` n&#39;est pas défini. (CORE-29223)
+* `cookieDomain` config update : La bibliothèque attribue automatiquement un domaine de cookie de niveau supérieur lorsque `cookieDomain` dans `initConfig` n'est pas défini. (CORE-29223)
 * Fixed an issue for `getVisitorValue` in `localVisitor`. (CORE-31287)
 * Fixed an inconsistency of `MCOPTOUT` value in parent visitor versus iframe child visitor from `getVisitorValue` method. (CORE-29719)
-* Correction d&#39;un problème de vulnérabilité dans jquery 3.2.1. (CORE-31183)
+* Correction d'un problème de vulnérabilité dans jquery 3.2.1. (CORE-31183)
 * Opt-in update: added `optIn.off` to unsubscribe from events.
 * Fixed an issue related to `setTimeout` function. (CORE-30623)
 
@@ -61,13 +61,13 @@ Ios et Android ont été mis à jour de la manière suivante :
 **iOS**
 
 * Adobe Target: All requests now include the client and the `sessionId` in the URL query parameters.
-* Adobe Target : Correction d&#39;une fuite de mémoire.
+* Adobe Target : Correction d'une fuite de mémoire.
 * Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. Le double codage provoquait le marquage des valeurs renvoyées par ces API par certaines révisions de sécurité.
 
 **Android**
 
-* Target : Toutes les requêtes incluent désormais le client et le paramètre sessionid dans les paramètres de requête d&#39;URL.
-* Messagerie in-app : Correction d&#39;un problème en raison duquel les applications Android étaient bloquées lorsqu&#39;un message était déclenché avec une URL de clic vide.
+* Target : Toutes les requêtes incluent désormais le client et le paramètre sessionid dans les paramètres de requête d'URL.
+* Messagerie in-app : Correction d'un problème en raison duquel les applications Android étaient bloquées lorsqu'un message était déclenché avec une URL de clic vide.
 * Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. Le double codage provoquait le marquage des valeurs renvoyées par ces API par certaines révisions de sécurité.
 
 Pour consulter la documentation du produit, voir [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
@@ -84,7 +84,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Nouvelles fonctionnalités et correctifs d&#39;Adobe Analytics](#aa-features) **(Mis à jour le 15 juillet)**
+* [Nouvelles fonctionnalités et correctifs d'Adobe Analytics](#aa-features) **(Mis à jour le 15 juillet)**
 * [Avis importants pour les administrateurs d’Analytics](#aa-notices)
 
 ### Nouveautés de la version [!DNL Analytics] {#aa-features}
@@ -93,20 +93,20 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 
 | Composant | Description |
 | -----------| ---------- |   
-| Analysis Workspace - Améliorations de l&#39;analyse des cohortes | Les nouveaux paramètres d&#39;analyse des cohortes ont été ajoutés : <ul><li>Afficher uniquement %</li><li>Arrondi % à la valeur entière la plus proche</li><li>Afficher une mosaïque de % sur le haut</li></ul> |
-| Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. Auparavant, la période de recherche était de 6 mois au maximum. Cela facilite la comparaison des pages ou des campagnes à partir de l&#39;année dernière, jusqu&#39;à 18 mois auparavant. |
-| Nouveau modèle Analysis Workspace | Nous avons ajouté un nouveau modèle intitulé « Magento : Marketing et commerce » à Analysis Workspace. Il est spécialement conçu pour les clients de commerce électronique Magento, mais tout détaillant peut l&#39;utiliser pour obtenir des informations uniques sur ses activités commerciales. |
+| Analysis Workspace - Améliorations de l'analyse des cohortes | Les nouveaux paramètres d'analyse des cohortes ont été ajoutés : <ul><li>Afficher uniquement %</li><li>Arrondi % à la valeur entière la plus proche</li><li>Afficher une mosaïque de % sur le haut</li></ul> |
+| Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. Auparavant, la période de recherche était de 6 mois au maximum. Cela facilite la comparaison des pages ou des campagnes à partir de l'année dernière, jusqu'à 18 mois auparavant. |
+| Nouveau modèle Analysis Workspace | Nous avons ajouté un nouveau modèle intitulé « Magento : Marketing et commerce » à Analysis Workspace. Il est spécialement conçu pour les clients de commerce électronique Magento, mais tout détaillant peut l'utiliser pour obtenir des informations uniques sur ses activités commerciales. |
 
 #### [!DNL Analysis Workspace] correctifs
 
-* Correction d&#39;un problème en raison duquel les caractères multi-octets s&#39;affichaient à l&#39;envers - vers le bas lors de la ventilation des dimensions. (AN-180112)
-* Correction d&#39;un problème lié aux erreurs de visualisation : nous affichons maintenant une barre d&#39;erreur rouge lorsqu&#39;une erreur de visualisation se produisait.(AN-175542)
-* Correction d&#39;un problème en raison duquel les noms de dimension s&#39;affichaient comme anglais dans les environnements localisés.(AN-178695)
+* Correction d'un problème en raison duquel les caractères multi-octets s'affichaient à l'envers - vers le bas lors de la ventilation des dimensions. (AN-180112)
+* Correction d'un problème lié aux erreurs de visualisation : nous affichons maintenant une barre d'erreur rouge lorsqu'une erreur de visualisation se produisait.(AN-175542)
+* Correction d'un problème en raison duquel les noms de dimension s'affichaient comme anglais dans les environnements localisés.(AN-178695)
 
 #### [!DNL Analytics] correctifs
 
-* Correction d&#39;un problème en raison duquel le graphique linéaire dans un rapport d&#39;analyse en temps réel était vide. (AN-181690)
-* Correction d&#39;un problème en raison duquel certaines portions de l&#39;historique des flux de données n&#39;étaient pas affichées dans l&#39;interface utilisateur de la Console d&#39;administration. (AN-176219)
+* Correction d'un problème en raison duquel le graphique linéaire dans un rapport d'analyse en temps réel était vide. (AN-181690)
+* Correction d'un problème en raison duquel certaines portions de l'historique des flux de données n'étaient pas affichées dans l'interface utilisateur de la Console d'administration. (AN-176219)
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
@@ -115,7 +115,7 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 | Limites du créateur de règles de classification | Ajout le 5 juin 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | Nouvelles limites des opérateurs de segment | Ajout le 31 mai 2019 | À compter du 18 juillet 2019, les opérateurs de segment « contient n’importe lequel », « ne contient pas n’importe lequel », « contient tous les » et « ne contient pas tous les » seront limités à 100 mots par champ d’entrée. Après cette date, la limite sera appliquée à tous les segments nouveaux et modifiés. Les segments existants qui dépassent la limite continueront à être pris en charge, mais ne pourront pas être modifiés ou enregistrés tant que le champ d’entrée dépasse la limite. Ces limites sont appliquées dans le cadre d’efforts continus visant à améliorer les performances des requêtes. |
 | Modifications à venir concernant la prise en charge des **[!UICONTROL classifications activées par date]** et des **[!UICONTROL classifications numériques 2]** | Mise à jour le 28 mai 2019 | La possibilité d’importer des classifications numériques 2 et des classifications activées par date a été supprimée du code base. Cette modification prendra effet lors de la version de maintenance de juillet 2019. S’il y a des colonnes numériques ou des colonnes activées par date dans le fichier d’importation, ces cellules seront ignorées et les autres données de ce fichier seront importées normalement. <br/>Les classifications existantes peuvent toujours être exportées par le biais du workflow de classification standard et sont toujours disponibles dans les rapports. |
-| Modification à venir des calculs des _totaux des rapports_. | Mise à jour le 9 juillet 2019 | Le **18 juin 2019**, Adobe Analytics va uniformiser les calculs des _totaux des rapports_ pour toutes les dimensions et mesures. Pour cette raison, les totaux de certains rapports seront modifiés (notamment les rapports Props ou Attributs du client). Avant cette modification, certains totaux incluaient ou excluaient la ligne _Non spécifié_ dans le total, peu importe si elle apparaissait ou non__ dans le rapport. <br/>À compter du 18 juin 2019, le poste _Non spécifié_ apparaîtra toujours dans le total du rapport, même s’il n’apparaît pas comme poste sur le rapport. Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. Cette modification concernera Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder et l’API Reporting. |
+| Modification à venir des calculs des _totaux des rapports_. | Mise à jour le 9 juillet 2019 | Le **18 juin 2019**, Adobe Analytics va uniformiser les calculs des _totaux des rapports_ pour toutes les dimensions et mesures. Pour cette raison, les totaux de certains rapports seront modifiés (notamment les rapports Props ou Attributs du client). Avant cette modification, certains totaux incluaient ou excluaient la ligne _Non spécifié_ dans le total, peu importe si elle apparaissait ou non __ dans le rapport. <br/>À compter du 18 juin 2019, le poste _Non spécifié_ apparaîtra toujours dans le total du rapport, même s’il n’apparaît pas comme poste sur le rapport. Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the "Typed/Bookmarked" line item for Referrer Type dimension or the "Other" line item for the Device Type dimension. Cette modification concernera Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder et l’API Reporting. |
 | Mise à jour des téléchargements CSV depuis [!DNL Analysis Workspace] | 10 avril 2019 | À partir du 11 avril 2019, plusieurs modifications seront apportées aux **[!UICONTROL téléchargements CSV]** (et **[!UICONTORL copies dans le Presse-papiers]**) depuis [!DNL Analysis Workspace] pour supprimer la mise en forme des données exportée.  <ul><li>Le séparateur des milliers ne sera plus inclu. Le séparateur décimal sera toujours inclus et se conformera au format défini sous **[!UICONTROL Composants &gt; Paramètres de rapport &gt; Séparateur des milliers]**. Remarque : Les valeurs numériques qui utilisent une virgule comme séparateur décimal continuent à être placées entre guillemets dans le fichier CSV exporté.</li><li>Aucun symbole de devise ne sera affiché.</li><li>Aucun symbole de pourcentage ne sera affiché. Les pourcentages seront sous forme décimale. Par exemple, 75 % sera représenté comme 0,75.</li><li>La durée sera indiquée en secondes.</li><li>Les tableaux de cohortes affichent uniquement les valeurs brutes. Les pourcentages sont supprimés.</li><li>Si un nombre n’est pas valide, une cellule vide s’affichera.</li></ul> |
 | Modification à venir de la commande du débogueur [!DNL Analysis Workspace] | 4 avril 2019 | La commande de la console permettant d’activer le débogueur [!DNL Analysis Workspace] sera remplacée par adobeTools.debug.includeOberonXml le **13 juin 2019**. adobe.tools.debug.includeOberonXml cessera de fonctionner après cette date. |
 | Numéros de version des navigateurs mobiles | 7 février 2019 | Le niveau de troncation des numéros de version des navigateurs mobiles est modifié depuis le 8 janvier 2019 (de 2 à 1). Depuis lors, seuls les deux premiers niveaux des versions sont affichés (par ex. _Firefox 64.0.2_ apparaît désormais sous la forme _Firefox 64.0_). |
@@ -128,12 +128,12 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 
 ### AppMeasurement {#appm}
 
-Publication du 15 juillet 2019
+Publication le 15 juillet 2019:
 
-**JavaScript 2.15.0**
+**Appmeasurement pour JavaScript 2.15.0**
 
-* Ajout de DIL 7.2 à appmeasurememt. (AN-175142)
-* Correction d&#39;un problème survenant lorsque le service Experience Cloud ID Service optin était défini sur true et que le MID n&#39;était pas généré sur l&#39;appel s. t () sans rechargement de page. (CORE-30890)
+* Ajout du suivi de la portée de défilement de Carte d'activités à l'extension de Carte d'activités (AN -172949)
+* Ajout de DIL 9.2 à appmeasurement. (AN-182472)
 
 Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) pour consulter un historique des versions d’AppMeasurement sur les plates-formes suivantes :
 
@@ -159,9 +159,9 @@ Voir les [Notes de mise à jour de Data Workbench ](https://marketing.adobe.com
 **Correctifs et améliorations**
 
 * On the [!UICONTROL Segments Overview] page, the width of the segment storage folder is now flexible. Cela vous permet de distinguer les segments avec des noms plus longs. (AAM-48400)
-* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model&#39;s reach or accuracy. (AAM-47996)
-* Correction d&#39;un problème dans les destinations Analytics, en raison duquel le bouton permettant de télécharger un fichier. csv de segments avec des contrôles d&#39;exportation de données et/ou des stratégies de partage de données tierces était rompu. (AAM-48100)
-* Correction d&#39;un problème en raison duquel les clients voyaient des erreurs « Accès refusé » aléatoires lors de la connexion à l&#39;interface utilisateur d&#39;Audience Manager. (AAM-47632)
+* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model's reach or accuracy. (AAM-47996)
+* Correction d'un problème dans les destinations Analytics, en raison duquel le bouton permettant de télécharger un fichier. csv de segments avec des contrôles d'exportation de données et/ou des stratégies de partage de données tierces était rompu. (AAM-48100)
+* Correction d'un problème en raison duquel les clients voyaient des erreurs « Accès refusé » aléatoires lors de la connexion à l'interface utilisateur d'Audience Manager. (AAM-47632)
 
 ## Experience Manager {#aem}
 
@@ -184,71 +184,71 @@ La solution XML Documentation 3.4 est désormais disponible.
 ***Notes de mise à jour***
 
 * Prise en charge ajoutée pour AEM 6.5.
-* L&#39;éditeur change :
+* L'éditeur change :
    * Aperçu du niveau de carte.
    * Tables - provided an option to copy an `entry` or a `complete` row within a table using copy and paste.
    * Tableaux - permet de sélectionner plusieurs cellules dans une colonne et de les fusionner ou de les fusionner.
-   * Tableaux - permet de définir les propriétés de colonne du tableau en mode Création de l&#39;éditeur Web.
-   * Tableaux - permet d&#39;ajuster les proportions et la taille des colonnes dans un tableau standard.
+   * Tableaux - permet de définir les propriétés de colonne du tableau en mode Création de l'éditeur Web.
+   * Tableaux - permet d'ajuster les proportions et la taille des colonnes dans un tableau standard.
    * Tableaux - Sélection de lignes et de colonnes dans la vue Auteur.
-   * Tableaux - Styles et propriétés activés (align, valign) dans l&#39;éditeur Web pour l&#39;alignement des cellules de tableau.
+   * Tableaux - Styles et propriétés activés (align, valign) dans l'éditeur Web pour l'alignement des cellules de tableau.
    * Correction de bogues dans la vue Balises complètes, y compris les scénarios de copier-coller et de glisser-déposer de contenu.
    * Affichez les titres des rubriques dans les onglets Editeur.
-   * Problèmes de performance résolus dans l&#39;éditeur Web.
+   * Problèmes de performance résolus dans l'éditeur Web.
 * Transfert de la ligne de base vers le contenu traduit lors de la traduction.
 * Paramètre prédéfini de condition de transfert au cours du processus de traduction.
-* Ajout de la capacité d&#39;appliquer des étiquettes à tous les dépendances d&#39;un mappage par rapport à la ligne de base.
-* Ajout d&#39;un bouton pour télécharger le mappage avec tous les dépendances sous la forme d&#39;un fichier zip.
+* Ajout de la capacité d'appliquer des étiquettes à tous les dépendances d'un mappage par rapport à la ligne de base.
+* Ajout d'un bouton pour télécharger le mappage avec tous les dépendances sous la forme d'un fichier zip.
 * Améliorations de la conversion XHTML vers DITA :
    * Le nom du fichier DITAMAP généré est maintenant identique au nom du fichier ZIP téléchargé.
    * Ajout de la prise en charge des éléments et des attributs HTML supplémentaires.
-   * Prise en charge de l&#39;ingestion simultanée du fichier html-zip.
+   * Prise en charge de l'ingestion simultanée du fichier html-zip.
    * The sub-folder hierarchy where the zip is uploaded (*under input path as configured in h2d_io.xml*), is retained for the generated output (*under the configured output path*).
-* Fournit des journaux d&#39;audit pour savoir qui a refusé la version et pourquoi.
+* Fournit des journaux d'audit pour savoir qui a refusé la version et pourquoi.
 * Génération de site AEM :
    * Désactivez la regénération pour les sous-zones.
-   * Processus de génération de publication activés pour les cas d&#39;utilisation de la regénération.
-   * Désactivez l&#39;option de régénération pour une rubrique masquée et rendez l&#39;option disponible pour la rubrique parente où l&#39;attribut chunked est appliqué.
+   * Processus de génération de publication activés pour les cas d'utilisation de la regénération.
+   * Désactivez l'option de régénération pour une rubrique masquée et rendez l'option disponible pour la rubrique parente où l'attribut chunked est appliqué.
 * La recherche DITA fonctionne désormais sur la logique ET dans la recherche de ressources AEM.
-* Résultats pour n&#39;afficher pas les fichiers temporaires stockés dans le dossier de sortie de traduction.
+* Résultats pour n'afficher pas les fichiers temporaires stockés dans le dossier de sortie de traduction.
 * Onglet Ligne de base :
-   * Amélioration des performances lors de l&#39;ouverture d&#39;une ligne de base.
-   * Choisir des rubriques par date pour travailler sur l&#39;horodatage du client.
+   * Amélioration des performances lors de l'ouverture d'une ligne de base.
+   * Choisir des rubriques par date pour travailler sur l'horodatage du client.
 * API pour la suppression des étiquettes.
 
 #### Maintenance du produit
 
 **AEM 6.2 SP20-CFP1**
 
-AEM 6.2 Service Pack 1-Cumulative Fix Pack 20 (6.2.1.20), publié le 6 juin 2019, est une mise à jour importante qui inclut les principaux correctifs client publiés depuis la publication d&#39;AEM 6.2 SP 1 décembre 2016.
+AEM 6.2 Service Pack 1-Cumulative Fix Pack 20 (6.2.1.20), publié le 6 juin 2019, est une mise à jour importante qui inclut les principaux correctifs client publiés depuis la publication d'AEM 6.2 SP 1 décembre 2016.
 
 * [Notes de mise à jour](https://helpx.adobe.com/experience-manager/release-notes--aem-6-2-cumulative-fix-pack.html)
 * [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 **AEM 6.3.3.5**
 
-La version 6.3.3.5 d&#39;AEM 6.3.3.5, publiée le 3 juillet 2019, est une mise à jour importante qui comprend des correctifs client clés depuis la publication d&#39;AEM 6.17 avril 2017.
+La version 6.3.3.5 d'AEM 6.3.3.5, publiée le 3 juillet 2019, est une mise à jour importante qui comprend des correctifs client clés depuis la publication d'AEM 6.17 avril 2017.
 
 * [Notes de mise à jour](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
 * [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 **AEM 6.4.5.0**
 
-AEM 6.4.5.0, publié le 3 juillet 2019, est une mise à jour importante qui comprend des correctifs client clés publiés depuis la publication d&#39;AEM 6.4 en avril 2018.
+AEM 6.4.5.0, publié le 3 juillet 2019, est une mise à jour importante qui comprend des correctifs client clés publiés depuis la publication d'AEM 6.4 en avril 2018.
 
 * [Notes de mise à jour](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 * [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 **AEM 6.5.1.0**
 
-AEM 6.5.1.0, publié le 3 juillet 2019, est une mise à jour importante qui comprend des correctifs client clés publiés depuis la publication d&#39;AEM 6.5 en avril 2019.
+AEM 6.5.1.0, publié le 3 juillet 2019, est une mise à jour importante qui comprend des correctifs client clés publiés depuis la publication d'AEM 6.5 en avril 2019.
 
 * [Notes de mise à jour](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
 * [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 ### Auto-assistance
 
-**Mise à jour de l&#39;invalidation du cache AEM**
+**Mise à jour de l'invalidation du cache AEM**
 
 An important AEM patch for the AEM 6.5 clientlibs cache invalidation is available by way of the [AEM 6.5.1.0 update](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) or this [KB article](https://helpx.adobe.com/experience-manager/kb/avoid-crx-quickstart-deletion-in-aem-6-5.html).
 
@@ -285,7 +285,7 @@ See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/
 
 ## Magento {#magento}
 
-Pour plus d&#39;informations sur les notes de mise à jour de Magento Commerce et de Magento Open Source, voir :
+Pour plus d'informations sur les notes de mise à jour de Magento Commerce et de Magento Open Source, voir :
 
 * [Notes de mise à jour de Magento Open Source 2.3.2](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2OpenSource.html)
 * [Notes de mise à jour de Magento Commerce 2.3.2](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html)
