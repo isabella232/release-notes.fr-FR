@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Juillet 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9d10de6924f3c40435d172602746f312195a675e
+source-git-commit: 2010152649fccb8997913f52b6d43e11c3a5d18e
 
 ---
 
@@ -95,7 +95,7 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 | -----------| ---------- |   
 | Analysis Workspace - Améliorations de l'analyse des cohortes | Les nouveaux paramètres d'analyse des cohortes ont été ajoutés : <ul><li>Afficher uniquement %</li><li>Arrondi % à la valeur entière la plus proche</li><li>Afficher une mosaïque de % sur le haut</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. Auparavant, la période de recherche était de 6 mois au maximum. Cela facilite la comparaison des pages ou des campagnes à partir de l'année dernière, jusqu'à 18 mois auparavant. |
-| Nouveau modèle Analysis Workspace | Nous avons ajouté un nouveau modèle intitulé « Magento : Marketing et commerce » à Analysis Workspace. Il est spécialement conçu pour les clients de commerce électronique Magento, mais tout détaillant peut l'utiliser pour obtenir des informations uniques sur ses activités commerciales. |
+| Nouveau modèle Analysis Workspace | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. Il est spécialement conçu pour les clients de commerce électronique Magento, mais tout détaillant peut l'utiliser pour obtenir des informations uniques sur ses activités commerciales. |
 
 #### [!DNL Analysis Workspace] correctifs
 
