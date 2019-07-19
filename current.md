@@ -5,18 +5,14 @@ doc-type: notes de mise à jour
 last-update: Juillet 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e8470127c1cd343637d61bc0ac6bdd26339a8e2c
+source-git-commit: 50a8aaf58413337e4aa0478e5505f8ea9d8edd36
 
 ---
 
 
-# Accès anticipé - Notes de mise à jour d’Adobe Experience Cloud
+# Notes de mise à jour Adobe Experience Cloud
 
 Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Cette page comporte du contenu publié avant la date de publication et peut faire l’objet de modifications avant la publication planifiée.
 
 >[!NOTE]
 >
