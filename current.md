@@ -1,11 +1,11 @@
 ---
-title: Notes de mise à jour d’Adobe Experience Cloud
-description: 'Notes de mise à jour d’Experience Cloud : juillet 2019'
+title: Notes de mise à jour de la documentation technique d'Adobe Experience Cloud
+description: Notes de mise à jour du doc technique de juillet 2019
 doc-type: notes de mise à jour
 last-update: Juillet 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 700dc5c07df31cf744588cd79f6d51c05234c0a0
+source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
 
 ---
 
@@ -89,7 +89,7 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 
 | Composant | Description |
 | -----------| ---------- |   
-| Analysis Workspace : améliorations de l’analyse des cohortes | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Afficher uniquement le pourcentage</li><li>Arrondi arrondi au entier le plus proche</li><li>Afficher une ligne de pourcentage moyenne</li></ul> |
+| Analysis Workspace : améliorations de l’analyse des cohortes | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Afficher uniquement le pourcentage</li><li>Arrondir le pourcentage à l’entier le plus proche</li><li>Afficher une ligne de pourcentage moyenne</li></ul> |
 | Analysis Workspace | Dans le rail de gauche, les utilisateurs ont maintenant la possibilité d’_afficher les éléments des 18 derniers mois_. Auparavant, la période de recherche arrière était de 6 mois au maximum. Il est ainsi plus facilite d’effectuer une comparaison de pages ou de campagnes de l’année passée, jusqu’à 18 mois en arrière. |
 | Nouveau modèle Analysis Workspace | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. Il est destiné aux clients d’e-commerce Magento, mais tout détaillant peut l’utiliser pour obtenir des informations uniques sur ses activités commerciales. |
 
@@ -124,12 +124,12 @@ Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide 
 
 ### AppMeasurement {#appm}
 
-Publication le 15 juillet 2019:
+Publication le 15 juillet 2019 :
 
-**Appmeasurement pour JavaScript 2.15.0**
+**AppMeasurement pour JavaScript 2.15.0**
 
-* Ajout du suivi de la portée de défilement de Carte d'activités à l'extension de Carte d'activités (AN -172949)
-* Ajout de DIL 9.2 à appmeasurement. (AN-182472)
+* Ajout du suivi de la portée de défilement Activity Map à l’extension Activity Map (AN-172949)
+* Ajout de DIL 9.2 à AppMeasurement. (AN-182472)
 
 Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) pour consulter un historique des versions d’AppMeasurement sur les plates-formes suivantes :
 
