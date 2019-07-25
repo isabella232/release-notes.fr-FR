@@ -16,7 +16,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Cette page comporte du contenu publié avant la date de publication et peut faire l’objet de modifications avant la publication planifiée.
+>Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
 
 >[!NOTE]
 >
