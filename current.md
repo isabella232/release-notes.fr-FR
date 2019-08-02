@@ -1,287 +1,159 @@
 ---
-title: Notes de mise à jour de la documentation technique d'Adobe Experience Cloud
-description: Notes de mise à jour du doc technique de juillet 2019
+title: Notes de mise à jour d’Adobe Experience Cloud
+description: Modèle des notes de mise à jour d’Experience Cloud
 doc-type: notes de mise à jour
-last-update: Juillet 2019
+last-update: Août 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
+source-git-commit: 626b6b170539ebe54c86f17eec0593bd2decd4e5
 
 ---
 
 
-# Notes de mise à jour Adobe Experience Cloud
+# Accès anticipé - Notes de mise à jour d’Adobe Experience Cloud
 
 Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
 
 >[!NOTE]
 >
 >Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour. Vous recevrez une notification trois à cinq jours ouvrables avant la sortie de la mise à jour. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
 
-**Date de publication : 18 juillet 2019**
+**Date de publication : août 2019**
 
-* [Services principaux d’Experience Cloud et administration](#experiencecloud)
-* [!DNL Analytics](#analytics) - **(mis à jour le 15 juillet)**
+* [Plateforme et administration d'expérience](#platform)
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [Target Standard/Premium 19.6.1](#target)
-* [Magento](#magento)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l'aide de la solution)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l'aide de la solution)
 
-## Services principaux et administration {#experiencecloud}
+## [!UICONTROL Plateforme] et administration d'expérience {#platform}
 
-Notes de mise à jour de l’interface d’Experience Cloud, notamment les services principaux de [!UICONTROL Platform] et l’administration des produits.
+Release notes for the [!UICONTROL Experience Platform], Experience Cloud interface, product administration, Experience Platform Launch, Identity Service, and security bulletins.
 
-* [Service Experience Cloud ID](#ecid)
-* [Mobile Services et SDK Mobile](#mobile)
+* [Interface d’Experience Cloud](#core-services)
 * [Experience Platform Launch](#launch)
-* [Bulletins et avis de sécurité](#security)
+* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html) (Tous les produits Adobe)
 
-### Service Experience Cloud ID {#ecid}
+### Interface d’Experience Cloud {#core-services}
 
-**Correctifs et mises à jour**
+* Correction d'un problème critique de connexion à Experience Cloud qui entraînait la déconnexion de la session pour certains utilisateurs. (MCUI-6908)
+* Mise à jour de la connexion Experience Cloud afin d'améliorer les performances et de réduire la latence. (MCUI -6854, MCUI -6869, MCUI -6883)
+* Mise à jour cosmétique de l'interface. (MCUI -6861, MCUI -6911, MCUI -6862)
+* Fixed an issue with Experience Cloud [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
 
-* `cookieDomain` Mise à jour de la configuration de : la bibliothèque attribue automatiquement un domaine de cookie de niveau supérieur lorsque `cookieDomain` dans `initConfig` n’est pas défini. (CORE-29223)
-* Correction d’un problème lié à `getVisitorValue` dans `localVisitor`. (CORE-31287)
-* Correction d’une incohérence de la `MCOPTOUT` valeur de dans le visiteur parent par rapport au visiteur enfant iframe de la `getVisitorValue` méthode. (CORE-29719)
-* Correction d’un problème de vulnérabilité dans jQuery 3.2.1. (CORE-31183)
-* Mise à jour de la souscription : ajout de `optIn.off` pour le désabonnement aux événements.
-* Correction d’un problème lié à la `setTimeout` fonction. (CORE-30623)
-
-See [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) for cumulative release notes.
-
-### Mobile Services et SDK Mobile {#mobile}
-
-iOS et Android ont été mis à jour de la manière suivante :
-
-**iOS**
-
-* Adobe Target : toutes les demandes comprennent désormais le client et `sessionId` dans les paramètres de requête d’URL.
-* Adobe Target : correction d’une fuite de mémoire.
-* Service d’identification des visiteurs : les API `visitorAppendToURL` et `visitorGetUrlVariablesAsync` ne codent plus deux fois leurs valeurs renvoyées. Le double codage entraînait le marquage des valeurs renvoyées de ces API par certaines révisions de sécurité.
-
-**Android**
-
-* Target : toutes les demandes comprennent désormais le client et sessionId dans les paramètres de requête d’URL.
-* Messagerie In-App : correction d’un problème en raison duquel les applications Android se bloquaient lorsqu’un message était déclenché avec une URL de taux de clics vide.
-* Service d’identification des visiteurs : les API `Visitor.appendToURL` et `Visitor.getUrlVariablesAsync` ne codent plus deux fois leurs valeurs renvoyées. Le double codage entraînait le marquage des valeurs renvoyées de ces API par certaines révisions de sécurité.
-
-Pour consulter la documentation du produit, voir [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
-
-Pour en savoir plus sur les SDK  Mobile, voir [SDK Android 4.x pour solutions Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) et [SDK iOS 4.x pour solutions Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 ### Experience Platform Launch {#launch}
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) (links to product help) for release notes and product documentation.
-
-### Bulletins et avis de sécurité {#security}
-
-See [Security bulletins and advisories](https://helpx.adobe.com/security.html) for important information regarding security vulnerabilities that could affect specific versions of Adobe products.
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ## [!DNL Analytics] {#analytics}
 
-* [Nouvelles fonctionnalités et correctifs d’Adobe Analytics](#aa-features) **(mis à jour le 15 juillet)**
+Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
+
+* [Nouvelles fonctionnalités, améliorations et correctifs d'Adobe Analytics](#aa-features)
 * [Avis importants pour les administrateurs d’Analytics](#aa-notices)
+* [AppMeasurement](#appm)
 
-### Nouveautés de la version [!DNL Analytics] {#aa-features}
+For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
-Pour obtenir la documentation du produit, voir la [page d’accueil de l’aide d’Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+### New features, enhancements, and fixes in Adobe Analytics {#aa-features}
 
-| Composant | Description |
-| -----------| ---------- |   
-| Analysis Workspace : améliorations de l’analyse des cohortes | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Afficher uniquement le pourcentage</li><li>Arrondir le pourcentage à l’entier le plus proche</li><li>Afficher une ligne de pourcentage moyenne</li></ul> |
-| Analysis Workspace | Dans le rail de gauche, les utilisateurs ont maintenant la possibilité d’_afficher les éléments des 18 derniers mois_. Auparavant, la période de recherche arrière était de 6 mois au maximum. Il est ainsi plus facilite d’effectuer une comparaison de pages ou de campagnes de l’année passée, jusqu’à 18 mois en arrière. |
-| Nouveau modèle Analysis Workspace | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. Il est destiné aux clients d’e-commerce Magento, mais tout détaillant peut l’utiliser pour obtenir des informations uniques sur ses activités commerciales. |
+| Fonction | Description |
+| -----------| ---------- |  
+| Prise en charge des paramètres de cookie samesite | Le paramètre de cookie samesite sera ajouté à tous les jeux de cookies définis par Analytics. Cette modification vous permet d'être conforme aux modifications chromatiques nécessitant le champ de cookie samesite. |
+| Espace de travail : Augmentation de la limite d'élément pour le filtre déroulant de 50 à 200 | Nous avons augmenté la limite des éléments pouvant être placés dans un filtre déroulant de 50 à 200. Cette amélioration prend en charge divers cas d'utilisation, tels que l'ajout de tous les pays (195) à un filtre, ou de tous les États et provinces (52). |
 
-#### [!DNL Analysis Workspace] Correctifs
+#### Correctifs
 
-* Correction d’un problème en raison duquel les caractères multi-octets s’affichaient à l’envers lors de la ventilation des dimensions. (AN-180112)
-* Correction d’un problème lié aux erreurs de visualisation : une barre d’erreur rouge s’affiche maintenant lorsqu’une erreur de visualisation se produit.(AN-175542)
-* Correction d’un problème en raison duquel les noms des dimensions s’affichaient en anglais dans les environnements localisés.(AN-178695)
-
-#### [!DNL Analytics] Correctifs
-
-* Correction d’un problème en raison duquel le graphique linéaire était vide dans un rapport d’analyse en temps réel. (AN-181690)
-* Correction d’un problème en raison duquel certaines parties de l’historique des flux de données n’étaient pas affichées dans l’interface utilisateur d’Admin Console. (AN-176219)
+* Correction d'un problème d'affichage du texte dans les rapports en temps réel en mode plein écran. (AN-183168)
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| Limites du créateur de règles de classification | Ajout le 5 juin 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
-| Nouvelles limites des opérateurs de segment | Ajout le 31 mai 2019 | À compter du 18 juillet 2019, les opérateurs de segment « contient n’importe lequel », « ne contient pas n’importe lequel », « contient tous les » et « ne contient pas tous les » seront limités à 100 mots par champ d’entrée. Après cette date, la limite sera appliquée à tous les segments nouveaux et modifiés. Les segments existants qui dépassent la limite continueront à être pris en charge, mais ne pourront pas être modifiés ou enregistrés tant que le champ d’entrée dépasse la limite. Ces limites sont appliquées dans le cadre d’efforts continus visant à améliorer les performances des requêtes. |
+| Limites du créateur de règles de classification | Ajout le 5 juin 2019 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
+| Nouvelles limites des opérateurs de segment | Ajout le 31 mai 2019 | Starting on July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. Après cette date, la limite sera appliquée à tous les segments nouveaux et modifiés. Les segments existants qui dépassent la limite continueront à être pris en charge, mais ne pourront pas être modifiés ou enregistrés tant que le champ d’entrée dépasse la limite. Ces limites sont appliquées dans le cadre d’efforts continus visant à améliorer les performances des requêtes. |
 | Modifications à venir concernant la prise en charge des **[!UICONTROL classifications activées par date]** et des **[!UICONTROL classifications numériques 2]** | Mise à jour le 28 mai 2019 | La possibilité d’importer des classifications numériques 2 et des classifications activées par date a été supprimée du code base. Cette modification prendra effet lors de la version de maintenance de juillet 2019. S’il y a des colonnes numériques ou des colonnes activées par date dans le fichier d’importation, ces cellules seront ignorées et les autres données de ce fichier seront importées normalement. <br/>Les classifications existantes peuvent toujours être exportées par le biais du workflow de classification standard et sont toujours disponibles dans les rapports. |
-| Modification à venir des calculs des _totaux des rapports_. | Mise à jour le 9 juillet 2019 | Le **18 juin 2019**, Adobe Analytics va uniformiser les calculs des _totaux des rapports_ pour toutes les dimensions et mesures. Pour cette raison, les totaux de certains rapports seront modifiés (notamment les rapports Props ou Attributs du client). Avant cette modification, certains totaux incluaient ou excluaient la ligne _Non spécifié_ dans le total, peu importe si elle apparaissait ou non __ dans le rapport. <br/>À compter du 18 juin 2019, le poste _Non spécifié_ apparaîtra toujours dans le total du rapport, même s’il n’apparaît pas comme poste sur le rapport. En outre, les segments qui utilisent la logique _existe_ ou _n’existe pas_ peuvent afficher des résultats différents pour certaines dimensions après cette modification, en particulier les dimensions dont _Non spécifié_ possède un nom spécial, comme l’élément de ligne « Tapé/Marqué » pour la dimension Type de référent ou l’élément de ligne « Autre » pour la dimension Type de périphérique. Cette modification concernera Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder et l’API Reporting. |
+| Modification à venir des calculs des _totaux des rapports_ | Mise à jour le 9 juillet 2019 | Le **18 juin 2019**, Adobe Analytics va uniformiser les calculs des _totaux des rapports_ pour toutes les dimensions et mesures. Pour cette raison, les totaux de certains rapports seront modifiés (notamment les rapports Props ou Attributs du client). Avant cette modification, certains totaux incluaient ou excluaient la ligne _Non spécifié_ dans le total, peu importe si elle apparaissait ou non __ dans le rapport. <br/>À compter du 18 juin 2019, le poste _Non spécifié_ apparaîtra toujours dans le total du rapport, même s’il n’apparaît pas comme poste sur le rapport. En outre, les segments qui utilisent la logique _existe_ ou _n’existe pas_ peuvent afficher des résultats différents pour certaines dimensions après cette modification, en particulier les dimensions dont _Non spécifié_ possède un nom spécial, comme l’élément de ligne « Tapé/Marqué » pour la dimension Type de référent ou l’élément de ligne « Autre » pour la dimension Type de périphérique. Cette modification concernera Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder et l’API Reporting. |
 | Mise à jour des téléchargements CSV depuis [!DNL Analysis Workspace] | 10 avril 2019 | À partir du 11 avril 2019, plusieurs modifications seront apportées aux **[!UICONTROL téléchargements CSV]** (et **[!UICONTORL copies dans le Presse-papiers]**) depuis [!DNL Analysis Workspace] pour supprimer la mise en forme des données exportée.  <ul><li>Le séparateur des milliers ne sera plus inclu. Le séparateur décimal sera toujours inclus et se conformera au format défini sous **[!UICONTROL Composants &gt; Paramètres de rapport &gt; Séparateur des milliers]**. Remarque : Les valeurs numériques qui utilisent une virgule comme séparateur décimal continuent à être placées entre guillemets dans le fichier CSV exporté.</li><li>Aucun symbole de devise ne sera affiché.</li><li>Aucun symbole de pourcentage ne sera affiché. Les pourcentages seront sous forme décimale. Par exemple, 75 % sera représenté comme 0,75.</li><li>La durée sera indiquée en secondes.</li><li>Les tableaux de cohortes affichent uniquement les valeurs brutes. Les pourcentages sont supprimés.</li><li>Si un nombre n’est pas valide, une cellule vide s’affichera.</li></ul> |
-| Modification à venir de la commande du débogueur [!DNL Analysis Workspace] | 4 avril 2019 | La commande de la console permettant d’activer le débogueur [!DNL Analysis Workspace] sera remplacée par adobeTools.debug.includeOberonXml le **13 juin 2019**. adobe.tools.debug.includeOberonXml cessera de fonctionner après cette date. |
+| Modification à venir de la commande du débogueur[!DNL Analysis Workspace] | 4 avril 2019 | La commande de la console permettant d’activer le débogueur [!DNL Analysis Workspace] sera remplacée par adobeTools.debug.includeOberonXml le **13 juin 2019**. adobe.tools.debug.includeOberonXml cessera de fonctionner après cette date. |
 | Numéros de version des navigateurs mobiles | 7 février 2019 | Le niveau de troncation des numéros de version des navigateurs mobiles est modifié depuis le 8 janvier 2019 (de 2 à 1). Depuis lors, seuls les deux premiers niveaux des versions sont affichés (par ex. _Firefox 64.0.2_ apparaît désormais sous la forme _Firefox 64.0_). |
-| Fin de vie d’[!DNL Ad Hoc Analysis] | 29 janvier 2019 | Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’[!DNL Ad Hoc Analysis]. dont la date sera communiquée dès que possible.<br/>Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [Découvrir Workspace](https://adobe.ly/discoverworkspace). |
+| Fin de vie d’ [!DNL Ad Hoc Analysis] | 29 janvier 2019 | Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’[!DNL Ad Hoc Analysis]. dont la date sera communiquée dès que possible.<br/>Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [Discover Workspace](https://adobe.ly/discoverworkspace). |
 | Liens de [!DNL Analytics] rapports courts | 14 janvier 2019 | Tout lien de [!DNL Analytics] rapport court qui n’aura pas été consulté pendant un an sera nettoyé et supprimé à compter du jeudi 17 janvier 2019, selon un calendrier progressif. |
-| Fin de la prise en charge de TLS 1.0 | Mis à jour le 10 janvier 2019 | À compter du 11 février 2019, la création de rapports Adobe Analytics ne prendra plus en charge le chiffrement TLS 1.0 (Transport Layer Security – Sécurité de la couche de transport). Ce changement entre dans le cadre de nos efforts continus pour conserver des normes de sécurité élevées et promouvoir la sécurité des données des clients. If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/> À compter du 20 février 2019, la collecte de données Adobe Analytics ne prendra plus en charge le protocole TLS 1.0. À la suite de cette modification, Adobe ne collectera plus les [!DNL Analytics] données des utilisateurs finaux disposant d’appareils ou de navigateurs web plus anciens qui ne prennent pas en charge le protocole TLS 1.1 ou version ultérieure. Cette modification ne devrait pas avoir de répercussions importantes sur les données des clients ou le compte rendu des performances. (Si votre site Internet ne prend pas en charge TLS 1.0, vous ne serez pas concerné.) <br/>À compter du 11 avril 2019, l’API de création de rapports d’Adobe Analytics ne prendra plus en charge le chiffrement TLS 1.0. Les clients qui accèdent à l’API doivent vérifier qu’ils ne seront pas affectés. <ul><li>Les clients API utilisant Java 7 avec les paramètres par défaut devront être [modifiés pour prendre en charge TLS 1.2 ](https://www.java.com/en/configure_crypto.html). (Reportez-vous à la section _Modification de la version par défaut du protocole TLS pour les points de terminaison clients : TLS 1.0 à TLS 1.2_). </li><li>Les clients API utilisant Java 8 ne devraient pas être affectés, étant donné que TLS 1.2 est la configuration par défaut.</li><li> Les clients API utilisant d’autres structures devront contacter leurs fournisseurs pour plus de détails sur la prise en charge de TLS 1.2.</li></ul> |
+| Fin de la prise en charge de TLS 1.0 | Mis à jour le 10 janvier 2019 | À compter du 11 février 2019, la création de rapports Adobe Analytics ne prendra plus en charge le chiffrement TLS 1.0 (Transport Layer Security – Sécurité de la couche de transport). Ce changement entre dans le cadre de nos efforts continus pour conserver des normes de sécurité élevées et promouvoir la sécurité des données des clients. If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html).<br/> À compter du 20 février 2019, la collecte de données Adobe Analytics ne prendra plus en charge le protocole TLS 1.0. À la suite de cette modification, Adobe ne collectera plus les [!DNL Analytics] données des utilisateurs finaux disposant d’appareils ou de navigateurs web plus anciens qui ne prennent pas en charge le protocole TLS 1.1 ou version ultérieure. Cette modification ne devrait pas avoir de répercussions importantes sur les données des clients ou le compte rendu des performances. (Si votre site Internet ne prend pas en charge TLS 1.0, vous ne serez pas concerné.) <br/>À compter du 11 avril 2019, l’API de création de rapports d’Adobe Analytics ne prendra plus en charge le chiffrement TLS 1.0. Les clients qui accèdent à l’API doivent vérifier qu’ils ne seront pas affectés. <ul><li>Les clients API utilisant Java 7 avec les paramètres par défaut devront être [modifiés pour prendre en charge TLS 1.2 ](https://www.java.com/en/configure_crypto.html). (Reportez-vous à la section _Modification de la version par défaut du protocole TLS pour les points de terminaison clients : TLS 1.0 à TLS 1.2_.) </li><li>Les clients API utilisant Java 8 ne devraient pas être affectés, étant donné que TLS 1.2 est la configuration par défaut.</li><li> Les clients API utilisant d’autres structures devront contacter leurs fournisseurs pour plus de détails sur la prise en charge de TLS 1.2.</li></ul> |
 | Flux de données : colonne post_product_list – modification de taille | 9 janvier 2019 | Le 7 février 2019, Adobe prévoit d’étendre la taille de la colonne post_product_list de 64 Ko à 16 Mo. Cette modification garantit que les valeurs eVar de marchandisage ajoutées à la colonne post_product_list lors du traitement ne causent pas de troncature de valeurs de produits et de revenus. Si certains de vos processus assimilent des valeurs post_product_list, assurez-vous qu’ils peuvent gérer des valeurs allant jusqu’à 16 Mo en longueur ou entraîneront une troncature des valeurs à 16 Ko afin d’éviter les problèmes d’assimilation de données. |
-| Modifications de gestion concernant les points de terminaison inactifs [!DNL Analytics Live Stream] | 20 décembre 2018 | À compter du 1er février 2019, les points de terminaison [!DNL Live Stream] n’ayant reçu aucune connexion d’utilisateurs actifs durant 90 jours pourront être désactivés. Vous pouvez contacter l’assistance clientèle pour obtenir des renseignements au sujet de vos points de terminaison [!DNL Live Stream] et, si besoin, demander leur réactivation. De plus, veuillez vous assurer que vos processus client maintiennent une connexion permanente, comme prévu par la configuration du service, et qu’ils sont mis en œuvre pour se reconnecter lorsque la connexion est désactivée ou interrompue. |
+| Modifications de gestion concernant les points de terminaison inactifs[!DNL Analytics Live Stream] | 20 décembre 2018 | À compter du 1er février 2019, les points de terminaison [!DNL Live Stream] n’ayant reçu aucune connexion d’utilisateurs actifs durant 90 jours pourront être désactivés. Vous pouvez contacter l’assistance clientèle pour obtenir des renseignements au sujet de vos points de terminaison [!DNL Live Stream] et, si besoin, demander leur réactivation. De plus, veuillez vous assurer que vos processus client maintiennent une connexion permanente, comme prévu par la configuration du service, et qu’ils sont mis en œuvre pour se reconnecter lorsque la connexion est désactivée ou interrompue. |
 | Mise à jour d’Adobe [!DNL Report Builder] en raison de la fin de la prise en charge du protocole TLS 1.0 | 7 septembre 2018 | En raison de la fin de la prise en charge du protocole TLS 1.0, nous avons recommandé aux utilisateurs d’[!DNL Report Builder] de télécharger la version v5.6.21 avant février 2019. À compter de cette date, les versions antérieures d’[!DNL Report Builder] ne fonctionneront plus. |
 
 ### AppMeasurement {#appm}
 
-Publication le 15 juillet 2019 :
+[!UICONTROL Appmeasurement] 2.16.0 est sorti le 8 août 2019.
 
-**AppMeasurement pour JavaScript 2.15.0**
+| Fonction | Description |
+| -----------| ---------- |
+| `sendBeacon` prise en charge des liens de sortie | Implemented `sendBeacon` support in [!UICONTROL AppMeasurement] for exit links. Cela permettra d'améliorer le suivi des liens de sortie et entraînera probablement une augmentation du trafic. |
+| ECID/valeurs fid | Les valeurs ECID/fid sont maintenant mises en cache sur le premier accès, même si les paramètres optin changent. |
+| DIL 9.3 | Mise à jour du module Gestion de l'audience vers DIL 9.3 |
+| Suivi de la portée de défilement | Bouton exposé dans s. activitymap. trackscrollportée pour activer ou désactiver le suivi de la portée de défilement. |
+| Service d'identification des visiteurs 4.4.0 | Mise à niveau d'appmeasurement pour utiliser le service d'identification des visiteurs 4.4.0. |
 
-* Ajout du suivi de la portée de défilement Activity Map à l’extension Activity Map (AN-172949)
-* Ajout de DIL 9.2 à AppMeasurement. (AN-182472)
+#### Correctifs
+
+* Correction d'un bogue de la file d'attente appmeasurement qui survenait avant la valeur de isreadytotrack.
 
 Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) pour consulter un historique des versions d’AppMeasurement sur les plates-formes suivantes :
 
-* JavaScript 
+* JavaScript
 * iOS
 * Android
 * Flash-Flex
 * OSX
 * Windows Phone, XBOX, Silverlight et .NET
 * [!DNL BlackBerry]
-* Java 
+* Java
 * PHP
 * Symbian
-
-### Data Workbench {#aa-dwb}
-
-* Updated the help definition for [log (X, B)](https://marketing.adobe.com/resources/help/en_US/insight/client/c_syntx_mtrc_exp.html) metric syntax documentation. (AN-180527)
-
-Voir les [Notes de mise à jour de Data Workbench ](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/) pour connaître les dernières informations.
 
 ## Audience Manager {#aam}
 
 **Correctifs et améliorations**
 
-* Dans la page [!UICONTROL Aperçu des segments], la largeur du dossier de stockage des segments est maintenant flexible. Vous pouvez ainsi distinguer les segments avec des noms plus longs. (AAM-48400)
-* Correction d’un problème dans les [!UICONTROL modèles algorithmiques], en raison duquel le déplacement du curseur **Ajuster la portée et la précision** n’avait pas d’impact sur la portée ou la précision du modèle. (AAM-47996)
-* Correction d’un problème dans les destinations Analytics, en raison duquel le bouton permettant de télécharger un fichier. csv de segments étant en conflit avec des contrôles d’exportation de données et/ou des stratégies de partage de données tierces était non fonctionnel. (AAM-48100)
-* Correction d’un problème en raison duquel les clients affichaient des erreurs « Accès refusé » aléatoires lors de la connexion à l’interface utilisateur d’Audience Manager. (AAM-47632)
-
-## Experience Manager {#aem}
-
-Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
-
-### Versions de produit
-
-Informations sur les nouvelles fonctionnalités des produits suivants :
-
-#### Cloud Manager 2019.6.0
-
-The latest Cloud Manager release (2019.6.0) contains a new [Product Update Wizard](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/product-update-wizard/overview-productupdate-wizard.html) to help customers successfully run an AEM update.
-
-* [Notes de mise à jour de Cloud Manager 2019.6.0](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
-
-#### XML Documentation 3.4
-
-La solution XML Documentation 3.4 est désormais disponible.
-
-***Notes de mise à jour***
-
-* Ajout de la prise en charge d’AEM 6.5.
-* Modifications de l’éditeur :
-   * Aperçu du niveau plan.
-   * Tableaux : option permettant de copier une ligne `entry` ou `complete` dans un tableau à l’aide de la fonction copier-coller.
-   * Tableaux : option permettant de sélectionner plusieurs cellules dans une colonne et de les fusionner.
-   * Tableaux : méthode permettant de définir les propriétés de colonne du tableau en mode Auteur de l’éditeur web.
-   * Tableaux : méthode permettant d’ajuster les proportions et la taille des colonnes dans un tableau standard.
-   * Tableaux : sélection de lignes et de colonnes dans la vue Auteur.
-   * Tableaux : styles et propriétés activés (align, valign) dans l’éditeur web pour l’alignement des cellules de tableau.
-   * Correction de bogues dans la vue Balises complètes, notamment les scénarios pour copier-coller et glisser-déposer du contenu.
-   * Affichage des titres des rubriques dans les onglets de l’éditeur.
-   * Résolution des problèmes de performance dans l’éditeur web.
-* Transfert de la ligne de base vers le contenu traduit lors de la traduction.
-* Paramètre prédéfini de condition de transfert au cours du workflow de traduction.
-* Ajout de la possibilité d’appliquer des étiquettes à toutes les dépendances d’un plan depuis la ligne de base.
-* Ajout d’un bouton pour télécharger le plan avec tous les dépendances sous la forme d’un fichier zip.
-* Améliorations de la conversion XHTML en DITA :
-   * Le nom du fichier DITAMAP généré est maintenant identique à celui du fichier zip téléchargé.
-   * Ajout de la prise en charge d’éléments et d’attributs HTML supplémentaires.
-   * Prise en charge de l’ingestion simultanée de fichiers html-zip.
-   * La hiérarchie des sous-dossiers où le fichier zip est téléchargé (*sous le chemin d’entrée configuré dans h2d_io.xml*) est conservée pour la sortie générée (*sous le chemin de sortie configuré*).
-* Journaux d’audit pour déterminer qui a restauré une version et pourquoi.
-* Regénération d’AEM Sites :
-   * Désactivation de la regénération pour les sous-plans.
-   * Workflows de génération de publication activés pour les cas d’utilisation de la regénération.
-   * Désactivation de l’option de régénération pour une rubrique tronquée et option rendue disponible pour la rubrique parente où l’attribut chunked est appliqué.
-* La recherche DITA fonctionne désormais sur la logique AND dans la recherche AEM Asset.
-* Résultats pour ne pas afficher pas les fichiers temporaires stockés dans le dossier de sortie de traduction.
-* Onglet de ligne de base :
-   * Améliorations des performances lors de l’ouverture d’une ligne de base.
-   * Choix des rubriques par date pour travailler sur l’horodatage du client.
-* API pour la suppression des étiquettes.
-
-#### Maintenance du produit
-
-**AEM 6.2 SP1-CFP20**
-
-AEM 6.2 Service Pack 1–Cumulative Fix Pack 20 (6.2.1.20), publié le 6 juin 2019, est une mise à jour importante, qui contient des correctifs client clés, publiée depuis la mise à disposition d’AEM 6.2 SP1 en décembre 2016.
-
-* [Notes de mise à jour](https://helpx.adobe.com/experience-manager/release-notes--aem-6-2-cumulative-fix-pack.html)
-* [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
-
-**AEM 6.3.3.5**
-
-AEM 6.3.3.5, publié le 3 juillet 2019, est une mise à jour importante, qui contient des correctifs client clés, publiée depuis la mise à disposition d’AEM 6.3 en avril 2017.
-
-* [Notes de mise à jour](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
-* [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
-
-**AEM 6.4.5.0**
-
-AEM 6.4.5.0, publié le 3 juillet 2019, est une mise à jour importante, qui contient des correctifs client clés, publiée depuis la mise à disposition d’AEM 6.4 en avril 2018.
-
-* [Notes de mise à jour](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-* [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
-
-**AEM 6.5.1.0**
-
-AEM 6.5.1.0, publié le 3 juillet 2019, est une mise à jour importante, qui contient des correctifs client clés, publiée depuis la mise à disposition d’AEM 6.5 en avril 2019.
-
-* [Notes de mise à jour](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
-* [Versions CFP d’AEM Forms](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
-
-### Auto-assistance
-
-**Mise à jour de l’invalidation du cache AEM**
-
-An important AEM patch for the AEM 6.5 clientlibs cache invalidation is available by way of the [AEM 6.5.1.0 update](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) or this [KB article](https://helpx.adobe.com/experience-manager/kb/avoid-crx-quickstart-deletion-in-aem-6-5.html).
-
-### Ressources supplémentaires
-
-* [Formation et assistance pour AEM 6.5 – Accueil](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [Page d’accueil Formation et assistance AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Page d’accueil Formation et assistance AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [Page d’accueil Formation et assistance AEM 6.2](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Guide de l’utilisateur de Cloud Manager](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Anciennes versions de la documentation d’AEM](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Notes de mise à jour de Scene7 Publishing System](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Notes de mise à jour de Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
+* L'onglet Administration ne s'affiche désormais que pour les comptes utilisateur disposant de droits d'administrateur (AAM -48557).
+* L'API Utilisateurs de liste renvoie désormais les détails complets de l'utilisateur (AAM -48662).
+* Vous pouvez désormais redimensionner la liste des dossiers de caractéristiques (AAM -48800).
+* Optimisations de l'accessibilité de l'interface utilisateur (AAM -48865, AAM -48933).
+* Chargement des optimisations pour les pages Administration et Sources de données (AAM -48514).
 
 ## [!DNL Campaign] {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
-Pour les notes de mise à jour, voir :
+### Adobe Campaign Standard 
 
-* Adobe Campaign Classic [19.1.2](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – build 9029
-* Adobe Campaign Standard [19.2.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-3---june-2019)
-* Adobe Campaign Standard [19.2.4](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-4---june-2019)
-* Adobe Campaign Standard [19.2.7](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-7---july-2019)
+[Version de Campaign Standard 19.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)
 
-Pour consulter la documentation du produit, voir :
+| Fonction | Description |
+| -----------| ---------- |  
+| Activité API externe (version bêta publique) | Pour une personnalisation plus poussée, l'activité API externe vous permet d'importer des données provenant de systèmes externes dans un flux de travail via un appel API REST. Les points de fin REST peuvent être un système de gestion client, un endpoint de fin Adobe I/S Runtime ou un endpoint de fin REST Adobe Experience Cloud (par exemple, Platform Platform, Target, Analytics, Campaign). Cette fonctionnalité est actuellement en version bêta publique. For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html). |
+| Rapport sur le segment de processus | Cette fonctionnalité permet aux spécialistes du marketing de ventiler leurs performances de diffusion par code de segment. Lorsque vous créez un flux de travail et que vous utilisez une activité de segmentation pour affecter des segments à la population de diffusion, ces segments peuvent maintenant accéder à la même diffusion. Cela vous permet d'afficher les statistiques d'ouverture/clic basées sur plusieurs segments au sein d'une seule diffusion. For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html). |
 
-* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) – [Vidéos de présentation](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
-* Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Vidéos de présentation](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
+###  Adobe Campaign Classic 
 
-## [!DNL Target] {#target}
+[Mise à jour de Campaign Classic 19.1.3](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - version 9031
 
-See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) for the latest release information about Target.
+### Panneau de configuration Adobe Campaign
 
-## Magento {#magento}
+[Les nouvelles fonctionnalités du Panneau de configuration](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html) incluent la possibilité d'ajouter des URL que Campaign Classic se connecte pour les transferts de données/de fichiers.
 
-Pour plus d’informations sur les notes de mise à jour de Magento Commerce et de Magento Open Source, voir :
+Please note that [!UICONTROL Control Panel] is available for both Adobe Campaign Classic and Adobe Campaign Standard customers hosted on AWS. Aucune mise à niveau n'est requise pour accéder au Panneau de configuration.
 
-* [Notes de mise à jour de Magento Open Source 2.3.2](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2OpenSource.html)
-* [Notes de mise à jour de Magento Commerce 2.3.2](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html)
+### Ressources supplémentaires
+
+* Adobe Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
