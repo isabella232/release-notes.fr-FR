@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Août 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b3fa98427b027218e9600cb4c5e10dd2ba880f89
+source-git-commit: 2229815ac75b0a7bd60571b39bd0f2780f20195e
 
 ---
 
@@ -66,8 +66,9 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Fonction | Description |
 | -----------| ---------- |  
-| Prise en charge des paramètres de cookie samesite | Le paramètre de cookie samesite sera ajouté à tous les jeux de cookies définis par Analytics. Cette modification vous permet d'être conforme aux modifications chromatiques nécessitant le champ de cookie samesite. |
+| Prise en charge des paramètres de cookie samesite | Le paramètre de cookie [samesite sera](https://web.dev/samesite-cookies-explained) ajouté à tous les jeux de cookies définis par Analytics. Cette modification vous permet d'être conforme aux modifications chromatiques nécessitant le champ de cookie samesite. Les cookies Analytics seront par défaut activés `none`. Si vous avez utilisé exclusivement un domaine propriétaire (par ex. stats.domain.com), vous pouvez demander à Adobe clientcare de le définir `lax` pour les domaines de collecte propriétaire. |
 | Espace de travail : Augmentation de la limite d'élément pour le filtre déroulant de 50 à 200 | Nous avons augmenté la limite des éléments pouvant être placés dans un filtre déroulant de 50 à 200. Cette amélioration prend en charge divers cas d'utilisation, tels que l'ajout de tous les pays (195) à un filtre, ou de tous les États et provinces (52). |
+| Attribution IQ activée pour les mesures A 4 T | Nous avons activé deux mesures Analytics pour Target (A 4 T) pour l'IQ Attribution : Impressions d'activité et Conversion des activités. Dans Analysis Workspace, ces mesures ont été gonflées par rapport aux rapports et analyses. Grâce à cette modification, les utilisateurs peuvent désormais appliquer un modèle d'attribution « Même touche », ce qui met l'Espace de travail d'analyse en ligne avec les rapports et analyses. |
 
 #### Correctifs
 
@@ -143,7 +144,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 | Activité API externe (version bêta publique) | Pour une personnalisation plus poussée, l'activité API externe vous permet d'importer des données provenant de systèmes externes dans un flux de travail via un appel API REST. Les points de fin REST peuvent être un système de gestion client, un endpoint de fin Adobe I/S Runtime ou un endpoint de fin REST Adobe Experience Cloud (par exemple, Platform Platform, Target, Analytics, Campaign). Cette fonctionnalité est actuellement en version bêta publique. Pour plus d'informations, consultez la documentation [détaillée](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) [et la vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html). |
 | Rapport sur le segment de processus | Cette fonctionnalité permet aux spécialistes du marketing de ventiler leurs performances de diffusion par code de segment. Lorsque vous créez un flux de travail et que vous utilisez une activité de segmentation pour affecter des segments à la population de diffusion, ces segments peuvent maintenant accéder à la même diffusion. Cela vous permet d'afficher les statistiques d'ouverture/clic basées sur plusieurs segments au sein d'une seule diffusion. Pour plus d'informations, consultez la documentation [détaillée](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) [et la vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html). |
 
-### Adobe Campaign Classic 
+###  Adobe Campaign Classic 
 
 [Mise à jour de Campaign Classic 19.1.3](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - version 9031
 
