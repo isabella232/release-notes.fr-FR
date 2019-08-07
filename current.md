@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Août 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
+source-git-commit: 6e1d9c4b083968fe1632d1309900058c90206fe1
 
 ---
 
@@ -68,7 +68,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | -----------| ---------- |  
 | Prise en charge des paramètres de cookie samesite | Le paramètre de cookie [samesite sera](https://web.dev/samesite-cookies-explained) ajouté à tous les jeux de cookies définis par Analytics. Cette modification vous permet d'être conforme aux modifications chromatiques nécessitant le champ de cookie samesite. Les cookies Analytics seront par défaut activés `none`. Si vous avez utilisé exclusivement un domaine propriétaire (par ex. stats.domain.com), vous pouvez demander à Adobe clientcare de le définir `lax` pour les domaines de collecte propriétaire. |
 | Espace de travail : Augmentation de la limite d'élément pour le filtre déroulant de 50 à 200 | Nous avons augmenté la limite des éléments pouvant être placés dans un filtre déroulant de 50 à 200. Cette amélioration prend en charge divers cas d'utilisation, tels que l'ajout de tous les pays (195) à un filtre, ou de tous les États et provinces (52). |
-| Attribution IQ activée pour les mesures A 4 T | Nous avons activé deux mesures Analytics pour Target (A 4 T) pour l'IQ Attribution : Impressions d'activité et Conversion des activités. Dans Analysis Workspace, ces mesures ont été gonflées par rapport aux rapports et analyses. Grâce à cette modification, les utilisateurs peuvent désormais appliquer un modèle d'attribution « Même touche », ce qui met l'Espace de travail d'analyse en ligne avec les rapports et analyses. |
+| Impressions d'activité A 4 T et conversions d'activité activées pour l'IQ d'attribution | Nous avons activé deux mesures Analytics pour Target (A 4 T) pour l'IQ Attribution : Impressions d'activité et Conversion des activités. Dans Analysis Workspace, ces mesures ont été gonflées par rapport aux rapports et analyses. Grâce à cette modification, les utilisateurs peuvent désormais appliquer un modèle d'attribution de « même touche » qui met Analysis Workspace en ligne avec les rapports et analyses. |
 
 #### Correctifs
 
