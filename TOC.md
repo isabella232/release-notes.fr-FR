@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Notes de mise à jour d’Adobe Experience Cloud
 user-guide-url: https://www.adobe.com/fr
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: afd02edefe88a8d970899adcd414217b65a91d7e
 
 ---
