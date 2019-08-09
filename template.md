@@ -26,7 +26,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 * [Experience Platform et administration](#platform)
 * [!DNL Analytics](#analytics)
-* [Audience Manager](#aam)
+* [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
@@ -142,7 +142,7 @@ Pour obtenir l’historique des versions d’AppMeasurement sur les plates-forme
 * PHP
 * Symbian
 
-## Audience Manager {#aam}
+## Audience Manager {#aam}
 
 | Fonction | Description |
 | -----------| ---------- |  
