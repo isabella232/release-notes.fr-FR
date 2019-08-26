@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Août 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
+source-git-commit: bf128d5ab0d16a15935f73fd8b80c7eab12b4e1f
 
 ---
 
@@ -64,7 +64,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Fonction | Description |
 | -----------| ---------- |  
-| Prise en charge des paramètres de cookie SameSite | Le [paramètre de cookie SameSite](https://web.dev/samesite-cookies-explained) sera ajouté à tous les cookies définis par Analytics. Cette modification permet de se conformer aux modifications de Chrome, qui exigent le champ de cookie SameSite. Par défaut, les cookies Analytics seront définis sur `none`. Si vous avez utilisé exclusivement un domaine propriétaire (par ex. stats.domain.com), vous pouvez demander à l’assistance clientèle d’Adobe de le définir sur `lax` pour les domaines de collecte propriétaires. |
+| Prise en charge des paramètres de cookie SameSite | Le [paramètre de cookie SameSite](https://web.dev/samesite-cookies-explained) sera ajouté à tous les cookies définis par Analytics. Cette modification permet de se conformer aux modifications de Chrome, qui exigent le champ de cookie SameSite. Par défaut, les cookies Analytics seront définis sur `none`. If you have exclusively used a 1st-party domain (e.g. stats.domain.com) you can have Adobe Customer Care set it to `lax` for 1st-party collection domains. |
 | Workspace : limite des éléments pour le filtre déroulant augmentée de 50 à 200 | La limite des éléments pouvant être placés dans un filtre déroulant a été augmentée de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
 | Impressions d’activité et conversions d’activités A4T activées pour Attribution IQ | Nous avons activé deux mesures Analytics pour Target (A4T) pour Attribution IQ : Impressions d’activité et Conversions des activités. Auparavant, dans Analysis Workspace, ces mesures étaient gonflées par rapport à Reports &amp; Analytics. Grâce à cette modification, les utilisateurs peuvent désormais appliquer un modèle d’attribution de « même touche » qui harmonise Analysis Workspace et Reports &amp; Analytics. |
 
