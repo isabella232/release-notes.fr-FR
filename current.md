@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Août 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a547f72e673f0e0dc0b5f803f187a6f24162015c
+source-git-commit: c4e89f21b3cd1231592f962bf5abfca49571f943
 
 ---
 
@@ -21,7 +21,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 **Date de publication : 8 août 2019**
 
 * [Experience Cloud et Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Mise à jour le 23 août 2019**)
+* [!DNL Analytics](#analytics) (**Mise à jour le 20 août 2019**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -56,7 +56,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)  (**Mise à jour le 20 août 2019**)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
-* [AppMeasurement](#appm) (**Mise à jour le 23 août 2019**)
+* [AppMeasurement](#appm)
 
 For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
@@ -77,7 +77,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Avis | Date d’ajout  ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
 | Prise en charge des décalages de fuseau horaire historiques | 8 août 2019 | Analytics gère désormais automatiquement les décalages de fuseau horaire pour les accès horodatés. Après cette modification du 8 août, les systèmes qui chargent les données pour un traitement historique n’auront plus besoin d’ajuster les décalages de fuseau horaire avant d’envoyer les données. |
 | Limites du créateur de règles de classification | Ajout le 5 juin 2019 | Ces limites ne sont pas nouvelles, mais ont été ajoutées à la documentation [ici](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
@@ -96,14 +96,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### AppMeasurement {#appm}
 
-[!UICONTROL Appmeasurement] 2.17.0 a été publié le 23 août 2019.
-
-| Fonctionnalité/Correctif | Description |
-| -----------| ---------- |
-| Ajout de la prise en charge Baidu | Ajout de la prise en charge de la réorganisation de la chaîne de requête Baidu. |
-| Correction | Correction d'un problème en raison duquel les valeurs des visiteurs obsolètes dans les accès placés en file d'attente étaient mises en file d'attente en attente de souscription. |
-
-[!UICONTROL Appmeasurement] 2.16.0 a été publié le 8 août 2019.
+Version 2.16.0 d’[!UICONTROL AppMeasurement] publiée le 8 août 2019.
 
 | Fonction | Description |
 | -----------| ---------- |
