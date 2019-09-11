@@ -88,13 +88,13 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
-* [Nouvelles fonctionnalités dans Adobe Analytics](#aa-features)
+* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [SDK Media Analytics pour iOS et Android (anciennement SDK VHL)](#aa-va)
 * [Avis importants pour les administrateurs d’Analytics](analytics-important-notices.md)
 
 Pour consulter la documentation du produit, voir Accueil de l’aide [Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html).
 
-### Nouvelles fonctionnalités dans Adobe Analytics {#aa-features}
+### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
 | Fonction | Description |
 | -----------| ---------- |  
