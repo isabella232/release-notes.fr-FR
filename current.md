@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Septembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b680e3b7c761ca2b6ba28150fb3102d0778d0d3a
+source-git-commit: 12ab1a02439228bb50a294fe8d5aeba415122d43
 
 ---
 
@@ -156,6 +156,13 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 La version 2019.8.0 de Cloud Manager corrige divers bogues mineurs, améliore les performances de création et ajoute la prise en charge des packages de contenu créé de manière sélective.
 
 * [Notes de mise à jour de Cloud Manager 2019.8.0](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
+
+**Distribution logicielle**
+
+[La distribution logicielle](https://downloads.experiencecloud.adobe.com/) est la nouvelle interface utilisateur conçue pour simplifier la recherche et le téléchargement des packages AEM. Il est actuellement en état bêta et accessible uniquement aux clients Adobe Managed Services.
+
+* [Le partage](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) de package restera accessible jusqu'à ce que tous les clients aient accès à la distribution logicielle.
+* Tous les packs sont disponibles à partir de Package Share et de Software Distribution.
 
 ### Maintenance du produit
 
