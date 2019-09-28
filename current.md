@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Septembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
+source-git-commit: b8639c07c29e929b786b515b0d8e1e3cb89fa45a
 
 ---
 
@@ -52,24 +52,22 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 ### Mobile Services et SDK Mobile {#mobile}
 
-Date de publication : **26 septembre**
-
-**iOS : Version 4.18.8**
+**iOS: Version 4.18.8**
 
 Date de publication : 20 septembre 2019
 
 * Messagerie in-app :
-   * On devices running iOS 10 or newer, the UserNotifications framework is now used to schedule local notifications for apps that are linked to the UserNotifications.framework .
-   * Fullscreen messages now use WKWebViews from WebKit.framework, which must be linked in your Xcode project.
-   * Correction d’un bogue en raison duquel la charge utile de clic publicitaire Push ne pouvait pas être utilisée comme caractéristiques pour la messagerie in-app.
-   * Fixed a crash issue.
-* Général - Correction d’un bogue en raison duquel les données du SDK étaient synchronisées avec l’application watchOS associée pour chaque appel Analytics.
+   * Sur les périphériques exécutant iOS 10 ou une version ultérieure, la structure UserNotifications est désormais utilisée pour planifier des notifications locales pour les applications liées à UserNotifications.framework.
+   * Les messages en plein écran utilisent désormais WKWebViews de WebKit.framework, qui doit être lié à votre projet Xcode.
+   * Fixed a bug where the Push click-through payload could not be used as traits for In-App Messaging.
+   * Correction d’un problème de plantage.
+* General - Fixed a bug where SDK data was synchronized to the paired watchOS app on every Analytics call.
 
-**Android : Version 4.17.10**
+**Android: Version 4.17.10**
 
 Date de publication : 20 septembre 2019
 
-* General: Fixed locale string generation for some regions on Android API level 21 or newer.
+* Général : Correction de la génération de chaînes de paramètres régionaux pour certaines régions sur l’API Android de niveau 21 ou plus récent.
 
 **Unity**
 
@@ -91,14 +89,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Fonction | Description |
 | -----------| ---------- |  
-| **Parcours IQ : Analyses multipériphériques** | En septembre 2019, Adobe Analytics propose une nouvelle fonctionnalité puissante appelée Journey IQ : Analyses inter-périphériques. (Notez que cette fonctionnalité est disponible uniquement pour les clients Analytics Ultimate.) Avec la fonction Cross-Device Analytics (CDA), Adobe Analytics n’est plus un outil orienté sur les périphériques mais orienté sur les personnes. Grâce à CDA, vous pouvez répondre à des questions telles que : <ul><li>Combien de personnes interagissent avec ma marque ? Combien de types de périphériques utilisent-elles ? Comment se superposent-elles ?</li><li>À quelle fréquence les utilisateurs commencent-ils une tâche sur un périphérique mobile, puis passent-ils ensuite à un PC de bureau pour terminer la tâche ? Les clics publicitaires de campagne amenant à un périphérique conduisent-ils à une conversion ailleurs ?</li><li>Comment ma compréhension de l’efficacité de la campagne change-t-elle si je prends en compte les trajets entre plusieurs périphériques ? Comment mon analyse d’entonnoir change-t-elle ?</li><li>Quels sont les chemins les plus courants empruntés par les utilisateurs d’un périphérique à l’autre ? Où abandonnent-ils ? Où réussissent-ils ?</li><li>En quoi le comportement des utilisateurs ayant plusieurs périphériques diffère-t-il de celui des utilisateurs disposant d’un seul périphérique ?</li></ul><br/>To learn more, visit [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
+| **Parcours IQ : Analyses multipériphériques** | En septembre 2019, Adobe Analytics propose une nouvelle fonctionnalité puissante appelée Journey IQ : Analyses inter-périphériques. (Notez que cette fonctionnalité est disponible uniquement pour les clients Analytics Ultimate.) Avec la fonction Cross-Device Analytics (CDA), Adobe Analytics n’est plus un outil orienté sur les périphériques mais orienté sur les personnes. Grâce à CDA, vous pouvez répondre à des questions telles que : <ul><li>Combien de personnes interagissent avec ma marque ? Combien de types de périphériques utilisent-elles ? Comment se superposent-elles ?</li><li>À quelle fréquence les utilisateurs commencent-ils une tâche sur un périphérique mobile, puis passent-ils ensuite à un PC de bureau pour terminer la tâche ? Les clics publicitaires de campagne amenant à un périphérique conduisent-ils à une conversion ailleurs ?</li><li>Comment ma compréhension de l’efficacité de la campagne change-t-elle si je prends en compte les trajets entre plusieurs périphériques ? Comment mon analyse d’entonnoir change-t-elle ?</li><li>Quels sont les chemins les plus courants empruntés par les utilisateurs d’un périphérique à l’autre ? Où abandonnent-ils ? Où réussissent-ils ?</li><li>En quoi le comportement des utilisateurs ayant plusieurs périphériques diffère-t-il de celui des utilisateurs disposant d’un seul périphérique ?</li></ul><br/>Pour en savoir plus, visitez [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
 | **Architecture des classifications mise à jour** | À partir de septembre, une mise à jour de l’architecture des classifications sera migrée vers les clients sur une période de plusieurs mois. La version de septembre comprend la migration pour un nombre restreints d’utilisateurs ayant adopté l’architecture mise à jour.<br/>La mise à jour réduit considérablement le temps nécessaire pour que les transferts (y compris la logique de règle) soient importés/assimilés et rendus disponibles pour la création de rapports. |
 
 #### Correctifs
 
 * Correction d’un problème avec les services principaux [!UICONTROL Personnes] et [!UICONTROL Offres] qui n’étaient pas accessibles depuis le menu Experience Cloud principal. (AN-184294)
 * Correction d’un problème en raison duquel le rail gauche dans [!UICONTROL Analysis Workspace] oscillait entre l’affichage avec barre de défilement et l’affichage sans barre de défilement, ce qui provoquait un effet flottant. (AN-183904)
-* Correction de problèmes liés aux rapports d’erreur. Vous allez commencer à voir des messages d’erreur plus spécifiques plutôt que simplement l’indicateur d’erreur rouge. Plus particulièrement, cela devrait vous aider à savoir à quel moment le problème est provoqué par une charge importante, par une erreur ou par la création d’une requête de rapport trop complexe. (AN-184135) [More…](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* Correction de problèmes liés aux rapports d’erreur. Vous allez commencer à voir des messages d’erreur plus spécifiques plutôt que simplement l’indicateur d’erreur rouge. Plus particulièrement, cela devrait vous aider à savoir à quel moment le problème est provoqué par une charge importante, par une erreur ou par la création d’une requête de rapport trop complexe. (AN-184135) [Plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
 * Correction d’un problème qui empêchait le téléchargement des rapports d’abandon dans les formats `.pdf/.xls/.rtf`. (AN-183165)
 * Correction de problèmes de connexion via Experience Cloud et de basculement vers différentes solutions Experience Cloud ou vers une autre société de connexion. (AN-183376)
 * Correction d’un problème en raison duquel le transfert des ressources des projets planifiés ne fonctionnait pas correctement. Les groupes étant à présent gérés dans la [!UICONTROL Admin Console], nous ne les copions plus entre les utilisateurs lors du transfert des fichiers. (AN-183751)
@@ -108,10 +106,10 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| Mise à jour des totaux de tableau à structure libre d’Analysis Workspace | 12 septembre 2019 | In October 2019, freeform table total rows will begin accounting for report filters applied. [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) À ce jour, les totaux ne prennent en compte que la segmentation. Grâce à cette modification, les visualisations dépendantes sont mises à jour (par exemple, visualisations [!UICONTROL Nombre de résumés]), ainsi que les données CSV et PDF exportées. |
+| Mise à jour des totaux de tableau à structure libre d’Analysis Workspace | 12 septembre 2019 | En octobre 2019, les lignes totales du tableau à structure libre commenceront à tenir compte des filtres [de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) rapport appliqués. À ce jour, les totaux ne prennent en compte que la segmentation. Grâce à cette modification, les visualisations dépendantes sont mises à jour (par exemple, visualisations [!UICONTROL Nombre de résumés]), ainsi que les données CSV et PDF exportées. |
 | Modification à venir concernant le champ `createDate` pour les utilisateurs d’Analytics | 30 août 2019 | En octobre ou novembre 2019, le champ `createDate` pour les utilisateurs d’Analytics sera mis à jour de l’heure normale du Pacifique des États-Unis vers une valeur Date/Heure correctement formatée avec les informations sur le fuseau horaire. (AN-183468) |
 | Prise en charge des décalages de fuseau horaire historiques | 8 août 2019 | Analytics gère désormais automatiquement les décalages de fuseau horaire pour les accès horodatés. Après cette modification du 8 août, les systèmes qui chargent les données pour un traitement historique n’auront plus besoin d’ajuster les décalages de fuseau horaire avant d’envoyer les données. |
-| Limites du créateur de règles de classification | Ajout le 5 juin 2019 | These limits are not new, but have been added to the documentation here.[](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
+| Limites du créateur de règles de classification | Ajout le 5 juin 2019 | Ces limites ne sont pas nouvelles, mais elles ont été ajoutées à la documentation [ici](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
 | Nouvelles limites des opérateurs de segment | Ajout le 31 mai 2019 | À compter du 18 juillet 2019, les opérateurs de segment _contient n’importe lequel_, _ne contient pas n’importe lequel_, _contient tous les_ et _ne contient pas tous les_ seront limités à 100 mots par champ d’entrée. Après cette date, la limite sera appliquée à tous les segments nouveaux et modifiés. Les segments existants qui dépassent la limite continueront à être pris en charge, mais ne pourront pas être modifiés ou enregistrés tant que le champ d’entrée dépasse la limite. Ces limites sont appliquées dans le cadre d’efforts continus visant à améliorer les performances des requêtes. |
 | Modifications concernant la prise en charge des **[!UICONTROL classifications activées par date]** et des **[!UICONTROL classifications numériques 2]** | Mise à jour le 28 mai 2019 | La possibilité d’importer des classifications numériques 2 et des classifications activées par date a été supprimée du code base. Cette modification a pris effet lors de la version de maintenance de juillet 2019. S’il y a des colonnes numériques ou des colonnes activées par date dans le fichier d’importation, ces cellules seront ignorées et les autres données de ce fichier seront importées normalement. <br/>Les classifications existantes peuvent toujours être exportées par le biais du workflow de classification standard et sont toujours disponibles dans les rapports. |
 | Modification des calculs des _totaux des rapports_ | Mise à jour le 9 juillet 2019 | Le **18 juin 2019**, Adobe Analytics a uniformisé les calculs des _totaux des rapports_ pour toutes les dimensions et mesures. Pour cette raison, les totaux de certains rapports ont été modifiés (notamment les rapports Props ou Attributs du client). Avant cette modification, certains totaux incluaient ou excluaient la ligne _Non spécifié_ dans le total, peu importe si elle apparaissait ou _non_ dans le rapport. <br/>À compter du 18 juin 2019, le poste _Non spécifié_ apparaîtra toujours dans le total du rapport, même s’il n’apparaît pas comme poste sur le rapport. En outre, les segments qui utilisent la logique _existe_ ou _n’existe pas_ peuvent afficher des résultats différents pour certaines dimensions après cette modification, en particulier les dimensions dont _Non spécifié_ possède un nom spécial, comme l’élément de ligne « Tapé/Marqué » pour la dimension Type de référent ou l’élément de ligne « Autre » pour la dimension Type de périphérique. Cette modification concernera Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder et l’API Reporting. |
@@ -127,7 +125,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### [!DNL AppMeasurement] {#appm}
 
-See AppMeasurement for Javascript release notes.[](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)
+Voir Notes [de mise à jour](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)AppMeasurement pour JavaScript.
 
 ## Audience Manager {#aam}
 
@@ -137,9 +135,9 @@ Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager.
 
 | Fonction | Description |
 | -----------| ---------- |  
-| **[[!DNL People-Based Destinations]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] est un module complémentaire Audience Manager payant qui permet d’activer les segments d’audience propriétaires dans des environnements basés sur des personnes, tels que Facebook, à l’aide d’identifiants hachés, tels que des adresses électroniques. |
-| **[Configuring Twitter Tailored Audiences as a Self-Service Device-Based Destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Nous migrons les destinations Twitter vers un modèle de configuration en libre-service. Cet article explique ce que vous devez faire pour que les intégrations Twitter existantes continuent à fonctionner après la migration. |
-| **[Audience Marketplace Billing Examples](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | Nous avons ajouté un nouvel exemple, Cas 3, où nous détaillons le fonctionnement de la facturation pour les segments présentant des cas d’utilisation d’activation et de modélisation. |
+| **[[!Destinations basées sur les personnes DNL]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] est un module complémentaire Audience Manager payant qui permet d’activer les segments d’audience propriétaires dans des environnements basés sur des personnes, tels que Facebook, à l’aide d’identifiants hachés, tels que des adresses électroniques. |
+| **[Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Nous migrons les destinations Twitter vers un modèle de configuration en libre-service. Cet article explique ce que vous devez faire pour que les intégrations Twitter existantes continuent à fonctionner après la migration. |
+| **[Exemples de facturation Audience Marketplace](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | Nous avons ajouté un nouvel exemple, Cas 3, où nous détaillons le fonctionnement de la facturation pour les segments présentant des cas d’utilisation d’activation et de modélisation. |
 
 **Correctifs et améliorations**
 
@@ -165,21 +163,21 @@ La version 2019.8.0 de Cloud Manager corrige divers bogues mineurs, améliore l
 
 [Software Distribution](https://downloads.experiencecloud.adobe.com/) est la nouvelle interface utilisateur conçue pour simplifier la recherche et le téléchargement de packs AEM. Elle est actuellement en version bêta et accessible uniquement aux clients Adobe Managed Services.
 
-* [Package Share will remain accessible until all customers have access to Software Distribution.](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare)
+* [Package Share](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) restera accessible jusqu’à ce que tous les clients aient accès à Software Distribution.
 * Tous les modules sont disponibles à la fois à partir de Partage de modules et de Distribution logicielle.
 
 ### Maintenance du produit
 
 **Feuille de route de la maintenance d’AEM**
 
-See the AEM maintenance release roadmap as published here.[](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)
+Reportez-vous à la feuille de route de la version de maintenance d’AEM publiée [ici](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 ### Auto-assistance
 
 **Version bêta d’Asset Link 1.1**
 
 * [A propos de la version préliminaire d’Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link-prerelease.html)
-* [Configuring AEM for Adobe Asset Link for prerelease](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html)
+* [Configuration d’AEM pour Adobe Asset Link pour la version bêta](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html)
 
 **AEM Desktop App 2.0**
 
@@ -213,7 +211,7 @@ La documentation du service de conversion automatisée de formulaires AEM Forms 
    | _Expériences fluides_ | 17 Septembre 2019 |
    | _Création et gestion multilingue et multinationale pour créer une structure de site Web globale_ | 24 Septembre 2019 |
 
-* [Adobe Experience Manager Assets](https://forums.adobe.com/thread/2647743)
+* [Ressources Adobe Experience Manager](https://forums.adobe.com/thread/2647743)
 
    | Webinaire | Date |
    | -----------| ---------- |  
@@ -246,7 +244,7 @@ La documentation du service de conversion automatisée de formulaires AEM Forms 
 * [Formation et assistance pour AEM 6.3 – Accueil](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [Formation et assistance pour AEM 6.2 – Accueil](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Guide de l’utilisateur de Cloud Manager](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Older Versions of AEM Documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Versions plus anciennes de la documentation AEM](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Page d’accueil de l’aide de Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Notes de mise à jour de Dynamic Media ](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Notes de mise à jour de Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
@@ -272,7 +270,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Adobe Campaign Classic
 
-* [Mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) de Campaign Classic 19.1.4 - build 9032
+* [Campaign Classic 19.1.4 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) – build 9032
 * [Mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) de Campaign Classic 19.1.5 - build 9033
 
 ### [!UICONTROL Panneau de configuration] d’Adobe Campaign
