@@ -2,10 +2,10 @@
 title: Notes de mise à jour d’Adobe Experience Cloud
 description: Modèle des notes de mise à jour d’Experience Cloud
 doc-type: notes de mise à jour
-last-update: Mars 2019
+last-update:  Octobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 04228df4d9a7279fe2c8627aeb0bb7492d34327e
+source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
 
 ---
 
@@ -30,8 +30,8 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l’aide de la solution)
 
 ## Experience Cloud et Experience Platform{#platform}
 
@@ -42,7 +42,7 @@ Notes de mise à jour relatives à Experience Platform, à l’interface d’Ex
 * [Mobile Services et SDK Mobile](#mobile)
 * [Administration et développeur](#admin)
 * [Experience Platform Launch](#launch)
-* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html) (All Adobe products)
+* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html) (Tous les produits Adobe)
 
 ### Services principaux {#core-services}
 
@@ -77,7 +77,7 @@ Pour en savoir plus sur les SDK  Mobile, voir [SDK Android 4.x pour solutions 
 
 Fonctionnalités et correctifs.
 
-For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Pour consulter la documentation du produit, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Experience Platform Launch {#launch}
 
