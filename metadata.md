@@ -10,7 +10,7 @@ tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7e667b83c7b82376ad9cf51b4495eb30b5707ed
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: f7e667b83c7b82376ad9cf51b4495eb30b5707ed
 
 Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier métadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
 
-| metadonnées | utilisation |
+| métadonnées | utilisation |
 |--- |--- |
 | solution-title | Utilisé comme lien dans l’en-tête d’article.. Soyez concis. |
 | solution-hub-url | Ouvre la page hub helpx. |
@@ -34,7 +34,7 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui so
 
 Dans le fichier TOC.md
 
-| metadonnées | utilisation |
+| métadonnées | utilisation |
 |--- |--- |
 | user-guide-title | Utilisé comme lien dans l’en-tête d’article. |
 | user-guide-url | Ouvre la page hub helpx. |
