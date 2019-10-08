@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Octobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
+source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
 
 ---
 
@@ -81,6 +81,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * Correction d’un problème de délai d’expiration en raison duquel les segments ne pouvaient pas être chargés dans les Ad Hoc Analysis. (AN-184654)
 * Correction d’un problème survenant lorsque la suite de rapports que vous avez utilisée pour la dernière fois était désormais masquée ou lorsque vous n’aviez plus les autorisations d’accès à cette suite de rapports. Dans ce cas, vous ne pouviez plus vous connecter via Experience Cloud. (AN-181777)
 * Correction d’un problème de délai d’expiration dans les segments qui rendait difficile la création d’une suite de rapports virtuelle basée sur un segment. (AN-179684)
+* Correction d’un problème en raison duquel les données étaient tronquées en cas de codage incorrect dans de rares cas. (AN-186707)
+* Les moteurs de recherche Yandex sont maintenant correctement ventilés par pays. (AN-181728)
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
