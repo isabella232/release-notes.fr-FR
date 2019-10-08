@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Octobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
+source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
 
 ---
 
@@ -117,7 +117,7 @@ Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager.
 **Correctifs et améliorations**
 
 * Tous les comptes clients créés après le 1er juillet 2019 se verront attribuer automatiquement une licence [!DNL Tableau], leur donnant ainsi accès à leurs rapports. Si votre compte a été créé avant le 1er juillet 2019 et que vous n’avez pas encore accès à vos rapports [!DNL Tableau], veuillez contacter l’Assistance clientèle.
-* Nous avons supprimé les abonnements au fil d’actualités qui ont été générés par erreur pour les profils de visiteurs qui n’avaient pas de synchronisation d’ID avec la source de données du fil (AAM-45371).
+* Nous avons corrigé un bogue qui provoquait une génération incorrecte de caractéristiques d’activité et augmentait artificiellement les taux de correspondance et les tailles d’audience. Suite à ce correctif, vous pouvez constater une diminution de la taille des segments créés avec des caractéristiques d’activité générées automatiquement. Il s’agit d’un comportement normal et attendu (AAM-45371).
 * Nous avons supprimé des ID d’appareils mondiaux invalides des sources de données mondiales. Voir Sources [de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) globales pour savoir à quoi doivent ressembler les ID de périphérique valides acceptés par Audience Manager (AAM-41259).
 * Correction d’une erreur qui survenait lors d’une tentative de suppression d’un segment protégé suite à laquelle la page des segments ne répondait plus (AAM-49881).
 * Lors de la modification des destinations pour les audiences personnalisées sur Twitter, le sélecteur [!UICONTROL Compte] n’est maintenant disponible que si la destination n’a pas déjà un compte [!DNL Twitter Ads] assigné (AAM-49975).
