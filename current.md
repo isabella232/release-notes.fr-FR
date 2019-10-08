@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Octobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
+source-git-commit: 0b49b33936be089aaa6f910eeb1af9138a55ae17
 
 ---
 
@@ -132,7 +132,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 
 * **Cloud Manager 2019.9.0**
 
-   Cloud Manager 2019.9.0, publié le 12 septembre 2019, met à jour les critères de test de sécurité, ajoute des graphiques de surveillance téléchargeables et corrige certains problèmes de convivialité signalés par les clients.
+   * Cloud Manager 2019.9.0, publié le 12 septembre 2019, met à jour les critères de test de sécurité, ajoute des graphiques de surveillance téléchargeables et corrige certains problèmes de convivialité signalés par les clients.
    * [Notes de mise à jour](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
 ### Maintenance du produit
