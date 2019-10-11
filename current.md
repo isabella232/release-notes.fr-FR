@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update: Octobre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 11f19eef3e0d5fec9b7008c51a3afbb94ec1c2c6
+source-git-commit: 0b28b2835840757a936434b28597526069e19517
 
 ---
 
@@ -198,10 +198,10 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Adobe Campaign Classic
 
-* [Mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) de Campaign Classic 19.1.4 - build 9032
+* [Mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) de Campaign Classic 19.1.4 - nouvelle version 9032
 * [Mise à jour](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-19-1-6-build-9035) de Campaign Classic 19.1.6 - build 9035
 
 ### Ressources supplémentaires
 
-* Adobe Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - Notes [de](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) mise à jour - Vidéos [pratiques - Planification des](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) [versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
