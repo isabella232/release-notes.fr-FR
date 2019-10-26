@@ -3,8 +3,8 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Notes de mise à jour d’Adobe Experience Cloud
 user-guide-url: https://www.adobe.com/fr
-translation-type: ht
-source-git-commit: 7759ee9ded40d019321df67478cf08565f6830cc
+translation-type: tm+mt
+source-git-commit: 2c6076aa0af7b9a273e31b1f8919e006ff48e6b4
 
 ---
 
@@ -14,6 +14,7 @@ source-git-commit: 7759ee9ded40d019321df67478cf08565f6830cc
 + [Notes de mise à jour](current.md)
 + Notes de mise à jour précédentes {#previous}
    + 2019 {#2019}
+      + [Octobre 2019](c-legacy-releases/2019/10102019.md)
       + [Septembre 2019](c-legacy-releases/2019/09122019.md)
       + [Août 2019](c-legacy-releases/2019/08082019.md)
       + [Juillet 2019](c-legacy-releases/2019/07182019.md)
