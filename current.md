@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update:  Novembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 32fa8a1156cafb4a54bae4d57b125efbb781e64d
+source-git-commit: 4dbc8703a58261a57deae59effa22fc89faaad32
 
 ---
 
@@ -26,7 +26,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l’aide de la solution)
-* [!DNL Advertising Cloud](#adcloud)
+* [!DNL Advertising Cloud](#adcloud) (Mise à jour le 11/01)
 
 Vous cherchez de l'aide chez vous ? See [Experience Cloud Learn &amp; Support](https://helpx.adobe.com/support/experience-cloud.html).
 
@@ -113,6 +113,7 @@ Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager.
 | Fonction | Description |
 |--- |----|
 | [Améliorations des règles de fusion de profils](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) | Nous avons publié une série d’améliorations pour les [!UICONTROL règles de fusion de profils] : <ul><li>L’évaluation des segments peut désormais être faite par lot, pour 100 périphériques maximum.</li><li>Nous avons amélioré la précision des rapports pour les populations des caractéristiques et des segments.</li><li>Nous avons amélioré la précision des fichiers de lots générés à l’aide de l’identifiant multiterminaux.</li><li>Nous avons mis à jour la documentation avec des cas d’utilisation plus détaillés pour chaque règle. Voir [Cas d’utilisation généraux des règles de fusion de profils](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rule-targeting-options.html), [Cas d’utilisation graphiques des périphériques externes](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/external-graph-use-cases.html) et [Cas d’utilisation graphiques du périphérique du lien du profil](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/profile-link-use-case.html).</li></ul> |
+| [Recommandations intelligentes pour les données Audience Marketplace, optimisées par Adobe Sensei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | Avec les recommandations de caractéristiques, lorsque vous créez ou modifiez un segment dans le créateur [de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)segments, vous obtenez désormais des recommandations sur les caractéristiques supplémentaires que vous pouvez inclure, à partir des flux de données [!UICONTROL Audience Marketplace] auxquels vous n’êtes pas abonné. Ajoutez les caractéristiques recommandées à votre segment pour élargir votre audience cible. <br>  De plus, nous avons repensé la page [!UICONTROL Marketplace] afin que vous puissiez plus facilement trouver des caractéristiques similaires et filtrer les flux de données. |
 | [Outils de gestion en bloc](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | Nous avons publié une nouvelle version de la feuille de calcul de gestion en bloc qui fonctionne sur les systèmes d’exploitation macOS et Microsoft Windows en plus de permettre la connexion à Experience Cloud. |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | Nous avons ajouté la prise en charge de [!DNL HTTP Strict-Transport-Security], une stratégie de sécurité Web qui protège contre le détournement de cookies et les attaques par rétrogradation de protocole. |
 
@@ -122,7 +123,7 @@ Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager.
 * Nous avons corrigé une erreur dans les signaux dérivés où pendant une courte période, les clients ne pouvaient pas créer de nouveaux signaux. (AAM-50968)
 * Correction d’une erreur dans les destinations basées sur les personnes en raison de laquelle les clients ne pouvaient pas modifier le nom d’une destination. (AAM-51025)
 * Correction d’une erreur en raison de laquelle certains utilisateurs avaient des comptes en double pour se connecter à l’interface utilisateur d’Audience Manager. En raison des autorisations associées aux comptes en double, ces utilisateurs ne pouvaient pas accéder à certaines parties de l’interface utilisateur et effectuer des opérations. (AAM-50818)
-* Nous avons continué à améliorer l’accessibilité de l’interface utilisateur d’Audience Manager. (AAM-48932, AAM-49043, AAM-49054, AAM-49371, AAM-49375)
+* Nous avons continué à améliorer l’accessibilité de l’interface utilisateur d’Audience Manager. (AAM-48932, AAM-48997, AAM-49043, AAM-49054, AAM-49371, AAM-49375, AAM-51313)
 
 ## Experience Manager {#aem}
 
@@ -209,14 +210,10 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ## Advertising Cloud {#adcloud}
 
-Mise à jour pour la version du 12 octobre 2019
+Mise à jour du 2 novembre 2019, version
 
 | Affichage | Fonction |
 |------|---------|
-| Rechercher dans les campagnes | Advertising Cloud peut désormais synchroniser et proposer un suivi au niveau des annonces pour les comptes sur Yahoo! Japan Display Network. Si vous fournissez des informations de connexion pour un compte, l’intégralité des campagnes, des groupes publicitaires et des publicités existants dans le compte est disponible en lecture seule dans les vues de gestion de campagnes. Les données sur les clics, les coûts, les conversions et d’autres performances sont disponibles dans les vues de gestion de campagnes et dans les rapports de base et avancés. |
-|  | (Publicitaires avec Google Analytics) Advertising Cloud Search permet de synchroniser les mesures de conversion pour un compte, une propriété et une combinaison d’affichage spécifiques de Google Analytics à des fins d’optimisation et de création de rapports. Les pages vues, les sessions, le taux de rebond (calculé en tant que rebonds/sessions) et la durée de la session sont automatiquement inclus. Vous pouvez inclure jusqu’à 16 mesures supplémentaires par source de données. |
-|  | (Comptes Google Ads existants pour les publicitaires qui disposent d’une intégration Advertising Cloud-Adobe Analytics) Un nouveau format est disponible pour le code de suivi s_kwcid. Il permet à Advertising Cloud de partager des données sur le compte à l’aide de la fonctionnalité de création de rapports et d’analyse d’Adobe Analytics. Le format le plus récent comprend des paramètres pour l’identifiant de campagne et l’identifiant du groupe publicitaire, qui sont nécessaires pour générer des rapports précis au niveau de la campagne et du groupe publicitaire pour les campagnes Google Drafts and Experiments dans Analytics. Si vos comptes Google existants contiennent des campagnes Google Drafts and Experiments, modifiez les paramètres de suivi de compte pour chaque compte spécifique afin de migrer vers le nouveau s_kwcid. Si vous ne disposez pas de campagne Google Drafts and Experiments, la migration vers le nouveau format est facultative. Remarque : tous les nouveaux comptes Google utilisent automatiquement le nouveau format. |
-| Rechercher dans Advanced Campaign Management (ACM) | (Campagnes Google Ads) Vous pouvez à présent configurer des suffixes d’URL finales au niveau de la campagne pour des modèles de publicités textuelles et commerciales Google. |
-|  | (Campagnes Google Ads) Les champs facultatifs « Titre 3 » et « Description 2 » sont disponibles pour les publicités textuelles étendues Google. |
-| Rapports | Les mesures de partage d’impressions de Bing Ads suivantes, qui ont été interrompues avec la dernière API de Bing Ads, ne sont pas collectées après le 11 octobre : Search IS% Lost to Rank, Search IS% Lost to Bid (Bing), Search IS% Lost to Page Relevance (Bing), and Search IS% Lost to Keyword Relevance (Bing). Les mesures précédemment collectées restent disponibles pour la création de rapports. |
-| Intégration d’Adobe Analytics | (Publicitaires avec Adobe Analytics uniquement) Dans Analysis Workspace, la dimension « Périphérique (AMO ID) », qui n’a jamais collecté de données, n’est plus disponible. Pour créer des rapports sur les données Analytics en ligne, utilisez la dimension « Type de périphérique mobile ». Pour générer des rapports sur les mesures de trafic de moteur de recherche (telles que les clics, le coût et les impressions) par type d’appareil, continuez à utiliser la création de rapports dans Advertising Cloud Search. |
+| Suivi des conversions | La balise de mappage de conversion basée sur JavaScript Advertising Cloud prend désormais en charge le suivi des clics publicitaires depuis Mozilla Firefox version 69 et ultérieure, qui bloquent par défaut les cookies tiers. La même balise inclut déjà la prise en charge d’Apple Safari.<br><br/>Si vous utilisez le suivi de conversion Advertising Cloud et n’avez pas encore déployé la balise de mappage de conversion Advertising Cloud, déployez le code suivant sur toutes les pages d’entrée :<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>Remarque : Cette balise prend en charge les balises de suivi de conversion JavaScript v2 et v3 Advertising Cloud, et non la balise de suivi d’image. |
+| Portefeuilles | Lorsque l’option de portefeuille "Activer la cible de pourcentage de dépense maximale de la campagne" est activée, la cible de dépense maximale n’est plus jamais dépassée. Auparavant, Advertising Cloud dépassait la cible de dépense maximale lorsque cela était optimal. |
+| Rechercher des publics | Votre bibliothèque d’audiences sous Rechercher &gt; Audiences &gt; Bibliothèque inclut désormais automatiquement une colonne "Taille de l’audience", qui est renseignée quotidiennement à partir des publicités Bing et Google. Vous pouvez éventuellement utiliser la colonne comme filtre de données. |
