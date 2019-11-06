@@ -5,7 +5,7 @@ doc-type: notes de mise à jour
 last-update:  Novembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
+source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
 
 ---
 
@@ -108,7 +108,7 @@ Voir [Notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.ado
 
 ## Audience Manager {#aam}
 
-Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager.
+### Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager {#aam-new-features}
 
 | Fonction | Description |
 |--- |----|
@@ -117,7 +117,20 @@ Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager.
 | [Outils de gestion en bloc](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | Nous avons publié une nouvelle version de la feuille de calcul de gestion en bloc qui fonctionne sur les systèmes d’exploitation macOS et Microsoft Windows en plus de permettre la connexion à Experience Cloud. |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | Nous avons ajouté la prise en charge de [!DNL HTTP Strict-Transport-Security], une stratégie de sécurité Web qui protège contre le détournement de cookies et les attaques par rétrogradation de protocole. |
 
-**Correctifs et améliorations**
+### Améliorations {#aam-enhancements}
+
+Depuis novembre 2019, Audience Manager prend également en charge l’envoi d’identifiants Roku, d’identifiants Amazon Fire TV et d’identifiants Xbox/Microsoft à des destinations Google Ad Manager et DV360, en plus des identifiants de cookie, d’IDFA et de périphériques GAID précédemment pris en charge. Il n’est pas nécessaire de modifier quoi que ce soit dans vos intégrations Google existantes.
+
+Dans Audience Manager, les identifiants Roku, Amazon Fire TV et les identifiants Xbox/Microsoft sont appelés identifiants de périphérique globaux. Vous pouvez en savoir plus sur ces identifiants et les sources de données auxquelles ils sont associés dans la documentation du produit Audience Manager :
+
+* [ID de périphérique global](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
+* [Sources de données globales](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
+
+L’assimilation de données pour les sources de données Roku, Amazon Fire TV et Xbox/Microsoft fonctionne de la même manière que pour IDFA et GAID : un identifiant Audience Manager est automatiquement généré et lié à l’AID lors de l’assimilation de données masquées. Les nouveaux ID sont automatiquement envoyés aux destinations Google existantes et nouvelles configurées dans votre compte.
+
+Pour plus d’informations, contactez votre conseiller Audience Manager ou le service à la clientèle.
+
+### Correctifs et améliorations {#aam-fixes-and-improvements}
 
 * Correction d’une erreur dans Audience Marketplace en raison de laquelle l’interface utilisateur renvoyait l’erreur 409 lorsque les clients envoyaient l’utilisation mensuelle du segment. (AAM-50825)
 * Nous avons corrigé une erreur dans les signaux dérivés où pendant une courte période, les clients ne pouvaient pas créer de nouveaux signaux. (AAM-50968)
