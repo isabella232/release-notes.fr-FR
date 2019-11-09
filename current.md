@@ -2,10 +2,10 @@
 title: Notes de mise à jour d’Adobe Experience Cloud
 description: Modèle des notes de mise à jour d’Experience Cloud
 doc-type: notes de mise à jour
-last-update:  Novembre 2019
+last-update: Novembre 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
+source-git-commit: 9a17edded46ddd9f95ea3c849e23bc1962075174
 
 ---
 
@@ -26,7 +26,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l’aide de la solution)
-* [!DNL Advertising Cloud](#adcloud) (Mise à jour 11/1)
+* [!DNL Advertising Cloud](#adcloud) (Mise à jour le 1er novembre 2019)
 
 Vous cherchez la page d’accueil de l’aide ? Voir [Formation et assistance pour Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html).
 
@@ -113,7 +113,7 @@ Voir [Notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.ado
 | Fonction | Description |
 |--- |----|
 | [Améliorations des règles de fusion de profils](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) | Nous avons publié une série d’améliorations pour les [!UICONTROL règles de fusion de profils] : <ul><li>L’évaluation des segments peut désormais être faite par lot, pour 100 périphériques maximum.</li><li>Nous avons amélioré la précision des rapports pour les populations des caractéristiques et des segments.</li><li>Nous avons amélioré la précision des fichiers de lots générés à l’aide de l’identifiant multiterminaux.</li><li>Nous avons mis à jour la documentation avec des cas d’utilisation plus détaillés pour chaque règle. Voir [Cas d’utilisation généraux des règles de fusion de profils](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rule-targeting-options.html), [Cas d’utilisation graphiques des périphériques externes](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/external-graph-use-cases.html) et [Cas d’utilisation graphiques du périphérique du lien du profil](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/profile-link-use-case.html).</li></ul> |
-| [Recommandations intelligentes pour les données Audience Marketplace, optimisées par Adobe Sensei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | Avec les recommandations de caractéristiques, lorsque vous créez ou modifiez un segment dans le créateur [de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)segments, vous obtenez désormais des recommandations sur les caractéristiques supplémentaires que vous pouvez inclure, à partir des flux de données [!UICONTROL Audience Marketplace] auxquels vous n’êtes pas abonné. Ajoutez les caractéristiques recommandées à votre segment pour élargir votre audience cible. <br>  De plus, nous avons repensé la page [!UICONTROL Marketplace] afin que vous puissiez plus facilement trouver des caractéristiques similaires et filtrer les flux de données. |
+| [Recommandations intelligentes pour les données Audience Marketplace, proposées par Adobe Sensei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | Avec les recommandations de caractéristiques, lorsque vous créez ou modifiez un segment dans le [Créateur de segments](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html), vous obtenez désormais des recommandations sur les caractéristiques supplémentaires que vous pouvez inclure, à partir des flux de données [!UICONTROL Audience Marketplace] auxquels vous n’êtes pas abonné. Ajoutez les caractéristiques recommandées à votre segment pour élargir votre audience cible. <br>  De plus, nous avons repensé la page [!UICONTROL Marketplace] afin que vous puissiez plus facilement trouver des caractéristiques similaires et filtrer les flux de données. |
 | [Outils de gestion en bloc](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | Nous avons publié une nouvelle version de la feuille de calcul de gestion en bloc qui fonctionne sur les systèmes d’exploitation macOS et Microsoft Windows en plus de permettre la connexion à Experience Cloud. |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | Nous avons ajouté la prise en charge de [!DNL HTTP Strict-Transport-Security], une stratégie de sécurité Web qui protège contre le détournement de cookies et les attaques par rétrogradation de protocole. |
 
@@ -218,15 +218,16 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Ressources de documentation
 
-* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)  – [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
 
-Mise à jour du 2 novembre 2019, version
+Mise à jour le 8 novembre 2019, version
 
 | Affichage | Fonction |
 |------|---------|
-| Suivi des conversions | La balise de mappage de conversion basée sur JavaScript Advertising Cloud prend désormais en charge le suivi des clics publicitaires depuis Mozilla Firefox version 69 et ultérieure, qui bloquent par défaut les cookies tiers. La même balise inclut déjà la prise en charge d’Apple Safari.<br><br/>Si vous utilisez le suivi de conversion Advertising Cloud et n’avez pas encore déployé la balise de mappage de conversion Advertising Cloud, déployez le code suivant sur toutes les pages d’entrée :<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>Remarque : Cette balise prend en charge les balises de suivi de conversion JavaScript v2 et v3 Advertising Cloud, et non la balise de suivi d’image. |
-| Portefeuilles | Lorsque l’option de portefeuille "Activer la cible de pourcentage de dépense maximale de la campagne" est activée, la cible de dépense maximale n’est plus jamais dépassée. Auparavant, Advertising Cloud dépassait la cible de dépense maximale lorsque cela était optimal. |
-| Rechercher des publics | Votre bibliothèque d’audiences sous Rechercher &gt; Audiences &gt; Bibliothèque inclut désormais automatiquement une colonne "Taille de l’audience", qui est renseignée quotidiennement à partir des publicités Bing et Google. Vous pouvez éventuellement utiliser la colonne comme filtre de données. |
+| Suivi des conversions | La balise de mappage de conversion Advertising Cloud basée sur JavaScript prend désormais en charge le suivi des clics publicitaires qui bloquent par défaut les cookies tiers pour Mozilla Firefox version 69 et ultérieure. La même balise inclut déjà la prise en charge d’Apple Safari.<br><br/>Si vous utilisez le suivi de conversion Advertising Cloud et n’avez pas encore déployé la balise de mappage de conversion Advertising Cloud, déployez le code suivant sur toutes les pages d’entrée :<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>Remarque : cette balise prend en charge les balises de suivi de conversion Advertising Cloud JavaScript version 2 et 3, et non la balise de tracking d’image. |
+| Portefeuilles | Lorsque l’option de portefeuille « Activer la cible de dépense maximale de la campagne en pourcentage » est activée, la cible de dépense maximale n’est plus jamais dépassée. Auparavant, Advertising Cloud dépassait la cible de dépense maximale lorsque cela était optimal. |
+| Recherche d’audiences | Votre bibliothèque d’audiences dans Rechercher &gt; Audiences &gt; Bibliothèque inclut désormais automatiquement une colonne « Taille de l’audience », qui est renseignée quotidiennement à partir des publicités Bing et Google. Vous pouvez éventuellement utiliser la colonne pour filtrer les données. |
+| Intégration à Adobe Analytics | Analytics inclut désormais la dimension "Type d’entrée (AMO ID)" pour les campagnes DSP de Marketing Cloud.  Utilisez cette dimension pour segmenter les mesures Analytics en fonction de la manière dont les visiteurs ont visité le site. Les valeurs sont "Clic publicitaire" et "Affichage publicitaire".<br><br/>**** Remarque : Les données relatives aux affichages publicitaires qui se sont produites avant le 31 octobre 2019 sont présentées comme des données relatives aux clics publicitaires. Nous vous déconseillons donc d’utiliser cette dimension avec les données avant la mi-novembre 2019. |
