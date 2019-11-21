@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99ff53a630caedb0073076d19e306504235a98ab
+source-git-commit: e023f8bb366a21e41013e6f94682d48e0a194ee6
 
 ---
 
@@ -20,7 +20,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**Mis à jour le 21 novembre 2019**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -59,7 +59,7 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (**Mis à jour le 21 novembre 2019**)
 * [AppMeasurement](#appm)
 
 Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
@@ -81,7 +81,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| Abandon de l’option **[!UICONTROL Exiger des restrictions d’identification par IP]** | 21 novembre 2019 | Announcing the October, 2020, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. (Cette annonce a été annoncée à l’origine en janvier 2020) |
+| Abandon de l’option **[!UICONTROL Exiger des restrictions d’identification par IP]** | 21 novembre 2019 | Announcing the *October, 2020*, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. (Cette annonce a été annoncée à l'origine en janvier 2020.) |
 | Abandon de l’option **[!UICONTROL Afficher l’archive]** | 30 octobre 2019 | Annonce de l’abandon en janvier 2020 de l’option **[!UICONTROL Afficher l’archive]** dans le Gestionnaire de tableaux de bord (**[!UICONTROL Composants &gt; Tableaux de bord]**). |
 | Mise à jour de la gestion de l’attribut SameSite sur les cookies | 15 octobre 2019 | En août 2019, Adobe a annoncé l’ajout de l’attribut SameSite à tous les cookies définis par Analytics. Une mise à jour de la logique est appliquée lorsque :<ul><li>Tous les cookies tiers qui ne sont pas basés sur Webkit ont un attribut SameSite défini sur `none`.</li><li>L’attribut SameSite n’est pas défini pour tous les autres cookies.</li></ul> |
 | Fin de la prise en charge de TLS 1.1 | 3 octobre 2019 | D’ici le 31 mars 2020, Adobe Analytics supprimera la prise en charge de TLS 1.1. Ce changement s’inscrit dans le cadre des efforts que nous déployons pour respecter les meilleures normes de sécurité et promouvoir la sécurité des données de nos clients. |
