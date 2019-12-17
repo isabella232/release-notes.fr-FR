@@ -1,11 +1,11 @@
 ---
 title: Notes de mise à jour d’Adobe Experience Cloud
-description: Modèle des notes de mise à jour d’Experience Cloud
+description: Modèle des notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b12f367551ffabf44c8f1f983acbd10afee78c3f
+source-git-commit: c8dca487e2a2f4992b7850632a8219ccca269713
 
 ---
 
@@ -29,6 +29,17 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [!DNL Advertising Cloud](#adcloud) (Mis à jour le 8 novembre 2019)
 
 Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
+<!-- ## Status.adobe.com
+
+Using your Adobe ID, you can subscribe to status event notifcations, based on your produts, region, and event preferences.
+
+| Feature    | Description  |
+| -----------| ---------- |
+|Self-subscription to pro-active notifications | <ul><li>Select products from Experience Cloud, Creative Cloud, Document Cloud</li><li>Item</li><li>Item</li></ul> |
+|Notifications preferences management | <ul><li>item</li><li>Item</li><li>Item</li></ul> |
+|Personalized and faster email delivery | <ul><li>item</li><li>Item</li><li>Item</li></ul> |
+|Personalized in-product notifications | <ul><li>item</li><li>Item</li><li>Item</li></ul> |
+ -->
 
 ## Interface d’Experience Cloud {#ecloud}
 
@@ -49,7 +60,7 @@ Notes de mise à jour d’Experience Platform, d’Experience Platform Launch, d
 
 * [Notes de mise à jour de la plateforme d’expérience](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html)  (Tous les produits Adobe)
+* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html)   (Tous les produits Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -61,7 +72,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) 
 
 Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
@@ -80,7 +91,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout  ou de mise à jour | Description |
+| Avis | Date d’ajout   ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
 | Abandon de l’option **[!UICONTROL Afficher l’archive]** | 30 octobre 2019 | Annonce de l’abandon en janvier 2020 de l’option **[!UICONTROL Afficher l’archive]** dans le Gestionnaire de tableaux de bord (**[!UICONTROL Composants &gt; Tableaux de bord]**). |
 | Abandon de l’option **[!UICONTROL Exiger des restrictions d’identification par IP]** | 30 octobre 2019 | Annonce de l’abandon en janvier 2020 de la liste blanche des identifications par IP (**[!UICONTROL Exiger des restrictions d’identification par IP]**) dans le menu **[!UICONTROL Admin &gt; Paramètres de la société &gt; Sécurité]**. |
