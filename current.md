@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d48cab564bb6a45022d5c8a388dd71d52a1b63f1
+source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
 
 ---
 
@@ -63,9 +63,9 @@ Adobe met à jour l’en-tête de domaine et d’interface afin d’unifier et d
 
 Les mises à jour incluent :
 
-* Nouvelles URL de solution : `experience.adobe.com/<application name>.` Tous les produits adopteront finalement ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois. Adobe recommande de mettre à jour vos signets une fois que les redirections vers les nouveaux domaines sont visibles.
+* Nouvelles URL de solution : `experience.adobe.com/<application name>.` Tous les produits adopteront finalement ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois.
 * Il est plus facile de basculer entre vos organisations ou vers une autre application.
-* Amélioration de l’aide sur les produits : [!UICONTROL Experience League] est intégrée dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, cliquez sur **[!UICONTROL Aide]**>**[!UICONTROL  Commentaires]** pour signaler des problèmes ou partager vos idées avec l’équipe de documentation du produit.
+* Amélioration de l’aide sur les produits : [!UICONTROL Experience League] est intégrée dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, cliquez sur **[!UICONTROL Aide]**>**[!UICONTROL  Commentaires]** pour signaler des problèmes ou partager vos idées avec le produit Adobe.
 * Notifications améliorées : Le menu déroulant [!UICONTROL Notifications] comporte désormais deux onglets, l’un pour vos propres notifications de produit et l’autre pour les annonces de produits globales.
 
 **** Remarque : La page [!UICONTROL Flux] est obsolète en janvier 2020. Vous trouverez un avis d’obsolescence dans le produit.
