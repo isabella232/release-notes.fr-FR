@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
+source-git-commit: b0f2fe07102a20e343f69b1c156f48ca4f284966
 
 ---
 
@@ -65,7 +65,7 @@ Les mises à jour incluent :
 
 * Nouvelles URL de solution : `experience.adobe.com/<application name>.` Tous les produits adopteront finalement ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois.
 * Il est plus facile de basculer entre vos organisations ou vers une autre application.
-* Amélioration de l’aide sur les produits : [!UICONTROL Experience League] est intégrée dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, cliquez sur **[!UICONTROL Aide]**>**[!UICONTROL  Commentaires]** pour signaler des problèmes ou partager vos idées avec le produit Adobe.
+* Amélioration de l’aide sur les produits : [!UICONTROL Experience League] est intégrée dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, cliquez sur **[!UICONTROL Aide]**>**[!UICONTROL  Commentaires]** pour signaler des problèmes ou partager vos idées avec Adobe.
 * Notifications améliorées : Le menu déroulant [!UICONTROL Notifications] comporte désormais deux onglets, l’un pour vos propres notifications de produit et l’autre pour les annonces de produits globales.
 
 **** Remarque : La page [!UICONTROL Flux] est obsolète en janvier 2020. Vous trouverez un avis d’obsolescence dans le produit.
