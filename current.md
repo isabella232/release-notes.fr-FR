@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7ec12529edf495c36cc153028458257939782e41
+source-git-commit: d92cffebc2db7e6a6d7d7b531390b6e307b2943e
 
 ---
 
@@ -63,8 +63,10 @@ Adobe met à jour l’en-tête de domaine et d’interface afin d’unifier et d
 
 Les mises à jour incluent :
 
-* Nouvelles URL de solution : `experience.adobe.com/<application name>.` Tous les produits adopteront finalement ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois. Remarques :
-   * Le changement de domaine peut entraîner des problèmes de cookies dans Safari. Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain. Vous pouvez utiliser d’autres navigateurs sans problème, car cela affecte uniquement les utilisateurs de Safari.
+* Nouvelles URL de solution : `experience.adobe.com/<application name>`:
+   * Tous les produits finiront par adopter ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois.
+   * Les navigateurs pris en charge sont [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari]et [!DNL Opera] (dernières versions).
+   * ([!DNL Safari] uniquement) Le changement de domaine peut entraîner des problèmes de cookies dans [!DNL Safari]. Unchecking _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
 * Il est plus facile de basculer entre vos organisations ou vers une autre application.
 * Amélioration de l’aide sur les produits : [!UICONTROL Experience League] est intégrée dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, cliquez sur **[!UICONTROL Aide]**>**[!UICONTROL  Commentaires]** pour signaler des problèmes ou partager vos idées avec Adobe.
 * Notifications améliorées : Le menu déroulant [!UICONTROL Notifications] comporte désormais deux onglets, l’un pour vos propres notifications de produit et l’autre pour les annonces de produits globales.
