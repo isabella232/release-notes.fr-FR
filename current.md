@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d92cffebc2db7e6a6d7d7b531390b6e307b2943e
+source-git-commit: e49bdb89cd3cf434a4932d1669d6f3a2df973769
 
 ---
 
@@ -65,7 +65,7 @@ Les mises à jour incluent :
 
 * Nouvelles URL de solution : `experience.adobe.com/<application name>`:
    * Tous les produits finiront par adopter ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois.
-   * Les navigateurs pris en charge sont [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari]et [!DNL Opera] (dernières versions).
+   * Prise en charge du navigateur :Les navigateurs pris en charge sont [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari]et [!DNL Opera] (dernières versions). **** Remarque : Bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas prendre en charge tous les navigateurs. (Par exemple, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera]et [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
    * ([!DNL Safari] uniquement) Le changement de domaine peut entraîner des problèmes de cookies dans [!DNL Safari]. Unchecking _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
 * Il est plus facile de basculer entre vos organisations ou vers une autre application.
 * Amélioration de l’aide sur les produits : [!UICONTROL Experience League] est intégrée dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, cliquez sur **[!UICONTROL Aide]**>**[!UICONTROL  Commentaires]** pour signaler des problèmes ou partager vos idées avec Adobe.
