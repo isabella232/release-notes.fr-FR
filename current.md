@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d2b03da33ea1c49d683fc9486ae8b7d7bc59c87f
+source-git-commit: 6ff4708a5ec57bb590e9dacc718a42d1b8f71a8f
 
 ---
 
@@ -24,7 +24,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 (Les dates de mise à jour spécifiques au produit peuvent varier)
 
-Dernière mise à jour : 10 février 2020
+Dernière mise à jour : 10 février 2020
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud et services principaux](#ecloud)
@@ -90,7 +90,7 @@ Notes de mise à jour d’Experience Platform, d’Experience Platform Launch, d
 
 * [Notes de mise à jour d’Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html) (Tous les produits Adobe)
+* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html)  (Tous les produits Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -108,7 +108,7 @@ La mise à jour suivante a été effectuée dans cette version :
 
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
-* [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features) (Mis à jour le 21 janvier 2020)
+* [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)  (Mis à jour le 21 janvier 2020)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
 * [AppMeasurement](#appm)
 
@@ -132,7 +132,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Avis | Date d’ajout  ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
 | Nouveau domaine Adobe Analytics | 18 décembre 2019 | `https://experience.adobe.com/analytics.`<br>** Le 16 janvier 2020, Adobe Analytics a commencé à passer à un nouveau domaine - **Remarque : Cette modification s’applique à tous les utilisateurs accédant à Analytics avec leur Adobe ID ou Enterprise ID.<ul><li>Ce changement de domaine peut créer des problèmes de cookies lors du chargement d’Analytics dans Safari. Deselecting _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. Vous pouvez utiliser d’autres navigateurs sans problème, car cette particularité affecte uniquement les utilisateurs de Safari.</li><li>Le changement de domaine peut entraîner l’arrêt du fonctionnement d’[!UICONTROL Activity Map] pour certains clients [dans des cas spécifiques](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fin de vie : API héritées d’Analytics | 9 janvier 2020 | En novembre 2020, les services d’API hérités d’Analytics suivants arriveront en fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner. <ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte d’intégration [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
@@ -209,13 +209,16 @@ Voir Plateformes [prises en charge pour AEM Forms sur JEE](https://docs.adobe.co
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
-### Campaign Classic 19.2.3
+### Campaign Classic
 
-Voir les [Notes de mise à jour d’Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) pour les correctifs et améliorations.
+* [Mise à jour de Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
+* [Mise à jour de Campaign Classic 19.2.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
 
-### Campaign Standard 20.1
+### Campaign Standard
 
-Consultez les [notes de mise à jour d’Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) pour voir les correctifs et améliorations.
+* [Mise à jour de Campaign Standard 20.1.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
+* [Mise à jour de Campaign Standard 20.1.2](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
+* [Mise à jour de Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
 
 ### Ressources supplémentaires
 
