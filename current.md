@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6ff4708a5ec57bb590e9dacc718a42d1b8f71a8f
+source-git-commit: 71ba31c62c66771c16273131db3b72bbaa614d52
 
 ---
 
@@ -211,14 +211,14 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Campaign Classic
 
-* [Mise à jour de Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
 * [Mise à jour de Campaign Classic 19.2.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
 
 ### Campaign Standard
 
 * [Mise à jour de Campaign Standard 20.1.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
 * [Mise à jour de Campaign Standard 20.1.2](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
-* [Mise à jour de Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
+* [Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
 
 ### Ressources supplémentaires
 
