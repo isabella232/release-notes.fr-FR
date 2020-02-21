@@ -5,20 +5,17 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71ba31c62c66771c16273131db3b72bbaa614d52
+source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
 
 ---
 
 
-# Accès anticipé - Notes de mise à jour d’Adobe Experience Cloud - février 2020
+# Notes de mise à jour d’Adobe Experience Cloud  - Février 2020
 
-Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
-
->[!IMPORTANT]
->Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
+Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!NOTE]
->Abonnez-vous à [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) pour être averti par e-mail de la publication des prochaines versions. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
+>Abonnez-vous à [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) (mises à jour produit prioritaires d’Adobe) pour être averti par e-mail de la publication des prochaines versions. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
 
 **Date de publication : 20 février 2020**
 
@@ -162,7 +159,7 @@ Correctifs et fonctionnalités ajoutées à Audience Manager.
 * Correction d’un bogue en raison duquel l’interface utilisateur était coupée lors de la navigation dans le flux de création des modèles algorithmiques (AAM-37942).
 * Correction d’un bogue en raison duquel la sélection Exportation de données n’était pas enregistrée lors de l’enregistrement des contrôles d’exportation de données pour les destinations nouvelles ou existantes, pour les clients utilisant l’intégration de la plateforme Adobe Experience Platform (AAM-52814).
 * Correction d’un bogue en raison duquel les recommandations de caractéristiques tierces fonctionnaient incorrectement pour les caractéristiques qui contiennent des caractères de barre verticale (`|`) dans le nom (AAM-51635).
-* Plusieurs améliorations de l’accessibilité dans l’interface utilisateur.
+* Plusieurs améliorations d’accessibilité dans l’interface utilisateur.
 
 ## Experience Manager {#aem}
 
@@ -209,16 +206,13 @@ Voir Plateformes [prises en charge pour AEM Forms sur JEE](https://docs.adobe.co
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
-### Campaign Classic
+### Campaign Classic 19.2.3
 
-* [Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Mise à jour de Campaign Classic 19.2.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
+Voir les [Notes de mise à jour d’Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) pour les correctifs et améliorations.
 
-### Campaign Standard
+### Campaign Standard 20.1
 
-* [Mise à jour de Campaign Standard 20.1.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
-* [Mise à jour de Campaign Standard 20.1.2](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
-* [Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
+Consultez les [notes de mise à jour d’Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) pour voir les correctifs et améliorations.
 
 ### Ressources supplémentaires
 
