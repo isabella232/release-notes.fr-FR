@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
+source-git-commit: 7a8c0c680195b5308dfb6c0214b1d56ceda88584
 
 ---
 
@@ -19,15 +19,15 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 **Date de publication : 20 février 2020**
 
-(Les dates de mise à jour spécifiques au produit peuvent varier)
+(Les dates de lancements de chaque produit peuvent varier)
 
-Dernière mise à jour : 10 février 2020
+Dernière mise à jour : 21 février 2020
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud et services principaux](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services et SDK mobiles](#mobile)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (Mis à jour le 21 février 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -44,15 +44,15 @@ Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adob
 
 **Nouveautés**
 
-* Avec votre Adobe ID, vous pouvez vous abonner à des notifications d’événement en fonction de vos préférences de produit, de région, d’événement et de langue. Les utilisateurs qui configurent leurs préférences d’abonnement sont avertis des incidents de produit et des événements de maintenance pertinents dès qu’ils sont ouverts, mis à jour ou fermés. Rendez-vous sur [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit).
+* Avec votre Adobe ID, vous pouvez vous abonner à des notifications d’événement en fonction de votre produit, de votre région et de vos préférences d’événement et de langue. Les utilisateurs qui configurent leurs préférences d’abonnement sont avertis des incidents et des événements de maintenance concernant les produits qui les intéressent, et ce dès qu’ils sont ouverts, mis à jour ou fermés. Rendez-vous sur [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit).
 
 **Nouvelles fonctionnalités et améliorations disponibles dès maintenant**
 
 | Fonction | Description |
 | -----------| ---------- |
-| Meilleure connaissance des événements de produit | <ul><li>Soyez informé 30 jours avant la prochaine maintenance du service. Cette fonctionnalité vous donne plus de temps pour évaluer l’impact potentiel sur vos activités, ce qui vous permet de mettre en oeuvre un plan d’atténuation si nécessaire.</li><li>Les notifications avancées sont disponibles sur les surfaces Web/mobile/tablette et par courrier électronique.</li></ul> |
-| Personnaliser votre expérience en fonction du langage préféré | <ul><li>Choisissez une langue préférée pour les notifications par courrier électronique. La fonction d’abonnement automatique est désormais disponible en 19 langues.</li></ul> |
-| Amélioration de l’expérience utilisateur des abonnements et des notifications | <ul><li>Spécifiez les préférences de région et d’événement en un seul clic pour tous les produits auxquels vous souhaitez vous abonner.</li><li>Soyez averti lorsque les problèmes _potentiels_ sont promus en problèmes _mineurs_ ou _majeurs_ .</li><li>La page du navigateur est automatiquement actualisée lorsque l’état d’un produit ou d’un événement est mis à jour.</li></ul> |
+| Meilleure notification des événements liés au produit | <ul><li>Soyez informé 30 jours avant la prochaine maintenance du service. Cette fonctionnalité vous donne plus de temps pour évaluer l’impact potentiel sur vos activités, ce qui vous permet de mettre en œuvre un plan de gestion à l’avance si nécessaire.</li><li>Les notifications avancées sont disponibles sur les surfaces Web/mobile/tablette et par courrier électronique.</li></ul> |
+| Personnalisez votre expérience en fonction de votre langue souhaitée | <ul><li>Choisissez une langue souhaitée pour les notifications électroniques. La fonction d’abonnement automatique est désormais disponible en 19 langues.</li></ul> |
+| Amélioration de l’expérience utilisateur pour les abonnements et les notifications | <ul><li>Indiquez vos préférences de région et d’événement en un seul clic pour tous les produits auxquels vous souhaitez vous abonner.</li><li>Soyez averti lorsque les problèmes _potentiels_ deviennent des problèmes _mineurs_ ou _majeurs_.</li><li>La page du navigateur est automatiquement actualisée lorsque l’état d’un produit ou d’un événement est mis à jour.</li></ul> |
 
 ## Interface d’Experience Cloud et services principaux {#ecloud}
 
@@ -60,8 +60,8 @@ Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud
 
 **Correctifs**
 
-* **** Attributs du client : L’interface utilisateur Attributs du client affiche désormais les états supplémentaires des profils synchronisés dans Target. (MCUI-10231)
-* **** Déclencheurs du service principal : En raison d’un manque d’utilisation, le score de propension &quot;Probabilité de retour dans 30 jours&quot; lors de la création d’un déclencheur de type Abandon a été supprimé. (MCUI-10056)
+* **Attributs du client** : l’interface utilisateur Attributs du client affiche désormais statuts supplémentaires des profils synchronisés dans Target. (MCUI-10231)
+* **Service principal Triggers** : en raison d’un manque d’utilisation, le score de propension « Probabilité de retour dans 30 jours » lors de la création d’un déclencheur de type Abandon a été supprimé. (MCUI-10056)
 
 ### Domaine de produit unifié
 
@@ -71,8 +71,8 @@ Les mises à jour comprennent les éléments suivants :
 
 * Nouvelles URL de solution : `experience.adobe.com/<application name>` :
    * À terme, tous les produits adopteront ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois.
-   * Browser support: Supported browsers include [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari], and [!DNL Opera] (latest versions). **Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas tous les prendre en charge. (Par exemple, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera] et [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
-   * ([!DNL Safari] uniquement) Le changement de domaine peut entraîner des problèmes de cookies dans [!DNL Safari]. Deselecting _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
+   * Navigateurs pris en charge : [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] et [!DNL Opera] (versions les plus récentes). **Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas tous les prendre en charge. (Par exemple, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera] et [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
+   * ([!DNL Safari] uniquement) Le changement de domaine peut entraîner des problèmes de cookies dans [!DNL Safari]. En désactivant la case à cocher _Empêcher le suivi sur plusieurs domaines_ dans les préférences de confidentialité de [!DNL Safari], vous activez les cookies sur plusieurs domaines (et toutes les expériences sur plusieurs sites) et permettez ainsi à Experience Cloud de fonctionner sur ce nouveau domaine.
 * Il est plus facile de basculer entre vos organisations ou vers une autre application.
 * Amélioration de l’aide des produits : [!UICONTROL Experience League] est intégré dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, vous pouvez cliquer sur **[!UICONTROL Aide]** > **[!UICONTROL Commentaires]** pour signaler des problèmes ou partager vos idées avec Adobe.
 * Notifications améliorées : le menu déroulant [!UICONTROL Notifications] comporte désormais deux onglets, l’un pour vos propres notifications de produit et l’autre pour les annonces de produits globales.
@@ -87,7 +87,7 @@ Notes de mise à jour d’Experience Platform, d’Experience Platform Launch, d
 
 * [Notes de mise à jour d’Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html)  (Tous les produits Adobe)
+* [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html)   (Tous les produits Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -97,41 +97,41 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 **4 février 2020 : version 4.19.0**
 
-La mise à jour suivante a été effectuée dans cette version :
+La mise à jour suivante a été effectuée dans cette version :
 
-**** Cycle de vie : Ajout d’une nouvelle API `pauseCollectingLifecycleData`, afin d’atténuer les données anormales de durée de session qui étaient rapportées à partir de certains anciens périphériques iOS.
+**Cycle de vie :** ajout d’une nouvelle API, `pauseCollectingLifecycleData`, afin d’atténuer les données de durée de session anormale signalées par certains appareils iOS anciens.
 
 ## [!DNL Analytics] {#analytics}
 
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
-* [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)  (Mis à jour le 21 janvier 2020)
+* [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) (Mis à jour le 21 février 2020)
 
 Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics {#aa-features}
 
 <!--* **Support for multiple report suites in Workspace:** You can now bring in data from multiple report suites into a single project to view side by side. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)-->
-* **Nouveau modèle** Workspace pour les organisations qui utilisent Analytics sur plusieurs périphériques :Ce modèle montre l&#39;efficacité de l&#39;ADC à assembler les visites et vous informe sur les dimensions et les mesures exclusives de l&#39;ADC. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) sur plusieurs périphériques pour plus d’informations.
-* **** La latence d’assemblage CDA pour les organisations utilisant le graphique privé est réduite à un jour : La fonctionnalité Graphique privé a été améliorée afin de réduire la latence de génération de graphiques d’un traitement par lots hebdomadaire à un graphique actualisé quotidiennement, ce qui permet aux clients de l’ADC d’accéder à des graphiques d’identité et à des liens plus récents.
-* **** Laboratoires (aperçus technologiques) : Cette nouvelle fonctionnalité d’Analytics vous permet de tester de nouveaux prototypes de fonctionnalités en production et de fournir des commentaires précieux à Adobe. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)
-* **Nouvelles touches d’accès rapide dans Workspace :**<ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Panneau Réduire/Développer actif : `alt + ctrl + m`</li><li>Rechercher dans le rail gauche : `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)
-* **Autres améliorations de Workspace :**<ul><li>Lorsqu’un panneau ou une visualisation est déposé dans [!UICONTROL Workspace], le rail de gauche passe automatiquement aux composants pour un flux de travail plus fluide.</li><li>Les composants de modèle peuvent désormais être utilisés (par exemple, balisés, marqués comme favoris, approuvés).</li><li>Les listes de mesures et de segments filtrées offrent le `+` bouton permettant d’ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul>
-* Le débogueur **** Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)
-* **** Navigateur Microsoft Edge basé sur le chrome : Cette version comprend des modifications pour reconnaître le navigateur Microsoft Edge basé sur Chromium (version 79 et ultérieure) à des fins de création de rapports.
+* Nouveau **modèle Workspace pour les organisations qui utilisent Analytics sur l’ensemble des appareils (CDA) :** ce modèle montre l’efficacité de CDA à assembler les visites et vous informe sur les dimensions et les mesures exclusives de CDA. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics sur l’ensemble des appareils](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) pour plus d’informations.
+* **La latence d’assemblage CDA pour les organisations utilisant le graphique privé est réduite à un jour :** La fonctionnalité Graphique privé a été améliorée afin de réduire la latence de génération de graphiques d’un traitement par lots hebdomadaire à un graphique actualisé quotidiennement, ce qui permet aux clients CDA d’accéder à des graphiques d’identité et à des liens mis à jour plus souvent.
+* **Labs (aperçus de technologies) :** cette nouvelle fonctionnalité d’Analytics vous permet de tester de nouveaux prototypes de fonctionnalités en cours de production et de fournir des commentaires précieux à Adobe. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)
+* **Nouvelles touches de raccourci dans Workspace :**<ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche : `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)
+* **Autres optimisations apportées à Workspace :**<ul><li>Lorsqu’un panneau ou une visualisation est déposé dans [!UICONTROL Workspace], le rail de gauche passe automatiquement aux composants pour accélérer le processus.</li><li>Des actions sont maintenant disponibles pour les composants de modèle (par exemple, ils peuvent être balisés, marqués comme favoris ou approuvés).</li><li>Les listes de mesures et de segments filtrées proposent le bouton `+` pour ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul>
+* Le **débogueur Workspace** a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)
+* **Navigateur Microsoft Edge basé sur Chromium :** cette version comprend des modifications pour reconnaître le navigateur Microsoft Edge basé sur Chromium (version 79 et ultérieure) à des fins de création de rapports.
 
 #### Correctifs
 
-* Correction d’un problème de l’interface utilisateur Segment en raison duquel les dimensions du canal  marketing étaient compatibles avec l’entrepôt [!UICONTROL de]données, alors qu’en réalité elles ne le sont pas. A l’avenir, le créateur [!UICONTROL de] segments n’affichera plus ces dimensions comme étant compatibles avec l’entrepôt  de données. (AN-202297)
-* Correction d’un problème en raison duquel le nom d’un segment publié qui était mis à jour dans Analytics n’était pas mis à jour dans Audience Manager dans les 24 heures. (AN-199974)
+* Correction d’un problème de l’interface utilisateur Segment en raison duquel les dimensions du [!UICONTROL Canal marketing] étaient compatibles avec [!UICONTROL Data Warehouse], alors qu’en réalité elles ne l’étaient pas. À l’avenir, le [!UICONTROL Créateur de segments] n’affichera plus ces dimensions comme étant compatibles avec [!UICONTROL Data Warehouse]. (AN-202297)
+* Correction d’un problème en raison duquel la modification nom d’un segment publié dans Analytics n’était pas répercutée dans Audience Manager dans les 24 heures. (AN-199974)
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout  ou de mise à jour | Description |
+| Avis | Date d’ajout   ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| Nouveau domaine Adobe Analytics | 18 décembre 2019 | `https://experience.adobe.com/analytics.`<br>** Le 16 janvier 2020, Adobe Analytics a commencé à passer à un nouveau domaine - **Remarque : Cette modification s’applique à tous les utilisateurs accédant à Analytics avec leur Adobe ID ou Enterprise ID.<ul><li>Ce changement de domaine peut créer des problèmes de cookies lors du chargement d’Analytics dans Safari. Deselecting _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. Vous pouvez utiliser d’autres navigateurs sans problème, car cette particularité affecte uniquement les utilisateurs de Safari.</li><li>Le changement de domaine peut entraîner l’arrêt du fonctionnement d’[!UICONTROL Activity Map] pour certains clients [dans des cas spécifiques](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
+| Nouveau domaine Adobe Analytics | 18 décembre 2019 | Le 16 janvier 2020, Adobe Analytics a commencé passer à un nouveau domaine : `https://experience.adobe.com/analytics.`<br>**Remarque :** cette modification s’applique à tous les utilisateurs accédant à Analytics avec leur Adobe ID ou Enterprise ID.<ul><li>Ce changement de domaine peut créer des problèmes de cookies lors du chargement d’Analytics dans Safari. En désactivant la case à cocher _Empêcher le suivi sur plusieurs domaines_ dans les préférences de confidentialité de Safari, vous activez les cookies sur plusieurs domaines (et toutes les expériences sur plusieurs sites) et permettez ainsi à Analytics de fonctionner sur ce nouveau domaine Adobe Experience Cloud. Vous pouvez utiliser d’autres navigateurs sans problème, car cette particularité affecte uniquement les utilisateurs de Safari.</li><li>Le changement de domaine peut entraîner l’arrêt du fonctionnement d’[!UICONTROL Activity Map] pour certains clients [dans des cas spécifiques](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fin de vie : API héritées d’Analytics | 9 janvier 2020 | En novembre 2020, les services d’API hérités d’Analytics suivants arriveront en fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner. <ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte d’intégration [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Abandon de l’option **[!UICONTROL Afficher l’archive]** | 30 octobre 2019 | Annonce de l’abandon en janvier 2020 de l’option **[!UICONTROL Afficher l’archive]** dans le Gestionnaire de tableaux de bord (**[!UICONTROL Composants > Tableaux de bord]**). |
 | Abandon de l’option **[!UICONTROL Exiger des restrictions d’identification par IP]** | 30 octobre 2019 | Annonce de l’abandon en janvier 2020 de la liste blanche des identifications par IP (**[!UICONTROL Exiger des restrictions d’identification par IP]**) dans le menu **[!UICONTROL Admin > Paramètres de la société > Sécurité]**. |
@@ -141,7 +141,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### [!DNL AppMeasurement] {#appm}
 
-Voir [Notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). La version 2.18.0 a été publiée le 13 février 2020.
+Voir [Notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). La version 2.19.0 a été publiée le 21 février 2020.
 
 ## Audience Manager {#aam}
 
@@ -151,14 +151,14 @@ Correctifs et fonctionnalités ajoutées à Audience Manager.
 
 | Fonction | Description |
 |----|----|
-| [Rapports d’utilisation des activités](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | Le rapport [!UICONTROL Utilisation des] activités vous permet d’afficher et de suivre l’utilisation des activités de votre instance Audience Manager, ce qui vous donne une idée claire de la comparaison entre l’utilisation des activités et votre engagement contractuel. |
+| [Rapport Utilisation des activités](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | Le [!UICONTROL rapport Utilisation des activités] vous permet d’afficher et de suivre l’utilisation des activités de votre instance Audience Manager, ce qui vous permet de mettre en perspective votre usage avec votre contrat. |
 
 ### Correctifs et améliorations {#aam-fixes-and-improvements}
 
-* Correction d’un bogue en raison duquel le flux de création de destination rompait l’interface utilisateur pour la sélection des comptes intégrés (AAM-52414).
-* Correction d’un bogue en raison duquel l’interface utilisateur était coupée lors de la navigation dans le flux de création des modèles algorithmiques (AAM-37942).
-* Correction d’un bogue en raison duquel la sélection Exportation de données n’était pas enregistrée lors de l’enregistrement des contrôles d’exportation de données pour les destinations nouvelles ou existantes, pour les clients utilisant l’intégration de la plateforme Adobe Experience Platform (AAM-52814).
-* Correction d’un bogue en raison duquel les recommandations de caractéristiques tierces fonctionnaient incorrectement pour les caractéristiques qui contiennent des caractères de barre verticale (`|`) dans le nom (AAM-51635).
+* Correction d’une erreur en raison de laquelle le flux de création de destination affectait l’interface utilisateur pour la sélection des comptes intégrés (AAM-52414).
+* Correction d’une erreur en raison de laquelle l’interface utilisateur était affectée lors de la navigation dans le flux de création des modèles algorithmiques (AAM-37942).
+* Correction d’une erreur en raison de laquelle la sélection Exportation de données n’était pas enregistrée lors de l’enregistrement des contrôles d’exportation de données pour les destinations nouvelles ou existantes, pour les clients utilisant l’intégration d’Adobe Experience Platform (AAM-52814).
+* Correction d’une erreur en raison de laquelle les recommandations de caractéristiques tierces ne fonctionnaient pas correctement pour celles qui contiennent des caractères de barre verticale (`|`) dans leur nom (AAM-51635).
 * Plusieurs améliorations d’accessibilité dans l’interface utilisateur.
 
 ## Experience Manager {#aem}
@@ -167,27 +167,27 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 
 ### Versions de produit
 
-* **Cloud Manager 2020.2.0**
+* **Cloud Manager 2020.2.0**
 
-   Cloud Manager 2020.2.0 simplifie la gestion en libre-service des sandbox pour Adobe Experience Manager en tant que service Cloud.
+   Cloud Manager 2020.2.0 simplifie la gestion en libre-service des environnements de test (sandbox) pour Adobe Experience Manager en tant que service Cloud.
 
    Voir les [Notes de mise à jour](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html).
 
 ### Auto-assistance
 
-* **Didacticiels pour AEM en tant que service Cloud**
+* **Tutoriels pour AEM en tant que service Cloud**
 
-   Commencez rapidement avec les [didacticiels pour AEM en tant que service](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html)Cloud.
+   Apprenez rapidement grâce aux [tutoriels pour AEM en tant que service Cloud](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html).
 
-* **API de lot de communication interactive AEM Forms**
+* **API de communication interactive par lots pour AEM Forms**
 
-   L’API par lot de la communication interactive AEM Forms permet aux clients de produire plusieurs communications interactives, automatiquement ou à la demande. Les clients peuvent générer simultanément des sorties Impression et Web.
-Voir [Générer plusieurs communications interactives à l’aide de l’API](https://docs.adobe.com/content/help/en/experience-manager-65/forms/interactive-communications/generate-multiple-interactive-communication-using-batch-api.html)par lot.
+   L’API de communication interactive par lots pour AEM Forms permet aux clients de produire plusieurs communications interactives, que ce soit automatiquement ou à la demande. Les clients peuvent générer simultanément des sorties Impression et Web.
+Voir la section [Génération de plusieurs communications interactives avec l’API de lot](https://docs.adobe.com/content/help/en/experience-manager-65/forms/interactive-communications/generate-multiple-interactive-communication-using-batch-api.html).
 
 * **Plateformes prises en charge pour AEM Forms sur JEE**
 
-   Ajout de la prise en charge d’Oracle 19c pour les clients d’AEM Forms sur JEE.
-Voir Plateformes [prises en charge pour AEM Forms sur JEE](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/jee-installation/aem-forms-jee-supported-platforms.html).
+   Ajout de la prise en charge d’Oracle 19c pour les clients AEM Forms sur JEE.
+Voir la section [Plateformes prises en charge pour AEM Forms sur JEE](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/jee-installation/aem-forms-jee-supported-platforms.html).
 
 ### Ressources supplémentaires
 
@@ -208,9 +208,9 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Campaign Classic 19.2.3
 
-Voir les [Notes de mise à jour d’Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) pour les correctifs et améliorations.
+Voir les [Notes de mise à jour d’Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) pour les correctifs et améliorations.
 
-### Campaign Standard 20.1
+### Campaign Standard 20.1
 
 Consultez les [notes de mise à jour d’Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) pour voir les correctifs et améliorations.
 
@@ -227,12 +227,12 @@ Mise à jour du 10 février 2020 pour la version du 8 février
 | Affichage | Fonction |
 |------|---------|
 | Portfolios | Vous pouvez maintenant ajouter Yahoo! Campagnes sur le réseau Japan Display Network (YDN) vers des portfolios afin d’optimiser les budgets de campagne et les enchères au niveau du groupe publicitaire. La même enchère s’applique à toutes les publicités d’un groupe. Les données des campagnes YDN sont incluses dans les simulations du portfolio. |
-| Rechercher > Feuilles d’envoi groupées | Vous pouvez désormais créer, modifier et supprimer des annonces de recherche en responsive design (RSA) Google à l’aide de feuilles d’envoi groupées. Previously, support was available only through the standard campaign management interface at **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** |
-| Rechercher > Campagnes, Rapports | The Google Ads prominence metrics `Impr. (Abs. Top) %` and `Impr. (Top) %` are now available in all basic reports and entity-level campaign management views except for those for shopping product groups, in the [!UICONTROL Campaign Daily Impression Share] and [!UICONTROL Keyword Daily Impression Share] reports, and in the labels and constraints views. |
+| Rechercher > Feuilles d’envoi groupées | Vous pouvez désormais créer, modifier et supprimer des annonces de recherche en responsive design (RSA) Google à l’aide de feuilles d’envoi groupées. Auparavant, la prise en charge n’était assurée que par le biais de l’interface de gestion de campagne standard sous **[!UICONTROL Rechercher]** > **[!UICONTROL Campagnes]**. |
+| Rechercher > Campagnes, Rapports | Les statistiques sur la proéminence de Google Ads `Impr. (Abs. Top) %` et `Impr. (Top) %` sont désormais disponibles dans tous les rapports de base et dans les vues de gestion de campagne au niveau de l’entité, à l’exception de celles relatives aux achats de groupes de produits, aux rapports sur le [!UICONTROL taux d’impressions quotidien des campagnes] et sur le [!UICONTROL taux d’impressions quotidien des mots-clés], ainsi que dans les vues des étiquettes et des contraintes. |
 
 ## [!DNL Magento] {#magento}
 
-Pour consulter les notes de mise à jour de Magento, voir :
+Pour les notes de mise à jour de Magento, veuillez consulter :
 
-* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
-* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
+* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
+* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
