@@ -102,7 +102,7 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 ## Mobile Services et SDK mobiles {#mobile}
 
-**4 février 2020 : version 4.19.0**
+4 février 2020 : Version 4.19.0
 
 La mise à jour suivante a été effectuée dans cette version :
 
@@ -266,14 +266,14 @@ See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/di
 
 Les fonctionnalités suivantes sont disponibles tout au long du trimestre :
 
-| Affichage | Fonction |
+| Fonction | Description |
 |------|---------|
 | [!DNL Bizible] | <ul><li>Nouvelle segmentation basée sur un compte</li><li>Enregistrer les filtres spécifiques au tableau de bord</li><li>Exportation de tableaux de bord lisibles au format PDF</li></ul> |
 | Connect commercial | Composer les mises à jour/améliorations de Windows et du Centre de commandes |
 
 ### Annonces
 
-**・** Marketo Interagir Centre de réussite : Lancement en février 2020. Le centre de réussite est un centre d’aide intégré qui vous permet de rechercher des documents de produit et la communauté, de lancer des guides pratiques, d’accéder au contenu d’adoption, etc. Remarque : Cette fonctionnalité sera lancée en version bêta en ANZ et sera déployée en Amérique du Nord plus tard dans le trimestre.
+**** Centre de succès Marketo Engage : Lancement en février 2020. Le centre de réussite est un centre d’aide intégré qui vous permet de rechercher des documents de produit et la communauté, de lancer des guides pratiques, d’accéder au contenu d’adoption, etc. Remarque : Cette fonctionnalité sera lancée en version bêta en ANZ et sera déployée en Amérique du Nord plus tard dans le trimestre.
 
 ### Dépréciations
 
