@@ -102,7 +102,7 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 ## Mobile Services et SDK mobiles {#mobile}
 
-4 février 2020 : Version 4.19.0
+**4 février 2020 : version 4.19.0**
 
 La mise à jour suivante a été effectuée dans cette version :
 
