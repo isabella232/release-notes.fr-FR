@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 562b27b201dd095236fdb8a6a10f8db798b615e1
+source-git-commit: 2363a9f58f658e49054e3ac7a63083925a381eec
 
 ---
 
@@ -33,8 +33,6 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l’aide de la solution)
-* [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)
 
 Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
 
@@ -282,16 +280,3 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 * Correction
 * Correction
 * Correction
-
-## [!DNL Magento] {#magento}
-
-Pour les notes de mise à jour de Magento, veuillez consulter :
-
-* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
-* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
-
-## [!DNL Marketo] {#marketo}
-
-[!DNL Marketo Engage] est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en engageant à chaque étape de parcours d’achat complexes.
-
-Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
