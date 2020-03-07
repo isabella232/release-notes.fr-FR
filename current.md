@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ecee1c664485d710a62c9455e64eea3a16966780
+source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
 
 ---
 
@@ -128,6 +128,12 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 * Correction d’un problème dans les [!UICONTROL rapports et analyses] qui empêchait le téléchargement `.xls` des rapports.(AN-206541, AN-204008)
 * Le déploiement d’un nouvel interpréteur de commandes a résolu plusieurs problèmes client liés au changement d’organisation d’Experience Cloud.(AN-200844, AN-186920)
+* Correction d’un problème en raison duquel l’exécution d’une ventilation sur l’élément de ligne _Non spécifié_ (ou d’autres éléments de ) sans inclure _Non spécifié (Aucun)_ dans le de recherche de la ventilation ne retournait aucun résultat dans la ventilation.
+* Correction d’un problème survenant lors de l’utilisation d’une dimension classifiée, les totaux des mesures d’entrée ou de sortie ne correspondaient pas au total de l’élément de ligne sur une ventilation.
+* Correction d’un problème en raison duquel les modèles Première touche et Dernière touche dans l’ID d’attribution ne calculaient pas correctement le crédit pour certains éléments de ligne dans certaines dimensions prêtes à l’emploi.
+* Correction d’un problème en raison duquel la ventilation d’une dimension de date par une autre dimension de date renvoyait des résultats incorrects.
+* Correction d’un problème en raison duquel les mesures d’entrée ou de sortie étaient parfois comptabilisées incorrectement lorsqu’elles étaient appliquées à &quot;Non spécifié&quot; dans un rapport de dimension classifié.
+
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
@@ -327,4 +333,4 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | Adobe Analytics | Vidéo - Attribution de  [plusieurs dans CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Découvrez comment utiliser les visualisations pour montrer l’attribution (attribuer du crédit) entre les  du dans les analyses [!UICONTROL de parcours du]client. |
 | Adobe Analytics | Article - Conseils [client pour poursuivre votre parcours d’apprentissage d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Rencontrez trois clients Adobe qui disposent de conseils et de astuces pour vous aider à tirer le meilleur parti d’Adobe Analytics. |
 | Adobe Analytics | Vidéo - [Créer des visualisations  dans CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Découvrez comment [!UICONTROL Customer Journey Analytics] vous permet de créer des visualisations qui incluent des données issues de plusieurs ensembles de données sur plusieurs , y compris la fusion des données par. |
-| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers les analyses de parcours des clients](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trouvez des conseils pour recréer vos mesures [!UICONTROLCcalculées Analytics dans Analytics] du parcours client. |
+| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers les analyses de parcours des clients](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trouvez des conseils pour recréer vos mesures [!UICONTROLCcalculées Analytics] dans Analytics [!UICONTROL du parcours du]client. |
