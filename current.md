@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 101b94ed00ae148e946f17c134037ae880badc5d
+source-git-commit: dcbcc2fff5026c07898e7887b837767e9a71dbf3
 
 ---
 
@@ -94,6 +94,20 @@ Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience P
 ### Experience Platform Launch {#launch}
 
 Pour consulter les notes de mise à jour et la documentation du produit, voir [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html).
+
+## Orchestration du voyage {#journey}
+
+À l’aide d’Adobe Experience Platform, orchestrez les voyages individuels des clients à l’échelle de l’d’expérience en anticipant intelligemment les besoins de chaque individu en temps réel, où que soit son parcours.
+
+La version T1 a été publiée. [En savoir plus](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
+
+### Ressources supplémentaires
+
+[Documentation](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html)
+
+[Notes de mise à jour](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html)
+
+[Vidéos pratiques](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## Mobile Services et SDK mobiles {#mobile}
 
@@ -323,7 +337,7 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | Adobe Analytics | Vidéo - Super session [Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) |  des extraits de la session de voyage et d&#39;accueil du Sommet 2019. |
 | Adobe Analytics | Vidéo - Super session [Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Reportez-vous aux clips organisés de la session de vente au détail du Sommet 2019. |
 | Adobe Analytics | Vidéo - Cas d’utilisation [par le client : Accent Group investit dans l&#39;expérience client pour stimuler les ventes](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | Découvrez comment le groupe Accent utilise Adobe Experience Cloud pour créer des expériences numériques homogènes. |
-| Adobe Analytics | Vidéo - Cas d’utilisation [par le client : ServiceNow obtient les informations appropriées pour établir une connexion avec le](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Découvrez comment [!DNL ServiceNow] obtenir des données exploitables de ses  marketing et optimiser le retour sur investissement sur la publicité de recherche payante avec Adobe Advertising Cloud et Adobe Analytics. |
+| Adobe Analytics | Vidéo - Cas d’utilisation [par le client : ServiceNow obtient les informations appropriées pour établir une connexion avec le](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Découvrez comment [!DNL ServiceNow] obtenir des données exploitables de ses  marketing et optimiser le retour sur investissement sur les publicités de recherche payante avec Adobe Advertising Cloud et Adobe Analytics. |
 | Adobe Analytics | Vidéo - [Adobe Analytics - Plus que des données : intelligence du client](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | Découvrez le marketing axé sur les données et comment faire passer la maturité de vos analyses des données aux informations pour passer à l’action. |
 | Adobe Analytics | Vidéo - [Adobe Sensei et Adobe Analytics - Version étendue](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) |  fonctionnalités clés d’Adobe Analytics optimisées par Adobe [!DNL Sensei,] y compris la détection des [!UICONTROL anomalies,] la  de [!UICONTROL contribution ,] les alertes intelligentes,  la mise en grappe,le QI des segments de,le  et la modélisation de la propension de l’. |
 | Adobe Analytics | Vidéo - [Comment Adobe   Workspace peut modifier votre activité](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | Découvrez comment vous pouvez exécuter des   ad hoc, des de  de données  flexibles, des [!UICONTROL de cohortes et des d’abandons à l’aide de l’espace de travail]dede. Vous pouvez également partager le   de travail de la  de travail avec tout le monde dans votre, et sa fonction glisser-déposer permet à tout le monde d&#39;analyser facilement les données et d&#39;obtenir rapidement des informations. |
@@ -332,4 +346,4 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | Adobe Analytics | Vidéo - Attribution de  [plusieurs dans CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Découvrez comment utiliser les visualisations pour montrer l’attribution (attribuer du crédit) entre les  du dans les analyses [!UICONTROL de parcours du]client. |
 | Adobe Analytics | Article - Conseils [client pour poursuivre votre parcours d’apprentissage d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Rencontrez trois clients Adobe qui disposent de conseils et de astuces pour vous aider à tirer le meilleur parti d’Adobe Analytics. |
 | Adobe Analytics | Vidéo - [Créer des visualisations  dans CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Découvrez comment [!UICONTROL Customer Journey Analytics] vous permet de créer des visualisations qui incluent des données issues de plusieurs ensembles de données sur plusieurs , y compris la fusion des données par. |
-| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers les analyses de parcours des clients](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trouvez des conseils pour recréer vos mesures [!UICONTROLCcalculées Analytics dans Analytics] du parcours client. |
+| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers les analyses de parcours des clients](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trouvez des conseils pour recréer vos mesures [!UICONTROLCcalculées Analytics] dans Analytics [!UICONTROL du parcours du]client. |
