@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
+source-git-commit: 8cfd93b9e4e5800eb9222a78571ec89e546e6a6f
 
 ---
 
@@ -137,7 +137,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 #### Correctifs
 
-* Correction d’un problème dans les [!UICONTROL rapports et analyses] qui empêchait le téléchargement `.xls` des rapports.(AN-206541, AN-204008)
+* Correction d’un problème dans les [!UICONTROL rapports et analyses] qui empêchait le téléchargement `.xls` des rapports. Ce problème affectait les clients utilisant des devises autres que le dollar américain et l’euro. (AN-206541, AN-204008)
 * Le déploiement d’un nouvel interpréteur de commandes a résolu plusieurs problèmes client liés au changement d’organisation d’Experience Cloud.(AN-200844, AN-186920)
 * Correction d’un problème en raison duquel l’exécution d’une ventilation sur l’élément de ligne _Non spécifié_ (ou d’autres éléments de ) sans inclure _Non spécifié (Aucun)_ dans le de recherche de la ventilation ne retournait aucun résultat dans la ventilation.
 * Correction d’un problème survenant lors de l’utilisation d’une dimension classifiée, les totaux des mesures d’entrée ou de sortie ne correspondaient pas au total de l’élément de ligne sur une ventilation.
@@ -149,8 +149,8 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 | Avis | Date d’ajout  ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| EOL du paramètre Niveau **[!UICONTROL de]** conversion | 3 mars 2020 | Le paramètre Niveau [de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) conversion non opérationnel dans Outils **[!UICONTROL d’]administration > Suites[!UICONTROL de]rapports > Paramètres du compte[!UICONTROL général sera supprimé de l’interface utilisateur le 12 mars 2020.]** |
-| EOL de l&#39;archive **** | 3 mars 2020 | Le paramètre d’archivage **** sous **[!UICONTROL Gérer les]** dans les [!UICONTROL rapports et analyses] ne sera plus disponible à compter du 12 mars 2020. |
+| EOL du paramètre Niveau **[!UICONTROL de]** conversion | 3 mars 2020 | Le paramètre Niveau [de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) conversion non opérationnel dans Outils **[!UICONTROL d’]administration > Suites[!UICONTROL de]rapports > Paramètres du compte[!UICONTROL général sera supprimé de l’interface utilisateur le 12 mars 2020.]** |
+| EOL de l&#39;archive **** | 3 mars 2020 | Le paramètre d’archivage **** sous **[!UICONTROL Gérer les]** dans les [!UICONTROL rapports et analyses] ne sera plus disponible à compter du 12 mars 2020. |
 | Fin de la prise en charge de TLS 1.1 | 3 octobre 2019 | D’ici le 31 mars 2020, Adobe Analytics supprimera la prise en charge de TLS 1.1. Ce changement s’inscrit dans le cadre des efforts que nous déployons pour respecter les meilleures normes de sécurité et promouvoir la sécurité des données de nos clients. |
 | Nouveau domaine Adobe Analytics | 18 décembre 2019 | Le 16 janvier 2020, Adobe Analytics a commencé passer à un nouveau domaine : `https://experience.adobe.com/analytics.`<br>**Remarque :** cette modification s’applique à tous les utilisateurs accédant à Analytics avec leur Adobe ID ou Enterprise ID.<ul><li>Ce changement de domaine peut créer des problèmes de cookies lors du chargement d’Analytics dans Safari. En désactivant la case à cocher _Empêcher le suivi sur plusieurs domaines_ dans les préférences de confidentialité de , vous activez les cookies sur plusieurs domaines (et toutes les expériences sur plusieurs sites) et permettez ainsi à Analytics de fonctionner sur ce nouveau domaine Adobe Experience Cloud. [!DNL Safari] You can use other browsers without issue because this affects only [!DNL Safari] users.</li><li>Le changement de domaine peut entraîner l’arrêt du fonctionnement d’[!UICONTROL Activity Map] pour certains clients [dans des cas spécifiques](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fin de vie : API héritées d’Analytics | 9 janvier 2020 | En novembre 2020, les services d’API hérités d’Analytics suivants arriveront en fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner. <ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte d’intégration [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
