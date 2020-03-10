@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
+source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
 
 ---
 
@@ -131,7 +131,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics {#aa-features}
 
-* **Plusieurs suites de rapports dans[!UICONTROL Espace de travail ]**de : Vous pouvez désormais importer les données de plusieurs suites de rapports dans un seul[!UICONTROL projet de l’espace de travail]de l’pour côte à côte. Cette fonctionnalité sera déployée sur plusieurs semaines pour tous les clients.[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **Plusieurs suites de rapports dans[!UICONTROL Espace de travail ]**de : Vous pouvez désormais importer des données de plusieurs suites de rapports dans un seul projet[!UICONTROL de l’espace de travail]pour dans des panneaux côte à côte.[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
 * **Experience Cloud   Optimisation**: Cette fonctionnalité vous permet de publier des segments dans Experience Cloud dans les 8 heures (au lieu du temps de traitement de 48 heures précédent). [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * **Workspace - Modèle** de didacticiel de formation : Ce nouveau modèle standard vous guide tout au long de la terminologie commune et des étapes nécessaires à la création de votre premier   dans Workspace. Il est disponible sous forme de modèle standard dans le module [!UICONTROL Nouveau projet] et remplace l’exemple de projet existant aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur .
 
