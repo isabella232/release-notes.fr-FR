@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8486e0014a6ea57fca43ce2e95e0ac9762c170f7
+source-git-commit: 2fca65aeb62ff60e4776492857af064ec3ef707f
 
 ---
 
@@ -26,6 +26,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 * [État du système Adobe](#status)
 * [Experience Cloud et Experience Platform](#platform)
+* [Orchestration du voyage](#journey)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -104,9 +105,17 @@ Notes de mise à jour d’Experience Platform, d’Experience Platform Launch, d
 
 Pour consulter les notes de mise à jour et la documentation du produit, voir [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html).
 
+## Orchestration du voyage {#journey}
+
+À l’aide d’Adobe Experience Platform, orchestrez les voyages individuels des clients à l’échelle de l’d’expérience en anticipant intelligemment les besoins de chaque individu en temps réel, où que soit son parcours.
+
+### Ressources supplémentaires
+
+[Documentation](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - Notes [de](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) mise à jour - Vidéos [pratiques](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+
 ## [!DNL Analytics] {#analytics}
 
-Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
+Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [SDK Media Analytics pour iOS et Android (anciennement SDK VHL)](#aa-va)
@@ -248,29 +257,17 @@ Les documents AEM suivants ont été migrés vers une nouvelle plate-forme de do
 * Correction
 * Correction
 
-## [!DNL Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
-| Fonction | Description |
-| -----------| ---------- |  
-| Fonctionnalité A | Texte |
-| Fonctionnalité B | Texte |
-| Fonctionnalité C | Texte |
-
-**Correctifs**
-
-* Correction
-* Correction
-* Correction
-* Correction
-
-**Ressources supplémentaires**
+### Ressources supplémentaires
 
 * Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)  – [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## Advertising Cloud {#adcloud}
 
 | Fonction | Description |
 | -----------| ---------- |  
