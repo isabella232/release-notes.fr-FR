@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8cfd93b9e4e5800eb9222a78571ec89e546e6a6f
+source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
 
 ---
 
@@ -245,6 +245,10 @@ Voir [Utilisation du recadrage](https://docs.adobe.com/content/help/en/experienc
 ## [!DNL Campaign] {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
+
+### Campaign Classic 
+
+* [Mise à jour Campaign Classic 19.1.4](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
 ### Ressources supplémentaires
 
