@@ -5,12 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
+source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
 
 ---
 
 
 # Accès anticipé - Notes de mise à jour d’Adobe Experience Cloud - mars 2020
+
+![Bannière](/assets/experience-cloud-banner-3.png)
 
 Nouvelles fonctionnalités et correctifs d’[!DNL Adobe Experience Cloud].
 
@@ -22,13 +24,11 @@ Nouvelles fonctionnalités et correctifs d’[!DNL Adobe Experience Cloud].
 
 **Date de publication : mars 2020**
 
-(Les dates de lancements de chaque produit peuvent varier)
+Dernière mise à jour : 11 mars 2020
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud et services principaux](#ecloud)
 * [Experience Platform](#platform)
-* [Orchestration du voyage](#journey)
-* [Mobile Services et SDK mobiles](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -42,7 +42,9 @@ Nouvelles fonctionnalités et correctifs d’[!DNL Adobe Experience Cloud].
 
 Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
 
-## État du système Adobe {#status}
+(Les dates de lancements de chaque produit peuvent varier.)
+
+## ![Icône](/assets/adobe.png) État du système Adobe {#status}
 
 [!UICONTROL État du système Adobe] fournit des informations détaillées, des mises à jour d’état et des notifications par e-mail relatives aux produits cloud Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/).
 
@@ -58,7 +60,7 @@ Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adob
 | Expérience personnalisée en fonction des préférences de l’utilisateur | <ul><li>Les préférences de fuseau horaire basées sur le paramètre du navigateur sont utilisées dans les notifications par courrier électronique.</li><li>Confirmation par courrier électronique envoyée lors de l’abonnement/désabonnement avec toutes les préférences sélectionnées.</li></ul> |
 | Meilleure  des messages de  | <ul><li>Historique des  triés en fonction des mises à jour  des chronologiques.</li><li>Horodatage de la résolution de  ajoutée aux publications fermées majeures/mineures.</li></ul> |
 
-## Interface d’Experience Cloud et services principaux {#ecloud}
+## ![Interface d’Icon](/assets/experience-cloud.png) Experience Cloud et services principaux {#ecloud}
 
 Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud, notamment pour l’administration et les services principaux (attributs du client, audiences, déclencheurs, cookies, etc.).
 
@@ -84,29 +86,31 @@ Les mises à jour comprennent les éléments suivants :
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html) help.
 
-## Experience Platform {#platform}
+## ![Plate-forme d’expérience d’icône](/assets/platform.png){#platform}
 
 Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] and security bulletins.
 
 * [Notes de mise à jour d’Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
+* [Orchestration du voyage](#journey)
+* [Mobile Services et SDK mobiles](#mobile)
 * [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html)  (Tous les produits Adobe)
 
 ### Experience Platform Launch {#launch}
 
 Pour consulter les notes de mise à jour et la documentation du produit, voir [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html).
 
-## Orchestration du voyage {#journey}
+### Orchestration du voyage {#journey}
 
 À l’aide d’Adobe Experience Platform, orchestrez les voyages individuels des clients à l’échelle de l’d’expérience en anticipant intelligemment les besoins de chaque individu en temps réel, où que soit son parcours.
 
 La version T1 a été publiée. [En savoir plus](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
-### Ressources supplémentaires
+**Ressources supplémentaires**
 
 [Documentation](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - Notes [de](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) mise à jour - Vidéos [pratiques](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
-## Mobile Services et SDK mobiles {#mobile}
+### Mobile Services et SDK mobiles {#mobile}
 
 **iOS v4.19.1**
 
@@ -117,7 +121,7 @@ La version T1 a été publiée. [En savoir plus](https://docs.adobe.com/content/
 
 * [!DNL Target] - [!DNL Target] L’ID de session sera désormais ajouté en tant que paramètre de données contextuelles &quot;a..sessionId&quot; dans l’accès interne à l’  Analytics pour envoyé à Adobe Analytics.
 
-## [!DNL Analytics] {#analytics}
+## ![Icône](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
 Date de la version : **12 mars 2020**
 
@@ -160,7 +164,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 Voir [Notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). La version 2.20.0 a été publiée le 5 mars 2020.
 
-## Audience Manager {#aam}
+## ![Gestionnaire de  de l&#39;icône](/assets/audience-manager.png) {#aam}
 
 Nouvelles fonctionnalités et mises à jour de   Manager :
 
@@ -172,7 +176,7 @@ Nouvelles fonctionnalités et mises à jour de   Manager :
 * Correction d’un bogue dans l’API  Segments en raison duquel, en raison de certains segments sans description, l’interface se figeait lorsque les utilisateurs tentaient d’accéder à ces segments et qu’ils devaient quitter cette page. (AAM-53071)
 * Plusieurs améliorations d’accessibilité dans l’interface. (AAM-48952, AAM-48969, AAM-48979, AAM-48993, AAM-49048, AAM-49057, AAM-49058,AAM-49399 (92)
 
-## Experience Manager {#aem}
+## ![Icône](/assets/aem.png) Experience Manager {#aem}
 
 Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
 
@@ -242,7 +246,7 @@ Voir [Utilisation du recadrage](https://docs.adobe.com/content/help/en/experienc
 * [Notes de mise à jour de Dynamic Media](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Notes de mise à jour de Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## [!DNL Campaign] {#ac}
+## ![Icône](/assets/campaign.png) [!DNL Campaign] {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
@@ -256,7 +260,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 * Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## ![Icon](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Mis à jour le 10 février 2020 pour la version du 8 février :
 
@@ -266,14 +270,14 @@ Mis à jour le 10 février 2020 pour la version du 8 février :
 | [!UICONTROL Rechercher] > [!UICONTROL Bulksheet] | Vous pouvez désormais créer, modifier et supprimer des annonces de recherche en responsive design (RSA) Google à l’aide de feuilles d’envoi groupées. Auparavant, la prise en charge n’était assurée que par le biais de l’interface de gestion de campagne standard sous **[!UICONTROL Rechercher]** > **[!UICONTROL Campagnes]**. |
 | [!UICONTROL Rechercher] > [!UICONTROL Campagnes, Rapports] | Les statistiques sur la proéminence de Google Ads `Impr. (Abs. Top) %` et `Impr. (Top) %` sont désormais disponibles dans tous les rapports de base et dans les vues de gestion de campagne au niveau de l’entité, à l’exception de celles relatives aux achats de groupes de produits, aux rapports sur le [!UICONTROL taux d’impressions quotidien des campagnes] et sur le [!UICONTROL taux d’impressions quotidien des mots-clés], ainsi que dans les vues des étiquettes et des contraintes. |
 
-## [!DNL Magento] {#magento}
+## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
 Pour les notes de mise à jour de Magento, veuillez consulter :
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
 
-## [!DNL Marketo] {#marketo}
+## ![Icône](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
 [!DNL Marketo Engage] est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en engageant à chaque étape de parcours d’achat complexes.
 
@@ -310,7 +314,7 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 
 Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
 
-## Nouvelle documentation et nouveaux didacticiels {#selfhelp}
+## ![Icône](/assets/experience-cloud.png) Nouvelle documentation et didacticiels {#selfhelp}
 
 Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
@@ -347,4 +351,4 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | Adobe Analytics | Vidéo - Attribution de  [plusieurs dans CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Découvrez comment utiliser les visualisations pour montrer l’attribution (attribuer du crédit) entre les  du dans les analyses [!UICONTROL de parcours du]client. |
 | Adobe Analytics | Article - Conseils [client pour poursuivre votre parcours d’apprentissage d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Rencontrez trois clients Adobe qui disposent de conseils et de astuces pour vous aider à tirer le meilleur parti d’Adobe Analytics. |
 | Adobe Analytics | Vidéo - [Créer des visualisations  dans CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Découvrez comment [!UICONTROL Customer Journey Analytics] vous permet de créer des visualisations qui incluent des données issues de plusieurs ensembles de données sur plusieurs , y compris la fusion des données par. |
-| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers les analyses de parcours des clients](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trouvez des conseils pour recréer vos mesures [!UICONTROLCcalculées Analytics dans Analytics] du parcours client. |
+| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers les analyses de parcours des clients](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Trouvez des conseils pour recréer vos mesures [!UICONTROLCcalculées Analytics] dans Analytics [!UICONTROL du parcours du]client. |
