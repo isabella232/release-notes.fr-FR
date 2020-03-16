@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 01f2d4ae03be92da8d5d6feb1900cd4901a1b142
+source-git-commit: 53e2135044074e22470887540fb641262c607bd3
 
 ---
 
@@ -26,12 +26,12 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 **Date de publication : 2020**
 
-* [État du système Adobe](#status)
-* [Experience Cloud et services principaux](#ecloud)
+* [État système de [!DNL Adobe]](#status)
+* [[!DNL Experience Cloud] et services [!UICONTROL principaux]](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics)
-* [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [[!DNL  Gestionnaire ]](#aam)
+* [[!DNL Experience Manager]](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
 * [!DNL Advertising Cloud](#adcloud)
@@ -48,14 +48,14 @@ Fonctionnalités et correctifs.
 
 Voir [État du système Adobe](https://status.adobe.com/).
 
-## Experience Cloud and core services{#ecloud}
+## [!DNL Experience Cloud] et services [!UICONTROL principaux]{#ecloud}
 
 Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud, notamment pour l’administration et les services principaux (attributs du client, audiences, déclencheurs, cookies, etc.).
 
-* [Services principaux d’Experience Cloud](#core-services)
+* [[!UICONTROL Services principaux]](#core-services)
 * [Administration et développeur](#admin)
 
-### Experience Cloud Core services {#core-services}
+### [!UICONTROL Services principaux] {#core-services}
 
 Fonctionnalités et correctifs.
 
@@ -67,9 +67,9 @@ Fonctionnalités et correctifs.
 
 Pour consulter la documentation du produit, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-## Experience Platform {#platform}
+## [!UICONTROL Experience Platform] {#platform}
 
-Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] Journey Orchestration, Mobile Services, and security bulletins.
+Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] [!UICONTROL Journey Orchestration,] [!UICONTROL Mobile Services,] and security bulletins.
 
 * [Service Experience Cloud ID](#ecid)
 * [Notes de mise à jour d’Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
@@ -78,25 +78,25 @@ Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience P
 * [Mobile Services et SDK mobiles](#mobile)
 * [Bulletins et avis de sécurité](https://helpx.adobe.com/security.html) (Tous les produits Adobe)
 
-### Service Experience Cloud ID {#ecid}
+### [!UICONTROL Service Experience Cloud ID] {#ecid}
 
 Fonctionnalités et correctifs.
 
 Pour consulter la documentation du produit, voir [Service Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-### Experience Platform Launch {#launch}
+### [!UICONTROL Experience Platform Launch] {#launch}
 
 Pour consulter les notes de mise à jour et la documentation du produit, voir [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html).
 
-### Orchestration du parcours {#journey}
+### [!UICONTROL Orchestration du parcours] {#journey}
 
-Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels à l’échelle sur des canaux d’expérience en anticipant de manière intelligente les besoins de chaque individu en temps réel, quel que soit l’endroit où leur parcours les mène.
+Using Adobe [!UICONTROL Experience Platform,] orchestrate individual customer journeys at scale across experience channels by intelligently anticipating every individual&#39;s needs in real time, wherever their journey takes them.
 
-#### Ressources supplémentaires pour l&#39;orchestration du voyage
+#### Ressources supplémentaires pour l’orchestration du [!UICONTROL voyage]
 
 [Documentation](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
-### Mobile Services et SDK Mobile {#mobile}
+### [!UICONTROL Mobile Services et SDK Mobile] {#mobile}
 
 **Fonctionnalités**
 
@@ -131,7 +131,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 | Fonctionnalité B | Texte |
 | Fonctionnalité C | Texte |
 
-### [!DNL Media Analytics] SDK pour iOS et Android (anciennement SDK VHL) {#aa-va}
+### [!DNL Media Analytics] SDK pour [!DNL iOS] &amp; [!DNL Android] (anciennement SDK VHL) {#aa-va}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -160,18 +160,18 @@ Voir les [Notes de mise à jour de Data Workbench](https://marketing.adobe.com/
 
 Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) pour consulter un historique des versions d’AppMeasurement sur les plateformes suivantes :
 
-* JavaScript
-* iOS
-* Android
-* Flash-Flex
-* OSX
-* Windows Phone, XBOX, Silverlight et .NET
+* [!DNL JavaScript]
+* [!DNL iOS]
+* [!DNL Android]
+* [!DNL Flash-Flex]
+* [!DNL OSX]
+* [!DNL Windows Phone,] [!DNL XBOX,] [!DNL Silverlight,] et [!DNL .NET]
 * [!DNL BlackBerry]
 * Java
 * PHP
 * Symbian
 
-## Audience Manager {#aam}
+## [!DNL Audience Manager] {#aam}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -186,7 +186,7 @@ Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content
 * Correction
 * Correction
 
-## Experience Manager {#aem}
+## [!DNL Experience Manager] {#aem}
 
 Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
 
@@ -227,7 +227,7 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 * [Notes de mise à jour de Scene7 Publishing System](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Notes de mise à jour de Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-### Livefyre {#livefyre}
+### [!DNL Livefyre] {#livefyre}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -267,7 +267,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 * Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## [!DNL Advertising Cloud] {#adcloud}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -284,7 +284,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ## [!DNL Magento] {#magento}
 
-Pour les notes de mise à jour de Magento, veuillez consulter :
+For [!DNL Magento] release notes, see:
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
@@ -293,7 +293,7 @@ Pour les notes de mise à jour de Magento, veuillez consulter :
 
 [!DNL Marketo Engage] est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en engageant à chaque étape de parcours d’achat complexes.
 
-### Mises à jour de Core Marketo Engage
+### Mises à jour [!DNL Marketo Engage] principales
 
 Date de publication : 21 février 2020
 
@@ -341,7 +341,7 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | [!DNL Adobe Campaign] | Vidéo - [Création d’une notification Push](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/creating-a-push-notification.html) | Créez une notification Push dans Adobe Campaign Standard. Vous pouvez envoyer des notifications Push personnalisées et segmentées vers les appareils mobiles iOS et Android. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Vérification du statut d’une tâche d’ingestion de données](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/checking-status-of-data-ingestion-jobs.html) | Découvrez comment vérifier le statut d’une tâche d’ingestion de données et si les données ont été ingérées dans Adobe Experience Platform depuis Adobe Campaign Standard. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Modification du mappage des données](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | Découvrez comment vérifier le statut et modifier le mappage des données. |
-| [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des événements d’expérience](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | Découvrez comment mapper les événements d’expérience dans Adobe Experience Platform |
+| [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des événements d’expérience](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | Découvrez comment mapper les événements d’expérience dans Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des ressources personnalisées](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | Découvrez comment mapper différents types de données entre Adobe Campaign Standard et Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Compréhension du connecteur de données d’Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | Découvrez comment rendre vos données disponibles sur Adobe Experience Platform en mappant les données XTK (les données ingérées dans Campagne) aux données des modèles de données d’expérience (XDM) sur Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des données de tableau sources](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | Apprenez à mapper vos données sources ou vos profils de test avec Adobe Experience Platform. |
@@ -351,8 +351,8 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | [!DNL Adobe Target] - SDK Mobile | Tutoriel - [Personnaliser les expériences d’application avec Adobe Target](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | Mettez en œuvre Adobe Target dans votre propre application Android. Validez la configuration du SDK Mobile Services et implémentez des requêtes [!DNL Target] telles que la prérécupération de contenu, le blocage des requêtes, etc. |
 | Adobe Analytics | Vidéo - [Session extraordinaire de l’Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | Regardez des extraits de la session extraordinaire haute technologie du Summit 2019. |
 | Adobe Analytics | Vidéo - [Présentation des mesures calculées dans Analytics du parcours client](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | Découvrez les principes de base de la création de [!UICONTROL mesures calculées] dans [!UICONTROL Analytics du parcours client]. |
-| Adobe Analytics | Vidéo - [Session extraordinaire de l’Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Regardez des extraits de la session voyage et hospitalité du Summit 2019 |
-| Adobe Analytics | Vidéo - [Session extraordinaire de l’Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Regardez des extraits de la session vente au détail du Summit 2019 |
+| Adobe Analytics | Vidéo - [Session extraordinaire de l’Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | Regardez des extraits de la session voyage et hospitalité du Summit 2019. |
+| Adobe Analytics | Vidéo - [Session extraordinaire de l’Adobe Summit 2019](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | Regardez des extraits de la session vente au détail du Summit 2019. |
 | Adobe Analytics | Vidéo - [Cas d’utilisation client : le groupe Accent investit dans l’expérience client pour stimuler ses ventes](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | Découvrez comment le groupe Accent utilise Adobe Experience Cloud pour créer des expériences numériques en toute transparence. |
 | Adobe Analytics | Vidéo - [Cas d’utilisation client : ServiceNow obtient les bons insights pour se connecter aux prospects](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | Découvrez comment [!DNL ServiceNow] obtient des données exploitables de ses canaux marketing et améliore son retour sur investissement sur le référencement publicitaire payant avec Adobe Advertising Cloud et Adobe Analytics. |
 | Adobe Analytics | Vidéo - [Adobe Analytics - Plus que des données : intelligence du client](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | Découvrez un marketing piloté par les données et comment emmener la maturité de vos analyses des données aux insights, puis à l’action. |
