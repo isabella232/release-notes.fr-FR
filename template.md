@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 53e2135044074e22470887540fb641262c607bd3
+source-git-commit: 78a2b7841c4b404cc96b912cef2a3702c7e29ec8
 
 ---
 
@@ -26,18 +26,18 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 **Date de publication : 2020**
 
-* [État système de [!DNL Adobe]](#status)
-* [[!DNL Experience Cloud] et services [!UICONTROL principaux]](#ecloud)
+* [État du système Adobe](#status)
+* [Experience Cloud et services [!UICONTROL principaux]](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
-* [[!DNL  Gestionnaire ]](#aam)
-* [[!DNL Experience Manager]](#aem)
-* [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
-* [!DNL Advertising Cloud](#adcloud)
-* [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l’aide de la solution)
+* [Analytics](#analytics)
+* [Audience Manager](#aam)
+* [Experience Manager](#aem)
+* [Campaign](#ac)
+* [](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
+* [Advertising Cloud](#adcloud)
+* [Magento](#magento)
+* [Marketo](#marketo)
+* [Primetime](https://helpx.adobe.com/primetime/user-guide.html) (liens vers l’aide de la solution)
 * [Nouvelle documentation et nouveaux tutoriels](#selfhelp)
 
 Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
@@ -48,7 +48,7 @@ Fonctionnalités et correctifs.
 
 Voir [État du système Adobe](https://status.adobe.com/).
 
-## [!DNL Experience Cloud] et services [!UICONTROL principaux]{#ecloud}
+## Experience Cloud and [!UICONTROL core services]{#ecloud}
 
 Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud, notamment pour l’administration et les services principaux (attributs du client, audiences, déclencheurs, cookies, etc.).
 
@@ -113,9 +113,9 @@ Pour consulter la documentation du produit, voir [Mobile Services](https://docs.
 
 Pour en savoir plus sur les SDK Mobile, voir [SDK Android 4.x pour solutions Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/) et [SDK iOS 4.x pour solutions Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
-## [!DNL Analytics] {#analytics}
+## Analytics {#analytics}
 
-Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
+Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [SDK Media Analytics pour iOS et Android (anciennement SDK VHL)](#aa-va)
@@ -139,7 +139,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 | Fonctionnalité B | Texte |
 | Fonctionnalité C | Texte |
 
-### [!DNL Data Workbench] {#aa-dwb}
+### Data Workbench {#aa-dwb}
 
 Voir les [Notes de mise à jour de Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/) pour connaître les dernières informations.
 
@@ -171,7 +171,7 @@ Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content
 * PHP
 * Symbian
 
-## [!DNL Audience Manager] {#aam}
+## Audience Manager {#aam}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -186,7 +186,7 @@ Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content
 * Correction
 * Correction
 
-## [!DNL Experience Manager] {#aem}
+## Experience Manager {#aem}
 
 Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
 
@@ -242,7 +242,7 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 * Correction
 * Correction
 
-## [!DNL Social] {#soc}
+## Social {#soc}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -257,7 +257,7 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 * Correction
 * Correction
 
-## [!DNL Campaign] {#ac}
+## Campaign {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
@@ -267,7 +267,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 * Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## [!DNL Advertising Cloud] {#adcloud}
+## Advertising Cloud {#adcloud}
 
 | Fonction | Description |
 | -----------| ---------- |  
@@ -282,18 +282,18 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 * Correction
 * Correction
 
-## [!DNL Magento] {#magento}
+## Magento {#magento}
 
-For [!DNL Magento] release notes, see:
+Pour les notes de mise à jour de Magento, veuillez consulter :
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
 
-## [!DNL Marketo] {#marketo}
+## Marketo {#marketo}
 
-[!DNL Marketo Engage] est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en engageant à chaque étape de parcours d’achat complexes.
+Marketo Engage est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en s&#39;engageant à travers toutes les étapes de parcours d&#39;achat complexes.
 
-### Mises à jour [!DNL Marketo Engage] principales
+### Mises à jour de Core Marketo Engage
 
 Date de publication : 21 février 2020
 
@@ -304,7 +304,7 @@ Date de publication : 21 février 2020
    * API de règles de redirection de page d’entrée
 * **Mise en cache des descripteurs de formulaire** : Améliorations apportées aux pages d’entrée et aux formulaires.
 
-Pour plus d’informations, voir les Notes de mise à jour de [!DNL Marketo] de [février 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720).
+See Marketo release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
 
 ### Fonctionnalités à venir
 
