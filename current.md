@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 11dd1c361df84ef52b54734e2cbd231fce0cfda3
+source-git-commit: 84d38312b8486b99fe12ada6d358682e3ae43847
 
 ---
 
@@ -273,7 +273,7 @@ Mise à jour le 20 mars 2020 pour la version du 21 mars :
 | Affichage | Fonction |
 |------|---------|
 | [!UICONTROL Portfolios] | Pour obtenir des instructions sur la manière de gérer vos portefeuilles pour tenir compte des changements de trafic résultant de COVID-19, contactez votre gestionnaire de compte. |
-|  | (Campagnes Publicités Google et Publicités Microsoft) Dans les portefeuilles optimisés avec l’option &quot;Optimiser automatiquement les valeurs d’ajustement de l’offre&quot;, Advertising Cloud n’optimise plus automatiquement les paramètres d’ajustement de l’offre pour les campagnes à l’aide de la stratégie d’offre améliorée par clic (eCPC). Le moteur de recherche optimise tous les ajustements d&#39;offre au moment de l&#39;enchère. Advertising Cloud optimise toujours les offres de base et — lorsque l&#39;option &quot;Ajuster automatiquement les limites du budget de la campagne&quot; est activée — le budget de la campagne. |
+| Campagnes Publicités Google et Publicités Microsoft | Dans les portfolios optimisés avec l’option &quot;Optimiser automatiquement les valeurs d’ajustement de l’offre&quot;, Advertising Cloud n’optimise plus automatiquement les paramètres d’ajustement de l’offre pour les campagnes à l’aide de la stratégie d’offre améliorée par clic (eCPC). Le moteur de recherche optimise tous les ajustements d&#39;offre au moment de l&#39;enchère. Advertising Cloud optimise toujours les offres de base et — lorsque l&#39;option &quot;Ajuster automatiquement les limites du budget de la campagne&quot; est activée — le budget de la campagne. |
 | [!UICONTROL Alertes bêta] | (Fonction bêta) Vous pouvez désormais créer des modèles d’alerte afin d’identifier le moment où un portefeuille répond à des conditions spécifiques. comme les mesures de performances — pendant une période spécifiée, puis générez une alerte. Vous pouvez créer des alertes au niveau du portefeuille depuis **[!UICONTROL Insights &amp; Reports]** > **[!UICONTROL Alertes (bêta)]** , mais pas depuis **[!UICONTROL Optimisation]** > **[!UICONTROL Portfolios).]** **Remarque :** Les alertes créées à partir de la version héritée d’Alertes bêta, qui a été remplacée en janvier, ne sont plus disponibles. |
 |  |
 | [!UICONTROL Admin] > Propriétés de [!UICONTROL la transaction] | Une nouvelle colonne &quot;ID de propriété&quot; affiche l’ID de propriété unique pour chaque propriété de transaction. Vous pouvez rechercher n’importe quelle chaîne contenue dans les valeurs de colonne. |
