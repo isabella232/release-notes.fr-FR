@@ -4,8 +4,8 @@ description: Modèle des notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
+translation-type: tm+mt
+source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 
 ---
 
@@ -60,7 +60,7 @@ Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adob
 | Expérience personnalisée orientée sur les préférences de l’utilisateur | <ul><li>Les préférences de fuseau horaire basées sur le paramètre du navigateur sont utilisées dans les notifications par courrier électronique.</li><li>Confirmation par courrier électronique envoyée lors de l’abonnement/du désabonnement avec toutes les préférences sélectionnées.</li></ul> |
 | Meilleure diffusion des messages d’événement | <ul><li>Historique des événements trié selon les mises à jour chronologiques des événements.</li><li>Date et heure de la résolution de l’événement ajoutée aux publications fermées majeures/mineures.</li></ul> |
 
-## ![Icône](/assets/experience-cloud.png) Interface d’Experience Cloud et services principaux {#ecloud}
+## ![Icône](/assets/ec_appicon_24.png) Interface d’Experience Cloud et services principaux {#ecloud}
 
 Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud, notamment pour l’administration et les services principaux (attributs du client, audiences, déclencheurs, cookies, etc.).
 
@@ -86,7 +86,7 @@ Les mises à jour comprennent les éléments suivants :
 
 Pour consulter la documentation du produit, consultez l’aide [Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html).
 
-## ![Icône](/assets/platform.png) Experience Platform {#platform}
+## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Notes de mise à jour d’[!UICONTROL Experience Platform], d’[!UICONTROL Experience Platform Launch], d’[!UICONTROL Identity Service], de Journey Orchestration, de Mobile Services et des bulletins de sécurité.
 
@@ -321,7 +321,7 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 
 Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
 
-## ![Icône](/assets/experience-cloud.png) Nouvelle documentation et nouveaux tutoriels {#selfhelp}
+## ![Icône](/assets/ec_appicon_24.png) Nouvelle documentation et nouveaux tutoriels {#selfhelp}
 
 Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
