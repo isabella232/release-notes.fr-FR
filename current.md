@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
+source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
 
 ---
 
@@ -29,7 +29,7 @@ Dernière mise à jour : 11 mars 2020
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud et services principaux](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - Date de lancement : **12 mars 2020** (mise à jour : 27 mars 2020)
+* [!DNL Analytics](#analytics) - Date de lancement : **12 mars 2020** (Mise à jour le 7 avril 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -128,7 +128,7 @@ Date de la version : **12 mars 2020**
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 * [Nouvelles fonctionnalités, améliorations et correctifs d’Adobe Analytics](#aa-features)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (mise à jour : 27 mars 2020)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mise à jour le 7 avril 2020)
 * [AppMeasurement](#appm)
 
 Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html).
@@ -153,6 +153,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 | Avis | Date d’ajout    ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
+| Modification du mode de calcul des entrées/sorties dans Workspace | 7 avril 2020 | Dans  Espace de travail , depuis mars 2020, nous avons modifié la manière dont la valeur &quot;Aucun&quot; interagit avec les entrées/sorties. Comme vous pouvez désormais activer et désactiver l’option &quot;Non&quot; dans  Workspace , nous appliquons l’option &quot;Aucun&quot; après l’entrée ou la sortie, alors que (pour les eVars) elle était appliquée avant. Supposons, par exemple, que le premier accès d’une visite n’ait aucune valeur pour eVarx, contrairement au second accès. Dans les rapports et analyses, il s’affichera comme &quot;Non spécifié&quot; pour l’entrée, mais dans  espace de travail , il s’affichera comme la valeur du second accès. |
 | Abandon du paramètre **[!UICONTROL Niveau de conversion]** | 3 mars 2020 | Le paramètre [Niveau de conversion](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/general-acct-settings-admin.html) qui ne fonctionnait pas dans **[!UICONTROL Outils d’administration] > [!UICONTROL Suite de rapports] > [!UICONTROL Paramètres du compte général]** sera supprimé de l’interface utilisateur le 12 mars 2020. |
 | Abandon de l’**[!UICONTROL archive de tableau de bord]** | 27 mars 2020 | Le paramètre **[!UICONTROL Afficher l’archive]** sous **[!UICONTROL Gérer les tableaux de bord]** dans [!UICONTROL Reports &amp; Analytics] ne sera plus disponible à compter du mois d’octobre 2020. |
 | Fin de la prise en charge de TLS 1.1 | 3 octobre 2019 | D’ici le 31 mars 2020, Adobe Analytics supprimera la prise en charge de TLS 1.1. Ce changement s’inscrit dans le cadre des efforts que nous déployons pour respecter les meilleures normes de sécurité et promouvoir la sécurité des données de nos clients. |
