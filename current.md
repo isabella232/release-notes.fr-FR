@@ -63,7 +63,7 @@ Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Clou
 
 | Fonction | Date de publication | Description |
 | ----|----|---- |
-| Outil d’administration - Affichage des détails utilisateur | 26 février 2020 | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Voir l’aide de [l’outil d’administration Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) pour en savoir plus. |
+| Outil d’administration - Affichage des détails utilisateur | 26 février 2020 | Les administrateurs peuvent afficher une liste triable et filtrable de tous les utilisateurs d’Experience Cloud et de leurs détails dans le nouvel outil d’administration. Les détails de l’utilisateur incluent l’accès au produit d’un utilisateur, ses rôles et les informations de dernier accès. Voir l’aide de [l’outil d’administration Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) pour en savoir plus. |
 
 ### Domaine de produit unifié
 
