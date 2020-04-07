@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
+source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 ---
 
@@ -16,15 +16,12 @@ source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
 
 Nouvelles fonctionnalités et correctifs d’[!DNL Adobe Experience Cloud].
 
->[!IMPORTANT]
->Cette page comporte du contenu publié avant la date de publication et peut faire l’objet de modifications avant la publication planifiée.
-
 >[!NOTE]
->Abonnez-vous à [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) pour être averti par e-mail de la publication des prochaines versions. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
+>Abonnez-vous à [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) (mises à jour produit prioritaires d’Adobe) pour être averti par e-mail de la publication des prochaines versions. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
 
 **Date de publication : mars 2020**
 
-Dernière mise à jour : 11 mars 2020
+Latest update: **March 11, 2020**
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud et services principaux](#ecloud)
