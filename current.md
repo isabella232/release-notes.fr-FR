@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3e124e820e573047298f878cf8cb2bf2a6b7f7dd
+source-git-commit: 87f42aedd2b8c987b092c614468d536fa48ae724
 
 ---
 
@@ -165,6 +165,10 @@ Voir la page d’accueil [de l’aide d’](https://docs.adobe.com/content/help/
 ## ![Icône](/assets/audience-manager.png) Audience Manager {#aam}
 
 Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager:
+
+| Fonction | Description |
+| -----------| ---------- |  
+| [Principaux problèmes du service clientèle](../support-issues/support-issues-overview.md) | Nous avons ajouté une nouvelle section à notre portail de documentation, qui contient des réponses aux questions les plus fréquentes de notre équipe d’assistance clientèle. |
 
 * Correction d’un problème en raison duquel les boutons [!UICONTROL Test]  et Modèle [!UICONTROL d’allocation de] et Test [!UICONTROL et] du laboratoirede de ne fonctionnaient pas. (AAM-53388)
 * Correction d’un problème qui entraînait l’affichage du [!UICONTROL adressable au taux] de [!UICONTROL correspondance et au] segment sur 0 lorsqu’une destination était configurée pour exporter des UUID. Le taux [!UICONTROL de] correspondance et le  de segment adressable aux  s’affichent désormais sous la forme 100 %. (AAM-51615)
