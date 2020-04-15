@@ -116,7 +116,7 @@ Unity 4.19.0 (10 mars 2020):
 
 >[!IMPORTANT]
 >
->La version de maintenance d’Adobe Analytics d’avril est passée au 21 mai 2020. Pour obtenir les dernières informations sur la version d’Analytics, reportez-vous aux notes de mise à jour de [mars.](c-legacy-releases\2020\03122020.md)
+>La version de maintenance d’Adobe Analytics d’avril est passée au 21 mai 2020. Pour obtenir les dernières informations sur la version d’Analytics, reportez-vous aux notes de mise à jour de [mars.](c-legacy-releases/2020/03122020.md)
 
 <!-- * [New features, enhancements, and fixes in Adobe Analytics](#aa-features)
 * [Important notices for Analytics administrators](#aa-notices) (Updated April 7, 2020)
