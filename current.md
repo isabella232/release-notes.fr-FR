@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 41c551a6c2e3e8b621abacb5afe2240c30b851da
+source-git-commit: be1e03f7420ea4a1bd9c2797a087cbb42246049c
 
 ---
 
@@ -31,7 +31,7 @@ Nouvelles fonctionnalités et correctifs pour [!DNL Adobe Experience Cloud].
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud et services principaux](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (Modification de la date de **publication - voir mise à jour le 15 avril**)
+* [!DNL Analytics](#analytics) **(Modification de la date de publication - voir mise à jour le 15 avril)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
