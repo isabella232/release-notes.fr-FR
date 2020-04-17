@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 
 ---
 
@@ -26,7 +26,7 @@ Nouvelles fonctionnalités et correctifs pour [!DNL Adobe Experience Cloud].
 
 **Date de publication : 2020 avril **
 
-(Les dates de publication des solutions spécifiques peuvent varier.)
+(Les dates de publication spécifiques peuvent varier.)
 
 * [État du système Adobe](#status)
 * [Experience Platform](#platform)
@@ -34,10 +34,10 @@ Nouvelles fonctionnalités et correctifs pour [!DNL Adobe Experience Cloud].
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers la page d’aide de la solution)
+* [!DNL Target](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers la page d’aide  du)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/fr/primetime/user-guide.html) (liens vers la page d’aide de la solution)
+* [!DNL Primetime](https://helpx.adobe.com/fr/primetime/user-guide.html) (liens vers la page d’aide de Primetime)
 
 Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html).
 
@@ -71,9 +71,9 @@ Adobe met à jour l’en-tête de domaine et d’interface afin d’unifier et d
 
 Les mises à jour comprennent les éléments suivants :
 
-* Nouvelles URL de solution : `experience.adobe.com/<application name>` :
+* Nouvelles URL d’application : `experience.adobe.com/<application name>`:
    * À terme, tous les produits adopteront ce modèle d’URL. Recherchez de nouvelles URL pour qu’elles prennent effet tout au long du mois.
-   * Navigateurs pris en charge : [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] et [!DNL Opera] (versions les plus récentes). **Remarque** : bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, les solutions individuelles peuvent ne pas tous les prendre en charge. (Par exemple, [Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera] et [Target](https://docs.adobe.com/help/fr-FR/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
+   * Navigateurs pris en charge : [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] et [!DNL Opera] (versions les plus récentes). **Remarque :** Bien que l’interface d’Experience Cloud prenne en charge ces navigateurs, il se peut que les applications individuelles ne prennent pas en charge tous les navigateurs. (Par exemple, [Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) ne prend pas en charge [!DNL Opera] et [Target](https://docs.adobe.com/help/fr-FR/target/using/implement-target/before-implement/supported-browsers.html) ne prend pas en charge [!DNL Safari].)
    * ([!DNL Safari] uniquement) Le changement de domaine peut entraîner des problèmes de cookies dans [!DNL Safari]. En désactivant la case à cocher _Empêcher le suivi sur plusieurs domaines_ dans les préférences de confidentialité de [!DNL Safari], vous activez les cookies sur plusieurs domaines (et toutes les expériences sur plusieurs sites) et permettez ainsi à Experience Cloud de fonctionner sur ce nouveau domaine.
 * Il est plus facile de basculer entre vos organisations ou vers une autre application.
 * Amélioration de l’aide des produits : [!UICONTROL Experience League] est intégré dans le produit afin qu’une recherche d’aide comprenne également les résultats des forums de la communauté et du contenu vidéo. Cette modification simplifie l’accès à davantage de contenu et vous permet de tirer le meilleur parti d’Experience Cloud. De plus, vous pouvez cliquer sur **[!UICONTROL Aide]** > **[!UICONTROL Commentaires]** pour signaler des problèmes ou partager vos idées avec Adobe.
@@ -194,7 +194,7 @@ Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager:
 * Correction d’un problème en raison duquel les boutons [!UICONTROL Test]  et Modèle [!UICONTROL d’allocation de] et Test [!UICONTROL et] du laboratoirede de ne fonctionnaient pas. (AAM-53388)
 * Correction d’un problème qui entraînait l’affichage du [!UICONTROL adressable au taux] de [!UICONTROL correspondance et au] segment sur 0 lorsqu’une destination était configurée pour exporter des UUID. Le taux [!UICONTROL de] correspondance et le  de segment adressable aux  s’affichent désormais sous la forme 100 %. (AAM-51615)
 * Correction d’un problème en raison duquel les noms de caractéristiques contenant des caractères spéciaux étaient codés deux fois au format HTML. (AAM-54001)
-* Correction d’un problème qui empêchait certains utilisateurs de passer à d’autres solutions Adobe Experience Cloud à partir de l’interface [!DNL Audience Manager] utilisateur. (AAM-52917)
+* Correction d’un problème qui empêchait certains utilisateurs de passer à d’autres applications Adobe Experience Cloud à partir de l’interface [!DNL Audience Manager] utilisateur. (AAM-52917)
 * Correction d’un problème qui empêchait certains utilisateurs de créer une source de données SHA256 pour les destinations basées sur les personnes. (AAM-53525)
 * Plusieurs améliorations de l’accessibilité dans l’interface. (AAM-48986, AAM-49009, AAM-48984, AAM-48939, AAM-48940, AAM-48964, AAM-49032, AAM-49360)
 
@@ -307,7 +307,7 @@ Pour les notes de mise à jour de Magento, veuillez consulter :
 
 ## ![Icône](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage] est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en engageant à chaque étape de parcours d’achat complexes.
+[!DNL Marketo Engage] est une application complète destinée à la gestion des pistes et aux spécialistes du marketing B2B qui cherchent à transformer les expériences des clients en s&#39;engageant à travers chaque étape de parcours d&#39;achat complexes.
 
 ### Mises à jour de Core Marketo Engage
 
