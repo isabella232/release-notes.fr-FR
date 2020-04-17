@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
+source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ---
 
@@ -29,7 +29,7 @@ Nouvelles fonctionnalités et correctifs pour [!DNL Adobe Experience Cloud].
 (Les dates de publication des solutions spécifiques peuvent varier.)
 
 * [État du système Adobe](#status)
-* [Interface d’Experience Cloud et services principaux](#ecloud)
+* [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(Modification de la date de publication - voir mise à jour le 15 avril)**
 * [Audience Manager](#aam)
@@ -57,9 +57,9 @@ Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adob
 |  personnalisé  en fonction des droits | <ul><li> présélectionnée  recommandations de en fonction des droits DX de l’utilisateur.</li><li>Les   recommandées sont mises en surbrillance en haut de l’de produit pour une visualisation rapide.</li><li>Les notifications électroniques reçues sont pertinentes pour les droits de l’utilisateur sur les produits.</li></ul> |
 | Gestion plus facile des  de  | <ul><li>**[!UICONTROL Gérer]** a une nouvelle expérience utilisateur pour gérer à la fois les produits et les dede l’ de l’.</li><li>Nouvelle option permettant de  et de modifier les produits et les  lede produits séparément.</li><li>L&#39;option **[!UICONTROL Supprimer]** vous permet de vous désabonner d&#39;un produit ou d&#39;un  .</li><li>L’option **[!UICONTROL Désabonner tout]** en un clic est disponible pour le produit  .</li><li>La prise en charge de l&#39;UX est disponible pour les surfaces Web/Mobile/Tablette et les  en 19 langues.</li></ul> |
 
-## ![Icône](/assets/ec_appicon_24.png) Interface d’Experience Cloud et services principaux {#ecloud}
+## ![Interface d’Icon](/assets/ec_appicon_24.png) Experience Cloud {#ecloud}
 
-Nouvelles fonctionnalités et correctifs de l’interface d’Experience Cloud, y compris l’administration et les services principaux (attributs du client,  de , déclencheurs, cookies, etc.) :
+Nouvelles fonctionnalités et correctifs de l’interface d’Experience Cloud, y compris l’administration et les services tels que les attributs du client, les  , les déclencheurs, etc.) :
 
 * La page [!UICONTROL Flux] Experience Cloud était obsolète. (EXC-8505)
 * La page de connexion à Experience Cloud a été mise à jour pour refléter les nouveaux éléments de marque. (EXC-10747)
@@ -233,7 +233,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 
    Vous pouvez désormais publier des ressources à partir d’AEM Assets en tant que service Cloud vers AEM Assets Brand Portal.
 
-   Voir [Configuration des ressources AEM avec le portail](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) de marque et [Publication des ressources sur le portail](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/publish-to-brand-portal.html)de marque.
+   Voir [Configuration des ressources AEM avec le portail](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) de marque et [Publication des ressources sur le portail](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/publish-to-brand-portal.html)de marque.
 
 * **Adobe Asset Link 2.0 version**
 
