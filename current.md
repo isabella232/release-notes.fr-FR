@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
+source-git-commit: f2687895a6795bb636ddb5c10f60fe9d6231e8c5
 
 ---
 
@@ -29,7 +29,6 @@ Nouvelles fonctionnalités et correctifs pour [!DNL Adobe Experience Cloud].
 (Les dates de publication des solutions spécifiques peuvent varier.)
 
 * [État du système Adobe](#status)
-* [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(Modification de la date de publication - voir mise à jour le 15 avril)**
 * [Audience Manager](#aam)
@@ -59,7 +58,7 @@ Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adob
 
 ## ![Interface d’Icon](/assets/ec_appicon_24.png) Experience Cloud {#ecloud}
 
-Nouvelles fonctionnalités et correctifs de l’interface d’Experience Cloud, y compris l’administration et les services tels que les attributs du client, les  , les déclencheurs, etc.) :
+Nouvelles fonctionnalités et correctifs de l’interface d’Experience Cloud:
 
 * La page [!UICONTROL Flux] Experience Cloud était obsolète. (EXC-8505)
 * La page de connexion à Experience Cloud a été mise à jour pour refléter les nouveaux éléments de marque. (EXC-10747)
@@ -81,7 +80,7 @@ Les mises à jour comprennent les éléments suivants :
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Notes de mise à jour d’[!UICONTROL Experience Platform], d’[!UICONTROL Experience Platform Launch], d’[!UICONTROL Identity Service], de Journey Orchestration, de Mobile Services et des bulletins de sécurité.
+Notes de mise à jour pour [!DNL Experience Platform,] l’orchestration [!DNL Experience Platform Launch,] de [!UICONTROL Journey, le][!UICONTROL , les]personnes, les de [!UICONTROL Journey, le de services mobiles et les bulletins de sécurité.]
 
 ### Orchestration du parcours {#journey}
 
