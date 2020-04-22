@@ -1,6 +1,6 @@
 ---
 source-git-commit: 33e804cd274c9b612a78f49059890c317736c091
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Fichier Lisez-moi inutilisé pour les ressources
+# Fichier Lisez-moi non utilisé pour les ressources
