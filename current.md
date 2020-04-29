@@ -4,8 +4,8 @@ description: Modèle des notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
+translation-type: tm+mt
+source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 ---
 
@@ -22,11 +22,13 @@ Nouvelles fonctionnalités et correctifs pour [!DNL Adobe Experience Cloud].
 
 **Date de publication : avril 2020**
 
+Dernière mise à jour : 29 **avril 2020**
+
 (Les dates de publication spécifiques peuvent varier.)
 
 * [État du système Adobe](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) **(Mise à jour le 16 avril)**
+* [!DNL Analytics](#analytics) **(Mise à jour le 29 avril)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -123,6 +125,7 @@ Unity 4.19.0 (10 mars 2020) :
 
 | Fonction | Description |
 | -----------| ---------- |
+| Data Workbench 6.74 (**Update 4/29/2020**) | Mise à jour de l’analyse du certificat TLS (IMS) du service de gestion des identités dans l’implémentation du serveur. Cette mise à jour étend l&#39;analyse des correspondances de chaînes à des   ordinaires, y compris la capacité de gérer les certificats de nom alternatif (SAN) du sujet. See [Data Workbench release notes](https://docs.adobe.com/content/help/en/data-workbench/using/release-notes/release-notes.html) for more information. |
 | [!UICONTROL Customer Journey Analytics] : renvoi des jeux de données automatisé | Cette nouvelle option vous permet d’importer toutes les données historiques d’une connexion à [!UICONTROL Customer Journey Analytics]. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.translate.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
