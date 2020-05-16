@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
+source-git-commit: ea42901b975981a10d42b9681d494604c385018c
 workflow-type: tm+mt
-source-wordcount: '4764'
+source-wordcount: '4766'
 ht-degree: 39%
 
 ---
@@ -50,6 +50,8 @@ Besoin d&#39;aide ? Visitez [[ !DNL Adobe Experience League]](https://experience
 
 [!UICONTROL État du système Adobe] fournit des informations détaillées, des mises à jour d’état et des notifications par e-mail relatives aux produits cloud Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/).
 
+Date de mise à jour : **21 mai 2020**
+
 **Nouveautés**
 
 * Avec votre Adobe ID, vous pouvez vous abonner à des notifications d’événement avec plus de granularité et associées au niveau de l’offre de produit et des modules complémentaires. Pour vous aider à configurer votre abonnement plus rapidement, le processus d’auto-abonnement recommande désormais une sélection de produits et d’offres en fonction de vos droits sur les produits. Cela devrait réduire le nombre de courriers électroniques que vous recevez et fournir des notifications plus pertinentes dans votre boîte de réception. Rendez-vous sur [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit).
@@ -58,7 +60,7 @@ Besoin d&#39;aide ? Visitez [[ !DNL Adobe Experience League]](https://experience
 
 | Fonction | Description |
 | -----------| ---------- |
-| Amélioration de l’expérience utilisateur pour les abonnements et les notifications | <ul><li>[!DNL Marketo Engage] les emplacements régionaux sont désormais filtrés en fonction de la liste des offres de produits sélectionnées.</li><li>[!DNL Marketo Engage] les notifications par courrier électronique sont pertinentes pour la région, l’emplacement et les préférences d’environnement d’un utilisateur.</li></ul> |
+| Amélioration de l’expérience utilisateur pour les abonnements et les notifications | <ul><li>[!DNL Marketo Engage] les emplacements régionaux sont désormais filtrés en fonction de la liste des offres de produits sélectionnées.</li><li>[!DNL Marketo Engage] les notifications par courrier électronique sont pertinentes pour la région, l’emplacement et les préférences d’environnement de l’utilisateur.</li></ul> |
 | Confirmation d&#39;abonnement Événement | <ul><li>Vous pouvez désormais obtenir une confirmation par courrier électronique lorsque vous vous abonnez à des mises à jour en événement unique en cours.</li></ul> |
 | Améliorations de la convivialité de la navigation globale | <ul><li>Expérience cohérente de l’utilisateur avec `Adobe.com` le menu de navigation de niveau supérieur.</li></ul> |
 
