@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ea42901b975981a10d42b9681d494604c385018c
+source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
 workflow-type: tm+mt
 source-wordcount: '4766'
 ht-degree: 39%
@@ -29,7 +29,7 @@ Cette page fournit de nouvelles fonctionnalités, des correctifs et des avis imp
 
 **Date de publication : mai 2020**
 
-Dernière mise à jour : **15 mai 2020**
+Dernière mise à jour : **16 mai 2020**
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
