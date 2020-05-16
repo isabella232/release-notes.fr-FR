@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b41cdd18c7e3251218bf41aee62979e5f79a4c2a
+source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
 workflow-type: tm+mt
-source-wordcount: '4722'
-ht-degree: 40%
+source-wordcount: '4764'
+ht-degree: 39%
 
 ---
 
@@ -345,39 +345,41 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Campaign Standard
 
-Version du Panneau de configuration :
-
-| Fonction | Description |
-| -----------| ---------- |  
-| Gestion des clés GPG | Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes. |
-| Gestion des certificats pour les sous-domaines CNAME | Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. |
-
-* [Adobe Campaign Standard 20.3](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html)
+* [Adobe Campaign Standard version 20.3](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html)
 
 ### Campaign Classic
 
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### Nouveaux tutoriels Campaign Standard {#tutorials-acs}
+### Panneau de configuration Campaign
+
+| Fonction | Description |
+| -----------| ---------- |  
+| Gestion des clés GPG | Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes. |
+| Gestion des certificats pour les sous-domaines CNAME | Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. |
+
+### Didacticiels sur les nouvelles campagnes
+
+* Nouveaux tutoriels Campaign Standard
 
 | Contenu | Description |
 | -----------| ---------- |  
 | [Panneau de configuration - Gestion des enregistrements Google TXT](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | Découvrez comment ajouter des enregistrements de vérification de site Google TXT à tous les sous-domaines utilisés pour envoyer des courriers électroniques aux adresses GMAIL à l’aide du Panneau de configuration Campaign. |
 | [Configuration et exécution d’un processus avec l’activité d’API externe](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | Découvrez comment appeler un point de terminaison de l’API REST externe à l’aide de l’activité API externe. |
-| (ACS) [Prise en main des notifications Push pour Android-Tutorial](https://jira.corp.adobe.com/browse/KT-3846) | Ce didacticiel explique les étapes nécessaires à la configuration des notifications Push avec ACS et les applications Android. |
+| (ACS) [Prise en main des notifications Push pour Android-Tutorial](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | Ce didacticiel explique les étapes nécessaires à la configuration des notifications Push avec Campaign Standard et l&#39;application Android. |
 
-### New Campaign Classic tutorials {#tutorials-acc}
+* Nouveaux didacticiels Campaign Classic
 
 | Contenu | Description |
 | -----------| ---------- |  
 | [Grand data Management sur Snowflake](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Découvrez comment tirer parti du connecteur Snowflake dans Adobe Campaign Classic. |
 | [Panneau de configuration - Gestion des enregistrements Google TXT](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html) | Découvrez comment ajouter des enregistrements de vérification de site Google TXT à tous les sous-domaines utilisés pour envoyer des courriers électroniques aux adresses GMAIL à l’aide du Panneau de configuration Campaign. |
 
-### Ressources d’aides supplémentaires pour Campaign
+### Ressources d’aide Campaign
 
-* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/fr/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) – [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/fr/support/campaign/classic.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.translate.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard : [Centre](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/campaign-standard-home.html) d’aide - Notes [de](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) mise à jour - Vidéos [pratiques - Planification](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) des [](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll) versions - Dernières mises à jour de la documentation (https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)[]
+* Adobe Campaign Classic : [Centre](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html) d’aide - Notes [de](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.translate.html) mise à jour - Vidéos [pratiques -](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)Dernières mises à jour [] de la documentation (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
 
 ## ![Icône](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
