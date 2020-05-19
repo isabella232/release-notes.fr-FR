@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e10656f2a2d2180295c61b7aad9e75391e23ccbd
+source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
 workflow-type: tm+mt
-source-wordcount: '4800'
+source-wordcount: '4798'
 ht-degree: 39%
 
 ---
@@ -160,7 +160,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | Prise en charge d’Analytics pour [!UICONTROL Adobe Experience Platform Edge Network] | Permet d’utiliser une balise unique pour envoyer des données à plusieurs solutions Adobe, telles qu’Adobe Analytics, Adobe Cible, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profil et Experience Cloud ID Service. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/experience-platform/edge/home.html) |
 | [!UICONTROL tableaux de bord Adobe Analytics] | [!UICONTROL Adobe Analytics tableaux de bord] est une application mobile qui permet aux utilisateurs, à tout moment et en tout lieu, d’accéder aux informations d’Adobe Analytics. Cette application est destinée aux cadres qui recherchent un accès en ligne à des mesures clés. Il permet d’accéder à des cartes de performance interactives et organisées et sera disponible pour les systèmes d’exploitation iOS et Android. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL  : crée automatiquement des tableaux à structure libre à partir d’un état vide] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. En outre, des améliorations ont été apportées à la façon dont les types de composants mixtes (tels que les dimensions et les mesures) sont traités lorsqu’ils sont déposés ensemble dans un tableau à structure libre vierge. |
-| [!UICONTROL Package] Adobe Analytics ajouté à la page Niveau [!UICONTROL d’accès aux] fonctionnalités | Vous pouvez maintenant vue à quel module  Adobe Analytics (SKU) votre société a droit sur la page [!UICONTROL Admin] > Paramètres [!UICONTROL de] Société > Niveau d’accès aux [!UICONTROL fonctionnalités.] |
+| [!UICONTROL Package] Adobe Analytics ajouté à la page Niveau [!UICONTROL d’accès aux] fonctionnalités | Vous pouvez désormais vue à quel module  Adobe Analytics (SKU) votre société a droit dans **[!UICONTROL Admin]** > Paramètres **[!UICONTROL de]** Société > Niveau d’accès aux **[!UICONTROL fonctionnalités.]** |
 
 #### Correctifs d’Adobe Analytics
 
