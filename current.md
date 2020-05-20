@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
+source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
 workflow-type: tm+mt
-source-wordcount: '4798'
-ht-degree: 39%
+source-wordcount: '4811'
+ht-degree: 40%
 
 ---
 
@@ -97,6 +97,10 @@ Les applications suivantes utilisent le nouveau domaine experience.adobe.com :
 | Places Service | `experience.adobe.com/places` |
 | Distribution logicielle | `experience.adobe.com/downloads` |
 | Outil d’administration (bêta) | `experience.adobe.com/admin` |
+
+>[!NOTE]
+>
+>**[!UICONTROL Le panorama et les collections]**, un filtre hérité dans le sélecteur de ressources  Marketing Cloud, est en cours de désaffectation.
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -359,8 +363,8 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 | Fonction | Description |
 | -----------| ---------- |  
-| Gestion des clés GPG | Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes. |
-| Gestion des certificats pour les sous-domaines CNAME | Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. |
+| Gestion des clés GPG | Installez et/ou générez des clés GPG sur une instance marketing pour crypter les données envoyées depuis Campaign et décrypter les données entrantes. |
+| Gestion des certificats pour les sous-domaines CNAME | Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. |
 
 ### Didacticiels sur les nouvelles campagnes
 
