@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c0a5d3cca0320f8459aeb4ee34bfd655d032c23c
+source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
 workflow-type: tm+mt
-source-wordcount: '4895'
-ht-degree: 39%
+source-wordcount: '5024'
+ht-degree: 38%
 
 ---
 
@@ -144,6 +144,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 * [Nouvelles fonctionnalités de l’analyse du parcours des clients](#cust-journey)
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Avis importants à l’intention des administrateurs](#aa-notices) d’Analytics (**Mis à jour le 21 mai 2020**)
+* [Correctifs](#aa-fixes) d’Adobe Analytics (**Mis à jour le 21 mai 2020**)
 * [AppMeasurement](#appm)
 * [Nouveaux tutoriels Analytics](#tutorials-analytics)
 
@@ -167,8 +168,10 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Package] Adobe Analytics ajouté à la page Niveau [!UICONTROL d’accès aux] fonctionnalités | Vous pouvez désormais vue à quel module  Adobe Analytics (SKU) votre société a droit dans **[!UICONTROL Admin]** > Paramètres **[!UICONTROL de]** Société > Niveau d’accès aux **[!UICONTROL fonctionnalités.]** |
 | Améliorations de l’accessibilité | L’équipe Adobe Analytics a apporté plusieurs améliorations d’accessibilité à Analyse Workspace, notamment une amélioration de la navigation au clavier, du contraste des couleurs et de la prise en charge des lecteurs d’écran. |
 
-#### Correctifs d’Adobe Analytics
+#### Correctifs d’Adobe Analytics (#aa-fixes)
 
+* Adobe a modifié la mesure [!UICONTROL Durée de la visite] pour ne jamais inclure &quot;aucune&quot;. Cela signifie que, que l’interface utilisateur dise d’inclure aucune exception ou non, nous faisons une exception spéciale pour toujours exclure &quot;aucune&quot; dans le calcul de la [!UICONTROL durée de la visite] . Par conséquent, même si vous avez configuré un rapport qui incluait la mesure [!UICONTROL Durée de la visite] pour qu’il n’en comporte aucune, il renvoie toujours 0 temps passé pour la ligne &quot;aucun&quot; élément. Notez que cela peut modifier le rapports historique dans les rapports et analyses ainsi que l’API de Rapports v1.4. (AN-197958)
+* Correction d’un problème en raison duquel l’instance, la visite ou le Visiteur n’était pas comptabilisé dans le dénominateur pour les mesures [!UICONTROL Durée de la visite] .  Cela se produit lorsqu’un accès sans valeur pour la dimension (par exemple, [!UICONTROL Nom]de page) suit la même seconde. (AN-211074)
 * Fixed an issue that caused missing [!DNL Analytics] segment data in Audience Manager. (AN-206221)
 * Correction d’un problème concernant le traitement des [!UICONTROL sources de données] qui affichait les mauvaises dates. (AN-213604)
 * Correction d’un problème empêchant le chargement correct des fichiers de classification vers le FTP. (AN-214102)
