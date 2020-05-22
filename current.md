@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
+source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
 workflow-type: tm+mt
 source-wordcount: '4998'
 ht-degree: 38%
@@ -166,8 +166,8 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### Correctifs d’Adobe Analytics (#aa-fixes)
 
-* Adobe a modifié la mesure [!UICONTROL Durée de la visite] pour ne jamais inclure &quot;aucune&quot;. Cela signifie que, que l’interface utilisateur dise d’inclure aucune exception ou non, nous faisons une exception spéciale pour toujours exclure &quot;aucune&quot; dans le calcul de la [!UICONTROL durée de la visite] . Par conséquent, même si vous avez configuré un rapport qui incluait la mesure [!UICONTROL Durée de la visite] pour qu’il n’en comporte aucune, il renvoie toujours 0 temps passé pour la ligne &quot;aucun&quot; élément. Notez que cela peut modifier le rapports historique dans les rapports et analyses ainsi que l’API de Rapports v1.4. (AN-197958)
-* Correction d’un problème en raison duquel l’instance, la visite ou le Visiteur n’était pas comptabilisé dans le dénominateur pour les mesures [!UICONTROL Durée de la visite] .  Cela se produit lorsqu’un accès sans valeur pour la dimension (par exemple, [!UICONTROL Nom]de page) suit la même seconde. (AN-211074)
+* Adobe a modifié la mesure [!UICONTROL Durée de la visite] pour ne jamais inclure &quot;Non spécifié&quot; dans le calcul. Cela signifie que, que l’interface utilisateur dise d’inclure &quot;Non spécifié&quot;, nous faisons une exception spéciale pour toujours exclure &quot;Non spécifié&quot; dans le calcul de la [!UICONTROL durée de la visite] . Par conséquent, même si vous avez configuré un rapport contenant la mesure [!UICONTROL Durée de la visite] pour inclure &quot;Non spécifié&quot;, il renvoie toujours 0 temps passé pour l’élément de ligne &quot;Non spécifié&quot;. Notez que cela peut modifier le rapports historique dans les rapports et analyses ainsi que l’API de Rapports v1.4. (AN-197958)
+* Correction d’un problème en raison duquel l’instance, la visite ou le Visiteur n’était pas comptabilisé dans le dénominateur pour les mesures [!UICONTROL Durée de la visite] .  Cela se produit lorsqu’un accès sans valeur pour la dimension (par exemple, [!UICONTROL Nom]de page) est suivi dans la même seconde. (AN-211074)
 * Fixed an issue that caused missing [!DNL Analytics] segment data in Audience Manager. (AN-206221)
 * Correction d’un problème concernant le traitement des [!UICONTROL sources de données] qui affichait les mauvaises dates. (AN-213604)
 * Correction d’un problème empêchant le chargement correct des fichiers de classification vers le FTP. (AN-214102)
