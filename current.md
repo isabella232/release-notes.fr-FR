@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
+source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '4997'
 ht-degree: 38%
 
 ---
@@ -164,7 +164,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Package] Adobe Analytics ajouté à la page Niveau [!UICONTROL d’accès aux] fonctionnalités | Vous pouvez désormais vue à quel module  Adobe Analytics (SKU) votre société a droit dans **[!UICONTROL Admin]** > Paramètres **[!UICONTROL de]** Société > Niveau d’accès aux **[!UICONTROL fonctionnalités.]** |
 | Améliorations de l’accessibilité | L’équipe Adobe Analytics a apporté plusieurs améliorations d’accessibilité à Analyse Workspace, notamment une amélioration de la navigation au clavier, du contraste des couleurs et de la prise en charge des lecteurs d’écran. |
 
-#### Correctifs d’Adobe Analytics (#aa-fixes)
+#### Correctifs d’Adobe Analytics {#aa-fixes}
 
 * Adobe a modifié la mesure [!UICONTROL Durée de la visite] pour ne jamais inclure &quot;Non spécifié&quot; dans le calcul. Cela signifie que, que l’interface utilisateur dise d’inclure &quot;Non spécifié&quot;, nous faisons une exception spéciale pour toujours exclure &quot;Non spécifié&quot; dans le calcul de la [!UICONTROL durée de la visite] . Par conséquent, même si vous avez configuré un rapport contenant la mesure [!UICONTROL Durée de la visite] pour inclure &quot;Non spécifié&quot;, il renvoie toujours 0 temps passé pour l’élément de ligne &quot;Non spécifié&quot;. Notez que cela peut modifier le rapports historique dans les rapports et analyses ainsi que l’API de Rapports v1.4. (AN-197958)
 * Correction d’un problème en raison duquel l’instance, la visite ou le Visiteur n’était pas comptabilisé dans le dénominateur pour les mesures [!UICONTROL Durée de la visite] .  Cela se produit lorsqu’un accès sans valeur pour la dimension (par exemple, [!UICONTROL Nom]de page) est suivi dans la même seconde. (AN-211074)
