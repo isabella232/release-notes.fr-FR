@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
+source-git-commit: fd2f8976431bd49e32939414b71f08edbe9e245e
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 38%
+source-wordcount: '5159'
+ht-degree: 37%
 
 ---
 
@@ -25,12 +25,12 @@ Cette page fournit de nouvelles fonctionnalités, des correctifs et des avis imp
 
 **Date de publication : mai 2020**
 
-Dernière mise à jour : **26 mai 2020**
+Dernière mise à jour : **27 mai 2020**
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Mis à jour le 26 mai 2020**)
+* [!DNL Analytics](#analytics) (**Mis à jour le 27 mai 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -40,7 +40,7 @@ Dernière mise à jour : **26 mai 2020**
 * [!DNL Marketo](#marketo)
 * [!DNL Primetime](https://helpx.adobe.com/fr/primetime/user-guide.html) (liens vers la page d’aide de Primetime)
 
-Besoin d&#39;aide ? Visitez [[ !DNL Adobe Experience League]](https://experienceleague.adobe.com/#home) pour trouver des cours organisés par Adobe, de la documentation technique, des réponses rapides, des informations sur la communauté et des formations dirigées par un instructeur.
+Besoin d&#39;aide ? Visitez [[ !DNL Adobe Experience League]](https://experienceleague.adobe.com/#home) pour trouver des cours organisés par Adobe, de la documentation technique, des réponses rapides, des informations sur la communauté et une formation dirigée par un instructeur.
 
 ## ![Icône](/assets/adobe.png) État du système Adobe {#status}
 
@@ -137,8 +137,11 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 ## ![Icône](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
+Updated **May 27, 2020**
+
 * [Nouvelles fonctionnalités de l’analyse du parcours des clients](#cust-journey)
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
+* [Nouvelles fonctionnalités de Media Analytics](#media-aa) (**Mis à jour le 27 mai 2020**)
 * [Avis importants à l’intention des administrateurs](#aa-notices) d’Analytics (**Mis à jour le 26 mai 2020**)
 * [Correctifs](#aa-fixes) d’Adobe Analytics (**Mis à jour le 21 mai 2020**)
 * [AppMeasurement](#appm)
@@ -149,7 +152,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 | Fonction | Description |
 | -----------| ---------- |
 | [!UICONTROL Analyse]du parcours du client : Disponibilité globale | rend les analyses [!UICONTROL de parcours] client disponibles pour les clients de la zone EMEA et de l’APAC. |
-| [!UICONTROL Analyse]du parcours du client : Prise en charge des sandbox [!UICONTROL Adobe Experience Platform] | Permet de sélectionner des sandbox [!UICONTROL spécifiques à] Adobe Experience Platform pour créer des connexions CJA à partir de. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.translate.html) |
+| [!UICONTROL Analyse]du parcours du client : Prise en charge des sandbox de plateforme [!UICONTROL Adobe Experience Platform] | Permet de sélectionner des sandbox [!UICONTROL de plateforme d’expérience] Adobe spécifiques pour créer des connexions CJA à partir de. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.translate.html) |
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
@@ -158,11 +161,23 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 | Fonction | Description |
 | -----------| ---------- |
-| Prise en charge d’Analytics pour [!UICONTROL Adobe Experience Platform Edge Network] | Permet d’utiliser une balise unique pour envoyer des données à plusieurs solutions Adobe, telles qu’Adobe Analytics, Adobe Cible, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profil et Experience Cloud ID Service. [En savoir plus...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
-| [!UICONTROL tableaux de bord Adobe Analytics] | [!UICONTROL Adobe Analytics tableaux de bord] est une application mobile qui permet aux utilisateurs, à tout moment et en tout lieu, d’accéder aux informations d’Adobe Analytics. Cette application est destinée aux cadres qui recherchent un accès en ligne à des mesures clés. Il permet d’accéder à des cartes de performance interactives et organisées et sera disponible pour les systèmes d’exploitation iOS et Android. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
+| Prise en charge d’Analytics pour [!UICONTROL Adobe Experience Platform Edge Network] | Permet d’utiliser une balise unique pour envoyer des données à plusieurs solutions Adobe, telles que Adobe Analytics, Adobe Cible, Adobe Audience Manager, Adobe Manager, Platform Data Lake, Unified Profil et Experience Cloud ID Service. [En savoir plus...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
+| [!UICONTROL tableaux de bord Adobe Analytics] | [!UICONTROL Les tableaux de bord] Adobe Analytics sont une application mobile qui permet aux utilisateurs d’accéder à tout moment et en tout lieu aux informations provenant de Adobe Analytics. Cette application est destinée aux cadres qui recherchent un accès en ligne à des mesures clés. Il permet d’accéder à des cartes de performance interactives et organisées et sera disponible pour les systèmes d’exploitation iOS et Android. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL  : crée automatiquement des tableaux à structure libre à partir d’un état vide] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. En outre, des améliorations ont été apportées à la façon dont les types de composants mixtes (tels que les dimensions et les mesures) sont traités lorsqu’ils sont déposés ensemble dans un tableau à structure libre vierge. |
 | [!UICONTROL Package] Adobe Analytics ajouté à la page Niveau [!UICONTROL d’accès aux] fonctionnalités | Vous pouvez désormais vue à quel module  Adobe Analytics (SKU) votre société a droit dans **[!UICONTROL Admin]** > Paramètres **[!UICONTROL de]** Société > Niveau d’accès aux **[!UICONTROL fonctionnalités.]** |
-| Améliorations de l’accessibilité | L’équipe Adobe Analytics a apporté plusieurs améliorations d’accessibilité à Analyse Workspace, notamment une amélioration de la navigation au clavier, du contraste des couleurs et de la prise en charge des lecteurs d’écran. |
+| Améliorations de l’accessibilité | L’équipe Adobe Analytics a apporté plusieurs améliorations d’accessibilité à Analyse Workspace, notamment une amélioration de la navigation au clavier, du contraste de couleur et de la prise en charge des lecteurs d’écran. |
+
+#### New features in [!UICONTROL Media Analytics] {#media-aa}
+
+Date added: **May 27, 2020**
+
+**Suivi de l&#39;état du lecteur :** [!UICONTROL Les clients Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un ensemble standard de variables de solution pour le mode Plein écran, le sous-titrage, le mode silencieux, l’image dans l’image et la mise au point. Vous pouvez également créer des états de lecteur personnalisés. Les variables de suivi d’état du lecteur sont désormais disponibles pour le rapports dans [!UICONTROL Analyse Workspace]. Cette fonctionnalité nécessite l’une des fonctionnalités suivantes :
+
+* Media [!DNL JavaScript] SDK 3.0 ou version ultérieure
+* Utilisation avec le SDK [!DNL Adobe Experience Platform] (AEP) :
+   * [!UICONTROL Media Analytics Extension] (pour le Web) : [!UICONTROL Adobe Media Analytics] (SDK 3.x) pour Audio et Video v1.0 ou version ultérieure
+   * [!UICONTROL Extension] Media Analytics (pour mobile) : [!UICONTROL Adobe Media Analytics pour l’audio] et la vidéo v2.0 ou ultérieure
+* [!UICONTROL API Media Collection]
 
 #### Correctifs d’Adobe Analytics {#aa-fixes}
 
@@ -229,7 +244,7 @@ Voir [Notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.ado
 | Contenu | Description |
 | -----------| ---------- |
 | [Modèle de didacticiel de formation dans Analyse Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/training-tutorial-template-in-analysis-workspace.html) | Le didacticiel de formation à l’espace de travail  d’Analyse vous guide tout au long de la terminologie et des étapes courantes pour la création de votre premier projet dans [!UICONTROL Workspace]. |
-| [Ajout de comparaisons mensuelles et annuelles antérieures aux tendances](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/adding-prior-month-and-year-comparisons-to-trends.html) | Découvrez comment appliquer des plages de dates personnalisées pour créer des comparaisons de tendances mensuelles et annuelles pour n’importe quelle mesure dans [!UICONTROL Analyse Workspace]. |
+| [Comparaison des mois et années précédents avec les tendances](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/adding-prior-month-and-year-comparisons-to-trends.html) | Découvrez comment appliquer des plages de dates personnalisées pour créer des comparaisons de tendances mensuelles et annuelles pour n’importe quelle mesure dans [!UICONTROL Analyse Workspace]. |
 | [Extension de mode sombre pour l’espace de travail d’Analyse](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/dark-mode-extension-for-analysis-workspace.html) | Activez l’extension Dark Reader Chrome pour rendre l’espace de travail d’Analyse sombre. |
 | [Extension de la pipette couleur pour la définition de palettes personnalisées](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/color-eyedropper-extension-for-defining-custom-palettes.html) | Découvrez comment utiliser l’extension Chrome ColorPick EyeDropper pour trouver facilement les valeurs hexadécimales dont vous avez besoin pour une palette de couleurs personnalisée dans vos projets [!UICONTROL Workspace] . |
 
@@ -251,7 +266,7 @@ Audience Manager met à jour la barre de domaine et d’en-tête afin d’améli
 * Capacité à fournir des commentaires sur la plateforme d’expérience et les tickets d’assistance pour les fichiers.
 * Nouveau modèle d’URL plus simple. Mettez à jour vos signets vers la nouvelle URL : `experience.adobe.com/audience-manager`.
 
-Ces mises à jour ne sont disponibles que pour les utilisateurs qui se connectent à l’aide d’un Adobe ID. Pour vous connecter à un ID Adobe, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud.
+Ces mises à jour sont disponibles uniquement pour les utilisateurs qui se connectent à l’aide de l’identifiant Adobe. Pour passer à un identifiant de connexion Adobe, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud.
 
 ### Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager
 
@@ -274,8 +289,8 @@ Ces mises à jour ne sont disponibles que pour les utilisateurs qui se connecten
 | Contenu | Description |
 | -----------| ---------- |  
 | [Présentation des termes et concepts de base dans Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/understanding-basic-terms-and-concepts-in-audience-manager.html) | Cette vidéo présente quelques-uns des termes et concepts de base qui vous permettent de commencer dans Audience Manager, notamment les signaux, les caractéristiques, les segments, etc. |
-| [Présentation du flux de données dans Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/understanding-the-data-flow-in-audience-manager.html) | Cette vidéo vous aide à comprendre Adobe Audience Manager en décrivant le flux de données dans, via et hors de l’application. |
-| [Gestionnaire d&#39;Audiences - Présentation d&#39;un DMP](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/audience-manager-overview-of-a-dmp.html) | Découvrez les principaux défis liés à la personnalisation sur plusieurs canaux et comment Adobe Audience Manager facilite le voyage des clients. Identifiez également les types de données qui peuvent être intégrés dans Audience Manager et identifiez les partenaires d&#39;éco-système ad-tech intégrés à Audience Manager. |
+| [Présentation du flux de données dans Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/understanding-the-data-flow-in-audience-manager.html) | Cette vidéo vous aide à comprendre Adobe Audience Manager en décrivant le flux de données dans l’application, par son intermédiaire et en dehors. |
+| [Gestionnaire d&#39;Audiences - Présentation d&#39;un DMP](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/audience-manager-overview-of-a-dmp.html) | Comprendre les principaux défis liés à la personnalisation entre canaux et comment Adobe Audience Manager alimente le parcours des clients. Identifiez également les types de données qui peuvent être intégrés dans Audience Manager et identifiez les partenaires d&#39;éco-système ad-tech intégrés à Audience Manager. |
 | [Cas d’utilisation d’Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/audience-manager-use-cases.html) | Dans cette vidéo, nous identifions quatre cas d’utilisation courants du gestionnaire d’Audiences et décrivons les meilleures pratiques qui y sont associées. |
 | [Présentation des mesures sur plusieurs périphériques dans Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html) | Dans cette vidéo, nous abordons la différence entre les profils des périphériques et les profils entre périphériques et montrons où les nombres de l’interface utilisateur correspondent à ces différents types de profils. |
 | [Présentation des Audiences prédictives dans Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | Dans cette vidéo, nous discutons des Audiences prédictives du gestionnaire des Audiences, nous présentons des détails sur leur fonctionnement et nous montrons les cas d&#39;utilisation. |
@@ -320,7 +335,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 
    * [Volume 30](https://expleague.azureedge.net/assets/aem/Experience-Insider-vol.30.html): Experience Manager est désormais disponible en tant que service cloud.
    * [Abonnez-vous](https://adobeeventsonline.com/AEM/2017/NL/Optin/) au bulletin d’information d’Experience Insider.
-   * Archives du bulletin d’informations de Vue dans la section des ressources [](https://helpx.adobe.com/fr/support/experience-manager/6-5.html) AEM de la page de formation et d’assistance d’Adobe Experience Manager 6.5.
+   * Archives du bulletin d’informations de Vue dans la section des ressources [](https://helpx.adobe.com/fr/support/experience-manager/6-5.html) AEM de la page de formation et d’assistance d’Experience Manager Adobe 6.5.
 
 ### Nouveaux tutoriels Experience Manager
 
