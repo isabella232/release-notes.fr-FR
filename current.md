@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
+source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5212'
 ht-degree: 89%
 
 ---
@@ -25,12 +25,12 @@ Cette page fournit de nouvelles fonctionnalités, des correctifs et des avis imp
 
 **Date de publication : mai 2020**
 
-Dernière mise à jour : **27 mai 2020**
+Dernière mise à jour : **29 mai 2020**
 
 * [État du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**Mis à jour le 27 mai 2020**)
+* [!DNL Analytics](#analytics) (**Mis à jour le 29 mai 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -137,11 +137,11 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 ## ![Icône](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-Updated **May 27, 2020**
+Updated **May 29, 2020**
 
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités de Media Analytics](#media-aa) (**Mis à jour le 27 mai 2020**)
+* [Nouvelles fonctionnalités de Media Analytics](#media-aa) (**Mis à jour le 29 mai 2020**)
 * [Avis importants à l’intention des administrateurs](#aa-notices) d’Analytics (**Mis à jour le 26 mai 2020**)
 * [Correctifs](#aa-fixes) d’Adobe Analytics (**Mis à jour le 21 mai 2020**)
 * [AppMeasurement](#appm)
@@ -169,7 +169,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### New features in [!UICONTROL Media Analytics] {#media-aa}
 
-Date added: **May 27, 2020**
+Date de mise à jour : **29 mai 2020**
 
 **Suivi de l&#39;état du lecteur :** [!UICONTROL Les clients Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un ensemble standard de variables de solution pour le mode Plein écran, le sous-titrage, le mode silencieux, l’image dans l’image et la mise au point. Vous pouvez également créer des états de lecteur personnalisés. Les variables de suivi d’état du lecteur sont désormais disponibles pour le rapports dans [!UICONTROL Analyse Workspace]. Cette fonctionnalité nécessite l’une des fonctionnalités suivantes :
 
@@ -179,7 +179,7 @@ Date added: **May 27, 2020**
    * [!UICONTROL Extension] Media Analytics (pour mobile) : [!UICONTROL Adobe Media Analytics pour l’audio] et la vidéo v2.0 ou ultérieure
 * [!UICONTROL Collection multimédia]
 
-Lien vers le contenu à venir.
+Voir [A propos du suivi](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html)d’état du lecteur.
 
 #### Correctifs Adobe Analytics {#aa-fixes}
 
