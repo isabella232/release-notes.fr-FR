@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
+source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
 workflow-type: tm+mt
-source-wordcount: '6522'
-ht-degree: 38%
+source-wordcount: '6530'
+ht-degree: 37%
 
 ---
 
@@ -31,14 +31,14 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 Les dates de publication des produits peuvent varier. Consultez fréquemment les mises à jour.
 
-Dernière mise à jour : **12 juin 2020**
+Dernière mise à jour : **15 juin 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Orchestration du parcours](#journey-orch)
-* [Analytics](#analytics)
-* [Audience Manager](#aam)
+* [Analytics](#analytics) (et Analyses [de parcours](#cust-journey)client)
+* [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
@@ -169,15 +169,15 @@ Updated **June 10, 2020**
 
 | Fonction | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-------|
-| QI de l’attribution : [!UICONTROL Attribution algorithmique] | 18 juin 2020 | Le modèle d’attribution  algorithmique d’ [!UICONTROL Analysis Workspace] utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale du crédit pour la mesure sélectionnée. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| QI de l’attribution : Fenêtres de recherche personnalisées | 18 juin 2020 | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans le QI  d’attribution pour inclure des points de contact de 90 jours avant la période de rapports. Cela permet généralement d’accroître la précision d’attribution pour les événements qui surviennent au début de la période du rapports en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Rôles de projet pour les projets [!UICONTROL Workspace] partagés | 18 juin 2020 | Lors du partage d’un projet [!UICONTROL Workspace] , vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience de projet que vous souhaitez qu’ils possèdent : Edition, Duplicata et Vue. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Projets [!UICONTROL Workspace] à Vue seule | 18 juin 2020 | [!UICONTROL Les projets Workspace] peuvent être partagés avec les utilisateurs, car la Vue __Can est la seule. Lorsqu’un destinataire de Vue ouvre le projet partagé, il bénéficie d’une expérience de projet plus restrictive, sans rail gauche et avec des interactions limitées.[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Possibilité de co-modifier des projets [!UICONTROL Workspace] | 18 juin 2020 | Les Destinataires ajoutés au rôle _[!UICONTROL Possibilité de modification]_peuvent enregistrer sur un projet qui leur a été partagé. Cela s’applique aussi bien aux administrateurs qu’aux non-administrateurs.[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Panneau vierge mis à jour dans [!UICONTROL Workspace] | 18 juin 2020 | Le panneau vierge de [!UICONTROL Workspace] comprend désormais des panneaux et des visualisations, ce qui vous permet de choisir plus facilement le processus d’analyse le plus performant pour vous. |
-| Domaines propriétaires disponibles dans la collecte de données régionale pour la Chine | 18 juin 2020 | Permet aux clients disposant d’un `.cn` domaine de demander un domaine propriétaire à utiliser à l’intérieur de la Chine continentale. (Documentation disponible avec l’achat du SKU d’optimisation des performances de la Chine.) |
-| Panneau Quick Insights dans [!UICONTROL Espace de travail] | 25 juin 2020 | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’[!UICONTROL Analysis Workspace] pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| Panneau [!UICONTROL Analytics for Target] dans [!UICONTROL Espace de travail] | 25 juin 2020 | Le panneau [!UICONTROL Analytics for Target] (A4T) vous permet d’analyser vos activités et expériences Adobe Target dans [!UICONTROL Analysis Workspace]. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| QI de l’attribution : Attribution algorithmique | 18 juin 2020 | Le modèle d’attribution  algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale du crédit pour la mesure sélectionnée. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| QI de l’attribution : Fenêtres de recherche personnalisées | 18 juin 2020 | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans le QI  d’attribution afin d’inclure les points de contact entre 90 jours avant la période de rapports. Cela permet généralement d’accroître la précision d’attribution pour les événements qui surviennent au début de la période du rapports en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Rôles de projet pour les projets Workspace partagés | 18 juin 2020 | Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience de projet que vous souhaitez qu’ils possèdent : Edition, Duplicata et Vue. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Projets Workspace à Vue seule | 18 juin 2020 | Les projets Workspace peuvent uniquement être partagés avec les utilisateurs sous la forme &quot;Can vue&quot;. Lorsqu’un destinataire de Vue ouvre le projet partagé, il bénéficie d’une expérience de projet plus restrictive, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Possibilité de co-modifier des projets Workspace | 18 juin 2020 | Les Destinataires ajoutés au rôle &quot;Peut modifier&quot; peuvent enregistrer sur un projet qui leur a été partagé. Cela s’applique aussi bien aux administrateurs qu’aux non-administrateurs. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Panneau vierge mis à jour dans Workspace | 18 juin 2020 | Le panneau vierge de Workspace inclut désormais des panneaux et des visualisations, ce qui vous permet de choisir plus facilement le processus d’analyse qui fonctionne le mieux pour vous. |
+| Domaines propriétaires disponibles dans la collecte de données régionale pour la Chine | 18 juin 2020 | Permet aux clients disposant d’un `.cn` domaine de demander un domaine propriétaire à utiliser à l’intérieur de la Chine continentale. (Documentation disponible avec l’achat du SKU &quot;China Performance Optimization&quot; (Optimisation des performances de la Chine).) |
+| Panneau Quick Insights dans Espace de travail | 25 juin 2020 | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| Panneau Analytics for Target dans Espace de travail | 25 juin 2020 | Le panneau Analytics pour la Cible (A4T) vous permet d’analyser vos activités et expériences Adobe Target, avec effet élévateur et confiance, dans Analysis Workspace. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
