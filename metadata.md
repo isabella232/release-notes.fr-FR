@@ -7,11 +7,14 @@ getting-started-title: Prise en main
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
-mini-toc-levels: 1
-git-repo: https://github.com/AdobeDocs/release-notes.en
+mini-toc-levels: 3
+git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.fr-FR
 index: true
-translation-type: ht
-source-git-commit: f7e667b83c7b82376ad9cf51b4495eb30b5707ed
+translation-type: tm+mt
+source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
@@ -25,16 +28,16 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui so
 | solution-title | Utilisé comme lien dans l’en-tête d’article. Soyez concis. |
 | solution-hub-url | Ouvre la page hub helpx |
 | solution-icon | Affiche l’icône de la solution en regard de son titre. Pas encore mis en œuvre |
-| getting-started-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés. |
-| getting-started-url | Lien vers la page de prise en main de helpx. |
-| tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés. |
+| getting-started-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
+| getting-started-url | Lien vers la page de prise en main de helpx |
+| tutorials-title | Rarement utilisé lorsque les tutoriels ne sont pas appropriés |
 | tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail de droite. La valeur par défaut est 2 |
-| git-repo | Indique l’emplacement du référentiel de collaboration. Utilisez le miroir github.com pour les documents publics. |
+| git-repo | Indique l’emplacement du référentiel de collaboration. Utilisez le miroir github.com pour les documents publics |
 
 Dans le fichier TOC.md
 
 | métadonnées | utilisation |
 |--- |--- |
-| user-guide-title | Utilisé comme lien dans l’en-tête d’article. |
-| user-guide-url | Ouvre la page hub helpx. |
+| user-guide-title | Utilisé comme lien dans l’en-tête d’article |
+| user-guide-url | Ouvre la page hub helpx |
