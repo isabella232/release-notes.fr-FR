@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
+source-git-commit: 7f127b38a8c27f5e7a439d7130dd2577d987bf0d
 workflow-type: tm+mt
 source-wordcount: '6484'
 ht-degree: 37%
@@ -450,6 +450,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 | [Installation et configuration du client Adobe Campaign](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Vidéo | Découvrez comment télécharger et installer la console Client Adobe Campaign, créer et gérer vos connexions à plusieurs environnements et vérifier l&#39;accès à la console Client Adobe Campaign. |
 
 ### Ressources d’aide
+
 * Adobe Campaign Standard : [Centre d’aide](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/campaign-standard-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) - [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/overview.html) - [Calendrier des versions](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-planning.html) - [Dernières mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic : [Centre d’aide](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) - [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) - [Dernières mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/documentation-updates.html)
 * Panneau de configuration des Adobes Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - Notes [de](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) mise à jour - Vidéos pratiques pour les [Campaign Standards](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
