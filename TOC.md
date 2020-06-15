@@ -4,7 +4,7 @@ product: Experience Cloud
 user-guide-title: Notes de mise à jour d’Adobe Experience Cloud
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: bb83a8031e9f82a957fc95057f92d36c92502e3e
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Notes de mise à jour d’Experience Cloud {#experience-cloud}
 
-+ Notes de mise à jour d’Adobe Experience Cloud
++ Notes de mise à jour d’Adobe Experience Cloud{#exl-rns}
    + [Dernières notes de mise à jour ](current.md)
 + Notes de mise à jour précédentes {#previous}
    + 2020 {#2020}
