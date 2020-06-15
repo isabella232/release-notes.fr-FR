@@ -4,17 +4,17 @@ product: Experience Cloud
 user-guide-title: Notes de mise à jour d’Adobe Experience Cloud
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
+source-git-commit: 515812727fbc95bb787ec092eed719ad2b2d9171
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 96%
+source-wordcount: '92'
+ht-degree: 100%
 
 ---
 
 
 # Notes de mise à jour d’Experience Cloud {#experience-cloud}
 
-+ Notes de mise à jour d’Adobe Experience Cloud{#exl-rns}
++ Notes de mise à jour d’Adobe Experience Cloud {#exl-rns}
    + [Dernières notes de mise à jour ](current.md)
 + Notes de mise à jour précédentes {#previous}
    + 2020 {#2020}
@@ -35,7 +35,7 @@ ht-degree: 96%
       + [Mars 2019](c-legacy-releases/2019/03072019.md)
       + [Février 2019](c-legacy-releases/2019/02072019.md)
       + [Janvier 2019](c-legacy-releases/2019/01172019.md)
-   + [2018 et versions antérieures]{#legacy-rns)
+   + 2018 et versions antérieures {#legacy-rns}
       + 2018 {#2018}
          + [Novembre 2018](c-legacy-releases/2018/11012018.md)
          + [Octobre 2018](c-legacy-releases/2018/10112018.md)
@@ -84,4 +84,5 @@ ht-degree: 96%
          + [Mars 2015](c-legacy-releases/2015/03192015.md)
          + [Février 2015](c-legacy-releases/2015/02192015.md)
          + [Janvier 2015](c-legacy-releases/2015/01152015.md)
-      + [2014 et versions antérieures](c-legacy-releases/2014-earlier.md)
+      + 2014 et versions antérieures {#2014-earlier}
+         + [2014 et versions antérieures](c-legacy-releases/2014-earlier.md)
