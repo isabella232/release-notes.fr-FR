@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
+source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6531'
 ht-degree: 37%
 
 ---
@@ -67,7 +67,7 @@ Publié : **21 mai 2020**
 | Confirmation d’abonnement à l’événement | <ul><li>Vous pouvez désormais obtenir une confirmation par email lorsque vous vous abonnez à des mises à jour d’événement unique en cours.</li></ul> |
 | Améliorations de la convivialité de la navigation globale | <ul><li>Expérience de l’utilisateur cohérente avec `Adobe.com` dans le menu de navigation de niveau supérieur.</li></ul> |
 
-## ![Icône](/assets/ec_appicon_24.png) Interface d’Experience Cloud {#ecloud}
+## ![Icône](/assets/ec_appicon_24.png) de l’interface Adobe Experience Cloud {#ecloud}
 
 Mises à jour générales de l’interface d’Experience Cloud.
 
@@ -246,7 +246,7 @@ Nouveaux cours, vidéos de didacticiels et articles dans Analytics et les analys
 
 | Contenu | Type de contenu | Description |
 | -----------| ---------- | ---------- | 
-| [Prise en main des analyses de parcours client pour les utilisateurs](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | Cours | Dans ce cours, vous apprendrez à utiliser la fonction d’analyse du parcours client (CJA) pour analyser les données provenant de nombreuses sources de données différentes. Vous découvrirez les différences entre Adobe Analytics et Customer Journey Analytics, ainsi que la manière dont les données sont traitées dans la CJA. Après avoir suivi ce cours, vous devez être en mesure de créer et de personnaliser des visualisations sur plusieurs canaux pour mieux comprendre vos clients. |
+| [Prise en main des analyses de parcours client pour les utilisateurs](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | Cours | Dans ce cours, vous apprendrez à utiliser la fonction d’analyse du parcours client (CJA) pour analyser les données provenant de nombreuses sources de données différentes. Vous découvrirez les différences entre Adobe Analytics et Customer Journey Analytics, ainsi que la manière dont les données sont traitées dans la CJA. Après avoir suivi ce cours, vous devriez être en mesure de créer et de personnaliser des visualisations sur plusieurs canaux pour mieux comprendre vos clients. |
 | [Prise en main des analyses de parcours client pour les administrateurs](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | Cours | Découvrez comment configurer et utiliser [!UICONTROL Journey Orchestration]. Ce cours couvre les concepts clés et les étapes de configuration nécessaires pour permettre l&#39;orchestration d&#39;un voyage. Vous apprendrez comment créer, publier et comment rapporter et analyser vos trajets orchestrés. |
 | [Prise en main des analyses de parcours client pour les ingénieurs de données](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | Cours | Ce cours vous permettra d’en savoir plus sur les données qui entrent dans l’analyse du parcours du client et sur l’impact de ces données sur les rapports de l’analyste. Ce cours s’appuie sur vos connaissances générales d’Adobe Experience Platform. |
 | [Prise en main des analyses de parcours client pour les administrateurs](https://video.tv.adobe.com/v/34349?captions=fre_fr) | Didacticiel vidéo | Une vidéo d’introduction à Customer Journey Analytics for Administrators. |
