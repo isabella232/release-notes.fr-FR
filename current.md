@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a69ecde6ebbe9ffbb67d6a82daf7d026e28ed19
+source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
 workflow-type: tm+mt
-source-wordcount: '6487'
+source-wordcount: '6486'
 ht-degree: 37%
 
 ---
@@ -360,7 +360,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 
 * **Core Components**
 
-   La version 2.9.0 des composants principaux intègre la couche [de données du client](https://github.com/adobe/adobe-client-data-layer) Adobe et un nouveau composant de barre de progression. Il est désormais disponible avec la documentation [de](https://docs.adobe.com/content/help/fr-FR/experience-manager-core-components/using/introduction.html) création et les détails du [développeur et le téléchargement de projet disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components).
+   La version 2.9.0 des composants principaux introduit l’intégration à la couche [de données du client](https://github.com/adobe/adobe-client-data-layer) Adobe et un nouveau composant de la barre de progression est désormais disponible, ainsi que la documentation [de](https://docs.adobe.com/content/help/fr-FR/experience-manager-core-components/using/introduction.html) création et les détails du [développeur et le téléchargement de projet disponible sur GitHub](https://github.com/adobe/aem-core-wcm-components).
 
 * **Transition vers AEM as a Cloud Service**
 
