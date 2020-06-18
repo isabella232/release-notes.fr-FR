@@ -1,11 +1,14 @@
 ---
 title: Notes de mise à jour d’Adobe Experience Cloud
-description: Modèle des notes de mise à jour d’Experience Cloud
+description: Notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+workflow-type: tm+mt
+source-wordcount: '2537'
+ht-degree: 96%
 
 ---
 
@@ -26,14 +29,14 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 **Date de publication : 2020**
 
-* [État du système Adobe](#status)
-* [Interface d’Experience Cloud](#ecloud)
-* [Experience Platform](#platform)
+* [Statut du système Adobe](#status)
+* [Interface d’Experience Cloud](#ecloud)
+* [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
+* [Cible](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
@@ -71,7 +74,7 @@ Pour consulter la documentation du produit, voir [Gestion des utilisateurs et de
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Notes de mise à jour pour [!DNL Experience Platform,] l’orchestration [!DNL Experience Platform Launch,] de [!UICONTROL Journey, le][!UICONTROL , les]personnes, les de [!UICONTROL Journey, le de services mobiles et les bulletins de sécurité.]
+Notes de mise à jour d’[!DNL Experience Platform,] y compris d’[!DNL Experience Platform Launch,] de [!UICONTROL Journey Orchestration], des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services], et des bulletins de sécurité.
 
 * [Service Experience Cloud ID](#ecid)
 * [Notes de mise à jour d’Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
@@ -86,7 +89,7 @@ Fonctionnalités et correctifs.
 
 Pour consulter la documentation du produit, voir [Service Experience Cloud ID](https://marketing.adobe.com/resources/help/fr_FR/mcvid/).
 
-### [!UICONTROL Experience Platform Launch] {#launch}
+### [!UICONTROL Experience Platform Launch] {#launch}
 
 Pour consulter les notes de mise à jour et la documentation du produit, voir [Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/intro/release-notes/current.html).
 
@@ -94,7 +97,7 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 Using Adobe [!UICONTROL Experience Platform,] orchestrate individual customer journeys at scale across experience channels by intelligently anticipating every individual&#39;s needs in real time, wherever their journey takes them.
 
-#### Ressources supplémentaires pour l’orchestration du [!UICONTROL voyage]
+#### Ressources supplémentaires pour le [!UICONTROL Journey Orchestration]
 
 [Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
@@ -224,9 +227,9 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 * [Page d’accueil Formation et assistance AEM 6.4](https://helpx.adobe.com/fr/support/experience-manager/6-4.html)
 * [Page d’accueil Formation et assistance AEM 6.3](https://helpx.adobe.com/fr/support/experience-manager/6-3.html)
 * [Page d’accueil Formation et assistance AEM 6.2](https://helpx.adobe.com/fr/support/experience-manager/6-2.html)
-* [Guide de l’utilisateur de Cloud Manager](https://helpx.adobe.com/fr/experience-manager/cloud-manager/user-guide.html)
+* [Guide de l’utilisateur de Cloud Manager](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html)
 * [Anciennes versions de la documentation d’AEM](https://helpx.adobe.com/fr/experience-manager/aem-previous-versions.html)
-* [Notes de mise à jour de Scene7 Publishing System](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [Notes de mise à jour de Scene7 Publishing System](https://docs.adobe.com/content/help/fr-FR/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [Notes de mise à jour de Livefyre](https://docs.adobe.com/content/help/fr-FR/livefyre/using/release-notes/c-rn.html)
 
 ### [!DNL Livefyre] {#livefyre}
@@ -266,7 +269,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 ### Ressources supplémentaires
 
 * Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/fr/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) – [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/fr/support/campaign/classic.html) – [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/fr-FR/RN.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/fr/support/campaign/classic.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
@@ -319,7 +322,7 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 
 ### Annonces
 
-**Centre de succès Marketo Engage :** lancement en février 2020. Le centre de succès est un centre d’aide intégré qui vous permet de rechercher des documents produit et la communauté, de lancer des guides pratiques, d’accéder au contenu d’adoption, etc. Remarque : cette fonctionnalité sera lancée en version bêta en ANZ et sera déployée en Amérique du Nord plus tard dans le trimestre.
+**Centre de succès Marketo Engage :** lancement en février 2020. Le centre de succès est un centre d’aide intégré qui vous permet à vous et à la communauté de rechercher des documents produit, de lancer des guides pratiques, d’accéder au contenu d’adoption, etc. Remarque : cette fonctionnalité sera lancée en version bêta en ANZ et sera déployée en Amérique du Nord plus tard dans le trimestre.
 
 ### Dépréciations
 
@@ -345,7 +348,7 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Modification du mappage des données](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | Découvrez comment vérifier le statut et modifier le mappage des données. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des événements d’expérience](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | Découvrez comment mapper les événements d’expérience dans Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des ressources personnalisées](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | Découvrez comment mapper différents types de données entre Adobe Campaign Standard et Adobe Experience Platform. |
-| [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Compréhension du connecteur de données d’Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | Découvrez comment rendre vos données disponibles sur Adobe Experience Platform en mappant les données XTK (les données ingérées dans Campagne) aux données des modèles de données d’expérience (XDM) sur Adobe Experience Platform. |
+| [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Compréhension du connecteur de données d’Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | Découvrez comment rendre vos données disponibles sur Adobe Experience Platform en mappant les données XTK (les données ingérées dans Campaign) aux données des modèles de données d’expérience (XDM) sur Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Connecteur de données AEP | Vidéo - [Mappage des données de tableau sources](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | Apprenez à mapper vos données sources ou vos profils de test avec Adobe Experience Platform. |
 | [!DNL Adobe Campaign] - Destinations de l’audience | Vidéo - [Modification de la dimension de ciblage d’une diffusion pour une audience de plateforme](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | Découvrez comment modifier la dimension de ciblage d’une diffusion pour une audience de plateforme en dehors du tableau de profil principal dans Adobe Campaign Standard. |
 | [!DNL Adobe Campaign] | Vidéo - [Gestion de données importante sur Snowflake](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | Tirez profit du connecteur Snowflake dans Adobe Campaign Classic. |
