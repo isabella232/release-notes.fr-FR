@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1f0caf618aad2dd27a0642852a7a45c20b76bf07
+source-git-commit: fc51a317cdceb0cdf2ebf685c0a4480995dd4ef9
 workflow-type: tm+mt
-source-wordcount: '6484'
+source-wordcount: '6510'
 ht-degree: 37%
 
 ---
@@ -183,6 +183,7 @@ Updated **June 10, 2020**
 
 | Fonction | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-----|
+| Prise en charge des tableaux d’objets | 18 juin 2020 | Les clients CJA peuvent désormais créer des rapports sur les dimensions et les mesures qui apparaissent dans les tableaux d’objets dans leurs schémas de jeux de données AEP. En savoir plus... |
 | QI de l’attribution : [!UICONTROL Attribution algorithmique] | 18 juin 2020 | Le modèle d’attribution  algorithmique dans l’ [!UICONTROL Analysis Workspace] utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale du crédit pour la mesure sélectionnée. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | QI de l’attribution : Fenêtres de recherche personnalisées | 18 juin 2020 | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans le QI  d’attribution pour inclure des points de contact de 90 jours avant la période de rapports. Cela permet généralement d’accroître la précision d’attribution pour les événements qui surviennent au début de la période du rapports en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | Prise en charge de la détection des [!UICONTROL anomalies] | 18 juin 2020 | [!UICONTROL La détection] des anomalies fournit une méthode statistique pour déterminer comment une mesure donnée a changé par rapport aux données précédentes. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
