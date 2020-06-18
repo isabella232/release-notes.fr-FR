@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: af0ded4b9a09349d811a998a002b0f1c0f72403f
+source-git-commit: 1f0caf618aad2dd27a0642852a7a45c20b76bf07
 workflow-type: tm+mt
-source-wordcount: '6486'
+source-wordcount: '6484'
 ht-degree: 37%
 
 ---
@@ -230,7 +230,7 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788 ; AN
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| Migration vers un domaine de produit unifié | Date d’entrée en vigueur : 28 mai 2020 | La migration vers un domaine de produit unifié pour Adobe Analytics, débutée en janvier 2020, s’est terminée le 28 mai 2020. While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. Une fois la migration complète de l&#39;architecture terminée, nous vous en informerons par le biais des notes de mise à jour et cette étape de liste autorisée ne sera plus nécessaire. [Voici](https://helpx.adobe.com/fr/analytics/kb/adobe-ip-addresses.html) une liste complète des adresses et domaines IP recommandés que vous devez placer sur l&#39;liste autorisée.<br>Si votre entreprise bloque les cookies tiers, contactez l’assistance clientèle pour récupérer l’accès à votre compte Adobe Analytics. |
+| Migration vers un domaine de produit unifié | Date d’entrée en vigueur : 28 mai 2020 | La migration vers un domaine de produit unifié pour Adobe Analytics, débutée en janvier 2020, s’est terminée le 28 mai 2020. While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist `omniture.com` as a third-party cookie. Une fois la migration complète de l&#39;architecture terminée, nous vous en informerons par le biais des notes de mise à jour et cette étape de liste autorisée ne sera plus nécessaire. [Voici](https://helpx.adobe.com/fr/analytics/kb/adobe-ip-addresses.html) une liste complète des adresses et domaines IP recommandés que vous devez placer sur l&#39;liste autorisée.<br>Si votre entreprise bloque les cookies tiers, contactez l’assistance clientèle pour récupérer l’accès à votre compte Adobe Analytics. |
 | Nouvelle page d’entrée par défaut d’Adobe Analytics | Date d’entrée en vigueur : 18 juin 2020 | Le 18 juin 2020, la page d’entrée par défaut d’Adobe Analytics passera de [!UICONTROL Rapports] à [!UICONTROL Espace de travail]. Cette modification se produira pour tous les utilisateurs n’ayant pas défini de page d’entrée personnalisée auparavant. |
 | liste autorisée technologique tierce | 12 mars 2020 (date de mise en vigueur) | Adobe Analytics a commencé à utiliser des technologies tierces pour la gestion du déploiement de fonctionnalités et la prise en charge intégrée. Les URL suivantes doivent être ajoutées à toute liste autorisée de pare-feu réseau nécessaire pour garantir un accès complet aux fonctionnalités :<ul><li>Gainsight : https://esp.aptrinsic.com</li><li>LaunchDarkly : https://app.launchdarkly.com</li></ul> |
 | Improved redundancy for [!UICONTROL Analysis Workspace] availability | 21 mai 2020 | In order to ensure availability of [!UICONTROL Analysis Workspace], we are adding a secondary CDN (Content Delivery Network) for improved redundancy. Les URL suivantes doivent être ajoutées aux listes autorisées de pare-feu réseau nécessaires :<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
@@ -346,12 +346,10 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
       * La prise en charge améliorée du sandbox en libre-service dans Cloud Manager permet aux utilisateurs autorisés de supprimer tous les environnements d’un sandbox et de recevoir des crédits.
       * Les environnements sandbox d’auto-hibernation &quot;hibernent&quot; automatiquement les sandbox après une période d’inactivité. Les clients peuvent activement déclencher la &quot;dé-hibernation&quot;.
    * Outils de Transition pour la prise en charge de l’accélération du cloud
-
    Dans le but de réduire le temps et les coûts de transition des locaux aux Cloud Service, deux outils de transition ont été lancés ce mois-ci. Ces outils sont conçus pour automatiser certaines des tâches clés au cours du processus de transition, réduisant ainsi l&#39;effort global. .
 
    1. [L’utilisation de l’outil](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) de transfert de contenu (disponible sur SD) rationalise l’activité de transfert de contenu et la rend évolutive. Avec une interface utilisateur conviviale, l’outil est en libre-service pour les clients et partenaires existants (on-prem/AMS) qui passent à AEM en tant que Cloud Service.
    1. [Outil de conversion](https://github.com/adobe/aem-cloud-service-dispatcher-converter) de Dispatcher AMS (Open Source) pour automatiser la conversion des configurations de Dispatcher AMS en configurations de Dispatcher Cloud Service.
-
    [Notes de mise à jour d’AEM en tant que Cloud Service 2020.6.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Outil de Transition :
