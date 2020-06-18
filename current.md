@@ -1,13 +1,13 @@
 ---
 title: Notes de mise à jour d’Adobe Experience Cloud
-description: Modèle des notes de mise à jour d’Experience Cloud
+description: Notes de mise à jour d’Adobe Experience Cloud
 doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fc51a317cdceb0cdf2ebf685c0a4480995dd4ef9
+source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
 workflow-type: tm+mt
-source-wordcount: '6510'
+source-wordcount: '6509'
 ht-degree: 37%
 
 ---
