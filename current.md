@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a9dfcbc1fdd459212ffb898e2a1c508d9aaf84f7
+source-git-commit: b909c99b4389be6ad67536e49224d33b3fb10af8
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6688'
 ht-degree: 36%
 
 ---
@@ -151,7 +151,7 @@ Pour obtenir les dernières mises à jour de la version, voir Notes de mise à j
 
 ## ![Icône](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Updated **June 10, 2020**
+Date de publication : **18 juin 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
@@ -340,12 +340,10 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
       * La prise en charge améliorée du sandbox en libre-service dans Cloud Manager permet aux utilisateurs autorisés de supprimer tous les environnements d’un sandbox et de recevoir des crédits.
       * Les environnements sandbox d’auto-hibernation &quot;hibernent&quot; automatiquement les sandbox après une période d’inactivité. Les clients peuvent activement déclencher la &quot;dé-hibernation&quot;.
    * Outils de Transition pour la prise en charge de l’accélération du cloud
-
    Dans le but de réduire le temps et les coûts de transition des locaux aux Cloud Service, deux outils de transition ont été lancés ce mois-ci. Ces outils sont conçus pour automatiser certaines des tâches clés au cours du processus de transition, réduisant ainsi l&#39;effort global. .
 
    1. [L’utilisation de l’outil](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) de transfert de contenu (disponible sur SD) rationalise l’activité de transfert de contenu et la rend évolutive. Avec une interface utilisateur conviviale, l’outil est en libre-service pour les clients et partenaires existants (on-prem/AMS) qui passent à AEM en tant que Cloud Service.
    1. [Outil de conversion](https://github.com/adobe/aem-cloud-service-dispatcher-converter) de Dispatcher AMS (Open Source) pour automatiser la conversion des configurations de Dispatcher AMS en configurations de Dispatcher Cloud Service.
-
    [Notes de mise à jour d’AEM en tant que Cloud Service 2020.6.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Outil de Transition :
