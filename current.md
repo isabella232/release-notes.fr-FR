@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
+source-git-commit: 7901dd8a4f8a701dca516e90b72ec9e4ae0f6ded
 workflow-type: tm+mt
-source-wordcount: '6580'
+source-wordcount: '6660'
 ht-degree: 36%
 
 ---
@@ -192,17 +192,12 @@ Updated **June 10, 2020**
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
-Date de mise à jour : **29 mai 2020**
+Date de mise à jour : **18 juin 2020**
 
-**Suivi de l’état du lecteur :** les clients [!UICONTROL Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un jeu standard de variables de solution pour le mode Plein écran, le sous-titrage, le mode silencieux, l’incrustation dans l’image et le mode In-Focus. Vous pouvez également créer des états de lecteur personnalisés. Des comptes rendus des performances sur les variables de suivi de l’état du lecteur sont désormais disponibles dans [!UICONTROL Analysis Workspace]. Cette fonctionnalité nécessite l’une des configurations suivantes :
-
-* SDK Media [!DNL JavaScript] 3.0 ou version ultérieure
-* Utilisation avec le SDK [!DNL Adobe Experience Platform] (AEP) :
-   * [!UICONTROL Extension Media Analytics] (pour le Web) : [!UICONTROL Adobe Media Analytics] (SDK 3.x) pour Audio et Video v1.0 ou version ultérieure
-   * [!UICONTROL Extension Media Analytics] (pour mobile) : [!UICONTROL Adobe Media Analytics pour Audio] et Vidéo v2.0 ou version ultérieure
-* [!UICONTROL Collection Médias]
-
-Voir [À propos du suivi de l’état du lecteur](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/player-state-tracking/player-state-overview.html).
+| Fonction | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
+| -----------| ---------- | ---------- |
+| [Périphériques et plateformes pris en charge](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 18 juin 2020 | L’extension Media Launch avec SDK AEP prend désormais en charge les périphériques OTT suivants :<ul><li>Apple TV (tvOS)</li><li>Fire TV (Système d’exploitation Fire)</li><li>Android TV</li></ul> |  | [Périphériques et plateformes pris en charge](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 18 juin 2020 | L’extension Media Launch avec SDK AEP prend désormais en charge les périphériques OTT suivants :<ul><li>Apple TV (tvOS)</li><li>Fire TV (Système d’exploitation Fire)</li><li>Android TV</li></ul> |
+| [Suivi de l&#39;état du lecteur](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 mai 2020 | [!UICONTROL Les clients Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un ensemble standard de variables de solution pour le mode plein écran, le sous-titrage, le mode muet, l’image en image et la mise au point. Vous pouvez également créer des états de lecteur personnalisés. Des comptes rendus des performances sur les variables de suivi de l’état du lecteur sont désormais disponibles dans [!UICONTROL Analysis Workspace]. Cette fonctionnalité nécessite l’une des configurations suivantes : <ul><li>SDK Media [!DNL JavaScript] 3.0 ou version ultérieure</li><li>Utilisation avec le SDK [!DNL Adobe Experience Platform] (AEP) :</li><li>[!UICONTROL Extension Media Analytics] (pour le Web) : [!UICONTROL Adobe Media Analytics] (SDK 3.x) pour Audio et Video v1.0 ou version ultérieure</li><li>[!UICONTROL Extension Media Analytics] (pour mobile) : [!UICONTROL Adobe Media Analytics pour Audio] et Vidéo v2.0 ou version ultérieure</li><li>[!UICONTROL Collection Médias]</li></ul> |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
@@ -244,7 +239,7 @@ AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788 ; AN
 Nouveaux cours, vidéos didacticielles et articles en Analytics et Customer Journey Analytics.
 
 | Contenu | Type de contenu | Description |
-| -----------| ---------- | ---------- | 
+| -----------| ---------- | ---------- |
 | [Prise en main de Customer Journey Analytics pour les utilisateurs](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | Cours | Dans ce cours, vous apprendrez à utiliser Customer Journey Analytics (CJA) pour analyser des données provenant de nombreuses sources de données différentes. Vous découvrirez les différences entre Adobe Analytics et Customer Journey Analytics et comment les données sont traitées dans la CJA. Après avoir suivi ce cours, vous devriez être en mesure de créer et de personnaliser des visualisations sur plusieurs canaux pour mieux comprendre vos clients. |
 | [Prise en main de Customer Journey Analytics pour les administrateurs](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | Cours | Découvrez comment configurer et utiliser le [!UICONTROL Journey Orchestration]. Ce cours couvre les concepts clés et les étapes de configuration nécessaires pour permettre l&#39;orchestration d&#39;un voyage. Vous apprendrez comment créer, publier et comment rapporter et analyser vos trajets orchestrés. |
 | [Prise en main de Customer Journey Analytics pour les ingénieurs de données](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | Cours | Dans ce cours, vous apprendrez comment les données arrivent à Customer Journey Analytics et comment elles affectent les rapports pour l’analyste. Ce cours s&#39;appuie sur votre connaissance générale de l&#39;Adobe Experience Platform. |
@@ -345,10 +340,12 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
       * La prise en charge améliorée du sandbox en libre-service dans Cloud Manager permet aux utilisateurs autorisés de supprimer tous les environnements d’un sandbox et de recevoir des crédits.
       * Les environnements sandbox d’auto-hibernation &quot;hibernent&quot; automatiquement les sandbox après une période d’inactivité. Les clients peuvent activement déclencher la &quot;dé-hibernation&quot;.
    * Outils de Transition pour la prise en charge de l’accélération du cloud
+
    Dans le but de réduire le temps et les coûts de transition des locaux aux Cloud Service, deux outils de transition ont été lancés ce mois-ci. Ces outils sont conçus pour automatiser certaines des tâches clés au cours du processus de transition, réduisant ainsi l&#39;effort global. .
 
    1. [L’utilisation de l’outil](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) de transfert de contenu (disponible sur SD) rationalise l’activité de transfert de contenu et la rend évolutive. Avec une interface utilisateur conviviale, l’outil est en libre-service pour les clients et partenaires existants (on-prem/AMS) qui passent à AEM en tant que Cloud Service.
    1. [Outil de conversion](https://github.com/adobe/aem-cloud-service-dispatcher-converter) de Dispatcher AMS (Open Source) pour automatiser la conversion des configurations de Dispatcher AMS en configurations de Dispatcher Cloud Service.
+
    [Notes de mise à jour d’AEM en tant que Cloud Service 2020.6.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Outil de Transition :
