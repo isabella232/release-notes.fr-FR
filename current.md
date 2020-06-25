@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 504a9a00daef04e57c5662d0a4e3e92920b40ccd
+source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
 workflow-type: tm+mt
-source-wordcount: '7037'
+source-wordcount: '7035'
 ht-degree: 34%
 
 ---
@@ -453,8 +453,6 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ## ![Icône](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Updated **June 3, 2020**
-
 * [Nouvelles fonctionnalités dans Advertising Cloud DSP](#adcloud-dsp)
 * [Nouvelles fonctionnalités dans Advertising Cloud Search](#adcloud-search)
 
@@ -466,8 +464,7 @@ Updated **June 23, 2020**
 | -----------| ---------- |
 | Migration des domaines | (Version du 22 juin) Le DSP Advertising Cloud a migré de https://www.tubemogul.com à [https://advertising.adobe.com](https://advertising.adobe.com). |
 | Intégration d’Adobe Analytics | (Version du 18 juin) DSP peut désormais supprimer la mesure de coût d’OMA des données qu’il envoie à Analytics. Pour supprimer la mesure, contactez votre gestionnaire de compte Adobe. |
-| Graphique des périphériques basés sur des personnes | (Version du 22 juin) Les clients DSP en libre-service peuvent désormais exploiter un graphique de périphériques (Adobe Experience Cloud Device Co-op) |
-| ou LiveRamp) pour le ciblage basé sur les personnes et la gestion des fréquences dans toutes les nouvelles campagnes. Cela vous permettra d&#39;atteindre vos audiences sur l&#39;ensemble de leurs appareils et de limiter leur exposition à la publicité. |
+| Graphique des périphériques basés sur des personnes | (Version du 22 juin) Les clients DSP en libre-service peuvent désormais utiliser un graphique de périphériques (Adobe Experience Cloud Device Co-op ou LiveRamp) pour le ciblage basé sur les personnes et la gestion des fréquences dans toutes les nouvelles campagnes. Cela vous permettra d&#39;atteindre vos audiences sur l&#39;ensemble de leurs appareils et de limiter leur exposition à la publicité. |
 | Exclusion de vente de l&#39;ACCP | (Version du 22 juin) Vous pouvez maintenant communiquer à Advertising Cloud les demandes d’exclusion de la vente de l’ACCP en utilisant un nouveau segment d’exclusion de la vente de l’ACCP, que vous pouvez créer à partir d’ [!UICONTROL Audiences > Segments]. Vous pouvez également récupérer les rapports mensuels des identifiants que les clients ont envoyés pour des demandes d’exclusion de la vente pour le compte a) d’ [!UICONTROL Audiences > Segments] ou b) à l’aide de l’API Advertising Cloud Trafficking. Pour plus d’informations, voir https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | DoubleVérifier la sécurité des marques authentiques | (Version du 22 juin) Les annonceurs peuvent désormais cible d’une seule offre d’ID de segment DoubleVerify prévalant, à l’aide de filtres complets de sécurité de la marque, afin d’imiter leurs règles de blocage post-enchère avec DoubleVerify. Vous pouvez désormais le faire dans la section de ciblage Qualité des médias des paramètres de l’annonceur sous [!UICONTROL Paramètres > Publicitaire]. Pour en savoir plus sur le service, contactez programmaticsales@doubleverify.com. Des frais supplémentaires s’appliquent pour cette fonctionnalité. |
 | Optimisation CPA/RSDP | (Version du 20 mai) Les gestionnaires de Campaign n&#39;ont plus besoin de limiter les nouveaux placements dans les paquets pour éviter une surallocation du budget. Les emplacements reçoivent désormais une allocation budgétaire dynamique basée sur leurs performances CPM ou CPA/RSDP. |
