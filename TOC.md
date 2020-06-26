@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Notes de mise à jour](current.md)
 + Notes de mise à jour précédentes {#previous}
    + 2020 {#2020}
-      + [Mai 2020](c-legacy-releases/2020/05212020.md)
+      + [Mai 2020](c-legacy-releases/2020/05212020.md)
       + [Avril 2020](c-legacy-releases/2020/04162020.md)
       + [Mars 2020](c-legacy-releases/2020/03122020.md)
       + [Février 2020](c-legacy-releases/2020/02202020.md)
