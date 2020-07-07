@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
+source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
 workflow-type: tm+mt
-source-wordcount: '6998'
-ht-degree: 100%
+source-wordcount: '7021'
+ht-degree: 99%
 
 ---
 
@@ -251,6 +251,10 @@ Nouveaux cours, tutoriels vidéo et articles dans Analytics et Customer Journey 
 | [Tableaux de bord d’Adobe Analytics : créateur de cartes de performance](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | Tutoriel vidéo | Dans cette vidéo, apprenez à créer et à partager des [!UICONTROL cartes de performance] dans [!UICONTROL Analysis Workspace], qui seront affichées sur les tableaux de bord d’Adobe Analytics (application mobile). |
 | [Expérience in-app des tableaux de bord d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Tutoriel vidéo | Dans cette vidéo, apprenez à utiliser les tableaux de bord d’Adobe Analytics (application mobile) pour accéder et afficher les [!UICONTROL cartes de performance] que vous avez créées ou qui ont été partagées avec vous. |
 
+#### AppMeasurement {#appm}
+
+Pour connaître les dernières mises à jour des versions d’AppMeasurement, reportez-vous aux notes [de mise à jour d’](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html)AppMeasurement pour JavaScript.
+
 #### Ressources d’aide à propos d’Analytics
 
 * [Tutoriels Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)
@@ -341,12 +345,10 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
       * L’amélioration de la prise en charge de l’environnement de test en libre-service dans Cloud Manager permet aux utilisateurs autorisés de supprimer tous les environnements au sein d’un environnement de test et de recevoir des crédits.
       * Les environnements à hibernation automatique des environnements de test les font entrer automatiquement « en hibernation » après une période d’inactivité. Les clients peuvent déclencher eux-mêmes la « sortie d’hibernation ».
    * Outils de transition destinés à la prise en charge de l’accélération dans le cloud.
-
    Dans le but de réduire le temps et les coûts de transition depuis le site vers Cloud Service, deux outils de transition ont été lancés ce mois-ci. Ces outils sont conçus pour automatiser certaines des tâches clés au cours du processus de transition, réduisant ainsi l’effort général.
 
    1. [L’utilisation de l’outil de transfert de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponible sur SD) rationalise l’activité de transfert de contenu et la rend évolutive. Avec une interface utilisateur conviviale, l’outil est en libre-service pour les clients et partenaires existants (on-prem/AMS) qui font la transition vers AEM en tant que Cloud Service.
    1. L’outil [convertisseur du Dispatcher AMS](https://github.com/adobe/aem-cloud-service-dispatcher-converter) pour automatiser la conversion des configurations du Dispatcher AMS en configurations du Dispatcher de Cloud Service.
-
    [Notes de mise à jour d’AEM as a Cloud Service 2020.6.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Outils de transition :
@@ -465,7 +467,7 @@ Mis à jour le **23 juin 2020**
 | -----------| ---------- |
 | Migration des domaines | (Version du 22 juin) Le Advertising Cloud DSP a migré de https://www.tubemogul.com à [https://advertising.adobe.com](https://advertising.adobe.com). |
 | Intégration d’Adobe Analytics | (Version du 18 juin) Le DSP peut désormais supprimer la mesure du coût AMO des données qu’il envoie à Analytics. Pour supprimer cette mesure, contactez votre gestionnaire de compte Adobe. |
-| Graphique des appareils basés sur des personnes | (Version du 22 juin) Les clients DSP en libre-service peuvent désormais utiliser un graphique d’appareils (Adobe Experience Cloud Device Co-op ou LiveRamp) pour le ciblage basé sur les personnes et la gestion des fréquences dans toutes les nouvelles campagnes. Cette option vous permettra d’atteindre vos audiences sur l’ensemble de leurs appareils et de limiter leur exposition à la publicité. |
+| Graphique de périphériques basé sur les personnes | (Version du 22 juin) Les clients DSP en libre-service peuvent désormais utiliser un graphique d’appareils (Adobe Experience Cloud Device Co-op ou LiveRamp) pour le ciblage basé sur les personnes et la gestion des fréquences dans toutes les nouvelles campagnes. Cette option vous permettra d’atteindre vos audiences sur l’ensemble de leurs appareils et de limiter leur exposition à la publicité. |
 | Droit d’opposition (opt-out) à la vente des informations personnelles (CCPA) | (Version du 22 juin) Vous pouvez maintenant communiquer à Advertising Cloud des requêtes d’opposition à la vente des informations personnelles (CCPA) en utilisant un nouveau segment de droit d’opposition à la vente des informations personnelles (CCPA), que vous pouvez créer à partir d’[!UICONTROL Audiences > Segments]. Vous pouvez également récupérer les rapports mensuels des identifiants que les clients ont envoyés pour des requêtes d’opposition à la vente des informations personnelles pour le compte a) d’[!UICONTROL Audiences > Segments] ou b) à l’aide de l’API d’acheminement Advertising Cloud. Pour plus d’informations, voir https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | Protection authentique des marques DoubleVerify | (Version du 22 juin) Les annonceurs peuvent désormais cibler une seule pré-enchère d’identifiant du segment DoubleVerify, à l’aide de filtres complets de protection des marques, afin d’imiter leurs règles de blocage post-enchère avec DoubleVerify. Vous pouvez effectuer cette action dans la section de ciblage Qualité des médias des paramètres de l’annonceur sous [!UICONTROL Paramètres > Annonceur]. Pour en savoir plus sur le service, contactez programmaticsales@doubleverify.com. Des frais supplémentaires s’appliquent pour cette fonctionnalité. |
 | Optimisation du CPA/ROAS | (Mise à jour du 20 mai) Les gestionnaires de campagnes n’ont plus besoin de limiter les nouveaux placements dans les modules pour éviter les excès lors de l’attribution du budget. Les emplacements disposent désormais d’un budget dynamique basé sur leurs performances CPM ou CPA/ROAS (retour sur dépenses publicitaires). |
