@@ -345,10 +345,12 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
       * L’amélioration de la prise en charge de l’environnement de test en libre-service dans Cloud Manager permet aux utilisateurs autorisés de supprimer tous les environnements au sein d’un environnement de test et de recevoir des crédits.
       * Les environnements à hibernation automatique des environnements de test les font entrer automatiquement « en hibernation » après une période d’inactivité. Les clients peuvent déclencher eux-mêmes la « sortie d’hibernation ».
    * Outils de transition destinés à la prise en charge de l’accélération dans le cloud.
+
    Dans le but de réduire le temps et les coûts de transition depuis le site vers Cloud Service, deux outils de transition ont été lancés ce mois-ci. Ces outils sont conçus pour automatiser certaines des tâches clés au cours du processus de transition, réduisant ainsi l’effort général.
 
    1. [L’utilisation de l’outil de transfert de contenu](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (disponible sur SD) rationalise l’activité de transfert de contenu et la rend évolutive. Avec une interface utilisateur conviviale, l’outil est en libre-service pour les clients et partenaires existants (on-prem/AMS) qui font la transition vers AEM en tant que Cloud Service.
    1. L’outil [convertisseur du Dispatcher AMS](https://github.com/adobe/aem-cloud-service-dispatcher-converter) pour automatiser la conversion des configurations du Dispatcher AMS en configurations du Dispatcher de Cloud Service.
+
    [Notes de mise à jour d’AEM as a Cloud Service 2020.6.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Outils de transition :
