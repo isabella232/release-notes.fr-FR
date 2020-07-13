@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 96%
@@ -20,12 +20,12 @@ ht-degree: 96%
 Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!IMPORTANT]
->>Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
-
+>
+>Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
 
 >[!NOTE]
->>Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
-
+>
+>Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour. Les informations communiquées après la mise à jour seront estampillées avec la date de publication.
 
 **Date de publication : 2020**
 
@@ -97,7 +97,7 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 Using Adobe [!UICONTROL Experience Platform,] orchestrate individual customer journeys at scale across experience channels by intelligently anticipating every individual&#39;s needs in real time, wherever their journey takes them.
 
-#### Ressources supplémentaires pour le [!UICONTROL Journey Orchestration]
+#### Additional resources for [!UICONTROL Journey Orchestration]
 
 [Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
@@ -128,9 +128,9 @@ Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
 Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html).
 
-### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
+### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |  
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
@@ -138,7 +138,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### [!DNL Media Analytics] SDK pour [!DNL iOS] &amp; [!DNL Android] (anciennement SDK VHL) {#aa-va}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |  
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
@@ -150,7 +150,7 @@ Voir les [Notes de mise à jour de Data Workbench](https://marketing.adobe.com/
 
 ### AppMeasurement {#appm}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
@@ -178,7 +178,7 @@ Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content
 
 ## Audience Manager {#aam}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |  
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
@@ -234,7 +234,7 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 
 ### [!DNL Livefyre] {#livefyre}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |  
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
@@ -249,7 +249,7 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 
 ## Social {#soc}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |  
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
@@ -274,7 +274,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ## Advertising Cloud {#adcloud}
 
-| Fonction | Description |
+| Fonctionnalité | Description |
 | -----------| ---------- |  
 | Fonctionnalité A | Texte |
 | Fonctionnalité B | Texte |
