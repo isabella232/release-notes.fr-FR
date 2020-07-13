@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 65fea3351137d311bbda846058bea34284b0054e
+source-git-commit: 19591a3d807cd772df0eb20e457d94cc9f7d5cfb
 workflow-type: tm+mt
-source-wordcount: '4205'
+source-wordcount: '4203'
 ht-degree: 60%
 
 ---
@@ -116,7 +116,7 @@ Les applications suivantes utilisent le nouveau domaine experience.adobe.com :
 
 Notes de mise à jour d’[!DNL Experience Platform] et des services d’application, y compris des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services] d’[!DNL Experience Platform Launch,], et des bulletins de sécurité.
 
-Non mis à jourDernière date de publication : **10 juin 2020**
+Latest release date: **June 10, 2020**
 
 Voir les notes [de mise à jour des](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) Experience Platform pour obtenir les informations les plus récentes sur l’Experience Platform.
 
@@ -330,7 +330,7 @@ Nouvelles vidéos, didacticiels ou cours publiés au cours du mois dernier.
 | Publié | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |  
 | 26 juin 2020 | [Explorez l’interface utilisateur Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html) | Campaign Classic | Cette vidéo explique l’interface utilisateur principale de Adobe Campaign Classic et vous explique comment naviguer entre les fonctionnalités principales. |
-| 8 juillet 2020 | [Installation et configuration du client Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Campaign Classic | Apprenez à télécharger et installer la console du client Adobe Campaign, à créer et gérer vos connexions à plusieurs environnements et à vérifier l’accès à la console du client Adobe Campaign. |
+| 8 juillet 2020 | [Installation et configuration du client Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Campaign Classic | Apprenez à télécharger et installer la console du client Adobe Campaign, à créer et gérer vos connexions à plusieurs environnements et à vérifier l’accès à la console du client Adobe Campaign. |
 | 19 juin 2020 | [Introduction à Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html) | Campaign Classic | Découvrez comment Adobe Campaign Classic s’intègre dans le portefeuille Adobe Digital Experience, ainsi que les principales fonctionnalités et fonctionnalités. |
 | 12 juin 2020 | [Déploiement d’un modèle de diffusion de messagerie ad hoc](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/deploying-ad-hoc-email-delivery-template.html) | Campaign Classic | Découvrez comment déployer un modèle de courrier électronique ad hoc |
 | 12 juin 2020 | [Configuration d’un modèle de diffusion](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/configuring-a-delivery-template.html) | Campaign Classic | Découvrez comment configurer un modèle de courrier électronique |
