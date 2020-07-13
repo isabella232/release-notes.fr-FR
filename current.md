@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5022132f52411a07b6e91a8bc0d8da400464c143
+source-git-commit: fbe2b9ebb091c2898c97a205fcee480143f540e4
 workflow-type: tm+mt
-source-wordcount: '4281'
+source-wordcount: '4292'
 ht-degree: 59%
 
 ---
@@ -184,7 +184,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
-| Fin de vie : Connecteurs de données Adobe | 13 juillet 2020 | Les connecteurs de données Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d&#39;une nouvelle norme dans le Programme [de partenaires](https://partners.adobe.com/exchangeprogram/experiencecloud) Adobe Exchange qui devrait être adoptée pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n&#39;a pas encore été fixée, mais nous prévoyons qu&#39;elle le sera dans les 12 à 18 prochains mois (mi 2021 à fin 2021). |
+| Fin de vie : Connecteurs de données Adobe | 13 juillet 2020 | Les connecteurs de données Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d&#39;une nouvelle norme dans le Programme [de partenaires](https://partners.adobe.com/exchangeprogram/experiencecloud) Adobe Exchange qui devrait être adoptée pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n&#39;a pas encore été fixée, mais nous prévoyons qu&#39;elle le sera dans les 12 à 18 prochains mois (mi 2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.md) |
 | Mappage de suite de rapports à l’organisation IMS | Juillet 2020 | L’outil de mappage des suites de rapports sera abandonné en novembre 2020. Cette fonctionnalité permet d’intégrer des intégrations telles que Advertising Analytics et la publication de segments Experience Cloud dans Adobe Analytics. Une suite de rapports doit être mappée à une organisation IMS pour activer ces services et d’autres. Les nouvelles suites de rapports sont automatiquement mises en correspondance lors de leur création. Cependant, les anciennes suites de rapports doivent être mappées manuellement à une organisation IMS. Voir [Faire correspondre les suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) dans le guide de l’utilisateur des services principaux pour vous assurer que toutes les suites de rapports appartiennent à une organisation IMS. |
 | Migration vers un domaine de produit unifié | Date d’entrée en vigueur : 28 mai 2020 | La migration vers un domaine de produit unifié pour Adobe Analytics, débutée en janvier 2020, s’est terminée le 28 mai 2020. Tandis qu’Adobe Analytics s’emploie à supprimer toutes les références de domaine `omniture.com` de son architecture, il est important de créer une liste autorisée `omniture.com` comme cookie tiers. Nous vous informerons via les notes de mise à jour dès que la migration complète de l’architecture sera terminée (bientôt). L’étape de liste d’autorisation ne sera ainsi plus nécessaire. Vous trouverez [ici](https://helpx.adobe.com/fr/analytics/kb/adobe-ip-addresses.html) une liste complète de domaines et d’adresses IP recommandés que vous devriez inclure dans votre liste d’autorisation.<br>Si votre entreprise bloque les cookies tiers, contactez l’assistance clientèle pour récupérer l’accès à votre compte Adobe Analytics. |
 | Nouvelle page d’entrée par défaut d’Adobe Analytics | Date d’entrée en vigueur : 18 juin 2020 | Le 18 juin 2020, la page d’entrée par défaut d’Adobe Analytics passera de [!UICONTROL Rapports] à [!UICONTROL Workspace]. Cette modification se produira pour tous les utilisateurs n’ayant pas défini de page d’entrée personnalisée auparavant. |
