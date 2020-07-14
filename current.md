@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 079138eeaeb4a61ab892abaff66b15d51b751bf4
+source-git-commit: 985ec5f911f0cfa433e12abb5e55724dbecadb2e
 workflow-type: tm+mt
-source-wordcount: '4321'
-ht-degree: 58%
+source-wordcount: '4373'
+ht-degree: 57%
 
 ---
 
@@ -31,13 +31,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **13 juillet 2020**
+Dernière mise à jour : **14 juillet 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Orchestration du parcours](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mis à jour le 13 juillet 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mis à jour le 14 juillet 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -75,7 +75,7 @@ Mises à jour générales de l’interface d’Experience Cloud.
 
 En Experience Cloud, la version du 16 **juillet 2020** met à jour le menu déroulant Navigateur d’applications. Il a été rationalisé afin que les logos des solutions soient supprimés et le menu affiche uniquement les applications et services auxquels vous avez accès.
 
-Voir la documentation [sur les](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html) produits de l’interface Experience Cloud pour un exemple.
+Voir la documentation [du](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html) produit de l’interface Experience Cloud pour un exemple.
 
 **Domaine de produit unifié**
 
@@ -145,7 +145,7 @@ Date de publication : **16 juillet 2020**
 | Fonction | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-------|
 | Espace de travail : Nouveaux paramètres prédéfinis de plage de dates | Ajouté 4 nouvelles plages de dates (_Cette semaine/ce mois/ce trimestre/cette année_ (à l’exception d’aujourd’hui)) afin que les utilisateurs puissent choisir parmi des plages de dates qui n’incluent pas de données d’une journée partielle d’aujourd’hui. |
-| API de réparation de données - version bêta publique | L’API de réparation des données fournit une option en libre-service permettant aux clients de supprimer des colonnes de données Adobe Analytics. Lors de la sortie de la version bêta publique, l&#39;API prend en charge la suppression des données du Activity Map. D’autres fonctionnalités seront déployées ultérieurement. Contactez le service à la clientèle pour accéder à cette API. |
+| API de réparation des données - version bêta publique (mise à jour **le 14 juillet 2020**) | L’API de réparation des données vous offre un mécanisme de suppression ou de modification de certaines données Adobe existantes. Les demandes de réparation de données sont effectuées en envoyant une définition de travail à l’API de réparation de données, qui inclut la suite de rapports, la plage de dates, les variables et les actions à appliquer aux données. Dès le début de la version bêta publique, l&#39;API de réparation de données prend en charge la suppression des données de Activity Map. D&#39;autres fonctionnalités seront déployées ultérieurement. Contactez le service à la clientèle pour rejoindre la version bêta publique de l’API de réparation des données. [En savoir plus...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
