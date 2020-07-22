@@ -13,7 +13,7 @@ ht-degree: 99%
 ---
 
 
-# Notes de mise à jour d’Adobe Experience Cloud - juillet 2020
+# Notes de mise à jour d’Adobe Experience Cloud - Juillet 2020
 
 ![Bannière](/assets/experience-cloud-banner-3.png)
 
@@ -33,7 +33,7 @@ Dernière mise à jour : **14 juillet 2020**
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)  (Mise à jour le 14 juillet 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)   (Mise à jour le 14 juillet 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -132,7 +132,7 @@ Date de publication : **16 juillet 2020**
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)  (Mise à jour le 13 juillet 2020)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)   (Mise à jour le 13 juillet 2020)
 * [Nouveaux cours et tutoriels d’Adobe Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -180,7 +180,7 @@ AN-222672, AN-222813, AN-222892, AN-223272, AN-223432, AN-224062, AN-224108, AN-
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout  ou de mise à jour | Description |
+| Avis | Date d’ajout   ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
 | Fin de vie des connecteurs de données Adobe | 13 juillet 2020 | Les connecteurs de données Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappage d’une suite de rapports à l’organisation IMS | Juillet 2020 | L’outil de mappage des suites de rapports sera abandonné en novembre 2020. Cette fonctionnalité optimise les intégrations telles que la publication de segments Advertising Analytics et Experience Cloud dans Adobe Analytics. Une suite de rapports doit être mappée à une organisation IMS pour activer ces services et d’autres services. Les nouvelles suites de rapports sont automatiquement mappées lors de leur création. Cependant, les anciennes suites de rapports doivent être mappées manuellement à une organisation IMS. Consultez [Mappage des suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) dans le guide d’utilisation des services principaux pour vous assurer que toutes les suites de rapports appartiennent à une organisation IMS. |
