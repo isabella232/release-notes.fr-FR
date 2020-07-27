@@ -33,7 +33,7 @@ Dernière mise à jour : **21 juillet 2020**
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)   (Mise à jour le 21 juillet 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 21 juillet 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -122,7 +122,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 ### Ressources supplémentaires pour Journey Orchestration
 
-[Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
 ## ![Icône](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -140,7 +140,7 @@ Date de publication : **16 juillet 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-------|
-| ADC : Accrochage basé sur les champs | 27 juillet 2020 | Nouvelle méthode d’Analytics sur plusieurs périphériques qui vous permet d’utiliser une variable personnalisée pour identifier les visiteurs. &lt;!-->[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
+| CDA : groupement basé sur les champs | 27 juillet 2020 | Nouvelle méthode d’analyse entre appareils qui vous permet d’utiliser une variable personnalisée pour identifier les visiteurs. &lt;!-->[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
 | Workspace : nouveaux paramètres prédéfinis de période | 16 juillet 2020 | Quatre nouvelles périodes ont été ajoutées (_cette semaine/ce mois/ce trimestre/cette année_, à l’exception d’aujourd’hui) afin que les utilisateurs puissent choisir parmi des périodes ne comprenant pas de données de journée partielle pour la journée en cours. |
 | API Data Repair – version bêta publique | 14 juillet 2020 | L’[!UICONTROL API Data Repair] vous offre un mécanisme de suppression ou de modification de certaines données Adobe Analytics existantes. Les demandes de [!UICONTROL réparation de données] sont effectuées en envoyant une définition de travail à l’[!UICONTROL API Data Repair], qui inclut la suite de rapports, la période, les variables et les actions à appliquer aux données. Lors du lancement de la version bêta publique, l’[!UICONTROL API Data Repair] prend en charge la suppression des données d’[!UICONTROL Activity Map]. D’autres fonctionnalités seront déployées ultérieurement. Contactez l’Assistance clientèle pour rejoindre la version bêta publique de l’API Data Repair. [En savoir plus...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -180,7 +180,7 @@ AN-222672, AN-222813, AN-222892, AN-223272, AN-223432, AN-224062, AN-224108, AN-
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout   ou de mise à jour | Description |
+| Avis | Date d’ajout ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
 | Fin de vie des connecteurs de données Adobe | 13 juillet 2020 | Les connecteurs de données Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappage d’une suite de rapports à l’organisation IMS | Juillet 2020 | L’outil de mappage des suites de rapports sera abandonné en novembre 2020. Cette fonctionnalité optimise les intégrations telles que la publication de segments Advertising Analytics et Experience Cloud dans Adobe Analytics. Une suite de rapports doit être mappée à une organisation IMS pour activer ces services et d’autres services. Les nouvelles suites de rapports sont automatiquement mappées lors de leur création. Cependant, les anciennes suites de rapports doivent être mappées manuellement à une organisation IMS. Consultez [Mappage des suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) dans le guide d’utilisation des services principaux pour vous assurer que toutes les suites de rapports appartiennent à une organisation IMS. |
@@ -235,7 +235,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
 
    Dynamic Media dans AEM 6.5 et AEM as a Cloud Service vous permet désormais de charger, gérer, afficher et diffuser des ressources 3D sous forme d’expériences immersives.
 
-   * Dans AEM as a Cloud Service, consultez [Utilisation de ressources 3D dans Dynamic Media.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html)
+   * Dans AEM as a Cloud Service, consultez [Utilisation de ressources 3D dans Dynamic Media.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html)
    * Dans AEM 6.5, consultez [Utilisation de ressources 3D dans Dynamic Media.](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/dynamic/assets-3d.html)
 
 ### Auto-assistance
@@ -328,12 +328,12 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |  
-| 26 juin 2020 | [Explorer l’interface utilisateur d’Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html) | Campaign Classic | Cette vidéo décrit l’interface utilisateur principale d’Adobe Campaign Classic et vous explique comment accéder à la fonctionnalité principale. |
+| 26 juin 2020 | [Explorer l’interface utilisateur d’Adobe Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html) | Campaign Classic | Cette vidéo décrit l’interface utilisateur principale d’Adobe Campaign Classic et vous explique comment accéder à la fonctionnalité principale. |
 | 8 juillet 2020 | [Installation et configuration du client Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Campaign Classic | Apprenez à télécharger et installer la console du client Adobe Campaign, à créer et gérer vos connexions à plusieurs environnements et à vérifier l’accès à la console du client Adobe Campaign. |
-| 19 juin 2020 | [Présentation d’Adobe Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html) | Campaign Classic | Découvrez la place d’Adobe Campaign Classic dans le portefeuille d’Adobe Digital Experience, ainsi que les principales fonctionnalités et capacités. |
-| 12 juin 2020 | [Déploiement d’un modèle de diffusion de courrier électronique ad hoc](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/deploying-ad-hoc-email-delivery-template.html) | Campaign Classic | Découvrez comment déployer un modèle de courrier électronique ad hoc. |
-| 12 juin 2020 | [Configuration d’un modèle de diffusion](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/configuring-a-delivery-template.html) | Campaign Classic | Découvrez comment configurer un modèle de courrier électronique. |
-| 12 juin 2020 | [Définition des propriétés du modèle de diffusion](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/setting-delivery-template-properties.html) | Campaign Classic | Découvrez comment définir les propriétés du modèle de courrier électronique. |
+| 19 juin 2020 | [Présentation d’Adobe Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html) | Campaign Classic | Découvrez la place d’Adobe Campaign Classic dans le portefeuille d’Adobe Digital Experience, ainsi que les principales fonctionnalités et capacités. |
+| 12 juin 2020 | [Déploiement d’un modèle de diffusion de courrier électronique ad hoc](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/deploying-ad-hoc-email-delivery-template.html) | Campaign Classic | Découvrez comment déployer un modèle de courrier électronique ad hoc. |
+| 12 juin 2020 | [Configuration d’un modèle de diffusion](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/configuring-a-delivery-template.html) | Campaign Classic | Découvrez comment configurer un modèle de courrier électronique. |
+| 12 juin 2020 | [Définition des propriétés du modèle de diffusion](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/sending-messages/using-delivery-templates/setting-delivery-template-properties.html) | Campaign Classic | Découvrez comment définir les propriétés du modèle de courrier électronique. |
 | 12 juin 2020 | [Gestion des clés GPG](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management-overview.html) | Campaign Classic/Panneau de contrôle | Découvrez comment générer et installer une paire de clés GPG publique/privée pour le chiffrement des données et comment importer et installer une clé publique pour le déchiffrement des données. |
 | 26 juin 2020 | [Prise en main de l’interface utilisateur dans Adobe Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/getting-started/getting-started-with-the-ui.html) | Campaign Standard | Cette vidéo présente l’interface utilisateur d’Adobe Campaign Standard et explique comment accéder aux fonctionnalités clés et de base. |
 | 26 juin 2020 | [Gestion des clés GPG](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html) | Campaign Standard/Panneau de contrôle | Découvrez comment générer et installer une paire de clés GPG publique/privée pour le chiffrement des données et comment importer et installer une clé publique pour le déchiffrement des données. |
@@ -341,8 +341,8 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 ### Ressources d’aide
 
 * Adobe Campaign Standard : [Centre d’aide](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/campaign-standard-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) - [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/overview.html) - [Calendrier des versions](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-planning.html) - [Dernières mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic : [Centre d’aide](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) - [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) - [Dernières mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/documentation-updates.html)
-* Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) - Tutoriels vidéo pour [Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Adobe Campaign Classic : [Centre d’aide](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) - [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/overview.html) - [Dernières mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/documentation-updates.html)
+* Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) - Tutoriels vidéo pour [Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Icône](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
