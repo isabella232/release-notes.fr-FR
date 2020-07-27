@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
+source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
 workflow-type: tm+mt
-source-wordcount: '4563'
+source-wordcount: '4561'
 ht-degree: 96%
 
 ---
@@ -136,7 +136,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 Date de publication : **16 juillet 2020**
 
-* [Nouvelles fonctionnalités de Adobe Analytics](#aa-features) (Mis à jour le 21 juillet 2020)
+* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features) (Mis à jour le 21 juillet 2020)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
@@ -380,8 +380,6 @@ Pour les notes de mise à jour de Magento, veuillez consulter :
 
 ### Mises à jour de Core Marketo Engage
 
-La documentation de [!UICONTROL Marketo Sky] est maintenant disponible pour [ici](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
-
 Voir les [notes de mise à jour](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720) [!DNL Marketo] pour consulter les informations les plus récentes.
 
 ### Fonctionnalités à venir
@@ -401,5 +399,9 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 
 * **Paramètre de l’API de ressource &quot;_method&quot; :** après septembre 2020, les points de fin d’API d’actif n’accepteront plus `_method` pour transmettre les paramètres de requête dans un corps POST afin de contourner les limitations de longueur d’URI.
 * **Dépréciation de la prise en charge d’Internet Explorer :** à compter de la version du 31 juillet 2020, l’interface utilisateur de Marketo Engage ne sera plus prise en charge dans Internet Explorer.
+
+>[!NOTE]
+>
+>La documentation de l&#39;interface [!UICONTROL de Marketo Sky] est disponible [ici](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
