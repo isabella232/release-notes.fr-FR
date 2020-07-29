@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
+source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 96%
+source-wordcount: '4618'
+ht-degree: 95%
 
 ---
 
@@ -27,13 +27,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **21 juillet 2020**
+Dernière mise à jour : **29 juillet 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud) (Mise à jour le 27 juillet 2020)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 21 juillet 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 29 juillet 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Mis à jour le 27 juillet 2020)
 * [Campaign](#ac)
@@ -69,11 +69,11 @@ Mises à jour générales de l’interface d’Experience Cloud.
 
 ### Nouvelle documentation du Adobe Summit Lab
 
-Nouveau contenu publié par les laboratoires du Sommet de Adobe en 2020.
+Nouveau contenu publié par les laboratoires du Sommet Adobe en 2020.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 27 juillet 2020 | [Libérer des expériences numériques avec Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Article | Dans ce laboratoire, passez à un niveau supérieur de productivité et de créativité en apprenant à utiliser le numérique et à en faire plus avec le format PDF, et à transformer les expériences client et employé. |
+| 27 juillet 2020 | [Lancer des expériences numériques avec Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Article | Dans ce laboratoire, passez à un niveau supérieur de productivité et de créativité en apprenant à utiliser le numérique et à en faire plus avec le format PDF, et à transformer les expériences client et employé. |
 
 **Menu de l’interface mis à jour**
 
@@ -136,8 +136,8 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 Date de publication : **16 juillet 2020**
 
-* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features) (Mis à jour le 21 juillet 2020)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
+* [Nouvelles fonctionnalités de Adobe Analytics](#aa-features) (Mis à jour le 21 juillet 2020)
+* [Nouvelles fonctionnalités du Customer Journey Analytics](#cust-journey) (Mis à jour le 29 juillet 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -148,7 +148,7 @@ Date de publication : **16 juillet 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-------|
-| CDA : groupement basé sur les champs | 27 juillet 2020 | Nouvelle méthode d’analyse entre appareils qui vous permet d’utiliser une variable personnalisée pour identifier les visiteurs. &lt;!-->[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
+| CDA : groupement basé sur les champs | 27 juillet 2020 | Nouvelle méthode d’analyse entre appareils qui vous permet d’utiliser une variable personnalisée pour identifier les visiteurs. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
 | Workspace : nouveaux paramètres prédéfinis de période | 16 juillet 2020 | Quatre nouvelles périodes ont été ajoutées (_cette semaine/ce mois/ce trimestre/cette année_, à l’exception d’aujourd’hui) afin que les utilisateurs puissent choisir parmi des périodes ne comprenant pas de données de journée partielle pour la journée en cours. |
 | API Data Repair – version bêta publique | 14 juillet 2020 | L’[!UICONTROL API Data Repair] vous offre un mécanisme de suppression ou de modification de certaines données Adobe Analytics existantes. Les demandes de [!UICONTROL réparation de données] sont effectuées en envoyant une définition de travail à l’[!UICONTROL API Data Repair], qui inclut la suite de rapports, la période, les variables et les actions à appliquer aux données. Lors du lancement de la version bêta publique, l’[!UICONTROL API Data Repair] prend en charge la suppression des données d’[!UICONTROL Activity Map]. D’autres fonctionnalités seront déployées ultérieurement. Contactez l’Assistance clientèle pour rejoindre la version bêta publique de l’API Data Repair. [En savoir plus...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -156,9 +156,9 @@ Date de publication : **16 juillet 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-----|
-| Aucune nouvelle fonctionnalité ce mois-ci |  |  |
+| Option de carte d’identité pour l’ID de personne | 26 juin 2020 | La carte d’identité est une structure de données de mappage qui vous permet de télécharger des paires clé -> valeur dans le cadre de la création d’une connexion dans le Customer Journey Analytics. Les clés sont des espaces de nommage d&#39;identité et la valeur est une structure qui contient la valeur d&#39;identité. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
-### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
+### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
 Date de publication : **16 juillet 2020**
 
@@ -402,6 +402,6 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 
 >[!NOTE]
 >
->La documentation de l&#39;interface [!UICONTROL de Marketo Sky] est disponible [ici](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
+>La documentation de l’interface du [!UICONTROL Marketo Sky] est disponible [ici](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
