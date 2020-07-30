@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
+source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
-source-wordcount: '4618'
+source-wordcount: '4597'
 ht-degree: 95%
 
 ---
@@ -275,7 +275,6 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 27 juillet 2020 | [Détection de motif](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | Référence | Disponible uniquement à partir du `upgrade.log` serveur pendant une mise à niveau de Experience Manager. |
 | 27 juillet 2020 | [Distribution logicielle](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html) | Article | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. Une interface utilisateur intuitive, une recherche simplifiée et une vitesse de téléchargement considérablement améliorée font du téléchargement de packages logiciels pour les produits Experience Cloud une expérience utilisateur exceptionnelle. |
 | 25 juin 2020 | [Prise en main des formulaires adaptatifs](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Ces tutoriels décrivent les étapes de création d’un formulaire adaptatif à plusieurs onglets. Découvrez comment utiliser des tableaux, une disposition en accordéon et un éditeur de règles pour créer des règles de fonctionnement. |
 | 25 juin 2020 | [Création d’un processus d’examen dans AEM Forms](https://video.tv.adobe.com/v/35821/quality=9?captions=fre_fr) | Vidéo | Découvrez comment créer un processus pour examiner les données envoyées à partir d’un formulaire actif. |
