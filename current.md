@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
 source-wordcount: '4597'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Dernière mise à jour : **29 juillet 2020**
 * [Interface d’Experience Cloud](#ecloud) (Mise à jour le 27 juillet 2020)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 29 juillet 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)  (Mise à jour le 29 juillet 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Mis à jour le 27 juillet 2020)
 * [Campaign](#ac)
@@ -136,7 +136,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 Date de publication : **16 juillet 2020**
 
-* [Nouvelles fonctionnalités de Adobe Analytics](#aa-features) (Mis à jour le 21 juillet 2020)
+* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features) (Mis à jour le 21 juillet 2020)
 * [Nouvelles fonctionnalités du Customer Journey Analytics](#cust-journey) (Mis à jour le 29 juillet 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
@@ -148,7 +148,7 @@ Date de publication : **16 juillet 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-------|
-| CDA : groupement basé sur les champs | 27 juillet 2020 | Nouvelle méthode d’analyse entre appareils qui vous permet d’utiliser une variable personnalisée pour identifier les visiteurs. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
+| CDA : groupement basé sur les champs | 27 juillet 2020 | Nouvelle méthode d’analyse entre appareils qui vous permet d’utiliser une variable personnalisée pour identifier les visiteurs. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/field-based-stitching.html) |
 | Workspace : nouveaux paramètres prédéfinis de période | 16 juillet 2020 | Quatre nouvelles périodes ont été ajoutées (_cette semaine/ce mois/ce trimestre/cette année_, à l’exception d’aujourd’hui) afin que les utilisateurs puissent choisir parmi des périodes ne comprenant pas de données de journée partielle pour la journée en cours. |
 | API Data Repair – version bêta publique | 14 juillet 2020 | L’[!UICONTROL API Data Repair] vous offre un mécanisme de suppression ou de modification de certaines données Adobe Analytics existantes. Les demandes de [!UICONTROL réparation de données] sont effectuées en envoyant une définition de travail à l’[!UICONTROL API Data Repair], qui inclut la suite de rapports, la période, les variables et les actions à appliquer aux données. Lors du lancement de la version bêta publique, l’[!UICONTROL API Data Repair] prend en charge la suppression des données d’[!UICONTROL Activity Map]. D’autres fonctionnalités seront déployées ultérieurement. Contactez l’Assistance clientèle pour rejoindre la version bêta publique de l’API Data Repair. [En savoir plus...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -188,7 +188,7 @@ AN-222672, AN-222813, AN-222892, AN-223272, AN-223432, AN-224062, AN-224108, AN-
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Avis | Date d’ajout  ou de mise à jour | Description |
 | -----------| ---------- | ---------- |
 | Fin de vie des connecteurs de données Adobe | 13 juillet 2020 | Les connecteurs de données Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappage d’une suite de rapports à l’organisation IMS | Juillet 2020 | L’outil de mappage des suites de rapports sera abandonné en novembre 2020. Cette fonctionnalité optimise les intégrations telles que la publication de segments Advertising Analytics et Experience Cloud dans Adobe Analytics. Une suite de rapports doit être mappée à une organisation IMS pour activer ces services et d’autres services. Les nouvelles suites de rapports sont automatiquement mappées lors de leur création. Cependant, les anciennes suites de rapports doivent être mappées manuellement à une organisation IMS. Consultez [Mappage des suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) dans le guide d’utilisation des services principaux pour vous assurer que toutes les suites de rapports appartiennent à une organisation IMS. |
