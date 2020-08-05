@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
+source-git-commit: f7bd407c120932f7c51ccc77d5e72f72a2d38014
 workflow-type: tm+mt
-source-wordcount: '4597'
+source-wordcount: '4591'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,6 @@ Date de publication : **16 juillet 2020**
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
-* [Nouveaux cours et tutoriels d’Adobe Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
