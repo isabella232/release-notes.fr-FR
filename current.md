@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
+source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
 workflow-type: tm+mt
-source-wordcount: '6174'
+source-wordcount: '6287'
 ht-degree: 42%
 
 ---
@@ -228,6 +228,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
    * aem Commerce est désormais disponible sur Cloud Service. Voir [Prise en main d’AEM Commerce en tant que Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
    * Les améliorations apportées aux connecteurs pour Adobe Target et Adobe Analytics comprennent des améliorations de l’interface utilisateur, le remplacement de l’interface utilisateur classique et l’intégration du lancement d’Adobe. Voir [Intégration d’Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) et [Intégration de Adobe Target.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * Le service Asset Compute est un service évolutif et extensible permettant de traiter les ressources. Les administrateurs peuvent configurer le Experience Manager pour appeler le programme de travail personnalisé créé à l’aide du service Asset Compute. Les développeurs peuvent utiliser ce service pour créer des agents personnalisés spécialisés qui répondent à des cas d’utilisation complexes. Ce service Web peut générer des miniatures pour différents types de fichiers, des rendus d&#39;images de haute qualité à partir de formats de fichiers Adobes, coder des vidéos (à venir), extraire des métadonnées, extraire du texte intégral comme précurseur de l&#39;indexation et exécuter un fichier par l&#39;intermédiaire de tous les services Sensei disponibles. Voir [Utilisation des microservices de ressources et des profils de traitement.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * [Le service](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) Asset Compute est disponible pour être étendu afin de créer une application personnalisée. Il s’agit d’un service évolutif et extensible de [!DNL Adobe Experience Cloud] traitement des ressources numériques. Il peut transformer des formats d’image, de vidéo, de document et d’autres formats de fichier en différents rendus, y compris des miniatures, du texte extrait et des métadonnées, des archives, etc. Les développeurs peuvent créer des applications personnalisées (également appelées travailleurs personnalisés) pour traiter les cas d’utilisation personnalisée. Il est construit à l&#39;aide du [Projet Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) et fonctionne dans [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)sans serveur.
    * Plusieurs améliorations ont été apportées aux modèles de flux de travail et aux médias dynamiques dans AEM en tant que Cloud Service.
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/fr-FR/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
       * Introduction d’un nouveau composant [PDF Viewer.](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
@@ -241,6 +242,10 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
    * Consultez les notes de mise à jour [complètes de AEM en tant que Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### Auto-assistance
+
+* **AEM Assets**
+
+   * ajouté d’autres conseils [de](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) dépannage pour les applications de bureau Experience Manager.
 
 * **AEM Forms**
 
