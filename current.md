@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dab2c3fb8b9920f079195693a584f7c48b813e23
+source-git-commit: 94f346f9c1f7f23630c731769e4457bc5e0b7222
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6209'
 ht-degree: 43%
 
 ---
@@ -75,9 +75,9 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 
 Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
-| Publication | Nom | Description |
-| ----------- | ---------- | ---------- |  
-| 10 juillet 2020 | [Événements d&#39;étape rapports du voyage vers Adobe Experience Platform](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | Découvrez quels sont les événements d&#39;étape du voyage et quelles étapes de données sont automatiquement créées sur l&#39;Experience Platform et comment les explorer. |
+| Publication | Nom | Type | Description |
+| ----------- | ---------- | ---------- |---------- |  
+| 10 juillet 2020 | [Événements d&#39;étape rapports du voyage vers Adobe Experience Platform](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | Tutoriel | Découvrez quels sont les événements d&#39;étape du voyage et quelles étapes de données sont automatiquement créées sur l&#39;Experience Platform et comment les explorer. |
 
 ### Ressources supplémentaires pour Journey Orchestration
 
@@ -159,7 +159,7 @@ Pour connaître les dernières mises à jour des versions d’AppMeasurement, re
 
 Nouveaux cours, tutoriels vidéo et articles dans Analytics et Customer Journey Analytics.
 
-| Publication | Nom | Solution | Description |
+| Publication | Nom | Type | Description |
 | ----------- | ----------- | ---------- | ---------- |  
 | 30 juillet 2020 | [Limiter l’accès à la suite de rapports dans le Admin Console](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | Tutoriel | Découvrez comment utiliser le [!UICONTROL Admin Console] pour vous assurer que les utilisateurs ne peuvent accéder qu&#39;aux suites de rapports nécessaires à leur rôle. |
 | 24 juillet 2020 | [ajouter un administrateur à Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | Tutoriel | Découvrez comment ajouter un utilisateur en tant qu’administrateur dans le [!UICONTROL Admin Console]d’Adobe. |
@@ -203,7 +203,7 @@ Date de publication : **13 août 2020**
 
 ### Nouveaux tutoriels Audience Manager {#tutorials-aam}
 
-| Publication | Nom | Solution | Description |
+| Publication | Nom | Type | Description |
 | ----------- | ----------- | ---------- | ---------- |
 | 7 août 2020 | [Économisez de l&#39;argent et optimisez l&#39;expérience client en supprimant les publicités pour les convertisseurs](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | Tutoriel | Dans ce cours, découvrez tous les concepts pour aller d&#39;un début à l&#39;autre en réalisant des économies et en optimisant l&#39;expérience client en supprimant les clients existants de vos campagnes de ciblage. Cela inclut la création de caractéristiques et de segments, l’ajout de règles de fusion de profil appropriées, l’ajout de segments aux destinations et même le calcul du RSI lorsque vous utilisez ce cas d’utilisation. |
 | 7 août 2020 | [Choix de la règle de fusion du bon Profil](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | Tutoriel | Dans cette vidéo, découvrez trois des cas d’utilisation les plus courants pour les règles [!UICONTROL de fusion des]Profils et comment elles peuvent vous aider dans vos efforts marketing. |
@@ -341,7 +341,7 @@ Informations de mise à jour pour Campaign Classic, Campaign Standard et le pann
 
 Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
-| Publication | Nom | Solution | Description |
+| Publication | Nom | Type | Description |
 | ----------- | ----------- | ---------- | ---------- |  
 | 10 juillet 2020 | [Panneau de Contrôle - Gestion des clés GPG - Décryptage des données](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | Découvrez comment créer une clé publique, l’importer et l’installer sur une instance Campaign pour le décryptage des données entrantes. |
 | 10 juillet 2020 | [Panneau de Contrôle - Gestion des clés GPG - Utilisation d&#39;une clé GPG pour chiffrer des données](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | Découvrez comment exporter des données à l’aide d’une clé GPG installée sur le panneau de contrôle. |
