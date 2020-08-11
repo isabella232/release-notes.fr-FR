@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
+source-git-commit: 1a9860da58454f3e23650b8cf98e20f2819ac3be
 workflow-type: tm+mt
-source-wordcount: '6287'
+source-wordcount: '6333'
 ht-degree: 42%
 
 ---
@@ -99,6 +99,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 | Améliorations apportées à la collecte de données en Chine | 13 août 2020 | Les améliorations incluent : Prise en charge du service d’identification des Experience Cloud ; prise en charge du protocole SSL propriétaire ; et prise en charge du transfert côté serveur. Pour obtenir de la documentation, veuillez contacter votre représentant commercial Adobe. |
 | [!UICONTROL Analyses]sur plusieurs périphériques : Disponibilité dans la zone EMEA et APAC | 31 août 2020 | [Les analyses](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) multipériphériques et les graphiques privés seront disponibles pour les clients de la zone EMEA et de l’APAC. |
 | Amélioration de l’assemblage sur le terrain dans Analytics  multipériphériques (disponible en Amérique et dans la région EMEA) | 17 août 2020 | Cette mise en oeuvre simplifiée pour les nouveaux clients Analytics  sur plusieurs périphériques vous permet d’effectuer des assemblages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou private). L’amélioration supprime l’obligation de mettre en oeuvre l’ECID et supprime l’obligation de mettre en oeuvre la synchronisation des identifiants aux fins de l’ACD. (La synchronisation des identifiants et ECID est toujours requise pour certaines autres fonctionnalités.) |
+| Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | [Annonce] anticipée Vous pourrez télécharger 50 000 éléments pour une dimension unique dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors de Analysis Workspace. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -347,8 +348,8 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Type | Description |
 | ----------- | ----------- | ---------- | ---------- |  
-| 10 juillet 2020 | [Panneau de Contrôle - Gestion des clés GPG - Décryptage des données](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | Découvrez comment créer une clé publique, l’importer et l’installer sur une instance Campaign pour le décryptage des données entrantes. |
-| 10 juillet 2020 | [Panneau de Contrôle - Gestion des clés GPG - Utilisation d&#39;une clé GPG pour chiffrer des données](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | Découvrez comment exporter des données à l’aide d’une clé GPG installée sur le panneau de contrôle. |
+| 10 juillet 2020 | [Panneau de Contrôle - Gestion des clés GPG - Décryptage des données](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | Découvrez comment créer une clé publique, l’importer et l’installer sur une instance Campaign pour le décryptage des données entrantes. |
+| 10 juillet 2020 | [Panneau de Contrôle - Gestion des clés GPG - Utilisation d&#39;une clé GPG pour chiffrer des données](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | Découvrez comment exporter des données à l’aide d’une clé GPG installée sur le panneau de contrôle. |
 | 10 juillet 2020 | [Panneau de Contrôle - Génération et installation de clés GPG pour le chiffrement des données](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Classic | Découvrez comment générer une paire de clés GPG publique/privée et installer la clé publique dans le Panneau de Contrôle pour pouvoir chiffrer les données avant de les envoyer à partir de votre instance. |
 | 21 juillet 2020 | [Gestion des campagnes marketing](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/managing-marketing-campaigns.html) | Campaign Classic | Comprendre les concepts clés d’Adobe Campaign qui permettent de planifier, d’exécuter et de mesurer efficacement les campagnes marketing sur plusieurs canaux. |
 | 22 juillet 2020 | [Création d’un plan marketing, de programmes et de campagnes](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/creating-a-marketing-plan-programs-and-campaigns.html) | Campaign Classic | Découvrez comment créer un plan marketing, un programme et une campagne, définir des propriétés pour une campagne et comprendre comment utiliser la planification. La vidéo vous guide tout au long d’un exercice que vous pouvez suivre. |
