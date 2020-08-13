@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
+source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
 workflow-type: tm+mt
-source-wordcount: '6337'
-ht-degree: 42%
+source-wordcount: '6402'
+ht-degree: 41%
 
 ---
 
@@ -190,6 +190,7 @@ Date de publication : **13 août 2020**
 
 ### Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager
 
+* Vous pouvez désormais utiliser des destinations [basées sur](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) les personnes pour cible les utilisateurs via [!DNL Google Customer Match]. Avant de pouvoir utiliser des destinations  basées sur les personnes pour envoyer vos segments d’audience propriétaires vers une [!DNL Google Customer Match] destination, il est obligatoire que vous [!DNL Google] ajoutiez à leur liste autorisée. Pour plus d’informations, consultez la documentation sur les destinations [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) basées sur les personnes. (PLAT-53962)
 * [Les Audiences](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) prédictives prennent désormais en charge la sélection d’une règle [!UICONTROL de fusion de] Profils par modèle, lors de la création du modèle. (AAM-55178)
 * Le début de mappage des destinations et les dates de fin sont désormais visibles dans la page de chaque segment. (AAM-40056)
 * Correction d’un problème en raison duquel le type [!UICONTROL de] périphérique d’une caractéristique était automatiquement défini sur [!UICONTROL Interpériphériques] lors de la création d’une nouvelle caractéristique. (AAM-55368)
@@ -381,7 +382,7 @@ Notes de mise à jour d’Adobe Advertising Cloud.
 | Fonctionnalité | Description |
 | -----------| ---------- |
 | [!UICONTROL Portfolios] | Les limites de position au niveau du Portfolio ne sont plus disponibles dans les paramètres du portefeuille. Toutes les limites de position précédemment créées ont été supprimées. |
-| [!UICONTROL Contraintes] | Les contraintes basées sur la position et les conditions de contrainte ne sont plus prises en charge :<br/><ul><li>Les contraintes Min Pos et Max Pos ne sont plus disponibles et ont été supprimées de toutes les contraintes d&#39;offre et de position créées précédemment et de partage d&#39;impression.</li><li>Les contraintes d&#39;offre et de position existantes qui incluaient des contraintes de position mais aucune contrainte d&#39;offre n&#39;ont été suspendues. Elles sont toujours disponibles dans l’interface utilisateur et dans les rapports.</li><li>Les contraintes d&#39;offre et de position ont été renommées Contraintes d&#39;offre.</li><li>Toutes les conditions basées sur la position (à l’aide des mesures Position moyenne, Position moyenne pondérée ou Dernière publication connue) de tout type de contrainte ont été supprimées.</li></ul><br/>**Remarque :**Les données de position resteront renseignées tant qu&#39;elles seront disponibles dans les moteurs de recherche. Microsoft Ads prendra sa retraite en septembre 2020. |  |
+| [!UICONTROL Contraintes] | Les contraintes basées sur la position et les conditions de contrainte ne sont plus prises en charge :<br/><ul><li>Les contraintes Min Pos et Max Pos ne sont plus disponibles et ont été supprimées de toutes les contraintes d&#39;offre et de position créées précédemment et de partage d&#39;impression.</li><li>Les contraintes d&#39;offre et de position existantes qui incluaient des contraintes de position mais aucune contrainte d&#39;offre n&#39;ont été suspendues. Elles sont toujours disponibles dans l’interface utilisateur et dans les rapports.</li><li>Les contraintes d&#39;offre et de position ont été renommées Contraintes d&#39;offre.</li><li>Toutes les conditions basées sur la position (à l’aide des mesures Position moyenne, Position moyenne pondérée ou Dernière publication connue) de tout type de contrainte ont été supprimées.</li></ul><br/>**Remarque :** Les données de position resteront renseignées tant qu&#39;elles seront disponibles dans les moteurs de recherche. Microsoft Ads prendra sa retraite en septembre 2020. |  |
 | [!UICONTROL Campagnes] | (Campagnes publicitaires Google) Advertising Cloud Search prend désormais en charge les personnalisateurs d’annonces dans les annonces de recherche réactives (RSA). Auparavant, ils étaient pris en charge dans tous les types d’annonces, à l’exception des RSA. |
 
 ## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
