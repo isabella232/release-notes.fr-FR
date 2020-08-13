@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bc30808217e8734e639246602be45efd02d2dc60
+source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
 workflow-type: tm+mt
-source-wordcount: '6402'
+source-wordcount: '6371'
 ht-degree: 41%
 
 ---
@@ -31,13 +31,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **11 août 2020**
+Dernière mise à jour : **13 août 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Orchestration du parcours](#journey-orch)
-* [Analytics](#analytics) (Mis à jour le 11 août 2020) et [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (Mis à jour le 13 août 2020) et [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -94,13 +94,12 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
-(Mis à jour le 11 août 2020)
+(Mis à jour le 13 août 2020)
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | -----------| ---------- |-------|
-| Améliorations apportées à la collecte de données en Chine | 13 août 2020 | Les améliorations incluent : Prise en charge du service d’identification des Experience Cloud ; prise en charge du protocole SSL propriétaire ; et prise en charge du transfert côté serveur. Pour obtenir de la documentation, veuillez contacter votre représentant commercial Adobe. |
 | [!UICONTROL Analyses]sur plusieurs périphériques : Disponibilité dans la zone EMEA et APAC | 31 août 2020 | [Les analyses](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) multipériphériques et les graphiques privés seront disponibles pour les clients de la zone EMEA et de l’APAC. |
-| Amélioration de l’assemblage sur le terrain dans Analytics  multipériphériques (disponible en Amérique et dans la région EMEA) | 17 août 2020 | Cette mise en oeuvre simplifiée pour les nouveaux clients Analytics  sur plusieurs périphériques vous permet d’effectuer des assemblages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou private). L’amélioration supprime l’obligation de mettre en oeuvre l’ECID et supprime l’obligation de mettre en oeuvre la synchronisation des identifiants aux fins de l’ACD. (La synchronisation des identifiants et ECID est toujours requise pour certaines autres fonctionnalités.) |
+| Amélioration de l’assemblage sur le terrain dans Analytics  multipériphériques (disponible en Amérique et dans la région EMEA) | 31 août 2020 | Cette mise en oeuvre simplifiée pour les nouveaux clients Analytics  sur plusieurs périphériques vous permet d’effectuer des assemblages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou private). L’amélioration supprime l’obligation de mettre en oeuvre l’ECID et supprime l’obligation de mettre en oeuvre la synchronisation des identifiants aux fins de l’ACD. (La synchronisation des identifiants et ECID est toujours requise pour certaines autres fonctionnalités.) |
 | (Annonce anticipée) Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pourrez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors de Analysis Workspace. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
