@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
+source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
-source-wordcount: '6378'
+source-wordcount: '6445'
 ht-degree: 41%
 
 ---
@@ -369,6 +369,15 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 ## ![Icône](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Notes de mise à jour d’Adobe Advertising Cloud.
+
+* [Nouvelles fonctionnalités dans Advertising Cloud DSP](#adcloud-dsp)
+* [Nouvelles fonctionnalités dans Advertising Cloud Search](#adcloud-search)
+
+### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+
+| Fonctionnalité | Description |
+| -----------| ---------- |
+| Pré-roll interactif étendu pour inclure l&#39;inventaire VAST | Chaque emplacement et publicité interactifs pré-roll peut désormais prendre en charge les stocks VPAID et VAST. **Remarque :** Si votre Principal indicateur de performance clé est la capacité d’affichage, continuez à créer des emplacements et publicités VPAID et VAST distincts, car les impressions affichables ne sont pas disponibles pour les publicités VAST. |
 
 ### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search] {#adcloud-search}
 
