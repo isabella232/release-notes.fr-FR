@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
 workflow-type: tm+mt
 source-wordcount: '6522'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 
-# Notes de mise à jour de Adobe Experience Cloud - août 2020
+# Notes de mise à jour d’Adobe Experience Cloud - Août 2020
 
 ![Bannière](/assets/experience-cloud-banner-3.png)
 
@@ -32,8 +32,8 @@ Dernière mise à jour : **19 août 2020**
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud) (updated **August 19, 2020**)
 * [Experience Platform](#platform)
-* [Orchestration du parcours](#journey-orch)
-* [Analytics](#analytics) (Mis à jour le 13 août 2020) et [Customer Journey Analytics](#cust-journey)
+* [Journey Orchestration](#journey-orch)
+* [Analytics](#analytics) (Mis à jour le 13 août 2020) et [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -45,13 +45,13 @@ Dernière mise à jour : **19 août 2020**
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
-## ![Icône ](/assets/adobe.png){#status}
+## ![Icône](/assets/adobe.png) Statut du système Adobe {#status}
 
 [!UICONTROL Statut du système Adobe] fournit des informations détaillées, des mises à jour de statut et des notifications par email relatives aux produits cloud Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/).
 
 Voir la date du [21 mai 2020](c-legacy-releases/2020/05212020.md#status) pour obtenir les dernières informations de mise à jour.
 
-## ![Icône ](/assets/ec_appicon_24.png){#ecloud}
+## ![Icône](/assets/ec_appicon_24.png) Interface d’Experience Cloud {#ecloud}
 
 Mise à jour : **19 août 2020**
 
@@ -61,7 +61,7 @@ Mise à jour : **19 août 2020**
 
 Voir les [notes de mise à jour](c-legacy-releases/2020/07162020.md#ecloud) précédentes de juillet pour obtenir les dernières informations sur l’interface mise à jour et le domaine de produit unifié.
 
-## ![Icône ](/assets/experience_platform_appicon_24.png){#platform}
+## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 Notes de mise à jour d’[!DNL Experience Platform] et des services d’application, y compris des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services] d’[!DNL Experience Platform Launch,], et des bulletins de sécurité.
 
@@ -69,7 +69,7 @@ Dernière date de publication : **15 juillet 2020**
 
 Voir les [notes de mise à jour Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) pour obtenir les informations les plus récentes sur Experience Platform.
 
-## ![Icône ](/assets/experience_platform_appicon_24.png){#journey-orch}
+## ![Icône](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
 Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels à l’échelle sur des canaux d’expérience en anticipant de manière intelligente les besoins de chaque individu en temps réel, quel que soit l’endroit où leur parcours les mène.
 
@@ -85,7 +85,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 [Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
-## ![Icône ](/assets/analytics.png)[!DNL Adobe Analytics]{#analytics}
+## ![Icône](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
@@ -96,13 +96,13 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
-(Mis à jour le 13 août 2020)
+(Mis à jour le 13 août 2020)
 
 | Fonction | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ------- |
 | [!UICONTROL Analyses entre appareils] : disponibilité dans les zones EMEA et APAC | 31 août 2020 | [Les analyses entre appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/overview.html) et les graphiques privés seront disponibles pour les clients des zones EMEA et APAC. |
 | Amélioration de l’accrochage basé sur les champs dans [!UICONTROL Analyse entre appareils] (disponible en Amérique et dans la région EMEA) | 31 août 2020 | Cette mise en œuvre simplifiée pour les nouveaux clients [!UICONTROL Analyse entre appareils] vous permet d’effectuer des accrochages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou privé). L’amélioration supprime l’obligation de mettre en œuvre le service ECID et la synchronisation des identifiants aux fins de l’analyse entre appareils. (La synchronisation des identifiants et le service ECID sont toujours obligatoires pour certaines autres fonctionnalités.) |
-| (Annonce anticipée) Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pourrez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors de Analysis Workspace. |
+| (Annonce anticipée) Workspace : téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -110,14 +110,14 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 | ----------- | ---------- | ----- |
 | Option de [!UICONTROL carte des identités] pour l’ID de personne | 26 juin 2020 | La [!UICONTROL carte des identités] est une structure de données de carte qui vous permet de télécharger des paires clé -> valeur dans le cadre de la création d’une connexion dans [!UICONTROL Customer Journey Analytics]. Les clés sont des espaces de noms d’identité et la valeur est une structure qui contient la valeur d’identité. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
-### Nouvelles fonctionnalités de [!UICONTROL Media Analytics ]{#media-aa}
+### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
 Date de publication : **16 juillet 2020**
 
 | Fonction | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ---------- |
 | [Appareils et plateformes pris en charge](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/supported-devices.html) | 18 juin 2020 | L’[!UICONTROL extension Media Launch] avec SDK AEP prend désormais en charge les appareils OTT suivants :<ul><li>Apple TV (tvOS)</li><li>Fire TV (Système d’exploitation Fire)</li><li>Android TV</li></ul> |
-| [Suivi de l’état du lecteur](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 mai 2020 | Les clients [!UICONTROL Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un jeu standard de variables de solution pour le mode Plein écran, le sous-titrage, le mode silencieux, l’incrustation dans l’image et le mode In-Focus. Vous pouvez également créer des états de lecteur personnalisés. Des comptes rendus des performances sur les variables de suivi de l’état du lecteur sont désormais disponibles dans [!UICONTROL Analysis Workspace]. Cette fonctionnalité nécessite l’une des configurations suivantes : <ul><li>SDK Media [!DNL JavaScript] 3.0 ou version ultérieure</li><li>Utilisation avec le SDK [!DNL Adobe Experience Platform] (AEP) :</li><li>[!UICONTROL Extension Media Analytics] (pour le web) : [!UICONTROL Adobe Media Analytics] (SDK 3.x) pour Audio et Video v1.0 ou version ultérieure</li><li>[!UICONTROL Extension Media Analytics] (pour mobile) : [!UICONTROL Adobe Media Analytics pour Audio] et Vidéo v2.0 ou version ultérieure</li><li>[!UICONTROL Collection Médias]</li></ul> |
+| [Suivi de l’état du lecteur](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 mai 2020 | Les clients [!UICONTROL Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un jeu standard de variables de solution pour le mode Plein écran, le sous-titrage, le mode silencieux, l’incrustation dans l’image et le mode In-Focus. Vous pouvez également créer des états de lecteur personnalisés. [!UICONTROL Des comptes rendus des performances] sur les variables de suivi de l’état du lecteur sont désormais disponibles dans [!UICONTROL Analysis Workspace]. Cette fonctionnalité nécessite l’une des configurations suivantes : <ul><li>SDK Media [!DNL JavaScript] 3.0 ou version ultérieure</li><li>Utilisation avec le SDK [!DNL Adobe Experience Platform] (AEP) :</li><li>[!UICONTROL Extension Media Analytics] (pour le web) : [!UICONTROL Adobe Media Analytics] (SDK 3.x) pour Audio et Video v1.0 ou version ultérieure</li><li>[!UICONTROL Extension Media Analytics] (pour mobile) : [!UICONTROL Adobe Media Analytics pour Audio] et Vidéo v2.0 ou version ultérieure</li><li>[!UICONTROL Collection Médias]</li></ul> |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
@@ -140,7 +140,7 @@ AN-219351 ; AN-220960 ; AN-223788 ; AN-224630 ; AN-224948 ; AN-225618 ; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout  ou de mise à jour | Description |
+| Avis | Date d’ajout   ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Fin de vie des connecteurs de données Adobe | 13 juillet 2020 | Les [!UICONTROL connecteurs de données] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappage d’une suite de rapports à l’organisation IMS | Juillet 2020 | L’outil de mappage des suites de rapports sera abandonné en novembre 2020. Cette fonctionnalité optimise les intégrations telles que la publication de segments Advertising Analytics et Experience Cloud dans Adobe Analytics. Une suite de rapports doit être mappée à une organisation IMS pour activer ces services et d’autres services. Les nouvelles suites de rapports sont automatiquement mappées lors de leur création. Cependant, les anciennes suites de rapports doivent être mappées manuellement à une organisation IMS. Consultez [Mappage des suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) dans le guide d’utilisation des services principaux de l’interface Experience Cloud pour vous assurer que toutes les suites de rapports appartiennent à une organisation IMS. |
@@ -183,7 +183,7 @@ Nouveaux cours, tutoriels vidéo et articles dans Analytics et Customer Journey 
 * [Tutoriels Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)
 * [Documentation produit Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html)
 
-## ![Icône ](/assets/audience-manager.png){#aam}
+## ![Icône](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
 Nouveaux correctifs, fonctionnalités, documentation et tutoriels pour Audience Manager.
 
@@ -191,7 +191,7 @@ Date de publication : **13 août 2020**
 
 ### Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager
 
-* Vous pouvez désormais utiliser des destinations [basées sur](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) les personnes pour cible les utilisateurs via [!DNL Google Customer Match]. Avant de pouvoir utiliser des destinations  basées sur les personnes pour envoyer vos segments d’audience propriétaires vers une [!DNL Google Customer Match] destination, il est obligatoire que vous [!DNL Google] ajoutiez à leur liste autorisée. Pour plus d’informations, consultez la documentation sur les destinations [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) basées sur les personnes. (PLAT-53962)
+* Vous pouvez désormais utiliser des [destinations basées sur les personnes](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) pour cibler les utilisateurs via [!DNL Google Customer Match]. Avant de pouvoir utiliser des [!UICONTROL destinations basées sur les personnes] pour envoyer vos segments ciblés propriétaires à une destination [!DNL Google Customer Match], [!DNL Google] doit vous ajouter à sa liste autorisée. Pour plus d’informations, consultez la documentation sur les [destinations basées sur les personnes](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html). (PLAT-53962)
 * Les [audiences prédictives](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) prennent désormais en charge la sélection d’une [!UICONTROL règle de fusion de profils] par modèle, lors de la création du modèle. (AAM-55178)
 * Les dates de début et de fin du mappage des destinations sont désormais visibles dans la page de chaque segment. (AAM-40056)
 * Correction d’un problème en raison duquel le [!UICONTROL type d’appareil] d’une caractéristique était automatiquement défini sur [!UICONTROL Entre appareils] lors de la création d’une nouvelle caractéristique. (AAM-55368)
@@ -220,7 +220,7 @@ Date de publication : **13 août 2020**
 | 15 juillet 2020 | [Mesurer le ROI dans un cas d’usage de suppression de clients](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/value-realization/measuring-roi-in-a-customer-suppression-use-case.html) | Tutoriel | Découvrez comment utiliser certaines formules pour déterminer les économies de coût de votre campagne en supprimant les publicités destinées aux clients existants. |
 | 10 juillet 2020 | [Créer un segment pour supprimer des publicités destinées aux clients](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/building-a-segment-to-suppress-ads-to-customers.html) | Tutoriel | Cette vidéo présente les options permettant de créer des segments afin d’exclure les personnes qui ont déjà le statut de client. |
 
-## ![Icône ](/assets/aem.png){#aem}
+## ![Icône](/assets/aem.png) Adobe Experience Manager {#aem}
 
 Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
 
@@ -233,7 +233,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
    * AEM Commerce est désormais disponible sur Cloud Service. Voir [Prise en main d’AEM Commerce as a Cloud Service](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/commerce/getting-started.html).
    * Les améliorations apportées aux connecteurs pour Adobe Target et Adobe Analytics comprennent des améliorations de l’interface utilisateur, le remplacement de l’interface utilisateur classique et l’intégration d’Adobe Launch. Voir [Intégration d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) et [Intégration d’Adobe Target.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * Le service Asset Compute est un service évolutif et extensible permettant de traiter les ressources. Les administrateurs peuvent configurer Experience Manager pour appeler le processus Worker personnalisé créé à l’aide du service Asset Compute. Les développeurs peuvent utiliser ce service pour créer des processus Worker personnalisés spécialisés qui répondent à des cas d’usage complexes. Ce service Web peut générer des miniatures pour différents types de fichiers, des rendus d’images de haute qualité à partir de formats de fichiers Adobe, encoder des vidéos (à venir), extraire des métadonnées, extraire du texte intégral comme précurseur de l’indexation et exécuter une ressource par l’intermédiaire de tous les services Sensei disponibles. Voir [Utiliser les microservices de ressources et les profils de traitement.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
-   * [Le service](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) Asset Compute est disponible pour être étendu afin de créer une application personnalisée. Il s’agit d’un service évolutif et extensible de [!DNL Adobe Experience Cloud] traitement des ressources numériques. Il peut transformer des formats d’image, de vidéo, de document et d’autres formats de fichier en différents rendus, y compris des miniatures, du texte extrait et des métadonnées, des archives, etc. Les développeurs peuvent créer des applications personnalisées (également appelées travailleurs personnalisés) pour traiter les cas d’utilisation personnalisée. Il est construit à l&#39;aide du [Projet Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) et fonctionne dans [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)sans serveur.
+   * Le [service Asset Compute](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) peut être étendu afin de créer une application personnalisée. Il s’agit d’un service évolutif et extensible proposé par [!DNL Adobe Experience Cloud] pour le traitement des ressources numériques. Il peut transformer des formats d’image, de vidéo, de document et d’autres fichiers en différents rendus, y compris des miniatures, des métadonnées et des textes extraits, des archives, etc. Les développeurs peuvent créer des applications personnalisées (également appelées « processus Worker personnalisés ») pour traiter les cas d’utilisation personnalisés. Il est construit à l’aide de [Projet Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) et fonctionne sans serveur dans [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html).
    * Plusieurs améliorations ont été apportées aux modèles Workflow et à Dynamic Media dans AEM as a Cloud Service.
    * La version 2.11.0 des [composants principaux AEM](https://docs.adobe.com/content/help/fr-FR/experience-manager-core-components/using/introduction.html) est maintenant disponible dans AEM Sites, notamment :
       * Introduction d’un nouveau [composant Visionneuse PDF](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html).
@@ -243,14 +243,14 @@ Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manag
    * Les pipelines de Cloud Manager prennent désormais en charge les variables et les secrets définis par le client. Voir [Variables des pipelines.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)
    * [Les journaux peuvent être transférés vers des comptes Splunk](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs), ce qui permet aux entreprises de tirer parti de leur investissement [!DNL Splunk].
    * Vous pouvez attribuer [une adresse IP de sortie statique dédiée](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address) au trafic sortant programmé en code Java, ce qui peut s’avérer utile pour certaines intégrations.
-   * [!UICONTROL Cloud Readiness Analyzer] v1.0.2 a été publié. See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. Pour commencer à utiliser [!UICONTROL Cloud Readiness Analyzer], voir [Utilisation de Cloud Readiness Analyzer](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html).
-   * Consultez les [notes de mise à jour complètes d’AEM as a Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
+   * [!UICONTROL Cloud Readiness Analyzer] v1.0.2 est disponible. Consultez les [notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.translate.html#cloud-readiness-analyzer) pour plus d’informations. Pour utiliser [!UICONTROL Cloud Readiness Analyzer], consultez [Utilisation de Cloud Readiness Analyzer](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html).
+   * Consultez les [notes de mise à jour complètes d’AEM as a Cloud Service.](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.translate.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### Auto-assistance
 
 * **AEM Assets**
 
-   * ajouté d’autres conseils [de](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) dépannage pour les applications de bureau Experience Manager.
+   * Ajout d’autres [conseils de dépannage](https://docs.adobe.com/content/help/fr-FR/experience-manager-desktop-app/using/troubleshoot.html) pour l’application de bureau Experience Manager.
 
 * **AEM Forms**
 
@@ -334,7 +334,7 @@ Toutes les notes de mise à jour d’Experience Manager sont conservées dans le
 * [Anciennes versions de la documentation d’AEM](https://helpx.adobe.com/fr/experience-manager/aem-previous-versions.html)
 * [Page d’accueil de l’aide de Dynamic Media Classic](https://docs.adobe.com/content/help/fr-FR/dynamic-media-classic/using/home.html)
 
-## ![Icône ](/assets/campaign.png)[!DNL Adobe Campaign]{#ac}
+## ![Icône](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
@@ -372,37 +372,37 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 * Adobe Campaign Classic : [Centre d’aide](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) - [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/overview.html) - [Dernières mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/documentation-updates.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) - Tutoriels vidéo pour [Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
-## ![Icône ](/assets/advertising-cloud.png){#adcloud}
+## ![Icône](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Notes de mise à jour d’Adobe Advertising Cloud.
 
 * [Nouvelles fonctionnalités dans Advertising Cloud DSP](#adcloud-dsp)
 * [Nouvelles fonctionnalités dans Advertising Cloud Search](#adcloud-search)
 
-### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Pré-roll interactif étendu pour inclure l&#39;inventaire VAST | Chaque emplacement et publicité interactifs pré-roll peut désormais prendre en charge les stocks VPAID et VAST. **Remarque :** Si votre Principal indicateur de performance clé est la capacité d’affichage, continuez à créer des emplacements et publicités VPAID et VAST distincts, car les impressions affichables ne sont pas disponibles pour les publicités VAST. |
+| Preroll interactif étendu pour inclure l’inventaire VAST | Tous les emplacements et publicités interactifs de preroll peuvent désormais prendre en charge les inventaires VPAID et VAST. **Remarque :** si votre indicateur clé de performance est la capacité d’affichage, continuez à créer des emplacements et publicités VPAID et VAST distincts, car les impressions affichables ne sont pas disponibles pour les publicités VAST. |
 
-### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search ]{#adcloud-search}
+### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search] {#adcloud-search}
 
 Version du **8 août**
 
 | Fonctionnalité | Description |
 | ----------- | ---------- |
 | [!UICONTROL Portfolios] | Les limites de position au niveau du portfolio ne sont plus disponibles dans les paramètres du portfolio. Toutes les limites de position précédemment créées ont été supprimées. |
-| [!UICONTROL Contraintes] | Les contraintes basées sur la position et les conditions de contrainte ne sont plus prises en charge :<br/> <ul><li>Les contraintes Pos. min. et Pos. max. ne sont plus disponibles et ont été supprimées de toutes les contraintes d’offre et de position créées précédemment et des contraintes de partage d’impression.</li><li>Les contraintes d’offre et de position existantes qui incluaient des contraintes de position, mais aucune contrainte d’offre ont été suspendues. Elles sont toujours disponibles dans l’interface utilisateur et dans les rapports.</li><li>Les contraintes d’offre et de position ont été renommées Contraintes d’offre.</li><li>Toutes les conditions basées sur la position (à l’aide des mesures Position moyenne, Position moyenne pondérée ou Dernière mesure de position connue) dans tout type de contrainte ont été supprimées.</li></ul> <br/> **Remarque :** les données de position continueront à être renseignées tant qu’elles seront disponibles dans les moteurs de recherche. Microsoft Ads mettra fin aux positions en septembre 2020. |
+| [!UICONTROL Contraintes] | Les contraintes basées sur la position et les conditions de contrainte ne sont plus prises en charge : <br/> <ul><li>Les contraintes Pos. min. et Pos. max. ne sont plus disponibles et ont été supprimées de toutes les contraintes d’offre et de position créées précédemment et des contraintes de partage d’impression.</li><li>Les contraintes d’offre et de position existantes qui incluaient des contraintes de position, mais aucune contrainte d’offre ont été suspendues. Elles sont toujours disponibles dans l’interface utilisateur et dans les rapports.</li><li>Les contraintes d’offre et de position ont été renommées Contraintes d’offre.</li><li>Toutes les conditions basées sur la position (à l’aide des mesures Position moyenne, Position moyenne pondérée ou Dernière mesure de position connue) dans tout type de contrainte ont été supprimées.</li></ul> <br/> **Remarque :** les données de position continueront à être renseignées tant qu’elles seront disponibles dans les moteurs de recherche. Microsoft Ads mettra fin aux positions en septembre 2020. |
 | [!UICONTROL Campagnes] | (Campagnes Google Ads) Advertising Cloud Search prend désormais en charge les personnalisateurs d’annonces dans les annonces responsives (RSA). Auparavant, ils étaient pris en charge dans tous les types d’annonces, à l’exception des annonces responsives. |
 
-## ![Icône ](/assets/magento.png)[!DNL Magento]{#magento}
+## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
 Pour les notes de mise à jour de Magento, veuillez consulter :
 
 * [Magento Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 * [Magento Open Source 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 
-## ![Icône ](/assets/marketo.png)[!DNL Marketo Engage]{#marketo}
+## ![Icône](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
 [!DNL Marketo Engage] est une application complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en s’engageant à chaque étape de parcours d’achat complexes.
 
