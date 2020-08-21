@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 949872e465b54e68051c62f61530591117f54a6a
+source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 96%
@@ -116,7 +116,7 @@ Description des nouvelles fonctionnalités. Utilisez des en-têtes ou un tableau
 
 Pour consulter la documentation du produit, voir [Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html).
 
-Pour en savoir plus sur les SDK Mobile, voir [SDK Android 4.x pour solutions Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/) et [SDK iOS 4.x pour solutions Experience Cloud](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/overview.html).
+Pour en savoir plus sur les SDK Mobile, voir [SDK Android 4.x pour solutions Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/) et [SDK iOS 4.x pour solutions Experience Cloud](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/overview.html).
 
 ## Analytics {#analytics}
 
