@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
+source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
 workflow-type: tm+mt
-source-wordcount: '6522'
-ht-degree: 99%
+source-wordcount: '6627'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **19 août 2020**
+Dernière mise à jour : **21 août 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud) (updated **August 19, 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (Mis à jour le 13 août 2020) et [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (Mis à jour le 21 août 2020) et [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -91,7 +91,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mis à jour le 21 août 2020)
 * [AppMeasurement](#appm)
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
@@ -142,6 +142,8 @@ AN-219351 ; AN-220960 ; AN-223788 ; AN-224630 ; AN-224948 ; AN-225618 ; AN
 
 | Avis | Date d’ajout   ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Migration de `omniture.com` vers un `adobe.com` domaine | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale `omniture.com|http://omniture.com/` vers le `adobe.com|http://adobe.com/` domaine. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié du 28 mai 2020. Suite à cette mise à jour, le navigateur peut inviter les utilisateurs à approuver le nouveau `an.adobe.com|http://an.adobe.com/` domaine ou le nouveau `experience.adobe.com|http://experience.adobe.com/` domaine. |
+| Mise à jour de la compatibilité Ad Hoc Analysis Java 8 | 21 août 2020 | ad hoc analysis n’est pas actuellement compatible avec Java 8 versions 1.8.0_261+. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la date [de](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) fin de vie, nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
 | Fin de vie des connecteurs de données Adobe | 13 juillet 2020 | Les [!UICONTROL connecteurs de données] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mappage d’une suite de rapports à l’organisation IMS | Juillet 2020 | L’outil de mappage des suites de rapports sera abandonné en novembre 2020. Cette fonctionnalité optimise les intégrations telles que la publication de segments Advertising Analytics et Experience Cloud dans Adobe Analytics. Une suite de rapports doit être mappée à une organisation IMS pour activer ces services et d’autres services. Les nouvelles suites de rapports sont automatiquement mappées lors de leur création. Cependant, les anciennes suites de rapports doivent être mappées manuellement à une organisation IMS. Consultez [Mappage des suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) dans le guide d’utilisation des services principaux de l’interface Experience Cloud pour vous assurer que toutes les suites de rapports appartiennent à une organisation IMS. |
 | Migration vers un domaine de produit unifié | Date d’entrée en vigueur : 28 mai 2020 | La migration vers un domaine de produit unifié pour Adobe Analytics, débutée en janvier 2020, s’est terminée le 28 mai 2020. Tandis qu’Adobe Analytics s’emploie à supprimer toutes les références de domaine `omniture.com` de son architecture, il est important de créer une liste autorisée `omniture.com` comme cookie tiers. Nous vous informerons via les notes de mise à jour dès que la migration complète de l’architecture sera terminée (bientôt). L’étape de liste d’autorisation ne sera ainsi plus nécessaire. Vous trouverez [ici](https://helpx.adobe.com/fr/analytics/kb/adobe-ip-addresses.html) une liste complète de domaines et d’adresses IP recommandés que vous devriez inclure dans votre liste d’autorisation.<br>Si votre entreprise bloque les cookies tiers, contactez l’assistance clientèle pour récupérer l’accès à votre compte Adobe Analytics. |
