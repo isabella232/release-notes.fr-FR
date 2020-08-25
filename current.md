@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
 workflow-type: tm+mt
 source-wordcount: '6627'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Les dates de publication du produit peuvent varier. Consultez régulièrement le
 Dernière mise à jour : **21 août 2020**
 
 * [Statut du système Adobe](#status)
-* [Interface d’Experience Cloud](#ecloud) (updated **August 19, 2020**)
+* [Interface d’Experience Cloud](#ecloud)  (Mise à jour le **19 août 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (Mis à jour le 21 août 2020) et [Customer Journey Analytics](#cust-journey)
@@ -38,10 +38,10 @@ Dernière mise à jour : **21 août 2020**
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [[ !Cible DNL]](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html)
-* [[ ! Magento DNL]](#magento)
-* [[ ! Marketo Engage DNL]](#marketo)
-* [[ ! DNL Primetime]](https://docs.adobe.com/content/help/fr-FR/primetime/release-notes/home.html)
+* [[!DNL Target]](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html)
+* [[!DNL Magento]](#magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Primetime]](https://docs.adobe.com/content/help/fr-FR/primetime/release-notes/home.html)
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
@@ -57,7 +57,7 @@ Mise à jour : **19 août 2020**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Outil d’administration - Améliorations des fonctionnalités et des performances | La version d’août 2020 de [!UICONTROL l’outil] d’administration permet aux administrateurs système de vue d’une liste de profils de produits et d’afficher ou d’exporter une vue détaillée de chaque profil de produits. Des améliorations de performances pour le chargement des données de dernière connexion ont été ajoutées, ce qui corrige les problèmes de délai d’expiration. Voir l’aide de [l’outil d’administration Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) pour en savoir plus. |
+| Outil d’administration - Améliorations des fonctionnalités et des performances | La version d’août 2020 de [!UICONTROL l’outil d’administration] permet aux administrateurs système d’afficher une liste de profils de produits et d’afficher ou d’exporter une vue détaillée de chaque profil de produits. Des améliorations de performances pour le chargement des données de dernière connexion ont été ajoutées, ce qui corrige les problèmes de délai d’expiration. Voir l’aide de [l’outil d’administration Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) pour en savoir plus. |
 
 Voir les [notes de mise à jour](c-legacy-releases/2020/07162020.md#ecloud) précédentes de juillet pour obtenir les dernières informations sur l’interface mise à jour et le domaine de produit unifié.
 
@@ -140,7 +140,7 @@ AN-219351 ; AN-220960 ; AN-223788 ; AN-224630 ; AN-224948 ; AN-225618 ; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout   ou de mise à jour | Description |
+| Avis | Date d’ajout    ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Migration de `omniture.com` vers un `adobe.com` domaine | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale `omniture.com|http://omniture.com/` vers le `adobe.com|http://adobe.com/` domaine. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié du 28 mai 2020. Suite à cette mise à jour, le navigateur peut inviter les utilisateurs à approuver le nouveau `an.adobe.com|http://an.adobe.com/` domaine ou le nouveau `experience.adobe.com|http://experience.adobe.com/` domaine. |
 | Mise à jour de la compatibilité Ad Hoc Analysis Java 8 | 21 août 2020 | ad hoc analysis n’est pas actuellement compatible avec Java 8 versions 1.8.0_261+. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la date [de](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) fin de vie, nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
