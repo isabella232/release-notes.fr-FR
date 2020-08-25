@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
+source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 96%
@@ -369,4 +369,4 @@ Articles et vidéos d’auto-assistance nouveaux et récents. <!--`https://jira.
 | Adobe Analytics | Vidéo - [Attribution cross-canal dans Analytics du parcours client](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Découvrez comment vous pouvez utiliser les visualisations pour afficher l’attribution (donner du crédit) entre les canaux dans [!UICONTROL Customer Journey Analytics]. |
 | Adobe Analytics | Article - [Astuces clients pour continuer votre parcours d’apprentissage d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Rencontrez trois clients Adobe possédant des conseils et des astuces pour vous concernant la manière dont tirer le meilleur parti d’Adobe Analytics. |
 | Adobe Analytics | Vidéo - [Création de visualisation cross-canal dans Analytics du parcours client](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Découvrez comment [!UICONTROL Customer Journey Analytics] vous permet de créer des visualisations qui incluent des données depuis plusieurs jeux de données répartis sur plusieurs canaux, y compris la fusion des données par visiteur. |
-| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Découvrez des conseils pour recréer vos [!UICONTROLCmesures calculées] Analytics dans [!UICONTROL Customer Journey Analytics]. |
+| Adobe Analytics | Vidéo - [Déplacez vos mesures calculées d’Adobe Analytics vers Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
