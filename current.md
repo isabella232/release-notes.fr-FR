@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
+source-git-commit: 97082d9f11c29deee363e000e0bb6db422d6fbe8
 workflow-type: tm+mt
-source-wordcount: '6627'
+source-wordcount: '6639'
 ht-degree: 98%
 
 ---
@@ -383,8 +383,11 @@ Notes de mise à jour d’Adobe Advertising Cloud.
 
 ### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
 
+**Mise à jour le 20 août**
+
 | Fonctionnalité | Description |
 | -----------| ---------- |
+| Prévisions pour Roku | Les prévisions sont désormais disponibles pour les placements de Roku. |
 | Preroll interactif étendu pour inclure l’inventaire VAST | Tous les emplacements et publicités interactifs de preroll peuvent désormais prendre en charge les inventaires VPAID et VAST. **Remarque :** si votre indicateur clé de performance est la capacité d’affichage, continuez à créer des emplacements et publicités VPAID et VAST distincts, car les impressions affichables ne sont pas disponibles pour les publicités VAST. |
 
 ### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search] {#adcloud-search}
