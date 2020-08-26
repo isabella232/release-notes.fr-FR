@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 97082d9f11c29deee363e000e0bb6db422d6fbe8
+source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
 workflow-type: tm+mt
-source-wordcount: '6639'
+source-wordcount: '6651'
 ht-degree: 98%
 
 ---
@@ -102,7 +102,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 | ----------- | ---------- | ------- |
 | [!UICONTROL Analyses entre appareils] : disponibilité dans les zones EMEA et APAC | 31 août 2020 | [Les analyses entre appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/overview.html) et les graphiques privés seront disponibles pour les clients des zones EMEA et APAC. |
 | Amélioration de l’accrochage basé sur les champs dans [!UICONTROL Analyse entre appareils] (disponible en Amérique et dans la région EMEA) | 31 août 2020 | Cette mise en œuvre simplifiée pour les nouveaux clients [!UICONTROL Analyse entre appareils] vous permet d’effectuer des accrochages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou privé). L’amélioration supprime l’obligation de mettre en œuvre le service ECID et la synchronisation des identifiants aux fins de l’analyse entre appareils. (La synchronisation des identifiants et le service ECID sont toujours obligatoires pour certaines autres fonctionnalités.) |
-| (Annonce anticipée) Workspace : téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
+| (Annonce anticipée) Workspace : téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
