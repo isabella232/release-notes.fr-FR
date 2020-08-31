@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
+source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
-source-wordcount: '6673'
+source-wordcount: '6685'
 ht-degree: 96%
 
 ---
@@ -110,7 +110,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
-| Espace de travail : Améliorations de la visualisation en ligne | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations en ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de ligne pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendances de régression sur n’importe quelle visualisation de ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont Linéaire, Logarithmique, Exponentielle, Puissance et Quadratique.</li></ul> |
+| Espace de travail : Améliorations de la visualisation en ligne | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations en ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de ligne pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendances de régression sur n’importe quelle visualisation de ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont Linéaire, Logarithmique, Exponentielle, Puissance et Quadratique.</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
