@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
+source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
 workflow-type: tm+mt
-source-wordcount: '6651'
-ht-degree: 99%
+source-wordcount: '6673'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **21 août 2020**
+Dernière mise à jour : **31 août 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud) (Mise à jour le **19 août 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (Mise à jour le 21 août 2020) et [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (Mise à jour le 31 août 2020) et [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -96,28 +96,29 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
-(Mis à jour le 13 août 2020)
+(Mise à jour le 31 août 2020)
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ------- |
 | [!UICONTROL Analyses entre appareils] : disponibilité dans les zones EMEA et APAC | 31 août 2020 | [Les analyses entre appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/overview.html) et les graphiques privés seront disponibles pour les clients des zones EMEA et APAC. |
 | Amélioration de l’accrochage basé sur les champs dans [!UICONTROL Analyse entre appareils] (disponible en Amérique et dans la région EMEA) | 31 août 2020 | Cette mise en œuvre simplifiée pour les nouveaux clients [!UICONTROL Analyse entre appareils] vous permet d’effectuer des accrochages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou privé). L’amélioration supprime l’obligation de mettre en œuvre le service ECID et la synchronisation des identifiants aux fins de l’analyse entre appareils. (La synchronisation des identifiants et le service ECID sont toujours obligatoires pour certaines autres fonctionnalités.) |
-| (Annonce anticipée) Workspace : téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Espace de travail : Améliorations de la visualisation en ligne | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations en ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de ligne pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation de ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont Linéaire, Logarithmique, Exponentielle, Puissance et Quadratique.</li></ul> [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
-| Option de [!UICONTROL carte des identités] pour l’ID de personne | 26 juin 2020 | La [!UICONTROL carte des identités] est une structure de données de carte qui vous permet de télécharger des paires clé -> valeur dans le cadre de la création d’une connexion dans [!UICONTROL Customer Journey Analytics]. Les clés sont des espaces de noms d’identité et la valeur est une structure qui contient la valeur d’identité. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| Espace de travail : Améliorations de la visualisation en ligne | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations en ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de ligne pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendances de régression sur n’importe quelle visualisation de ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont Linéaire, Logarithmique, Exponentielle, Puissance et Quadratique.</li></ul> |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
-Date de publication : **16 juillet 2020**
+(Mise à jour le 31 août 2020)
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ---------- |
-| [Appareils et plateformes pris en charge](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/supported-devices.html) | 18 juin 2020 | L’[!UICONTROL extension Media Launch] avec SDK AEP prend désormais en charge les appareils OTT suivants :<ul><li>Apple TV (tvOS)</li><li>Fire TV (Système d’exploitation Fire)</li><li>Android TV</li></ul> |
-| [Suivi de l’état du lecteur](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 mai 2020 | Les clients [!UICONTROL Media Analytics] peuvent capturer l’interaction de la visionneuse au cours de la lecture à l’aide d’un jeu standard de variables de solution pour le mode Plein écran, le sous-titrage, le mode silencieux, l’incrustation dans l’image et le mode In-Focus. Vous pouvez également créer des états de lecteur personnalisés. [!UICONTROL Des comptes rendus des performances] sur les variables de suivi de l’état du lecteur sont désormais disponibles dans [!UICONTROL Analysis Workspace]. Cette fonctionnalité nécessite l’une des configurations suivantes : <ul><li>SDK Media [!DNL JavaScript] 3.0 ou version ultérieure</li><li>Utilisation avec le SDK [!DNL Adobe Experience Platform] (AEP) :</li><li>[!UICONTROL Extension Media Analytics] (pour le web) : [!UICONTROL Adobe Media Analytics] (SDK 3.x) pour Audio et Video v1.0 ou version ultérieure</li><li>[!UICONTROL Extension Media Analytics] (pour mobile) : [!UICONTROL Adobe Media Analytics pour Audio] et Vidéo v2.0 ou version ultérieure</li><li>[!UICONTROL Collection Médias]</li></ul> |
+| Panneau Visionneuse de contenu multimédia simultanée dans Workspace | 17 septembre 2020 | Le panneau Visionneuses simultanées de médias vous permet de déterminer où s’est produit le pic d’accès simultané ou où des abandons ont eu lieu.  Il fournit des informations précieuses sur la qualité du contenu et l’engagement des visiteurs et aide à la résolution des problèmes ou à la planification du volume/de l’échelle. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
