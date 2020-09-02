@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
+source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6688'
 ht-degree: 95%
 
 ---
@@ -73,7 +73,7 @@ Voir les [notes de mise à jour Experience Platform](https://docs.adobe.com/con
 
 Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels à l’échelle sur des canaux d’expérience en anticipant de manière intelligente les besoins de chaque individu en temps réel, quel que soit l’endroit où leur parcours les mène.
 
-### Nouveaux cours et tutoriels sur Campaign
+### Nouveaux cours et tutoriels pour Journey Orchestration
 
 Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
