@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
 source-wordcount: '6688'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Les dates de publication du produit peuvent varier. Consultez régulièrement le
 Dernière mise à jour : **31 août 2020**
 
 * [Statut du système Adobe](#status)
-* [Interface d’Experience Cloud](#ecloud) (Mise à jour le **19 août 2020**)
+* [Interface d’Experience Cloud](#ecloud)  (Mise à jour le **19 août 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (Mise à jour le 31 août 2020) et [Customer Journey Analytics](#cust-journey)
@@ -91,7 +91,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mise à jour le 21 août 2020)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)  (Mise à jour le 21 août 2020)
 * [AppMeasurement](#appm)
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
@@ -102,7 +102,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 | ----------- | ---------- | ------- |
 | [!UICONTROL Analyses entre appareils] : disponibilité dans les zones EMEA et APAC | 31 août 2020 | [Les analyses entre appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/overview.html) et les graphiques privés seront disponibles pour les clients des zones EMEA et APAC. |
 | Amélioration de l’accrochage basé sur les champs dans [!UICONTROL Analyse entre appareils] (disponible en Amérique et dans la région EMEA) | 31 août 2020 | Cette mise en œuvre simplifiée pour les nouveaux clients [!UICONTROL Analyse entre appareils] vous permet d’effectuer des accrochages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou privé). L’amélioration supprime l’obligation de mettre en œuvre le service ECID et la synchronisation des identifiants aux fins de l’analyse entre appareils. (La synchronisation des identifiants et le service ECID sont toujours obligatoires pour certaines autres fonctionnalités.) |
-| Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 | Espace de travail : Améliorations de la visualisation en ligne | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations en ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de ligne pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation de ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont Linéaire, Logarithmique, Exponentielle, Puissance et Quadratique.</li></ul> [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 
@@ -141,7 +141,7 @@ AN-219351 ; AN-220960 ; AN-223788 ; AN-224630 ; AN-224948 ; AN-225618 ; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Avis | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Migration de `omniture.com` vers un domaine `adobe.com` | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale de `omniture.com|http://omniture.com/` vers le domaine `adobe.com|http://adobe.com/`. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié en date du 28 mai 2020. Suite à cette mise à jour, le navigateur peut inviter les utilisateurs à approuver le nouveau domaine `an.adobe.com|http://an.adobe.com/` domaine ou `experience.adobe.com|http://experience.adobe.com/`. |
 | Mise à jour de la compatibilité d’Ad Hoc Analysis avec Java 8 | 21 août 2020 | Ad Hoc Analysis n’est pas actuellement compatible avec les versions 1.8.0_261+ de Java 8. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la [date de fin de vie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
@@ -384,11 +384,11 @@ Notes de mise à jour d’Adobe Advertising Cloud.
 
 ### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
 
-**Mise à jour le 20 août**
+**Mise à jour le 20 août**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Prévisions pour Roku | Les prévisions sont désormais disponibles pour les placements de Roku. |
+| Prévisions pour Roku | Les prévisions sont désormais disponibles pour les placements Roku. |
 | Preroll interactif étendu pour inclure l’inventaire VAST | Tous les emplacements et publicités interactifs de preroll peuvent désormais prendre en charge les inventaires VPAID et VAST. **Remarque :** si votre indicateur clé de performance est la capacité d’affichage, continuez à créer des emplacements et publicités VPAID et VAST distincts, car les impressions affichables ne sont pas disponibles pour les publicités VAST. |
 
 ### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search] {#adcloud-search}
