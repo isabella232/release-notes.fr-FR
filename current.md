@@ -61,7 +61,7 @@ Voir Notes [de mise à jour](https://docs.adobe.com/content/help/en/core-service
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
-Notes de mise à jour d’[!DNL Experience Platform] et des services d’application, y compris des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services] d’[!DNL Experience Platform Launch,], et des bulletins de sécurité.
+Notes de mise à jour d’[!DNL Experience Platform] et des services d’application, y compris des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services] d’[!DNL Experience Platform Launch,] et des bulletins de sécurité.
 
 Date de publication : **12 août 2020**
 
@@ -115,7 +115,7 @@ Nouvelles vidéos, didacticiels et cours publiés pour le [!UICONTROL Journey Or
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) 
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)  
 * [Cours et didacticiels Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -127,8 +127,8 @@ Nouvelles vidéos, didacticiels et cours publiés pour le [!UICONTROL Journey Or
 | Amélioration de l’assemblage sur le terrain dans Analytics  multipériphériques (disponible dans le monde entier) | 31 août 2020 | Cette mise en œuvre simplifiée pour les nouveaux clients [!UICONTROL Analyse entre appareils] vous permet d’effectuer des accrochages en fonction d’un ID utilisateur stocké dans un champ Analytics (prop ou eVar) plutôt que d’utiliser un graphique de périphérique (co-op ou privé). L’amélioration supprime l’obligation de mettre en œuvre le service ECID et la synchronisation des identifiants aux fins de l’analyse entre appareils. (La synchronisation des identifiants et le service ECID sont toujours obligatoires pour certaines autres fonctionnalités.) |
 | Collecte de données en Chine, phase 2 | 1 septembre 2020 | Prise en charge étendue du protocole SSL propriétaire. |
 | Nouvelles plages de dates dans Workspace | 10 septembre 2020 | Nous ajoutons 5 nouvelles plages de dates afin que vous puissiez choisir parmi des plages de dates qui n’incluent pas de données de jour partielles d’aujourd’hui : 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets, 90 derniers jours complets |
-| Espace de travail : Téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
-| Espace de travail : Améliorations de la visualisation [!UICONTROL des lignes] | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de [!UICONTROL lignes] . Cela peut s’avérer particulièrement utile lorsque vos visualisations [!UICONTROL Ligne] sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de [!UICONTROL ligne] pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation de [!UICONTROL ligne] pour mieux visualiser la tendance dans les données. Les options incluent [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentiel], [!UICONTROL Power et Quadratique.]</li></ul> [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| Workspace : téléchargement de 50 000 éléments pour une seule dimension | 17 septembre 2020 | Vous pouvez télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
+| Espace de travail : Améliorations de la visualisation [!UICONTROL des lignes] | 17 septembre 2020 | <ul><li>You can show or hide the x-axis and y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any [!UICONTROL Line] visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any [!UICONTROL Line] visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -137,15 +137,15 @@ Nouvelles vidéos, didacticiels et cours publiés pour le [!UICONTROL Journey Or
 | Modifications des autorisations du Customer Journey Analytics | 9 septembre 2020 | CJA ne traitera plus tous les utilisateurs comme des administrateurs. Seuls les utilisateurs qui ont été désignés comme administrateurs de produits dans la [Adobe Admin Console](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html) pourront effectuer les actions suivantes :<ul><li>Créer/mettre à jour/supprimer des [!UICONTROL connexions] ou des Vues de [!UICONTROL données]</li><li>Mettre à jour/supprimer des projets, des filtres ou des mesures calculées créés par d’autres utilisateurs</li><li>Partage d’un projet Workspace à tous les utilisateurs</li></ul> |
 | Prise en charge de la [!UICONTROL détection des anomalies] | 10 septembre 2020 | [!UICONTROL La détection] des anomalies permet d’identifier les fluctuations statistiques importantes et celles qui ne le sont pas. Cette fonctionnalité est désormais prise en charge en [!UICONTROL Customer Journey Analytics]. |
 | Nouvelles plages de dates dans Workspace | 10 septembre 2020 | Nous ajoutons 5 nouvelles plages de dates afin que vous puissiez choisir parmi des plages de dates qui n’incluent pas de données de jour partielles d’aujourd’hui : [!UICONTROL 7 derniers jours]complets, [!UICONTROL 14 derniers jours]complets, 30 derniers jours [!UICONTROL complets,]60 derniers jours complets, 90 derniers jours complets |
-| Espace de travail : Améliorations de la visualisation [!UICONTROL des lignes] | 17 septembre 2020 | <ul><li>Vous pouvez afficher ou masquer l’axe des abscisses et l’axe des ordonnées de n’importe quelle visualisation de [!UICONTROL lignes] . Cela peut s’avérer particulièrement utile lorsque vos visualisations [!UICONTROL Ligne] sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation de [!UICONTROL ligne] pour mettre rapidement en évidence les pics et les vallées d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation de [!UICONTROL ligne] pour mieux visualiser la tendance dans les données. Les options incluent [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentiel], [!UICONTROL Power et Quadratique.]</li></ul> [En savoir plus...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/visualizations/line.html) |
+| Espace de travail : Améliorations de la visualisation [!UICONTROL des lignes] | 17 septembre 2020 | <ul><li>You can show or hide the x-axis and y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any [!UICONTROL Line] visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any [!UICONTROL Line] visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> [En savoir plus...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/visualizations/line.html) |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL Panneau Visionneuse] simultanée de médias dans [!UICONTROL Workspace] | 17 septembre 2020 | Le panneau Visionneuses [!UICONTROL simultanées de] médias vous permet de déterminer où s’est produit le pic d’accès simultané ou où des abandons ont eu lieu. Il fournit des informations précieuses sur la qualité du contenu et l’engagement des visiteurs et aide à la résolution des problèmes ou à la planification du volume/de l’échelle. [En savoir plus...](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
+| Panneau Observateur simultané de médias dans Workspace | 17 septembre 2020 | The [!UICONTROL Media Concurrent Viewers] panel enables you to understand where peak concurrency occurred or where drop-offs happened. Il fournit des informations importantes sur la qualité du contenu et l’engagement des observateurs et aide à la résolution des problèmes ou à la planification du volume/de l’échelle. [En savoir plus...](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
-### Correctifs dans Adobe Analytics {#aa-fixes}
+### Correctifs dans Adobe Analytics {#aa-fixes}
 
 * Correction d’un problème qui empêchait le filtrage des colonnes [!UICONTROL Workspace] par la dimension &quot;non spécifié&quot;. (AN-222393)
 * Correction d’un problème de délai d’expiration de la connexion qui empêchait la diffusion des projets  planifiés. (AN-223916)
@@ -166,7 +166,7 @@ AN-215683; AN-216894 ; AN-226370; AN-227138; AN-227154; AN-227328; AN-227486; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout  ou de mise à jour | Description |
+| Avis | Date d’ajout   ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Migration de `omniture.com` vers un domaine `adobe.com` | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale de `omniture.com|http://omniture.com/` vers le domaine `adobe.com|http://adobe.com/`. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié en date du 28 mai 2020. As a result of this update, the browser may prompt users to trust the new an `.adobe.com|http://an.adobe.com/` or `experience.adobe.com|http://experience.adobe.com/` domain. |
 | Mise à jour de la compatibilité d’Ad Hoc Analysis avec Java 8 | 21 août 2020 | Ad Hoc Analysis n’est pas actuellement compatible avec les versions 1.8.0_261+ de Java 8. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la [date de fin de vie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
@@ -450,7 +450,7 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 | Fonctionnalité | Description |
 | ------ | --------- |
 | [!DNL Bizible] | <ul><li>Nouvelle segmentation basée sur un compte</li><li>Enregistrement des filtres spécifiques au tableau de bord</li><li>Exportation de tableaux de bord Bizible au format PDF</li></ul> |
-| Connect de ventes | Composition des mises à jour/améliorations de Windows et du Centre de commandes |
+| Connect de ventes | Composition des mises à jour/améliorations des fenêtres et du Centre de commandes. |
 
 ### Dépréciations
 
