@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# Notes de mise à jour d’Experience Cloud  {#experience-cloud}
+# Notes de mise à jour d’Experience Cloud   {#experience-cloud}
 
 + [Notes de mise à jour](current.md)
 + Notes de mise à jour précédentes {#previous}
