@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
+source-git-commit: d2be5336caa039c540df6076bef876dc1384cab2
 workflow-type: tm+mt
-source-wordcount: '6745'
-ht-degree: 100%
+source-wordcount: '6913'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **10 septembre 2020**
+Dernière mise à jour : **23 septembre 2020**
 
 * [Statut du système Adobe](#status)
 * [Interface d’Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (Mis à jour le 23 septembre 2020) et [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -111,7 +111,7 @@ Nouveaux tutoriels, vidéos et cours publiés pour [!UICONTROL Journey Orchestra
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mis à jour le 23 septembre 2020)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -164,6 +164,7 @@ AN-215683 ; AN-216894 ; AN-226370 ; AN-227138 ; AN-227154 ; AN-227328 ; AN
 
 | Avis | Date d’ajout     ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Changement du paramètre de cookie ECID | 22 septembre 2020 | Une mise à jour des paramètres de confidentialité pour Chrome version 80 a eu un impact sur la capacité d’Adobe Analytics à suivre certains utilisateurs qui consultent des pages Google AMP. Plus précisément, il empêche le suivi interdomaines des utilisateurs qui consultent des pages AMP hébergées par Google. Cela pourrait entraîner une augmentation du nombre de visiteurs uniques. Ce correctif permet aux utilisateurs de résoudre ce problème en modifiant les paramètres de leurs cookies ECID. Actuellement, Analytics définit les cookies ECID avec le paramètre `SameSite = Lax` qui, avant la version 80 de Chrome, autorisait le suivi inter-domaines. Ce n&#39;est plus le cas. Cette modification permet aux utilisateurs de mettre à jour le paramètre MêmeSite pour les cookies ECID vers `None`. Notez que cela permet le partage du cookie Analytics dans d’autres situations, mais les cookies Analytics ne contiennent aucune information sensible. En outre, lors du choix de ce paramètre, les cookies doivent être définis sur `Secure` afin que les données ne puissent être transmises que par des connexions HTTPS. Si vous souhaitez apporter cette modification, demandez à un utilisateur ayant souscrit un contrat dédié d’ouvrir un ticket auprès du service d’assistance clientèle. |
 | Migration de `omniture.com` vers un domaine `adobe.com` | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale de `omniture.com|http://omniture.com/` vers le domaine `adobe.com|http://adobe.com/`. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié en date du 28 mai 2020. Suite à cette mise à jour, le navigateur peut inviter les utilisateurs à approuver le nouveau domaine `.adobe.com|http://an.adobe.com/` ou `experience.adobe.com|http://experience.adobe.com/`. |
 | Mise à jour de la compatibilité d’Ad Hoc Analysis avec Java 8 | 21 août 2020 | Ad Hoc Analysis n’est pas actuellement compatible avec les versions 1.8.0_261+ de Java 8. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la [date de fin de vie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
 | Fin de vie des Data Connectors Adobe | 13 juillet 2020 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
