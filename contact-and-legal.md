@@ -1,15 +1,18 @@
 ---
 description: Informations vous permettant de contacter Adobe et de comprendre les implications juridiques lorsque vous utilisez ce produit et sa documentation.
-keywords: Dynamic Tag Management;notes de mise à jour
+keywords: dynamic tag management;release notes
 seo-description: Informations vous permettant de contacter Adobe et de comprendre les implications juridiques lorsque vous utilisez ce produit et sa documentation.
 seo-title: Coordonnées et informations juridiques
-solution: Experience Cloud,Notes de mise à jour
+solution: Experience Cloud
 title: Coordonnées et informations juridiques
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+translation-type: tm+mt
+source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +24,7 @@ Informations vous permettant de contacter Adobe et de comprendre les implication
 
 ## Aide et assistance technique {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
-L’équipe d’assistance d’Adobe Marketing Cloud est là pour vous aider et propose les différentes solutions de support suivantes :
+L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider et propose les différentes solutions de support suivantes :
 
 Voir [Contacter l’assistance Adobe pour les entreprises](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
 
@@ -41,8 +44,8 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Conditions d’utilisation](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centre de confidentialité](https://www.adobe.com/privacy/policy.html)
+[Conditions d’utilisation](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centre de traitement des données personnelles](https://www.adobe.com/fr/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third-Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third-Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/fr/products/eula/third_party/).
