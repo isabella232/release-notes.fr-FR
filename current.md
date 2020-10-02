@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
 workflow-type: tm+mt
 source-wordcount: '6970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.
 
 [!UICONTROL Statut du système Adobe] fournit des informations détaillées, des mises à jour de statut et des notifications par email relatives aux produits cloud Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/).
 
-Voir [Statut d’Adobe - 21 mai 2020](https://docs-stg.corp.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status) pour obtenir les dernières informations de mise à jour.
+Voir [Statut d’Adobe - 21 mai 2020](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/previous/2020/05212020.translate.html#status) pour obtenir les dernières informations de mise à jour.
 
 ## ![Icône](/assets/ec_appicon_24.png) Interface d’Experience Cloud {#ecloud}
 
@@ -111,7 +111,7 @@ Nouveaux tutoriels, vidéos et cours publiés pour [!UICONTROL Journey Orchestra
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)  (Mise à jour le 29 septembre 2020)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mise à jour le 29 septembre 2020)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -162,9 +162,9 @@ AN-215683 ; AN-216894 ; AN-226370 ; AN-227138 ; AN-227154 ; AN-227328 ; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout      ou de mise à jour | Description |
+| Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| ajouter l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l&#39;en-tête HSTS à toutes les demandes entrantes qui utilisent HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes futures dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. A ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
+| Ajout de l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l’en-tête HSTS à toutes les requêtes entrantes qui utilisent des connexions HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes à venir dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. À ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
 | Changement des paramètres des cookies ECID | 22 septembre 2020 | Une mise à jour des paramètres de confidentialité pour Chrome version 80 a eu un impact sur la capacité d’Adobe Analytics à suivre certains utilisateurs qui consultaient des pages AMP sur Google. Plus précisément, elle empêche le suivi inter-domaines des utilisateurs qui consultent des pages AMP hébergées par Google. Cela pourrait entraîner une augmentation du nombre de visiteurs uniques. Ce correctif permet aux utilisateurs de résoudre ce problème en modifiant les paramètres de leurs cookies ECID. Actuellement, Analytics définit les cookies ECID avec le paramètre `SameSite = Lax` qui, avant la version 80 de Chrome, permettait le suivi inter-domaines. Ce n’est plus le cas. Cette modification permet aux utilisateurs de mettre à jour le paramètre SameSite pour les cookies ECID vers `None`. Veuillez noter que cela permet le partage du cookie Analytics dans d’autres situations, mais les cookies Analytics ne contiennent aucune information sensible. En outre, lors du choix de ce paramètre, les cookies doivent être définis sur `Secure` afin que les données ne puissent être transmises que par des connexions HTTPS. Si vous souhaitez apporter cette modification, demandez à un utilisateur pris en charge d’ouvrir un ticket auprès de l’assistance clientèle. |
 | Migration de `omniture.com` vers un domaine `adobe.com` | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale de `omniture.com|http://omniture.com/` vers le domaine `adobe.com|http://adobe.com/`. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié en date du 28 mai 2020. Suite à cette mise à jour, le navigateur peut inviter les utilisateurs à approuver le nouveau domaine `.adobe.com|http://an.adobe.com/` ou `experience.adobe.com|http://experience.adobe.com/`. |
 | Mise à jour de la compatibilité d’Ad Hoc Analysis avec Java 8 | 21 août 2020 | Ad Hoc Analysis n’est pas actuellement compatible avec les versions 1.8.0_261+ de Java 8. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la [date de fin de vie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
@@ -230,9 +230,9 @@ Nouveaux tutoriels, vidéos et cours publiés pour Audience Manager.
 | 14 août 2020 | [Tirer le meilleur parti des stratégies de fusion de profils - Conseils, astuces et stratégies](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/customer-tips-getting-the-most-out-of-profile-merge-rules.html) | Article | Varun Kalra, consultant multi-solutions chez [!DNL Accordant], donne des conseils sur le choix et l’utilisation des [!UICONTROL stratégies de fusion des profils]. |
 | 14 août 2020 | [Bonnes pratiques relatives aux traits et aux segments](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/customer-tips-traits-and-segments-best-practices.html) | Article | Matt Vittorioso, spécialiste marketing senior chez [!DNL Ally Financial], donne des conseils sur la gestion des traits. |
 | 12 août 2020 | [Présentation et configuration de la destination basée sur les personnes de la correspondance client Google](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-google-customer-match-pbd.html) | Vidéo | Cette vidéo vous explique les détails et les cas d’utilisation de la [!UICONTROL destination basée sur les personnes] de la correspondance client Google. Elle comprend une présentation de la création d’un segment et de son mappage sur une destination. Elle présente également une landing page d’audience dans Google Ad Console. |
-| 13 août 2020 | [Cours d’introduction - Création et stratégies de segments ciblés](https://video.tv.adobe.com/v/39091?captions=fre_fr) | Vidéo | Dans cette vidéo, découvrez ce qui vous attend dans le cours Création et stratégies de segments ciblés. |
+| 13 août 2020 | [Cours d’introduction - Création et stratégies de segments d’audience](https://video.tv.adobe.com/v/39091?captions=fre_fr) | Vidéo | Dans cette vidéo, découvrez ce qui vous attend dans le cours Création et stratégies de segments d’audience. |
 | 13 août 2020 | [Utilisation de l’affichage du code lors de la création de segments ](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-when-building-segments.html) | Vidéo | Découvrez comment utiliser l’affichage du code pour définir des segments, ce qui vous permet de créer des combinaisons de traits complexes, notamment en utilisant la récence et la fréquence. |
-| 21 août 2020 | [Création et stratégies de segments ciblés](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.2) | Cours | Dans ce cours, découvrez les segments de A à Z. Découvrez comment les créer, les gérer et les activer vers les partenaires de destination. Consultez des cas d’utilisation utiles et obtenez même quelques conseils et astuces de la part des clients. |
+| 21 août 2020 | [Création et stratégies de segments d’audience](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.2) | Cours | Dans ce cours, découvrez les segments de A à Z. Découvrez comment les créer, les gérer et les activer vers les partenaires de destination. Consultez des cas d’utilisation utiles et obtenez même quelques conseils et astuces de la part des clients. |
 
 ## ![Icône](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -246,7 +246,7 @@ AEM 6.5, Service Pack 6 (6.5.6.0 publiée le 3 septembre 2020) est une mise 
    * [Livrables de la mise à jour d’AEM Forms](https://helpx.adobe.com/fr/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.4.8.2**
-AEM 6.4, Service Pack 8, Cumulative Fix Pack (6.4.8.2 publiée le jeudi 3 septembre 2020) est une mise à jour importante qui inclut plusieurs correctifs internes et clients depuis la disponibilité générale d’AEM 6.4, Service Pack 8 (6.4.8.0), mars 2020.
+AEM 6.4, Service Pack 8, Cumulative Fix Pack 2 (6.4.8.2 publiée le jeudi 3 septembre 2020) est une mise à jour importante qui inclut plusieurs correctifs internes et clients depuis la disponibilité générale d’AEM 6.4, Service Pack 8 (6.4.8.0), mars 2020.
    * [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/release-notes/cfp-release-notes.html)
    * [Livrables de la mise à jour d’AEM Forms](https://helpx.adobe.com/fr/aem-forms/kb/aem-forms-releases.html)
 
