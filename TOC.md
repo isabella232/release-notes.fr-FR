@@ -6,9 +6,9 @@ breadcrumb-title: Release Notes Guide
 user-guide-description: Learn about new features, fixes, and important notices in Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: bbe44177637f97dacc8f165d14b15e6bcf4fce59
+source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 100%
 + [Notes de mise à jour](current.md)
 + Notes de mise à jour précédentes {#previous}
    + 2020 {#2020}
+      + [Septembre 2020](c-legacy-releases/2020/09102020.md)
       + [Août 2020](c-legacy-releases/2020/08132020.md)
       + [Juillet 2020](c-legacy-releases/2020/07162020.md)
       + [Juin 2020](c-legacy-releases/2020/06182020.md)
