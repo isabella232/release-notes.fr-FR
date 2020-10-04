@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
+source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
 workflow-type: tm+mt
-source-wordcount: '6533'
+source-wordcount: '6530'
 ht-degree: 45%
 
 ---
@@ -298,13 +298,13 @@ La documentation de l’Editeur de texte enrichi est mise à jour afin de liste 
 
 * Si les utilisateurs ont modifié [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) afin de définir la configuration du délai d’expiration sur une valeur inférieure au temps nécessaire au téléchargement d’un fichier, l’utilisateur peut alors rencontrer un problème de délai d’expiration de session.Les utilisateurs doivent donc modifier la configuration `chunkUploadMinFileSize` et `chunksize`le délai d’expiration, de sorte que chaque requête de segment actualise la session. Pour plus d’informations, voir [Chargement de ressources](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
-* Les ressources peuvent également être [déplacées dans des dossiers frères à l’aide de l’opération](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) de glisser-déplacer, à l’exception de l’opération de [!UICONTROL déplacement (m)] qui ouvre l’assistant [!UICONTROL Déplacer les ressources] .
+* Les ressources peuvent également être [déplacées dans des dossiers frères à l’aide de l’opération](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) de glisser-déplacer, à l’exception de l’opération [!UICONTROL Déplacer(m)] qui ouvre l’assistant [!UICONTROL Déplacer des ressources] .
 
 * Pour Assets Insights, utilisez [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [L’intégration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) de la gestion dynamique des balises est appelée méthode obsolète dans la documentation.
 
 **[!DNL Adobe Experience Manager]application de bureau**
 
-* Les utilisateurs qui se connectent à l’application de bureau après s’être déconnectés ou se sont connectés pour la première fois doivent fournir l’URL de leur [!DNL Experience Manager] serveur au format https://[aem-server-url]:[port]/, puis sélectionner l’option [!UICONTROL Connexion] , afin d’éviter l’erreur &quot;L’application a rencontré une erreur inconnue&quot;. Pour plus d’informations, voir [Utilisation de l’application](https://docs.adobe.com/content/help/fr-FR/experience-manager-desktop-app/using/using.html)de bureau Adobe Experience Manager.
+* Les utilisateurs qui se connectent à l’application de bureau après s’être déconnectés ou se sont connectés pour la première fois doivent fournir l’URL de leur [!DNL Experience Manager] serveur au format `https://[aem-server-url]:[port]/` , puis sélectionner l’option [!UICONTROL Se connecter] , afin d’éviter l’erreur &quot;L’application a rencontré une erreur inconnue&quot;. Pour plus d’informations, voir [Utilisation de l’application](https://docs.adobe.com/content/help/fr-FR/experience-manager-desktop-app/using/using.html)de bureau Adobe Experience Manager.
 
 ### Communauté
 
