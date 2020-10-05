@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
+source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
 workflow-type: tm+mt
-source-wordcount: '6530'
-ht-degree: 45%
+source-wordcount: '6537'
+ht-degree: 46%
 
 ---
 
@@ -64,7 +64,7 @@ Anciennement appelés services _principaux_ Experience Cloud, la documentation s
 
 Aucune mise à jour en septembre.
 
-See [Cumulative release notes](https://docs.adobe.com/content/help/fr-FR/core-services/interface/release-notes/release-notes.html) for the latest release information.
+Pour obtenir des informations sur les dernières mises à jour, reportez-vous à la section Notes de mise à jour [cumulées pour les services](https://docs.adobe.com/content/help/fr-FR/core-services/interface/release-notes/release-notes.html) Experience Cloud.
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -105,6 +105,8 @@ Version de septembre - Voir [Notes de mise à jour pour le Journey Orchestration
 [Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
 ## ![Icône](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
+
+Date de publication : **8 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
@@ -397,9 +399,9 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |
-| 22 septembre 2020 | [AI du parcours - Optimisation prédictive du temps d&#39;envoi - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Identifiez les workflows nécessaires pour synchroniser les données entre Adobe Campaign et le modèle d&#39;IA de parcours. Découvrez comment vue des scores de temps d&#39;envoi au niveau du profil individuel et comment exécuter des diffusions de courriel à l&#39;aide d&#39;une formule d&#39;envoi de temps. |
-| 22 septembre 2020 | [AI du parcours - Score d’engagement prédictif - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Découvrez comment vue les scores d’engagement au niveau du profil individuel, utiliser les scores pour cibler les utilisateurs engagés et supprimer les utilisateurs fatigués et créer des règles de typologie pour gérer la fatigue des clients. |
-| 22 septembre 2020 | [ajouter le contrôle d&#39;un groupe à une diffusion - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Découvrez comment définir une Population témoin pour votre diffusion et comment extraire les profils affectés à la Population témoin une fois la diffusion envoyée. |
+| 22 septembre 2020 | [AI du parcours - Optimisation prédictive du temps d&#39;envoi - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Identifiez les workflows nécessaires pour synchroniser les données entre Adobe Campaign et le modèle Journey AI. Découvrez comment afficher des scores d’heure d’envoi au niveau du profil individuel et comment exécuter des diffusions email à l&#39;aide d&#39;une formule d’heure d’envoi. |
+| 22 septembre 2020 | [AI du parcours - Score d’engagement prédictif - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Découvrez comment afficher les scores d’engagement au niveau du profil individuel, utiliser les scores pour cibler les utilisateurs engagés et supprimer les utilisateurs fatigués, et créer des règles de typologie pour gérer la fatigue des clients. |
+| 22 septembre 2020 | [ajouter une Population témoin à une diffusion - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Découvrez comment définir une population témoin pour votre diffusion et comment extraire les profils affectés à la population témoin une fois la diffusion envoyée. |
 | 11 septembre 2020 | [Délégation de sous-domaines](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Le panneau de contrôle d’Adobe Campaign vous permet de déléguer entièrement un sous-domaine à Adobe Campaign. |
 | 3 septembre 2020 | [ajouter des adresses IP aux listes autorisées](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Le panneau de contrôle permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP aux listes autorisées. Par défaut, une instance Adobe Campaign Classic n’est pas accessible à partir de diverses adresses IP. |
 | 3 septembre 2020 | [Panneau de Contrôle - Ajouter les autorisations d’URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | Le panneau de contrôle permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP aux listes autorisées. Par défaut, une instance Adobe Campaign Classic n’est pas accessible à partir de diverses adresses IP. |
