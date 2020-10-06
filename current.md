@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
+source-git-commit: 51da999834b44cdbd2a5ecc7c26da652327dd3cc
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6618'
 ht-degree: 46%
 
 ---
@@ -49,6 +49,10 @@ Dernière mise à jour : **2 octobre 2020**
 * [Document Cloud](#doc-cloud)
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
+
+>[!NOTE]
+>
+>La documentation se déplace vers l&#39;Experience League. Au cours du mois d’octobre, toutes les notes de mise à jour, articles, vidéos et didacticiels quitteront leur emplacement actuel à `docs.adobe.com` Experience League et seront disponibles dans le cadre de ce programme. Ce déplacement permet de s’assurer que tout le contenu d’apprentissage, d’auto-assistance, d’activation et de communauté est diffusé à partir d’un seul emplacement : experience league. Lorsque ce changement se produit, il n’y a rien à faire, car tous les liens seront redirigés vers le nouvel emplacement. Nous mettrons à jour les notes de mise à jour au début du découpage.
 
 ## ![Icône](/assets/adobe.png) Statut du système Adobe {#status}
 
@@ -312,7 +316,7 @@ La documentation de l’Editeur de texte enrichi est mise à jour afin de liste 
 
 * **Annonce d’un nouveau processus d’envoi de demandes de fonction Experience Manager**
 
-   Souhaitez-vous voir une nouvelle fonctionnalité ajoutée à la feuille de route Experience Manager ? L&#39;Adobe est heureux d&#39;annoncer *FeatureBit* - un projet visant à améliorer la façon dont les clients et les partenaires demandent des améliorations de fonctionnalités (appelées RFE) à l&#39;équipe produit Experience Manager. Pour en savoir plus, consultez la communauté AEM [Experience League .](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+   Souhaitez-vous voir une nouvelle fonctionnalité ajoutée à la feuille de route Experience Manager ? L&#39;Adobe est heureux d&#39;annoncer *FeatureBit* - un projet visant à améliorer la façon dont les clients et les partenaires demandent des améliorations de fonctionnalités (appelées RFE) à l&#39;équipe produit Experience Manager. Pour en savoir plus, consultez la communauté [Experience League AEM.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
 
 * **Le contenu AEM le plus récent sur Experience League**
 
