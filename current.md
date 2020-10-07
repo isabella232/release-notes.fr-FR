@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
+source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
 workflow-type: tm+mt
-source-wordcount: '6775'
+source-wordcount: '6846'
 ht-degree: 45%
 
 ---
@@ -31,13 +31,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
 
-Dernière mise à jour : **2 octobre 2020**
+Dernière mise à jour : **7 octobre 2020**
 
 * [Statut du système Adobe](#status)
 * [Services et administration Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mis à jour le 2 octobre 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mis à jour le 7 octobre 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -92,7 +92,7 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses se
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 14 septembre 2020 | [Valeur commerciale de l&#39;Attribution AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | Vidéo | [!UICONTROL attribution ai], dans le cadre des services intelligents, est un service d’attribution algorithmique multicanal qui calcule l’influence et l’impact incrémentiel des interactions client par rapport à des résultats spécifiés. With [!UICONTROL Attribution AI], marketers can measure and optimize marketing and advertising spend by understanding the impact of every individual customer interaction across each phase of the customers’ journeys. |
+| 14 septembre 2020 | [Valeur commerciale de l&#39;Attribution AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | Vidéo | [!UICONTROL Attribution AI], dans le cadre des services intelligents, est un service d’attribution algorithmique multicanal qui calcule l’influence et l’impact incrémentiel des interactions client par rapport à des résultats spécifiés. With [!UICONTROL Attribution AI], marketers can measure and optimize marketing and advertising spend by understanding the impact of every individual customer interaction across each phase of the customers’ journeys. |
 | 14 septembre 2020 | [Valeur commerciale de l’API client](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | Vidéo | Cette vidéo montre comment l’IA [!UICONTROL du] client enrichit les profils clients avec des propensions basées sur l’IA et renforce la segmentation et le ciblage des clients. |
 | 14 septembre 2020 | [Valeur commerciale de la plate-forme et du Magento](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | Vidéo | Cette vidéo montre Adobe Experience Platform peut être utilisée avec [!DNL Magento] Commerce pour créer une vue unique de clients et personnaliser intelligemment les expériences sur une vitrine numérique et entre canaux. |
 
@@ -113,7 +113,7 @@ Version de septembre - Voir [Notes de mise à jour pour le Journey Orchestration
 Date de publication : **8 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mis à jour le 7 octobre 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -142,6 +142,7 @@ Date de publication : **8 octobre 2020**
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d&#39;aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils d&#39;optimisation. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL Visualisation en ligne] : Option moyenne de tendance de déplacement | 8 octobre 2020 | La moyenne mobile a été ajoutée aux paramètres de ligne de tendance de la visualisation en ligne. Une moyenne mobile calcule la moyenne pour une période antérieure spécifiée et l’utilise comme point de données de tendance, puis passe à la période suivante. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Suppression de la limitation de renvoi | 19 octobre 2020 | Auparavant, vous pouviez renvoyer un maximum de 2,5 milliards de lignes lors de la création d’une connexion. Nous supprimons la limite de renvoi et vous autorisons à renvoyer jusqu’à 13 mois de données, quelle que soit la taille. |
+| Jaquette basée sur un champ CJA | 30 octobre 2020 | L’assemblage basé sur les champs CJA permet aux clients de recréer un jeu de données de événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de nommage d’identification à un autre. En règle générale, cela signifie que le jeu de données du événement doit être recyclé d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recyclé peut être combiné avec d&#39;autres données personnelles dans une connexion CJA, ce qui permet une analyse inter-dispositifs/entre canaux dans Analysis Workspace. |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
@@ -407,9 +408,9 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 | ----------- | ----------- | ---------- | ---------- |
 | 22 septembre 2020 | [AI du parcours - Optimisation prédictive du temps d&#39;envoi - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Identifiez les workflows nécessaires pour synchroniser les données entre Adobe Campaign et le modèle Journey AI. Découvrez comment afficher des scores d’heure d’envoi au niveau du profil individuel et comment exécuter des diffusions email à l&#39;aide d&#39;une formule d’heure d’envoi. |
 | 22 septembre 2020 | [AI du parcours - Score d’engagement prédictif - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Découvrez comment afficher les scores d’engagement au niveau du profil individuel, utiliser les scores pour cibler les utilisateurs engagés et supprimer les utilisateurs fatigués, et créer des règles de typologie pour gérer la fatigue des clients. |
-| 22 septembre 2020 | [ajouter une Population témoin à une diffusion - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Découvrez comment définir une population témoin pour votre diffusion et comment extraire les profils affectés à la population témoin une fois la diffusion envoyée. |
+| 22 septembre 2020 | [Ajouter une Population témoin à une diffusion - Vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Découvrez comment définir une population témoin pour votre diffusion et comment extraire les profils affectés à la population témoin une fois la diffusion envoyée. |
 | 11 septembre 2020 | [Délégation de sous-domaines](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Le panneau de contrôle d’Adobe Campaign vous permet de déléguer entièrement un sous-domaine à Adobe Campaign. |
-| 3 septembre 2020 | [ajouter des adresses IP aux listes autorisées](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Le panneau de contrôle permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP aux listes autorisées. Par défaut, une instance Adobe Campaign Classic n’est pas accessible à partir de diverses adresses IP. |
+| 3 septembre 2020 | [Ajouter des adresses IP aux listes autorisées](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | Le panneau de contrôle permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP aux listes autorisées. Par défaut, une instance Adobe Campaign Classic n’est pas accessible à partir de diverses adresses IP. |
 | 3 septembre 2020 | [Panneau de Contrôle - Ajouter les autorisations d’URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | Le panneau de contrôle permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP aux listes autorisées. Par défaut, une instance Adobe Campaign Classic n’est pas accessible à partir de diverses adresses IP. |
 
 ### Ressources d’aide
