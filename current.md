@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
+source-git-commit: 40d088f169d1b0849a65ccfb42f3af8749005684
 workflow-type: tm+mt
-source-wordcount: '6860'
-ht-degree: 45%
+source-wordcount: '6879'
+ht-degree: 44%
 
 ---
 
 
-# Accès anticipé - Notes de mise à jour de Adobe Experience Cloud - Octobre 2020
+# Notes de mise à jour de Adobe Experience Cloud - Octobre 2020
 
 ![Bannière](/assets/experience-cloud-banner-3.png)
 
@@ -21,23 +21,19 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 >[!IMPORTANT]
 >
->Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
+>Cette page peut contenir du contenu de version préliminaire pour certains produits et peut être modifiée avant les dates de publication. Consultez régulièrement les mises à jour.
 
 >[!NOTE]
 >
 >Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour.
 
-**Date de publication : 8 octobre 2020**
-
-Les dates de publication du produit peuvent varier. Consultez régulièrement les mises à jour.
-
-Dernière mise à jour : **7 octobre 2020**
+Dernière mise à jour : **8 octobre 2020**
 
 * [Statut du système Adobe](#status)
 * [Services et administration Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mis à jour le 7 octobre 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -74,7 +70,7 @@ Pour obtenir des informations sur les dernières mises à jour, reportez-vous à
 
 Release notes for the [!DNL Experience Platform].
 
-Date de publication : **9 septembre 2020**
+Publié : **9 septembre 2020**
 
 Pour plus d’informations sur les mises à jour apportées à la section Notes [de mise à jour des](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) Experience Platform, voir :
 
@@ -110,7 +106,7 @@ Version de septembre - Voir [Notes de mise à jour pour le Journey Orchestration
 
 ## ![Icône](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Date de publication : **8 octobre 2020**
+Date de publication : Fin du 8 **octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mis à jour le 7 octobre 2020)
@@ -208,7 +204,7 @@ Nouveaux cours, tutoriels et articles dans [!DNL Analytics] et [!UICONTROL Custo
 
 Nouveaux correctifs, fonctionnalités, documentation et tutoriels pour Audience Manager.
 
-Date de publication : **8 octobre 2020**
+Date de publication : Fin du 8 **octobre 2020**
 
 ### Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager
 
@@ -234,6 +230,10 @@ Nouveaux tutoriels, vidéos et cours publiés pour Audience Manager.
 ## ![Icône](/assets/aem.png) Adobe Experience Manager {#aem}
 
 Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
+
+>[!NOTE]
+>
+>Adobe recommande de consulter fréquemment les mises à jour des versions des [Experience Manager et les feuilles de route](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) pour rester au courant des informations de mise à jour.
 
 ### Versions de produit
 
@@ -435,7 +435,7 @@ Notes de mise à jour d’Adobe Advertising Cloud.
 
 ### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search] {#adcloud-search}
 
-Version du **8 août**
+Date de publication : **8 août 2020**
 
 | Fonctionnalité | Description |
 | ----------- | ---------- |
