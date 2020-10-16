@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
 workflow-type: tm+mt
 source-wordcount: '6870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 
 >[!IMPORTANT]
 >
->Cette page peut contenir du contenu de version préliminaire pour certains produits et peut faire l’objet de modifications avant les dates de publication. Consultez régulièrement les mises à jour.
+>Cette page peut contenir du contenu de version préliminaire pour certains produits et peut être modifiée avant les dates de mises à jour. Consultez régulièrement les mises à jour.
 
 >[!NOTE]
 >
