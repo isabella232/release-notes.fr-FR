@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
+source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
-source-wordcount: '6828'
-ht-degree: 97%
+source-wordcount: '6918'
+ht-degree: 96%
 
 ---
 
@@ -204,9 +204,15 @@ Nouveaux cours, tutoriels et articles dans [!DNL Analytics] et [!UICONTROL Custo
 
 Nouveaux correctifs, fonctionnalités, documentation et tutoriels pour Audience Manager.
 
-Date de publication : **8 octobre 2020**
+Mise à jour **: 22 octobre 2020**
 
-### Nouvelles fonctionnalités et correctifs dans Adobe Audience Manager
+### Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager {#aam-features}
+
+| Fonctionnalité | Date d’ajout ou de mise à jour | Description |
+|----|----|----|
+| [Audiences prédictives](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 octobre 2020 | <ul><li>**Clonage** de modèle des Audiences prédictives : Vous pouvez désormais cloner des modèles existants et modifier leur configuration en fonction de vos besoins. Pour plus d’informations, consultez [Clonage et modification de modèles](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) d’Audience prédictifs.</li><li>**Classification** par lots des Audiences prédictives : Outre la classification des visiteurs selon des personnalités distinctes en temps réel, les Audiences prédictives prennent désormais en charge la classification par lot, ce qui vous permet de classer les utilisateurs intégrés et de les activer dans les destinations par lot.</li></ul> |
+
+### Correctifs et améliorations {#aam-fixes-and-improvements}
 
 * Correction d’un problème avec l’API REST Audience Manager, en raison duquel le point de terminaison des caractéristiques ne renvoyait pas de mesures inter-appareils lors du filtrage des caractéristiques dans la requête. (AAM-55878)
 * Correction d’un problème dans les destinations basées sur les personnes, en raison duquel les emails de rappel d’expiration du jeton d’accès aux intégrations Facebook n’étaient pas envoyés aux bons destinataires. (AAM-56215)
