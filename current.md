@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
+source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
 workflow-type: tm+mt
 source-wordcount: '6828'
 ht-degree: 97%
@@ -445,7 +445,6 @@ Date de publication : 17 octobre 2020
 | Rechercher dans les campagnes | Dans la vue [!UICONTROL Comptes] , la colonne [!UICONTROL Accès] indique maintenant quand [!DNL Advertising Cloud Search] ne parvient pas à se connecter à un compte de moteur de recherche activé. Pour connaître la cause de l’erreur, maintenez le curseur sur l’icône d’avertissement. |
 | [!UICONTROL Alertes personnalisées] | L&#39;ancienne version bêta des [!UICONTROL alertes] s&#39;appelle désormais Alertes personnalisées. |
 |  | Dans les alertes personnalisées, le processus d’identification des mesures pour la période spécifiée a augmenté ou diminué par rapport aux mesures pour la période précédente a été simplifié et déplacé vers l’onglet [!UICONTROL Filtres] . |
-
 
 ## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
