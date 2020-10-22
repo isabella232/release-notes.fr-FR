@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
+source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
 workflow-type: tm+mt
-source-wordcount: '6870'
-ht-degree: 100%
+source-wordcount: '6828'
+ht-degree: 97%
 
 ---
 
@@ -427,21 +427,25 @@ Notes de mise à jour d’Adobe Advertising Cloud.
 * [Nouvelles fonctionnalités dans Advertising Cloud DSP](#adcloud-dsp)
 * [Nouvelles fonctionnalités dans Advertising Cloud Search](#adcloud-search)
 
-### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### Nouveautés de la version [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+
+Date de publication : 15 octobre 2020
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Preroll interactif étendu pour inclure l’inventaire VAST | Tous les emplacements et publicités interactifs de preroll peuvent désormais prendre en charge les inventaires VPAID et VAST. **Remarque :** si votre indicateur clé de performance est la capacité d’affichage, continuez à créer des emplacements et publicités VPAID et VAST distincts, car les impressions affichables ne sont pas disponibles pour les publicités VAST. |
+| Inventaire privé | Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID d’opération à l’aide d’un nouveau formulaire d’ID d’opération, qui est une version simplifiée du formulaire existant [!UICONTROL Smart AdServing] . Pour configurer les détails de l’ID de la nouvelle opération, accédez à **[!UICONTROL Inventaire > Opérations]**, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL ID d’opération bêta]**. |
+| Prévisions de placement | Pour les emplacements avec un espacement de niveau placement, la section [!UICONTROL Prévision] des paramètres de placement inclut une nouvelle section [!UICONTROL Estimation des maximums] , qui indique la capacité disponible avec la configuration de ciblage actuelle. |
 
-### Nouvelles fonctionnalités dans [!UICONTROL Advertising Cloud Search] {#adcloud-search}
+### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Date de publication : **8 août 2020**
+Date de publication : 17 octobre 2020
 
 | Fonctionnalité | Description |
-| ----------- | ---------- |
-| [!UICONTROL Portfolios] | Les limites de position au niveau du portfolio ne sont plus disponibles dans les paramètres du portfolio. Toutes les limites de position précédemment créées ont été supprimées. |
-| [!UICONTROL Contraintes] | Les contraintes basées sur la position et les conditions de contrainte ne sont plus prises en charge : <br/> <ul><li>Les contraintes [!UICONTROL Pos. min.] et [!UICONTROL Pos. max.] ne sont plus disponibles et ont été supprimées de toutes les contraintes d’[!UICONTROL offre et de position] créées précédemment et des contraintes de [!UICONTROL partage d’impression].</li><li>Les contraintes d’[!UICONTROL offre et de position] existantes qui incluaient des contraintes de position, mais aucune contrainte d’offre ont été suspendues. Elles sont toujours disponibles dans l’interface utilisateur et dans les rapports.</li><li>Les contraintes d’[!UICONTROL offre et de position] ont été renommées Contraintes d’[!UICONTROL offre].</li><li>Toutes les conditions basées sur la position (à l’aide des mesures [!UICONTROL Position moyenne], [!UICONTROL Position moyenne pondérée] ou [!UICONTROL Dernière mesure de position connue]) dans tout type de contrainte ont été supprimées.</li></ul> <br/> **Remarque :** les données de position continueront à être renseignées tant qu’elles seront disponibles dans les moteurs de recherche. Microsoft Ads mettra fin aux positions en septembre 2020. |
-| [!UICONTROL Campagnes] | (Campagnes Google Ads) Advertising Cloud Search prend désormais en charge les personnalisateurs d’annonces dans les annonces responsives (RSA). Auparavant, ils étaient pris en charge dans tous les types d’annonces, à l’exception des annonces responsives. |
+| -----------| ---------- |
+| Rechercher dans les campagnes | Dans la vue [!UICONTROL Comptes] , la colonne [!UICONTROL Accès] indique maintenant quand [!DNL Advertising Cloud Search] ne parvient pas à se connecter à un compte de moteur de recherche activé. Pour connaître la cause de l’erreur, maintenez le curseur sur l’icône d’avertissement. |
+| [!UICONTROL Alertes personnalisées] | L&#39;ancienne version bêta des [!UICONTROL alertes] s&#39;appelle désormais Alertes personnalisées. |
+|  | Dans les alertes personnalisées, le processus d’identification des mesures pour la période spécifiée a augmenté ou diminué par rapport aux mesures pour la période précédente a été simplifié et déplacé vers l’onglet [!UICONTROL Filtres] . |
+
 
 ## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
