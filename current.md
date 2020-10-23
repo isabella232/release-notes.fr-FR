@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
+source-git-commit: c1750aa7321e0eb6b929119f5c22101772af5a68
 workflow-type: tm+mt
-source-wordcount: '6918'
-ht-degree: 96%
+source-wordcount: '7000'
+ht-degree: 95%
 
 ---
 
@@ -204,13 +204,14 @@ Nouveaux cours, tutoriels et articles dans [!DNL Analytics] et [!UICONTROL Custo
 
 Nouveaux correctifs, fonctionnalités, documentation et tutoriels pour Audience Manager.
 
-Mise à jour **: 22 octobre 2020**
+Mise à jour **: 23 octobre 2020**
 
 ### Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager {#aam-features}
 
 | Fonctionnalité | Date d’ajout ou de mise à jour | Description |
 |----|----|----|
 | [Audiences prédictives](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 octobre 2020 | <ul><li>**Clonage** de modèle des Audiences prédictives : Vous pouvez désormais cloner des modèles existants et modifier leur configuration en fonction de vos besoins. Pour plus d’informations, consultez [Clonage et modification de modèles](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) d’Audience prédictifs.</li><li>**Classification** par lots des Audiences prédictives : Outre la classification des visiteurs selon des personnalités distinctes en temps réel, les Audiences prédictives prennent désormais en charge la classification par lot, ce qui vous permet de classer les utilisateurs intégrés et de les activer dans les destinations par lot.</li></ul> |
+| [Rapports de chevauchement](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23 octobre 2020 | Nous avons mis à jour la méthodologie que nous utilisons pour calculer les rapports de chevauchement ([Caractéristique à Caractéristique](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [Segment à Caractéristique](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [Segment à Segment](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). Le calcul des rapports de chevauchement est désormais basé sur les signatures de rapports et de hachage minimum (plutôt que sur l’échantillonnage [de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)1/54). |
 
 ### Correctifs et améliorations {#aam-fixes-and-improvements}
 
