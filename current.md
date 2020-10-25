@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 684a0b00a2f2bdb2f7c92ca0b0552bc18fc8c19f
+source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
 workflow-type: tm+mt
 source-wordcount: '6960'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -56,7 +56,7 @@ Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.
 
 Non mis à jour.
 
-Voir [Statut d’Adobe - 21 mai 2020](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/previous/2020/05212020.translate.html#status) pour obtenir les dernières informations de mise à jour.
+Voir [Statut d’Adobe - 21 mai 2020](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status) pour obtenir les dernières informations de mise à jour.
 
 ## ![Icône](/assets/ec_appicon_24.png) Services d’Experience Cloud et administration {#ecloud}
 
