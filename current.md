@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
+source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
 workflow-type: tm+mt
-source-wordcount: '6960'
+source-wordcount: '7024'
 ht-degree: 68%
 
 ---
@@ -338,6 +338,7 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
+| 27 octobre 2020 | [Présentation de AEM Document Security Extension for Microsoft Office](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | Article | Adobe Experience Manager Document Security Extension for Microsoft Office garantit que seules les personnes autorisées peuvent utiliser des fichiers Word, Excel et PowerPoint contenant votre propriété intellectuelle. En utilisant Document Security Extension for Microsoft Office, vous pouvez appliquer des paramètres de confidentialité prédéfinis à vos fichiers. |
 | 7 octobre 2020 | [Mesures des pages de vue dans Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | Article | Découvrez comment mapper les données capturées d’un site Adobe Experience Manager aux mesures et aux dimensions dans les suites de rapports Adobe Analytics. |
 | 8 octobre 2020 | [Personnalisation des expériences de pages Web complètes](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | Vidéo | Découvrez comment créer une activité pour rediriger les pages de votre site hébergées sur AEM vers une nouvelle page à l’aide de Adobe Target. |
 | 8 octobre 2020 | [Personnalisation à l’aide du compositeur d’expérience visuelle](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-using-vec.html) | Vidéo | Découvrez comment créer une Activité de test A/B à l’aide du compositeur d’expérience visuelle (VEC). |
@@ -423,7 +424,7 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |
-| 16 octobre 2020 | [Panneau de Contrôle - Délégation de sous-domaines à l’aide de CNAME (bêta) - Vidéo sur les fonctionnalités](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | Découvrez comment configurer et envoyer un sous-domaine à l’aide de CNAME dans le panneau de configuration. |
+| 16 octobre 2020 | [Panneau de Contrôle - Délégation de sous-domaines à l’aide de CNAME (bêta) - Vidéo sur les fonctionnalités](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | Découvrez comment configurer et envoyer un sous-domaine à l’aide de CNAME dans le panneau de configuration. |
 | 16 octobre 2020 | [Panneau de Contrôle - Délégation de sous-domaines à l’aide de CNAME (bêta) - Vidéo sur les fonctionnalités](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | Découvrez comment configurer et envoyer un sous-domaine à l’aide de CNAME dans le panneau de configuration. |
 
 ### Ressources d’aide
