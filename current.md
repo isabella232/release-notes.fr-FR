@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
 source-wordcount: '7148'
-ht-degree: 67%
+ht-degree: 69%
 
 ---
 
@@ -285,11 +285,11 @@ La documentation de l’Éditeur de texte enrichi est mise à jour afin de répe
 
 * Le problème de connexion à l’application de bureau avec [Service Pack 6.5.5.0](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/release-notes/service-pack/previous-hotfixes-featurepacks.translate.html#assets-6550) a été corrigé avec l’application de bureau version 2.0.3.2.
 
-* Si les utilisateurs ont modifié [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/fr/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) afin de définir la configuration du délai d’expiration sur une valeur inférieure au temps nécessaire au téléchargement d’une ressource, l’utilisateur peut alors rencontrer un problème de délai d’expiration de session. Par conséquent, les utilisateurs doivent modifier `chunkUploadMinFileSize` et `chunksize`, de sorte que chaque requête de bloc actualise la session. Pour plus d’informations, voir [Chargement de ressources](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/managing-assets-touch-ui.translate.html#uploading-assets).
+* Si les utilisateurs ont modifié [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/fr/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) afin de définir la configuration du délai d’expiration sur une valeur inférieure au temps nécessaire au téléchargement d’une ressource, l’utilisateur peut alors rencontrer un problème de délai d’expiration de session. Par conséquent, les utilisateurs doivent modifier `chunkUploadMinFileSize` et `chunksize`, de sorte que chaque requête de bloc actualise la session. Pour plus d’informations, voir [Chargement de ressources](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
-* Les ressources peuvent également être [déplacées dans des dossiers frères à l’aide de l’opération de glisser-déposer](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/managing-assets-touch-ui.translate.html#moving-or-renaming-assets), à l’exception de l’opération [!UICONTROL Déplacer (m)] qui ouvre l’assistant [!UICONTROL Déplacer les ressources].
+* Les ressources peuvent également être [déplacées dans des dossiers frères à l’aide de l’opération de glisser-déposer](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets), à l’exception de l’opération [!UICONTROL Déplacer (m)] qui ouvre l’assistant [!UICONTROL Déplacer les ressources].
 
-* Pour Assets Insights, utilisez [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [L’intégration à DTM](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.translate.html) est appelée ‘méthode obsolète’ dans la documentation.
+* Pour Assets Insights, utilisez [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [L’intégration à DTM](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) est appelée ‘méthode obsolète’ dans la documentation.
 
 Updated: **10/28/2020**
 
@@ -449,24 +449,24 @@ Notes de mise à jour d’Adobe Advertising Cloud.
 * [Nouvelles fonctionnalités dans Advertising Cloud DSP](#adcloud-dsp)
 * [Nouvelles fonctionnalités dans Advertising Cloud Search](#adcloud-search)
 
-### Nouveautés de la version [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+### Nouvelles fonctionnalités d’[!DNL Advertising Cloud DSP] {#adcloud-dsp}
 
 Date de publication : 15 octobre 2020
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Inventaire privé | Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID d’opération à l’aide d’un nouveau formulaire d’ID d’opération, qui est une version simplifiée du formulaire existant [!UICONTROL Smart AdServing] . Pour configurer les détails de l’ID de la nouvelle opération, accédez à **[!UICONTROL Inventaire > Opérations]**, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL ID d’opération bêta]**. |
-| Prévisions de placement | Pour les emplacements avec un espacement de niveau placement, la section [!UICONTROL Prévision] des paramètres de placement inclut une nouvelle section [!UICONTROL Estimation des maximums] , qui indique la capacité disponible avec la configuration de ciblage actuelle. |
+| Inventaire privé | Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID de la transaction en utilisant un nouveau formulaire d’ID de transaction, qui est une version simplifiée de l’ancien formulaire [!UICONTROL Smart Ad Serving]. Pour configurer les détails de l’ID de la nouvelle transaction, accédez à **[!UICONTROL Inventaire > Transactions]**, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL ID de transaction bêta]**. |
+| Prévisions de placement | Pour les placements avec une fréquence de placement, la section [!UICONTROL Prévision] des paramètres de placement inclut une nouvelle section [!UICONTROL Maximums estimés], qui indique la capacité supplémentaire disponible avec la configuration de ciblage actuelle. |
 
-### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
+### Nouvelles fonctionnalités d’[!DNL Advertising Cloud Search] {#adcloud-search}
 
 Date de publication : 17 octobre 2020
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Rechercher dans les campagnes | Dans la vue [!UICONTROL Comptes] , la colonne [!UICONTROL Accès] indique maintenant quand [!DNL Advertising Cloud Search] ne parvient pas à se connecter à un compte de moteur de recherche activé. Pour connaître la cause de l’erreur, maintenez le curseur sur l’icône d’avertissement. |
-| [!UICONTROL Alertes personnalisées] | L&#39;ancienne version bêta des [!UICONTROL alertes] s&#39;appelle désormais Alertes personnalisées. |
-|  | Dans les alertes personnalisées, le processus d’identification des mesures pour la période spécifiée a augmenté ou diminué par rapport aux mesures pour la période précédente a été simplifié et déplacé vers l’onglet [!UICONTROL Filtres] . |
+| Rechercher dans les campagnes | Dans la vue [!UICONTROL Comptes], la colonne [!UICONTROL Accès] vous informe désormais lorsqu’[!DNL Advertising Cloud Search] ne parvient pas à se connecter à un compte de moteur de recherche activé. Pour connaître la cause de l’erreur, placez le curseur sur l’icône d’avertissement. |
+| [!UICONTROL Alertes personnalisées] | L’ancienne version [!UICONTROL bêta des alertes] s’appelle désormais [!UICONTROL Alertes personnalisées]. |
+|  | Dans les alertes personnalisées, le workflow d’identification de l’augmentation ou de la diminution des mesures pour la période spécifiée par rapport aux mesures de la période précédente a été simplifié et déplacé vers l’onglet [!UICONTROL Filtres]. |
 
 ## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
