@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
+source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
-source-wordcount: '7024'
-ht-degree: 68%
+source-wordcount: '7148'
+ht-degree: 67%
 
 ---
 
@@ -27,15 +27,15 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour.
 
-Dernière mise à jour : **23 octobre 2020**
+Dernière mise à jour : **28 octobre 2020**
 
 * [Statut du système Adobe](#status)
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 22 octobre 2020)
-* [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Audience Manager](#aam)
+* [Experience Manager](#aem) (mis à jour : **28/10/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html)
@@ -290,6 +290,15 @@ La documentation de l’Éditeur de texte enrichi est mise à jour afin de répe
 * Les ressources peuvent également être [déplacées dans des dossiers frères à l’aide de l’opération de glisser-déposer](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/managing-assets-touch-ui.translate.html#moving-or-renaming-assets), à l’exception de l’opération [!UICONTROL Déplacer (m)] qui ouvre l’assistant [!UICONTROL Déplacer les ressources].
 
 * Pour Assets Insights, utilisez [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [L’intégration à DTM](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.translate.html) est appelée ‘méthode obsolète’ dans la documentation.
+
+Updated: **10/28/2020**
+
+* **Améliorations** du portail de marque : Les nouvelles fonctionnalités suivantes, entre autres, sont disponibles dans [!DNL Brand Portal]:
+
+   * [Expérience](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) de téléchargement améliorée pour des téléchargements rapides et simplifiés. D’autres configurations de téléchargement peuvent être configurées par les administrateurs pour offre d’une expérience qui répond aux besoins des utilisateurs et des entreprises.
+   * La navigation en un clic vers [!UICONTROL Fichiers], [Collections](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)et Liens  partagés est désormais possible à partir de n’importe quelle page.
+   * Désormais, les utilisateurs peuvent [sélectionner et télécharger des rendus](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) spécifiques. La nouvelle option de téléchargement de rendu est disponible dans le panneau [!UICONTROL Rendus] de la page Détails du fichier.
+   * Un dépassement de délai de 15 minutes pour les sessions d’utilisateur invité garantit une meilleure expérience à tous les utilisateurs simultanés.
 
 ### [!DNL Experience Manager] Forms
 
