@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
+source-git-commit: 48d79544adc9225c086b7574d522622df084623b
 workflow-type: tm+mt
-source-wordcount: '7670'
-ht-degree: 63%
+source-wordcount: '7634'
+ht-degree: 64%
 
 ---
 
@@ -127,7 +127,6 @@ Date de publication : **29 octobre 2020**
 | Visualisation [!UICONTROL Ligne] : option de tendance de moyenne glissante | 8 octobre 2020 | La moyenne glissante a été ajoutée aux paramètres de tendance de visualisation Ligne. Une moyenne glissante calcule la moyenne pour une période antérieure spécifiée et l’utilise comme point de données de tendance, puis passe à la période suivante. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Suppression de la limitation de renvoi | 19 octobre 2020 | Afin de fournir une expérience améliorée de la CJA, nous avons supprimé la limite de renvoi (importation de données historiques). Auparavant, vous pouviez renvoyer un maximum de 2,5 milliards de lignes par vous-même, ce qui nécessitait autrement une implication de l&#39;ingénierie. Désormais, vous pouvez renvoyer les données vous-même, sans aucune restriction. [En savoir plus](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.translate.html) |
-| Composants > Préférences utilisateur ajoutées à l’espace de travail CJA | 29 octobre 2020 | La page Composants > Préférences utilisateur vous permet de gérer les paramètres Analysis Workspace (et les composants associés) pour votre utilisateur. Actuellement, ceci inclut le séparateur des milliers et le délimiteur CSV. |
 | QI du voyage : Analyses sur plusieurs canaux | 30 octobre 2020 | QI du voyage : Analytics sur plusieurs canaux permet aux clients de resynchroniser un jeu de données de événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de nommage d’identification à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
