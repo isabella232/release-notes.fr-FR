@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 48d79544adc9225c086b7574d522622df084623b
+source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
 workflow-type: tm+mt
-source-wordcount: '7634'
+source-wordcount: '7669'
 ht-degree: 64%
 
 ---
@@ -68,6 +68,8 @@ Pour obtenir des informations sur les dernières mises à jour, reportez-vous à
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
+Inclut les informations de mise à jour de la version pour les Experience Platform et les Experience Platform Launch,
+
 Publié : **14 octobre 2020**
 
 Voir les [notes de mise à jour Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md), pour plus d’informations sur les mises à jour apportées aux éléments suivants :
@@ -77,13 +79,17 @@ Voir les [notes de mise à jour Experience Platform](https://docs.adobe.com/con
 * Segmentation Service
 * Sources
 
+### Experience Platform Launch
+
+Pour plus d’informations sur le lancement de la plate-forme, voir Notes [de mise à jour des](https://docs.adobe.com/content/help/fr-FR/launch/using/intro/release-notes/current.html) Experience Platform Launch.
+
 ### Tutoriels et cours sur Experience Platform et ses services
 
 Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses services.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 26 octobre 2020 | [Introduction à l&#39;Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Vidéo | Cette vidéo donne un aperçu de [!UICONTROL l&#39;Offer Decisioning], un service d&#39;application basé sur Adobe Experience Platform. La vidéo traite des défis commerciaux que [!UICONTROL Offer Decisioning] résout, de ses principales capacités, de l&#39;architecture de base et de ses principales utilisations. |
+| 26 octobre 2020 | [Introduction à Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Vidéo | Cette vidéo donne un aperçu de [!UICONTROL l&#39;Offer Decisioning], un service d&#39;application basé sur Adobe Experience Platform. La vidéo traite des défis commerciaux que [!UICONTROL Offer Decisioning] résout, de ses principales capacités, de l&#39;architecture de base et de ses principales utilisations. |
 | 29 octobre 2020 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | Vidéo | Découvrez comment les marques peuvent utiliser le nouveau service [!UICONTROL Offer Decisioning] d’Adobe pour définir et gérer leurs offres, exploiter les données en temps réel des clients et offrir les expériences souhaitées par leurs clients. |
 | 14 septembre 2020 | [Valeur commerciale d’Attribution AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | Vidéo | Dans le cadre d’[!UICONTROL Intelligent Services], [!UICONTROL Attribution AI] est un service d’attribution algorithmique à plusieurs canaux qui calcule l’influence et l’impact incrémentiel des interactions des clients par rapport à des résultats spécifiés. Grâce à [!UICONTROL Attribution AI], les professionnels du marketing peuvent mesurer et optimiser les dépenses publicitaires et marketing en comprenant l’impact de chaque interaction client sur chaque phase du parcours des clients. |
 | 14 septembre 2020 | [Valeur commerciale de Customer AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | Vidéo | Cette vidéo montre comment [!UICONTROL Customer AI] enrichit les profils clients avec des propensions basées sur l’IA et renforce la segmentation et le ciblage des clients. |
