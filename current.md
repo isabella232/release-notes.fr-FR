@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5050a05473619e75107b0874d592322ee5a70d44
+source-git-commit: 27e6ef1fb123fd8a5d136f86c5df492ea6e79733
 workflow-type: tm+mt
-source-wordcount: '7947'
-ht-degree: 63%
+source-wordcount: '8040'
+ht-degree: 62%
 
 ---
 
@@ -33,7 +33,7 @@ Dernière mise à jour : **2 novembre 2020**
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 28 octobre 2020)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Updated **November 2, 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (mis à jour : **28 octobre 2020**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 Date de publication : **29 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 28 octobre 2020)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mis à jour le 2 novembre 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -119,7 +119,7 @@ Date de publication : **29 octobre 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ------- |
-| Documentation Adobe Analytics | Oct./nov. 2020 | La documentation Adobe Analytics se déplace vers Experience League. Au cours du mois d’octobre, tous les articles, vidéos, notes de mise à jour et tutoriels passeront de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Lorsque ce changement se produira, aucune action ne sera nécessaire, car tous les liens seront redirigés vers Experience League. Nous mettrons à jour les notes de mise à jour au début du découpage. |
+| Documentation Adobe Analytics | Novembre 2020 | La documentation Adobe Analytics se déplace vers Experience League. Au cours du mois d’octobre, tous les articles, vidéos, notes de mise à jour et tutoriels passeront de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Lorsque ce changement se produira, aucune action ne sera nécessaire, car tous les liens seront redirigés vers Experience League. Nous mettrons à jour les notes de mise à jour au début du découpage. |
 | Visualisation [!UICONTROL Ligne] dans [!UICONTROL Workspace] : option de tendance de moyenne glissante | 8 octobre 2020 | Moving average has been added to [!UICONTROL Line] visualization trendline settings. Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de [!UICONTROL périodes]), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | API de [!UICONTROL réparation des données] | 8 octobre 2020 | L’API de [!UICONTROL réparation des données] est un outil permettant de supprimer des données des suites de rapports Analytics. The October release includes the ability to delete specified eVars, props, and [!UICONTROL Activity Map] variables for a specified date range. D’autres fonctionnalités seront activées à l’avenir. Use of the [!UICONTROL Data Repair] API permanently deletes existing Adobe Analytics data. Nous recommandons une approche prudente pour exécuter la réparation afin de réduire les risques de suppression accidentelle. Access to the [!UICONTROL Data Repair] API requires a contract - reach out to your account team for more details. [En savoir plus](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL Workspace] : page d’aide sur les performances | 22 octobre 2020 | The [!UICONTROL Analysis Workspace] performance help page shows the different factors that impact project performance and links to tips for optimization. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.translate.html) |
@@ -129,11 +129,13 @@ Date de publication : **29 octobre 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics documentation | Oct./nov. 2020 | La documentation Customer Journey Analytics se déplace vers Experience League. Au cours du mois d’octobre, tous les articles, vidéos, notes de mise à jour et tutoriels passeront de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Lorsque ce changement se produira, aucune action ne sera nécessaire, car tous les liens seront redirigés vers Experience League. Nous mettrons à jour les notes de mise à jour au début du découpage. |
+| Customer Journey Analytics documentation | Novembre 2020 | La documentation Customer Journey Analytics se déplace vers Experience League. Au cours du mois d’octobre, tous les articles, vidéos, notes de mise à jour et tutoriels passeront de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Lorsque ce changement se produira, aucune action ne sera nécessaire, car tous les liens seront redirigés vers Experience League. Nous mettrons à jour les notes de mise à jour au début du découpage. |
 | Visualisation [!UICONTROL Ligne] : option de tendance de moyenne glissante | 8 octobre 2020 | La moyenne glissante a été ajoutée aux paramètres de tendance de visualisation Ligne. Une moyenne glissante calcule la moyenne pour une période antérieure spécifiée et l’utilise comme point de données de tendance, puis passe à la période suivante. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Suppression de la limitation de renvoi | 19 octobre 2020 | Afin de fournir une expérience améliorée de la CJA, nous avons supprimé la limite de renvoi (importation de données historiques). Auparavant, vous pouviez renvoyer un maximum de 2,5 milliards de lignes par vous-même, ce qui nécessitait autrement une implication de l&#39;ingénierie. Désormais, vous pouvez renvoyer les données vous-même, sans aucune restriction. [En savoir plus](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.translate.html) |
 | QI du voyage : Analyses sur plusieurs canaux | 30 octobre 2020 | QI du voyage : Analytics sur plusieurs canaux permet aux clients de resynchroniser un jeu de données de événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de nommage d’identification à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. |
+| [!UICONTROL Mesures et dimensions Durée de la visite] | 30 octobre 2020 | [!UICONTROL Les mesures et dimensions Durée de la visite] vous permettent de déterminer le temps que les clients passent dans divers aspects du parcours du client, ce qui vous permet de bénéficier d’une vue plus complète sur l’engagement et les goulets d’étranglement entre les canaux. |
+| [!UICONTROL Dimensions de périphérique] et [!UICONTROL de géographie] | 30 octobre 2020 | [!UICONTROL Les dimensions Périphérique] et [!UICONTROL Géographie] sont désormais disponibles par défaut dans le cadre du projet &quot;Prise en charge de la recherche globale&quot; dans le connecteur [Source](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)Adobe Analytics. Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-aa.html). |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
