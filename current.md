@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
+source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
 workflow-type: tm+mt
-source-wordcount: '7669'
+source-wordcount: '7635'
 ht-degree: 64%
 
 ---
@@ -89,8 +89,8 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses s
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 26 octobre 2020 | [Introduction à Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Vidéo | Cette vidéo donne un aperçu de [!UICONTROL l&#39;Offer Decisioning], un service d&#39;application basé sur Adobe Experience Platform. La vidéo traite des défis commerciaux que [!UICONTROL Offer Decisioning] résout, de ses principales capacités, de l&#39;architecture de base et de ses principales utilisations. |
-| 29 octobre 2020 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | Vidéo | Découvrez comment les marques peuvent utiliser le nouveau service [!UICONTROL Offer Decisioning] d’Adobe pour définir et gérer leurs offres, exploiter les données en temps réel des clients et offrir les expériences souhaitées par leurs clients. |
+| 26 octobre 2020 | [Introduction à Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Vidéo | This video gives an overview of [!UICONTROL Offer Decisioning], an application service built on top of Adobe Experience Platform. La vidéo traite des défis commerciaux que [!UICONTROL Offer Decisioning] résout, de ses principales capacités, de l&#39;architecture de base et de ses principales utilisations. |
+| 29 octobre 2020 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | Vidéo | Learn how brands can use Adobe’s new [!UICONTROL Offer Decisioning] service to define and manage their offers,leverage real-time customer data, and deliver the right experiences their customers expect. |
 | 14 septembre 2020 | [Valeur commerciale d’Attribution AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | Vidéo | Dans le cadre d’[!UICONTROL Intelligent Services], [!UICONTROL Attribution AI] est un service d’attribution algorithmique à plusieurs canaux qui calcule l’influence et l’impact incrémentiel des interactions des clients par rapport à des résultats spécifiés. Grâce à [!UICONTROL Attribution AI], les professionnels du marketing peuvent mesurer et optimiser les dépenses publicitaires et marketing en comprenant l’impact de chaque interaction client sur chaque phase du parcours des clients. |
 | 14 septembre 2020 | [Valeur commerciale de Customer AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | Vidéo | Cette vidéo montre comment [!UICONTROL Customer AI] enrichit les profils clients avec des propensions basées sur l’IA et renforce la segmentation et le ciblage des clients. |
 | 14 septembre 2020 | [Valeur commerciale de Platform et de Magento](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | Vidéo | Cette vidéo montre comment utiliser Adobe Experience Platform avec [!DNL Magento] Commerce pour créer une vue unique de clients et personnaliser intelligemment les expériences sur un storefront numérique et entre canaux. |
@@ -210,7 +210,6 @@ Nouveaux tutoriels, vidéos et cours publiés pour Audience Manager.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 29 octobre 2020 | [Présentation des nombres dans le graphique de caractéristiques](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Vidéo | Obtenez quelques conseils sur la compréhension des nombres signalés pour les caractéristiques dans l’écran d’informations sur les caractéristiques. |
 | 28 octobre 2020 | [Présentation des nombres dans le graphique de caractéristiques](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Vidéo | Obtenez quelques conseils sur la compréhension des nombres signalés pour les caractéristiques dans l’écran d’informations sur les caractéristiques. |
 | 23 octobre 2020 | [Planification de la création de caractéristiques à partir des données Analytics](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | Vidéo | Découvrez quelques conseils et astuces pour vous aider lorsque vous envisagez d&#39;utiliser des données Adobe Analytics dans vos caractéristiques en Audience Manager. |
 | 23 octobre 2020 | [Choix d’une source de données lors de la création de caractéristiques](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | Vidéo | Le champ Source de données est l’un des champs importants à remplir lors de la création des caractéristiques. Obtenez des conseils sur le choix de la source de données appropriée pour les caractéristiques basées sur les règles et les caractéristiques intégrées. |
