@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
+source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
 workflow-type: tm+mt
-source-wordcount: '7635'
-ht-degree: 64%
+source-wordcount: '7894'
+ht-degree: 63%
 
 ---
 
@@ -38,7 +38,7 @@ Dernière mise à jour : **28 octobre 2020**
 * [Experience Manager](#aem) (mis à jour : **28/10/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html)
+* [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/fr-FR/primetime/release-notes/home.html)
@@ -445,6 +445,10 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |
+| 20 octobre 2020 | [Panneau de Contrôle - Générer une clé SSH - Vidéo sur les fonctionnalités](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | Découvrez comment générer une clé SSH à l’aide d’un terminal et comment stocker la version publique de la clé dans le panneau de contrôle. |
+| 20 octobre 2020 | [Panneau de Contrôle - Connexion à un serveur SFTP - Vidéo sur les fonctionnalités](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Découvrez comment se connecter à un serveur SFTP à l’aide d’une application SFTP cliente, avec les clés que vous avez stockées dans le panneau de contrôle. |
+| 20 octobre 2020 | [Panneau de Contrôle - Prise en main du Panneau de Contrôle - Article](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | Cet article explique comment accéder au panneau de contrôle et présente les conditions préalables requises pour pouvoir l’utiliser. |
+| 20 octobre 2020 | [Panneau de Contrôle - Prise en main du Panneau de Contrôle - Article](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | Cet article explique comment accéder au panneau de contrôle et présente les conditions préalables requises pour pouvoir l’utiliser. |
 | 19 octobre 2020 | [Panneau de Contrôle - Ajouter une plage d&#39;adresses IP à la liste autorisée](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Découvrez comment ajouter une plage d&#39;adresses IP à la liste autorisée du Panneau de Contrôle. |
 | 19 octobre 2020 | [Panneau de Contrôle - Ajouter une plage d&#39;adresses IP à la liste autorisée](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | Découvrez comment ajouter une plage d&#39;adresses IP à la liste autorisée du Panneau de Contrôle. |
 | 16 octobre 2020 | [Panneau de Contrôle - Délégation de sous-domaines à l’aide de CNAME (bêta) - Vidéo sur les fonctionnalités](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | Découvrez comment configurer et envoyer un sous-domaine à l’aide de CNAME dans le panneau de configuration. |
@@ -490,6 +494,16 @@ Pour les notes de mise à jour de Magento, veuillez consulter :
 
 * [Magento Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 * [Magento Open Source 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
+
+## ![Icône](/assets/target.png)[!DNL Target] {#target}
+
+Voir les notes de mise à jour[[!DNL Target]  ](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) pour consulter les informations les plus récentes.
+
+### Nouveaux cours et didacticiels Adobe Target
+
+| Publication | Nom | Type | Description |
+| -----------| ---------- | ---------- | ---------- |
+| 11 octobre 2020 | [Modèle de déploiement de la personnalisation hybride](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | Vidéo | Adobe Target offre un modèle de déploiement hybride unique pour la personnalisation : mélange des implémentations côté client et côté serveur. Ce modèle hybride permet aux utilisateurs non techniques de créer une expérience ou une activité de personnalisation à l’aide du compositeur d’expérience visuelle WYSIWYG et de faire exécuter, diffuser et rendre l’expérience par le serveur pour une diffusion hautement performante. |
 
 ## ![Icône](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
