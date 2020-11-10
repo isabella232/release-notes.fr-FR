@@ -5,16 +5,16 @@ user-guide-title: Notes de mise à jour d’Adobe Experience Cloud
 breadcrumb-title: Notes de mise à jour
 user-guide-description: Découvrez les nouvelles fonctionnalités, les correctifs et les avis importants d’Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b8a7c0da3f98d1f7d37713c85ba31dade69c08b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 
 ---
 
 
-# Notes de mise à jour d’Experience Cloud   {#experience-cloud}
+# Notes de mise à jour d’Experience Cloud {#experience-cloud}
 
 + [Notes de mise à jour](current.md)
 + Notes de mise à jour précédentes {#previous}
