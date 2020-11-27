@@ -4,11 +4,11 @@ description: Notes de mise à jour d’Adobe Experience Cloud
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Dernière mise à jour : **10 novembre 2020**
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **10 novembre 2020**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)  (Mise à jour : **10 novembre 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Mise à jour : **28 octobre 2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud) (Mise à jour : **28 octobre 2020**)
+* [Advertising Cloud](#adcloud)  (Mise à jour : **28 octobre 2020**)
 * [[!DNL Target]](#target) (Mise à jour : **2 novembre 2020**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -108,7 +108,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 Date de publication : **29 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour : 10 novembre 2020)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)  (Mise à jour : 10 novembre 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -119,7 +119,7 @@ Date de publication : **29 octobre 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ------- |
-| Documentation Adobe Analytics | 11 novembre 2020 | La documentation Adobe Analytics a été déplacée vers Experience League. During November, all articles, videos, release notes, and tutorials moved from their current location at `docs.adobe.com` to `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Tous les liens ont été redirigés vers Experience League. |
+| Documentation Adobe Analytics | 11 novembre 2020 | La documentation Adobe Analytics s’est déplacée vers Experience League. Au cours du mois de novembre, tous les articles, vidéos, notes de mise à jour et tutoriels sont passés de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Tous les liens ont été redirigés vers Experience League. |
 | Visualisation [!UICONTROL Ligne] dans [!UICONTROL Workspace] : option de tendance de moyenne glissante | 8 octobre 2020 | La moyenne glissante a été ajoutée aux paramètres de tendance de visualisation [!UICONTROL Ligne]. Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de [!UICONTROL périodes]), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | API de [!UICONTROL réparation des données] | 8 octobre 2020 | L’API de [!UICONTROL réparation des données] est un outil permettant de supprimer des données des suites de rapports Analytics. La version d’octobre offre la possibilité de supprimer des variables eVar, prop et [!UICONTROL Activity Map] spécifiées pour une période spécifiée. D’autres fonctionnalités seront activées à l’avenir. L’utilisation de l’API de [!UICONTROL réparation des données] supprime définitivement les données Adobe Analytics existantes. Nous recommandons une approche prudente pour exécuter la réparation afin de réduire les risques de suppression accidentelle. Un contrat est nécessaire pour l’accès à l’API de [!UICONTROL réparation de données]. Contactez votre équipe de compte pour plus d’informations. [En savoir plus](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL Workspace] : page d’aide sur les performances | 22 octobre 2020 | La page d’aide sur les performances [!UICONTROL Analysis Workspace] présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -129,13 +129,13 @@ Date de publication : **29 octobre 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics documentation | 11 novembre 2020 | La documentation du Customer Journey Analytics a été déplacée à Experience League. During November, all articles, videos, release notes, and tutorials moved from their current location at `docs.adobe.com` to `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Tous les liens ont été redirigés vers Experience League. |
+| Customer Journey Analytics  documentation | 11 novembre 2020 | La documentation Customer Journey Analytics s’est déplacée vers Experience League. Au cours du mois de novembre, tous les articles, vidéos, notes de mise à jour et tutoriels sont passés de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Tous les liens ont été redirigés vers Experience League. |
 | Visualisation [!UICONTROL Ligne] : option de tendance de moyenne glissante | 8 octobre 2020 | La moyenne glissante a été ajoutée aux paramètres de tendance de visualisation Ligne. Une moyenne glissante calcule la moyenne pour une période antérieure spécifiée et l’utilise comme point de données de tendance, puis passe à la période suivante. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Suppression de la limitation de renvoi | 19 octobre 2020 | Afin de fournir une expérience améliorée du CJA, nous avons supprimé la limite de renvoi (importation de données historiques). Auparavant, vous pouviez renvoyer un maximum de 2,5 milliards de lignes et au-delà, vous étiez tenu de demander l’aide du service d’ingénierie. Désormais, vous pouvez renvoyer les données vous-même, sans aucune restriction. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Mesures et dimensions [!UICONTROL Durée de la visite] | 30 octobre 2020 | Les mesures et dimensions [!UICONTROL Durée de la visite] vous permettent de déterminer le temps que les clients passent dans divers aspects du parcours du client, ce qui vous permet de bénéficier d’une vue plus complète sur l’engagement et les goulets d’étranglement entre les canaux. |
 | Dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] | 30 octobre 2020 | Les dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] sont désormais disponibles par défaut dans le cadre du projet « Prise en charge de la recherche globale » dans le [connecteur source Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-overview/cja-aa.html). |
-| Journey IQ : analyse cross-canal | 22 novembre 2020 | Journey IQ : l’analyse cross-canal permet aux clients de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
+| Journey IQ : analyse cross-canal | 22 novembre 2020 | Journey IQ : l’analyse cross-canal permet aux clients de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
@@ -157,7 +157,7 @@ AN-224702 ; AN-232791 ; AN-233982 ; AN-234384 ; AN-235608 ; AN-236538 ; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Avis | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Ajout de l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l’en-tête HSTS à toutes les requêtes entrantes qui utilisent des connexions HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes à venir dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. À ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
 | Modification du paramètre de cookie du service Experience Cloud ID | 22 septembre 2020 | Une mise à jour des paramètres de confidentialité pour Chrome version 80 a eu un impact sur la capacité d’Adobe Analytics à suivre certains utilisateurs qui consultaient des pages AMP sur Google. Plus précisément, elle empêche le suivi inter-domaines des utilisateurs qui consultent des pages AMP hébergées par Google. Cela pourrait entraîner une augmentation du nombre de visiteurs uniques. Ce correctif permet aux utilisateurs de résoudre ce problème en modifiant les paramètres de leurs cookies ECID.<br>Actuellement, Analytics définit les cookies ECID (service Experience Cloud ID) avec le paramètre `SameSite = Lax` qui, avant la version 80 de Chrome, permettait le suivi inter-domaines. Ce n’est plus le cas. Cette modification permet aux utilisateurs de mettre à jour le paramètre SameSite pour les cookies ECID vers `None`.<br>Veuillez noter que cela permet le partage du cookie Analytics dans d’autres situations, mais les cookies Analytics ne contiennent aucune information sensible. En outre, lors du choix de ce paramètre, les cookies doivent être définis sur `Secure` afin que les données puissent être uniquement transmises par des connexions HTTPS. Si vous souhaitez apporter cette modification, demandez à un utilisateur pris en charge d’ouvrir un ticket auprès de l’assistance clientèle. |
@@ -195,7 +195,7 @@ Date de publication : **8 octobre 2020**
 
 ### Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager {#aam-features}
 
-| Fonctionnalité | Date d’ajout ou de mise à jour | Description |
+| Fonctionnalité | Date d’ajout  ou de mise à jour | Description |
 |----|----|----|
 | [Predictive Audiences](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 octobre 2020 | <ul><li>**Clonage des modèles de Predictive Audiences** : vous pouvez désormais cloner des modèles existants et modifier leur configuration en fonction de vos besoins. Pour plus d’informations, consultez [Clonage et modification des modèles d’Audience prédictifs](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences).</li><li>**Classification par lot de Predictive Audiences** : outre la classification des visiteurs selon des personnalités distinctes en temps réel, les audiences prédictives prennent désormais en charge la classification par lot, ce qui vous permet de classer les utilisateurs intégrés et de les activer dans les destinations par lot.</li></ul> |
 | [Rapports de chevauchement](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23 octobre 2020 | Nous avons mis à jour la méthodologie que nous utilisons pour calculer les rapports de chevauchement ([Caractéristique à caractéristique](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [Segment à caractéristique](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [Segment à segment](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). Le calcul des rapports de chevauchement est désormais basé sur les uniques de rapports et sur les signatures MinHash (plutôt que sur l’[échantillonnage de données 1/54](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)). |
@@ -475,7 +475,7 @@ Mise à jour : 28 octobre 2020
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Nouveau Aide | (Version du 28 octobre) L’aide héritée a été remplacée par des pages mises à jour, disponibles à partir du lien ‘Aide’ dans le menu principal DSP et également disponibles à tout moment depuis [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr) |
+| Nouveau  Aide | (Version du 28 octobre) L’aide héritée a été remplacée par des pages mises à jour, disponibles à partir du lien ‘Aide’ dans le menu principal DSP et également disponibles à tout moment depuis [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr) |
 | Campagnes | (Version du 28 octobre) Les précédentes vues bêta des campagnes sont désormais les vues par défaut des campagnes, ce qui permet d’obtenir des informations plus rapides, de simplifier les workflows et de personnaliser les vues. |
 | Inventaire privé | (Version du 15 octobre) Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID de la transaction en utilisant un nouveau formulaire d’ID de transaction, qui est une version simplifiée de l’ancien formulaire [!UICONTROL Smart Ad Serving]. Pour configurer les détails de l’ID de la nouvelle transaction, accédez à **[!UICONTROL Inventaire > Transactions]**, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL ID de transaction bêta]**. |
 | Prévisions de placement | (Version du 15 octobre) Pour les placements avec une fréquence de placement, la section [!UICONTROL Prévision] des paramètres de placement inclut une nouvelle section [!UICONTROL Maximums estimés], qui indique la capacité supplémentaire disponible avec la configuration de ciblage actuelle. |
