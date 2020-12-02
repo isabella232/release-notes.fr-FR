@@ -4,11 +4,11 @@ description: Notes de mise à jour d’Adobe Experience Cloud
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
+workflow-type: tm+mt
 source-wordcount: '8005'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour.
 
-Dernière mise à jour : **10 novembre 2020**
+Dernière mise à jour :**2 décembre 2020**
 
 * [Statut du système Adobe](#status)
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)  (Mise à jour : **10 novembre 2020**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)  (Mis à jour le 2 **décembre 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Mise à jour : **28 octobre 2020**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 Date de publication : **29 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)  (Mise à jour : 10 novembre 2020)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)  (Mis à jour le 2 décembre 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -135,7 +135,7 @@ Date de publication : **29 octobre 2020**
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Mesures et dimensions [!UICONTROL Durée de la visite] | 30 octobre 2020 | Les mesures et dimensions [!UICONTROL Durée de la visite] vous permettent de déterminer le temps que les clients passent dans divers aspects du parcours du client, ce qui vous permet de bénéficier d’une vue plus complète sur l’engagement et les goulets d’étranglement entre les canaux. |
 | Dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] | 30 octobre 2020 | Les dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] sont désormais disponibles par défaut dans le cadre du projet « Prise en charge de la recherche globale » dans le [connecteur source Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-overview/cja-aa.html). |
-| Journey IQ : analyse cross-canal | 22 novembre 2020 | Journey IQ : l’analyse cross-canal permet aux clients de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
+| Journey IQ : analyse cross-canal | 11 décembre 2020 | Journey IQ : l’analyse cross-canal permet aux clients de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
@@ -388,7 +388,7 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 | 30 septembre 2020 | [Exploration de la couche de données client Adobe](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Article | Explorez les fonctionnalités de la couche de données client Adobe basée sur les événements et de son intégration avec les composants principaux AEM Sites. Découvrez comment écouter les événements, obtenir l’état actuel et modifier la couche de données. |
 | 30 septembre 2020 | [Présentation de la couche de données client Adobe](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vidéo | Découvrez comment la couche de données client Adobe orientée événement expose les données des composants principaux AEM Sites. Grâce à la couche de données client Adobe, les solutions de gestion des balises telles que Experience Platform Launch peuvent transmettre des données de site web à des applications telles qu’Analytics et Target. |
 | 8 octobre 2020 | [Ajout de l’extension Target à la propriété Launch](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | Vidéo | Découvrez comment charger, transférer des paramètres à la demande de page et déclencher un appel Target à partir de la page de votre site à l’aide d’une règle Launch. Les informations de la page sont récupérées et transmises en tant que paramètres à l’aide de la couche de données client Adobe qui vous permet de collecter et de stocker des données sur l’expérience des visiteurs sur une page web, puis d’accéder facilement à ces données. |
-| 7 octobre 2020 | [Création d’un compte Cloud Service Adobe Target](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | Vidéo | Découvrez comment intégrer Adobe Experience Manager en tant que Cloud Service à Adobe Target en utilisant l’authentification Cloud Service et Adobe IMS. |
+| 7 octobre 2020 | [Création d’un compte Cloud Service Adobe Target](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | Vidéo | Découvrez comment intégrer Adobe Experience Manager as a Cloud Service à Adobe Target en utilisant l’authentification Cloud Service et Adobe IMS. |
 | 2 octobre 2020 | [Présentation d’AEM et d’Adobe Target](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/sites/integrations/target/overview.html) | Vidéo | AEM et Target sont deux solutions puissantes avec des fonctionnalités qui semblent se chevaucher. Les clients ont parfois du mal à comprendre comment et quand utiliser ces produits conjointement pour offrir une expérience personnalisée. Afin d’offrir une expérience optimisée à chaque utilisateur final, différentes équipes de votre entreprise doivent travailler en étroite collaboration et définir qui fait quoi. |
 | 2 octobre 2020 | [Intégration d’AEM Forms et Adobe Sign](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | Cours | Associés, Adobe Sign et AEM Forms vous permettent d’automatiser des transactions complexes et d’inclure des signatures électroniques sécurisées et légales dans le cadre d’une expérience digitale transparente. |
 | 6 octobre 2020 | [Création d’un document interactif pour le canal d’impression](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.5.forms) | Cours | Interactive Communications centralise et gère la création, l’assemblage et la diffusion de correspondances sécurisées, personnalisées et interactives telles que la correspondance commerciale, les documents, les relevés, les avis de prestations sociales, les emails marketing, les factures et les kits de bienvenue. Ce cours présentera la création de divers composants qui constituent un document de communication interactif. |
