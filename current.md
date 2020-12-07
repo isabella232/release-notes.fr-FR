@@ -27,17 +27,17 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour.
 
-Dernière mise à jour :**2 décembre 2020**
+Dernière mise à jour : **2 décembre 2020**
 
 * [Statut du système Adobe](#status)
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)  (Mis à jour le 2 **décembre 2020**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour du **2 décembre 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Mise à jour : **28 octobre 2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud)  (Mise à jour : **28 octobre 2020**)
+* [Advertising Cloud](#adcloud) (Mise à jour : **28 octobre 2020**)
 * [[!DNL Target]](#target) (Mise à jour : **2 novembre 2020**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -68,7 +68,7 @@ Pour obtenir des informations sur les dernières mises à jour, reportez-vous à
 
 ### Didacticiels à l’intention des Experience Cloud
 
-Mise à jour : **2 décembre 2020**
+Updated: **December 2, 2020**
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
@@ -98,7 +98,7 @@ Voir les [notes de mise à jour Experience Platform Launch](https://docs.adobe
 
 Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses services.
 
-Mise à jour : **2 décembre 2020**
+Updated: **December 2, 2020**
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
@@ -122,7 +122,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 Date de publication : **29 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)  (Mis à jour le 2 décembre 2020)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour du 2 décembre 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -143,7 +143,7 @@ Date de publication : **29 octobre 2020**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics  documentation | 11 novembre 2020 | La documentation Customer Journey Analytics s’est déplacée vers Experience League. Au cours du mois de novembre, tous les articles, vidéos, notes de mise à jour et tutoriels sont passés de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Tous les liens ont été redirigés vers Experience League. |
+| Customer Journey Analytics documentation | 11 novembre 2020 | La documentation Customer Journey Analytics s’est déplacée vers Experience League. Au cours du mois de novembre, tous les articles, vidéos, notes de mise à jour et tutoriels sont passés de leur emplacement actuel à `docs.adobe.com` dans `experienceleague.adobe.com`. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Tous les liens ont été redirigés vers Experience League. |
 | Visualisation [!UICONTROL Ligne] : option de tendance de moyenne glissante | 8 octobre 2020 | La moyenne glissante a été ajoutée aux paramètres de tendance de visualisation Ligne. Une moyenne glissante calcule la moyenne pour une période antérieure spécifiée et l’utilise comme point de données de tendance, puis passe à la période suivante. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Suppression de la limitation de renvoi | 19 octobre 2020 | Afin de fournir une expérience améliorée du CJA, nous avons supprimé la limite de renvoi (importation de données historiques). Auparavant, vous pouviez renvoyer un maximum de 2,5 milliards de lignes et au-delà, vous étiez tenu de demander l’aide du service d’ingénierie. Désormais, vous pouvez renvoyer les données vous-même, sans aucune restriction. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -171,7 +171,7 @@ AN-224702 ; AN-232791 ; AN-233982 ; AN-234384 ; AN-235608 ; AN-236538 ; AN
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Avis | Date d’ajout  ou de mise à jour | Description |
+| Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Ajout de l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l’en-tête HSTS à toutes les requêtes entrantes qui utilisent des connexions HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes à venir dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. À ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
 | Modification du paramètre de cookie du service Experience Cloud ID | 22 septembre 2020 | Une mise à jour des paramètres de confidentialité pour Chrome version 80 a eu un impact sur la capacité d’Adobe Analytics à suivre certains utilisateurs qui consultaient des pages AMP sur Google. Plus précisément, elle empêche le suivi inter-domaines des utilisateurs qui consultent des pages AMP hébergées par Google. Cela pourrait entraîner une augmentation du nombre de visiteurs uniques. Ce correctif permet aux utilisateurs de résoudre ce problème en modifiant les paramètres de leurs cookies ECID.<br>Actuellement, Analytics définit les cookies ECID (service Experience Cloud ID) avec le paramètre `SameSite = Lax` qui, avant la version 80 de Chrome, permettait le suivi inter-domaines. Ce n’est plus le cas. Cette modification permet aux utilisateurs de mettre à jour le paramètre SameSite pour les cookies ECID vers `None`.<br>Veuillez noter que cela permet le partage du cookie Analytics dans d’autres situations, mais les cookies Analytics ne contiennent aucune information sensible. En outre, lors du choix de ce paramètre, les cookies doivent être définis sur `Secure` afin que les données puissent être uniquement transmises par des connexions HTTPS. Si vous souhaitez apporter cette modification, demandez à un utilisateur pris en charge d’ouvrir un ticket auprès de l’assistance clientèle. |
@@ -210,7 +210,7 @@ Date de publication : **8 octobre 2020**
 
 ### Nouvelles fonctionnalités, améliorations et correctifs dans Audience Manager {#aam-features}
 
-| Fonctionnalité | Date d’ajout  ou de mise à jour | Description |
+| Fonctionnalité | Date d’ajout ou de mise à jour | Description |
 |----|----|----|
 | [Predictive Audiences](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 octobre 2020 | <ul><li>**Clonage des modèles de Predictive Audiences** : vous pouvez désormais cloner des modèles existants et modifier leur configuration en fonction de vos besoins. Pour plus d’informations, consultez [Clonage et modification des modèles d’Audience prédictifs](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences).</li><li>**Classification par lot de Predictive Audiences** : outre la classification des visiteurs selon des personnalités distinctes en temps réel, les audiences prédictives prennent désormais en charge la classification par lot, ce qui vous permet de classer les utilisateurs intégrés et de les activer dans les destinations par lot.</li></ul> |
 | [Rapports de chevauchement](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23 octobre 2020 | Nous avons mis à jour la méthodologie que nous utilisons pour calculer les rapports de chevauchement ([Caractéristique à caractéristique](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [Segment à caractéristique](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [Segment à segment](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). Le calcul des rapports de chevauchement est désormais basé sur les uniques de rapports et sur les signatures MinHash (plutôt que sur l’[échantillonnage de données 1/54](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)). |
@@ -225,7 +225,7 @@ Date de publication : **8 octobre 2020**
 
 Nouveaux tutoriels, vidéos et cours publiés pour Audience Manager.
 
-Mis à jour le 2 **décembre 2020**
+Mise à jour du **2 décembre 2020**
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
@@ -374,14 +374,14 @@ En outre, le référentiel comprend d’autres articles importants, tels que les
 
 ### Nouveaux cours et tutoriels sur Experience Manager
 
-Mise à jour : **2 décembre 2020**
+Updated: **December 2, 2020**
 
 Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| 2 décembre 2020 | [Téléchargement de fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | Vidéo | Présentation vidéo des fonctionnalités de téléchargement des fragments de contenu. |
-| 2 décembre 2020 | [Fonctionnalités éditoriales du fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | Vidéo | Présentation vidéo des fonctionnalités avancées de l’éditeur de fragments de contenu. Découvrez comment utiliser les annotations et la comparaison de versions avec les fragments de contenu. |
+| 2 décembre 2020 | [Téléchargement de fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | Vidéo | Présentation vidéo des fonctionnalités de téléchargement des fragments de contenu. |
+| 2 décembre 2020 | [Fonctionnalités éditoriales du fragment de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | Vidéo | Présentation vidéo des fonctionnalités avancées de l’éditeur de fragments de contenu. Découvrez comment utiliser les annotations et la comparaison de versions avec les fragments de contenu. |
 | 9 novembre 2020 | [Déployer les ressources sur votre serveur AEM local](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/deploy-this-sample.html?lang=en#store-and-retrieve-af-with-2fa) | Vidéo | Créez la base de données, déployez le lot OSGi personnalisé et importez les divers artefacts côté client pour que le cas d’utilisation s’exécute sur votre instance d’AEM locale. |
 | 2 novembre 2020 | [Création du formulaire MyApplication](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-myaccount-form.html?lang=en#store-and-retrieve-af-with-2fa) | Article | Créez le formulaire MyApplication. Ce formulaire est utilisé pour confirmer l’ID de demande unique et le numéro de téléphone de la personne qui tente de récupérer le formulaire adaptatif partiellement rempli. |
 | 10 novembre 2020 | [Configuration de l’accès aux AEM pour les administrateurs](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.aem) | Cours | Découvrez comment les utilisateurs s’authentifient à l’aide d’Adobe IMS pour AEM as a Cloud Service, et comment les utilisateurs, groupes d’utilisateurs et Profils de produits Adobes IMS sont utilisés pour contrôler l’accès à AEM et à ses fonctions et fonctionnalités. |
@@ -484,7 +484,7 @@ Informations de mise à jour pour Campaign Classic, Campaign Standard et le pann
 
 Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
-Mis à jour le 2 **décembre 2020**
+Mise à jour du **2 décembre 2020**
 
 | Publication | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |
@@ -527,7 +527,7 @@ Mise à jour : 28 octobre 2020
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Nouveau  Aide | (Version du 28 octobre) L’aide héritée a été remplacée par des pages mises à jour, disponibles à partir du lien ‘Aide’ dans le menu principal DSP et également disponibles à tout moment depuis [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr) |
+| Nouveau Aide | (Version du 28 octobre) L’aide héritée a été remplacée par des pages mises à jour, disponibles à partir du lien ‘Aide’ dans le menu principal DSP et également disponibles à tout moment depuis [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr) |
 | Campagnes | (Version du 28 octobre) Les précédentes vues bêta des campagnes sont désormais les vues par défaut des campagnes, ce qui permet d’obtenir des informations plus rapides, de simplifier les workflows et de personnaliser les vues. |
 | Inventaire privé | (Version du 15 octobre) Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID de la transaction en utilisant un nouveau formulaire d’ID de transaction, qui est une version simplifiée de l’ancien formulaire [!UICONTROL Smart Ad Serving]. Pour configurer les détails de l’ID de la nouvelle transaction, accédez à **[!UICONTROL Inventaire > Transactions]**, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL ID de transaction bêta]**. |
 | Prévisions de placement | (Version du 15 octobre) Pour les placements avec une fréquence de placement, la section [!UICONTROL Prévision] des paramètres de placement inclut une nouvelle section [!UICONTROL Maximums estimés], qui indique la capacité supplémentaire disponible avec la configuration de ciblage actuelle. |
@@ -544,7 +544,7 @@ Date de publication : **17 octobre 2020**
 
 ### Didacticiels et cours Ad Cloud
 
-Mise à jour : **2 décembre 2020**
+Updated: **December 2, 2020**
 
 | Publication | Nom | Solution | Description |
 | ----------- | ----------- | ---------- | ---------- |
