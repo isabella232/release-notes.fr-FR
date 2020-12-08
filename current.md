@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d52b26253abaf781eade05e8925943c6b605ae60
+source-git-commit: 3f1afc6a9c158b461be3ded3bac935bcfac11066
 workflow-type: tm+mt
 source-wordcount: '9838'
 ht-degree: 85%
@@ -27,13 +27,13 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Inscrivez-vous aux [Mises à jour produit prioritaires d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) afin de recevoir une notification par courrier électronique concernant les prochaines mises à jour.
 
-Dernière mise à jour : **2 décembre 2020**
+Dernière mise à jour : **8 décembre 2020**
 
 * [Statut du système Adobe](#status)
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour du **2 décembre 2020**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour du **8 décembre 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Mise à jour : **28 octobre 2020**)
 * [Campaign](#ac)
@@ -122,7 +122,7 @@ Grâce à Adobe Experience Platform, orchestrez des parcours clients individuels
 Date de publication : **29 octobre 2020**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour du 2 décembre 2020)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour du 8 décembre 2020)
 * [Nouvelles fonctionnalités de Media Analytics](#media-aa)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
@@ -149,7 +149,7 @@ Date de publication : **29 octobre 2020**
 | Page d’aide sur les performances Analysis Workspace | 22 octobre 2020 | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Mesures et dimensions [!UICONTROL Durée de la visite] | 30 octobre 2020 | Les mesures et dimensions [!UICONTROL Durée de la visite] vous permettent de déterminer le temps que les clients passent dans divers aspects du parcours du client, ce qui vous permet de bénéficier d’une vue plus complète sur l’engagement et les goulets d’étranglement entre les canaux. |
 | Dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] | 30 octobre 2020 | Les dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] sont désormais disponibles par défaut dans le cadre du projet « Prise en charge de la recherche globale » dans le [connecteur source Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-overview/cja-aa.html). |
-| Journey IQ : analyse cross-canal | 11 décembre 2020 | Journey IQ : l’analyse cross-canal permet aux clients de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
+| Journey IQ : analyse cross-canal | 11 janvier 2021 | Journey IQ : l’analyse cross-canal permet aux clients de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Adobe Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre dispositifs/cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
 
 ### Nouvelles fonctionnalités de [!UICONTROL Media Analytics] {#media-aa}
 
