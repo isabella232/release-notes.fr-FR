@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
+source-git-commit: 23d521bb24f13ed6ad843b605f72f362262790c2
 workflow-type: tm+mt
-source-wordcount: '6184'
+source-wordcount: '6183'
 ht-degree: 44%
 
 ---
@@ -454,7 +454,7 @@ Voir les [[!DNL Target] notes de mise à jour](https://docs.adobe.com/content/he
 
 ### Mises à jour de Core Marketo Engage
 
-Voir les [notes de mise à jour](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720) [!DNL Marketo] pour consulter les informations les plus récentes.
+Voir les [notes de mise à jour](https://docs.marketo.com/display/public/DOCS/Jan+%2721) [!DNL Marketo] pour consulter les informations les plus récentes.
 
 ### Fonctionnalités à venir
 
@@ -470,7 +470,7 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 * **Paramètre de l’API de ressource &quot;_method&quot; :** après septembre 2020, les points de fin d’API d’actif n’accepteront plus `_method` pour transmettre les paramètres de requête dans un corps POST afin de contourner les limitations de longueur d’URI.
 * **Dépréciation de la prise en charge d’Internet Explorer :** à compter de la version du 31 juillet 2020, l’interface utilisateur de Marketo Engage ne sera plus prise en charge dans Internet Explorer.
 
-Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
+Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/display/public/DOCS/Release+Notes).
 
 ## ![Icône](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
