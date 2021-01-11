@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3d0946fe6fc0bf74ec45a19931c106afb8a8208d
+source-git-commit: 5175e3e92bd445254532c614bda3f7a048f31a86
 workflow-type: tm+mt
-source-wordcount: '6185'
-ht-degree: 44%
+source-wordcount: '6419'
+ht-degree: 43%
 
 ---
 
@@ -135,6 +135,7 @@ Date de publication : **14 janvier 2021**
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
 * [AppMeasurement](#appm)
+* [Report Builder](#arb)
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
@@ -181,6 +182,7 @@ AN-204659 ; AN-221726; AN-230949 ; AN-231984; AN-232835;  AN-233989; AN-235593 ;
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Mise à jour [!UICONTROL Report Builder] requise | 8 janvier 2021 | Au 30 avril 2021, tous les utilisateurs [!UICONTROL Report Builder] doivent mettre à jour le module [!UICONTROL Report Builder] vers la version 5.6.47 ou ultérieure. Cette version comprend une mise à jour critique du processus de connexion. Les utilisateurs qui ne mettent pas à jour la version 5.6.47 ou ultérieure ne pourront plus se connecter après le 30 avril 2021. [!UICONTROL Les versions 5.6.47 et ultérieures de Report ] Builder prennent en charge la connexion des Experience Cloud uniquement et ne prennent pas en charge les connexions héritées telles que la connexion unique au SiteCatalyst ou la connexion standard. Pour plus d&#39;informations, voir [Connexion au Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 | Fin de vie de trois services d’API Analytics | 6 janvier 2021 | Le 30 avril 2021, les services d’API hérités d’Analytics suivants sont prévus pour atteindre la date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons fourni une [FAQ EOL sur l&#39;API héritée](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour vous aider à répondre à vos questions et vous fournir des conseils sur la façon de procéder. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [1.4 API REST Analytics](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) et/ou les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte d’intégration [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Ajout de l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l’en-tête HSTS à toutes les requêtes entrantes qui utilisent des connexions HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes à venir dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. À ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
 | Changement du paramètre de cookie [!UICONTROL Service d’identification des Experience Cloud] | 22 septembre 2020 | Une mise à jour des paramètres de confidentialité pour Chrome version 80 a eu un impact sur la capacité d’Adobe Analytics à suivre certains utilisateurs qui consultaient des pages AMP sur Google. Plus précisément, elle empêche le suivi inter-domaines des utilisateurs qui consultent des pages AMP hébergées par Google. Cela pourrait entraîner une augmentation du nombre de visiteurs uniques. Ce correctif permet aux utilisateurs de résoudre ce problème en modifiant les paramètres de leurs cookies ECID.<br>Actuellement, Analytics définit les cookies ECID (service Experience Cloud ID) avec le paramètre `SameSite = Lax` qui, avant la version 80 de Chrome, permettait le suivi inter-domaines. Ce n’est plus le cas. Cette modification permet aux utilisateurs de mettre à jour le paramètre SameSite pour les cookies ECID vers `None`.<br>Veuillez noter que cela permet le partage du cookie Analytics dans d’autres situations, mais les cookies Analytics ne contiennent aucune information sensible. En outre, lors du choix de ce paramètre, les cookies doivent être définis sur `Secure` afin que les données puissent être uniquement transmises par des connexions HTTPS. Si vous souhaitez apporter cette modification, demandez à un utilisateur pris en charge d’ouvrir un ticket auprès de l’assistance clientèle. |
@@ -192,6 +194,12 @@ AN-204659 ; AN-221726; AN-230949 ; AN-231984; AN-232835;  AN-233989; AN-235593 ;
 ### AppMeasurement {#appm}
 
 Pour connaître les dernières mises à jour des versions d’AppMeasurement, reportez-vous aux [notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html).
+
+### Report Builder  {#arb}
+
+| Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Date cible | Description |
+| ----------- | ---------- | ----- |
+| Mise à jour de connexion à Analytics [!UICONTROL Report Builder] | 14 janvier 2021 | Les améliorations apportées au processus de connexion [!UICONTROL Report Builder] suppriment les dépendances des technologies héritées et alignent le processus de connexion avec Adobe Experience Cloud. La connexion Experience Cloud vous permet d&#39;utiliser votre Adobe ID ou votre Enterprise ID (connexion unique) pour vous connecter à Adobe Experience Cloud. Au 30 avril 2021, tous les utilisateurs [!UICONTROL Report Builder] doivent mettre à jour le module [!UICONTROL Report Builder] vers la version 5.6.47 ou ultérieure. [!UICONTROL Les versions 5.6.47 et ultérieures du ] créateur de rapports prennent en charge la connexion des Experience Cloud uniquement et ne prennent pas en charge les connexions héritées, telles que la connexion unique au SiteCatalyst ou la connexion standard. Pour plus d&#39;informations, voir [Connexion au Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 
 ### Ressources d’aide à propos d’Analytics
 
