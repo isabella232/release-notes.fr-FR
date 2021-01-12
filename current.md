@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
+source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6518'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Dernière mise à jour : **12 janvier 2021**
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Date de publication : **14 janvier 2021**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **12 janvier 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)  (Mis à jour le 12  **janvier 2021**)
@@ -141,8 +141,9 @@ Date de publication : **14 janvier 2021**
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ------- |
-| Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante trouvé dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi une liste déroulante de composants compatibles ou de continuer à utiliser l’espace comme zone de dépôt. |
-| Analysis Workspace - URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets [!UICONTROL Workspace] en référençant une URL d’image publique. |
+| Analysis Workspace - URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets [!UICONTROL Workspace] en référençant une URL d’image publique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
+| Analysis Workspace - Gestionnaire des sources et des paramètres combinés | 14 janvier 2021 | Le gestionnaire de source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés dans une seule boîte de dialogue, afin que vous puissiez facilement gérer votre source et vos paramètres à partir du même emplacement. |
+| Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante trouvé dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi une liste déroulante de composants compatibles ou de continuer à utiliser l’espace comme zone de dépôt. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -150,8 +151,9 @@ Date de publication : **14 janvier 2021**
 | ----------- | ---------- | ----- |
 | Dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] | 30 octobre 2020 | Ces dimensions sont désormais disponibles par défaut dans le cadre du projet de prise en charge [Recherche globale](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets) de l’Adobe Analytics [!UICONTROL Source Connector]. Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview). |
 | QI parcours : [!UICONTROL Analyses entre Canaux] | 11 janvier 2021 | QI parcours : [!UICONTROL Analyses de plusieurs Canaux] vous permet de recréer un jeu de données de événement Adobe Analytics (ou autre) dans le lac de données Experience Platform d’un espace de nommage d’ID à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recyclé peut être combiné avec d&#39;autres données personnelles dans une connexion CJA, ce qui permet l&#39;analyse entre les périphériques et entre les canaux dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
-| Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante trouvé dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi une liste déroulante de composants compatibles ou de continuer à utiliser l’espace comme zone de dépôt. |
 | Analysis Workspace - URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets Workspace en référençant une URL d’image publique. |
+| Analysis Workspace - Gestionnaire des sources et des paramètres combinés | 14 janvier 2021 | Le gestionnaire de source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés dans une seule boîte de dialogue, afin que vous puissiez facilement gérer votre source et vos paramètres à partir du même emplacement. |
+| Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante trouvé dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi une liste déroulante de composants compatibles ou de continuer à utiliser l’espace comme zone de dépôt. |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
