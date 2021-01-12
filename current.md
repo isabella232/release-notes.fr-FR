@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
+source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
 workflow-type: tm+mt
-source-wordcount: '6414'
+source-wordcount: '6428'
 ht-degree: 42%
 
 ---
@@ -23,7 +23,7 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Abonnez-vous à la [mise à jour de produit prioritaire de l&#39;Adobe ](https://www.adobe.com/subscription/priority-product-update.html) mensuelle pour recevoir des notifications par courrier électronique sur les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Veuillez donc consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **11 janvier 2020**
+Dernière mise à jour : **12 janvier 2021**
 
 * [État](#status)  du système d&#39;Adobe (non mis à jour)
 * [Services d’Experience Cloud et administration](#ecloud)
@@ -31,8 +31,8 @@ Dernière mise à jour : **11 janvier 2020**
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Date de publication : **14 janvier 2021**)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
-* [Campaign](#ac)
+* [Experience Manager](#aem)
+* [Campaign](#ac)  (Mis à jour le 12  **janvier 2021**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -109,13 +109,13 @@ Mise à jour : **6 janvier 2021**
 | 26 octobre 2020 (Mise à jour) | [Introduction à Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Vidéo | Cette vidéo offre un aperçu d’[!UICONTROL Offer Decisioning], un service d’applications qui complète Adobe Experience Platform. La vidéo traite des problématiques métier qu’[!UICONTROL Offer Decisioning] permet de résoudre, des principales fonctionnalités de ce service, de l’architecture de base et des principaux cas pratiques. |
 | 26 octobre 2020 (Mise à jour) | [Envoi de données à l’aide du connecteur source CRM Salesforce](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-salesforce-crm.html) | Vidéo | Le connecteur de source de gestion de la relation client Salesforce vous permet d’assimiler facilement par lots des données de la gestion de la relation client Salesforce dans le Profil client en temps réel de Adobe Experience Platform et le lac de données d’expérience, de manière transparente et évolutive. |
 | 13 octobre 2020 (Mise à jour) | [Envoi de données à l’aide du connecteur source CRM Salesforce](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) | Vidéo | Le connecteur de source de gestion de la relation client Salesforce vous permet d’assimiler facilement par lots des données de la gestion de la relation client Salesforce dans le Profil client en temps réel de Adobe Experience Platform et le lac de données d’expérience, de manière transparente et évolutive. |
-| 23 octobre 2020 (Mise à jour) | [Intégrer les données dans le Profil client en temps réel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) | Vidéo | Le Profil client en temps réel permet la personnalisation croisée des canaux à l’échelle de chaque étape du parcours client. |
+| 23 octobre 2020 (Mise à jour) | [Intégrer les données dans le Profil client en temps réel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) | Vidéo | Le Profil client en temps réel permet la personnalisation croisée des canaux à l’échelle de chaque phase du parcours client. |
 | 13 octobre 2020 (Mise à jour) | [Configuration d’Attribution AI](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intelligent-services/configure-attribution-ai.html) | Vidéo | Découvrez comment créer une instance d’Attribution AI pour comprendre l’impact de vos canaux et campagnes marketing. |
 | 13 octobre 2020 (Mise à jour) | [Configuration de Customer AI](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intelligent-services/configure-customer-ai.html) | Vidéo | Découvrez comment créer une instance de Customer AI pour prédire le comportement du client. |
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
-Utilisez Adobe Experience Platform pour orchestrer le parcours d’un client à l’échelle des canaux d’expérience, en anticipant intelligemment les besoins de chacun en temps réel.
+Utilisez Adobe Experience Platform pour orchestrer le parcours d’un client à l’échelle de tous les canaux d’expérience, en anticipant intelligemment les besoins de chacun en temps réel.
 
 ### Nouvelles versions de produits
 
@@ -149,7 +149,7 @@ Date de publication : **14 janvier 2021**
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
 | Dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] | 30 octobre 2020 | Ces dimensions sont désormais disponibles par défaut dans le cadre du projet de prise en charge [Recherche globale](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets) de l’Adobe Analytics [!UICONTROL Source Connector]. Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview). |
-| QI du voyage : [!UICONTROL Analyses entre Canaux] | 11 janvier 2021 | QI du voyage : [!UICONTROL Analyses de plusieurs Canaux] vous permet de recréer un jeu de données de événement Adobe Analytics (ou autre) dans le lac de données Experience Platform d’un espace de nommage d’ID à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recyclé peut être combiné avec d&#39;autres données personnelles dans une connexion CJA, ce qui permet l&#39;analyse entre les périphériques et entre les canaux dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
+| QI parcours : [!UICONTROL Analyses entre Canaux] | 11 janvier 2021 | QI parcours : [!UICONTROL Analyses de plusieurs Canaux] vous permet de recréer un jeu de données de événement Adobe Analytics (ou autre) dans le lac de données Experience Platform d’un espace de nommage d’ID à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recyclé peut être combiné avec d&#39;autres données personnelles dans une connexion CJA, ce qui permet l&#39;analyse entre les périphériques et entre les canaux dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
 | Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante trouvé dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi une liste déroulante de composants compatibles ou de continuer à utiliser l’espace comme zone de dépôt. |
 | Analysis Workspace - URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets Workspace en référençant une URL d’image publique. |
 
@@ -374,7 +374,7 @@ Informations de mise à jour pour Campaign Classic, Campaign Standard et le pann
 
 #### Campaign Classic
 
-<!-- [Incident Response Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (January 12) -->
+[Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)  de réponse aux incidents (mis à jour :  **12 janvier 2021**)
 
 * Version 20.3.3 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * Version 20.3.1 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
