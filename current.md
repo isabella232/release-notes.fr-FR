@@ -23,7 +23,7 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Abonnez-vous à la [mise à jour de produit prioritaire de l&#39;Adobe ](https://www.adobe.com/subscription/priority-product-update.html) mensuelle pour recevoir des notifications par courrier électronique sur les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Veuillez donc consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **13 janvier 2021**
+Dernière mise à jour : **12 janvier 2021**
 
 * [État](#status)  du système d&#39;Adobe (non mis à jour)
 * [Services d’Experience Cloud et administration](#ecloud)
