@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
+source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
-source-wordcount: '6618'
-ht-degree: 41%
+source-wordcount: '6788'
+ht-degree: 40%
 
 ---
 
@@ -32,7 +32,7 @@ Dernière mise à jour : **14 janvier 2021**
 * [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **12 janvier 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)  (Mis à jour le 12  **janvier 2021**)
+* [Campaign](#ac)  (Mis à jour le 14  **janvier 2021**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -417,7 +417,13 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 | Publication | Nom | Solution | Description |
 | -----------| ---------- | ---------- | ---------- |
 | 23 décembre 2020 | [Configuration du contenu dynamique](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/configuring-dynamic-content.html#sending-messages) | Campaign Classic | (Vidéo) Comprenez les différents types de contenu dynamique et découvrez comment créer et appliquer des blocs de personnalisation et des instructions conditionnelles à une diffusion. |
-| 9 décembre 2020 | [Panneau de configuration - Gestion des enregistrements Google TXT](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) | Campaign Standard | (Vidéo) Découvrez comment ajouter des enregistrements de vérification de site Google TXT à tous les sous-domaines utilisés pour envoyer des courriers électroniques aux adresses GMAIL avec [!UICONTROL Panneau de Contrôle Campaign]. |
+| 23 décembre 2020 | [Configuration et gestion des services d&#39;inscription](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/configuring-and-managing-subscription-services.html) | Campaign Classic | (Vidéo) Découvrez comment configurer et gérer les abonnements et les abonnés aux cibles. |
+| 22 décembre 2020 | [Accès aux rapports natifs](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/reporting/accessing-built-in-reports.html) | Campaign Classic | (Vidéo)  Comprendre  rapports et analyse intégrés en Campaign Classic et comment générer un rapport de diffusion. |
+| 22 décembre 2020 | [Résolution des problèmes de diffusion de courrier électronique](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/troubleshooting-email-delivery-issues.html) | Campaign Classic | (Vidéo) Découvrez comment résoudre les problèmes de diffusion. |
+| 18 décembre 2020 | [Création de Diffusions de Courrier](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/sending-messages/direct-mail/creating-direct-mail-deliveries.html) | Campaign Classic | (Vidéo) Découvrez comment créer une diffusion de messagerie directe et utiliser des adresses de contrôle dans une campagne. |
+| 18 décembre 2020 | [Gestion des approbations dans une campagne  ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/managing-approvals.html) | Campaign Classic | (Vidéo) Découvrez comment configurer les approbations et une campagne et comment différencier les approbations de diffusion et de processus. |
+| 18 décembre 2020 | [Exécution d’une campagne](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/executing-a-campaign.html) | Campaign Classic | (Vidéo) Découvrez comment exécuter une campagne, passer en revue une diffusion de messagerie et connaître les propriétés de la diffusion. |
+| 15 décembre 2020 | [Extension du schéma d’Abonnement d’application pour personnaliser les notifications Push](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html) | Campaign Classic | (Vidéo) Découvrez comment étendre le schéma d’abonnement de l’application afin de stocker les valeurs de personnalisation que Campaign reçoit d’une application mobile. |
 
 ## ![Icône](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
