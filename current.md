@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
+source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
 workflow-type: tm+mt
-source-wordcount: '6788'
+source-wordcount: '6796'
 ht-degree: 90%
 
 ---
@@ -29,7 +29,7 @@ Dernière mise à jour : **14 janvier 2021**
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform)  (Mis à jour le 14  **janvier 2021**)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **12 janvier 2021**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **20 janvier 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)  (Mis à jour le 14  **janvier 2021**)
@@ -149,7 +149,7 @@ Date de publication : **14 janvier 2021**
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)(Mis à jour le 20 janvier 2021)
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
@@ -200,6 +200,7 @@ AN-204659 ; AN-221726 ; AN-230949 ; AN-231984 ; AN-232835 ; AN-233989 ; AN
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Fin de vie d’Ad Hoc Analysis | 21 janvier 2021 | Le 1er mars 2021, Ad Hoc Analysis arrivera en fin de vie. À ce moment-là, tous les projets et planifications qui exploitent ce produit cesseront de fonctionner. Pour obtenir de plus amples informations, voir le site [Discover Workspace](https://adobe.ly/discoverworkspace). |
 | Mise à jour [!UICONTROL Report Builder] requise | 8 janvier 2021 | Au 30 avril 2021, tous les utilisateurs [!UICONTROL Report Builder] doivent mettre à jour le module [!UICONTROL Report Builder] vers la version 5.6.47 ou ultérieure. Cette version comprend une mise à jour critique du processus de connexion. Les utilisateurs qui ne mettent pas à jour la version 5.6.47 ou ultérieure ne pourront plus se connecter après le 30 avril 2021. [!UICONTROL Les versions 5.6.47 et ultérieures de Report ] Builder prennent en charge la connexion des Experience Cloud uniquement et ne prennent pas en charge les connexions héritées telles que la connexion unique au SiteCatalyst ou la connexion standard. Pour plus d&#39;informations, voir [Connexion au Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 | Fin de vie de trois services d’API Analytics | 6 janvier 2021 | Le 30 avril 2021, les services d’API hérités d’Analytics suivants atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte d’intégration [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Ajout de l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l’en-tête HSTS à toutes les requêtes entrantes qui utilisent des connexions HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes à venir dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. À ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
@@ -207,7 +208,6 @@ AN-204659 ; AN-221726 ; AN-230949 ; AN-231984 ; AN-232835 ; AN-233989 ; AN
 | Migration de `omniture.com` vers un domaine `adobe.com` | 21 août 2020 | Le 13 août 2020, Adobe Analytics a migré son architecture frontale de `omniture.com|http://omniture.com/` vers le domaine `adobe.com|http://adobe.com/`. Cette modification devrait atténuer les problèmes de cookies tiers qui se sont posés après le changement initial du domaine de produit unifié en date du 28 mai 2020. Suite à cette mise à jour, le navigateur peut inviter les utilisateurs à approuver le nouveau domaine `.adobe.com|http://an.adobe.com/` ou `experience.adobe.com|http://experience.adobe.com/`. |
 | Mise à jour de la compatibilité d’Ad Hoc Analysis avec Java 8 | 21 août 2020 | Ad Hoc Analysis n’est pas actuellement compatible avec les versions 1.8.0_261+ de Java 8. Pour vous assurer que votre accès à cet outil n’est pas interrompu avant la [date de fin de vie](https://spark.adobe.com/page/S9Bhp66VJ2fEn/), nous vous recommandons de conserver une version de Java 8 antérieure à la version 1.8.0_261. |
 | Fin de vie des Data Connectors Adobe | 13 juillet 2020 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Nous disposons d’un nouveau standard dans le [Programme de partenariat Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) qui devrait être adopté pour toutes les intégrations qui souhaitent continuer à être proposées et prises en charge. La date officielle de fin de vie n’a pas encore été fixée, mais elle devrait avoir lieu dans les 12 à 18 prochains mois (mi-2021 à fin 2021). [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/import/dataconnectors/data-connectors-eol.html) |
-| Fin de vie d’Ad Hoc Analysis | 6 août 2018 | Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis en date du 1er mars 2021. Pour obtenir de plus amples informations, voir le site [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 
 ### AppMeasurement {#appm}
 
