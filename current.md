@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
+source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
-source-wordcount: '6770'
+source-wordcount: '6772'
 ht-degree: 97%
 
 ---
@@ -23,20 +23,20 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **14 janvier 2021**
+Dernière mise à jour : **22 janvier 2021**
 
 * [Statut du système Adobe](#status) (aucune mise à jour)
 * [Services d’Experience Cloud et administration](#ecloud)
-* [Experience Platform](#platform) (mise à jour : **14 janvier 2021**)
+* [Experience Platform](#platform) (mise à jour : 14 janvier 2021)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **20 janvier 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) (mise à jour : **14 janvier 2021**)
-* [Advertising Cloud](#adcloud)
+* [Campaign](#ac) (mise à jour : 14 janvier 2021)
+* [Advertising Cloud](#adcloud)  (Mis à jour le 22  **janvier 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
-* [[!DNL Marketo Engage]](#marketo) (Mise à jour : **11 janvier 2021**)
+* [[!DNL Marketo Engage]](#marketo) (Mise à jour : 11 janvier 2021)
 * [Document Cloud](#doc-cloud)
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr-FR#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur. Le contenu a été déplacé de `docs.adobe.com` vers cet emplacement. Mettez par conséquent vos signets à jour.
