@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
+source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
 workflow-type: tm+mt
-source-wordcount: '6796'
-ht-degree: 99%
+source-wordcount: '6770'
+ht-degree: 97%
 
 ---
 
@@ -438,22 +438,20 @@ Dernière mise à jour : **28 octobre 2020**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Nouveau Aide | (Version du 28 octobre) L’aide héritée a été remplacée par des pages mises à jour, disponibles à partir du lien ‘Aide’ dans le menu principal DSP et également disponibles à tout moment depuis [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr-FR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr-FR) |
-| Campagnes | (Version du 28 octobre) Les précédentes vues bêta des campagnes sont désormais les vues par défaut des campagnes, ce qui permet d’obtenir des informations plus rapides, de simplifier les workflows et de personnaliser les vues. |
+| Nouveau Aide | (Version du 28 octobre) L’aide héritée a été remplacée par des pages mises à jour, disponibles à partir du lien Aide dans le menu principal DSP et disponibles en tout temps à partir de [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=fr-FR) |
+| Campagnes | (Version du 28 octobre) Les précédentes vues bêta des campagnes sont désormais les vues par défaut des campagnes, ce qui permet d’obtenir des informations plus rapides, de simplifier les workflows et de personnaliser les vues. |
 | Inventaire privé | (Version du 15 octobre) Tous les utilisateurs peuvent désormais configurer et modifier les détails de l’ID de la transaction en utilisant un nouveau formulaire d’ID de transaction, qui est une version simplifiée de l’ancien formulaire [!UICONTROL Smart Ad Serving]. Pour configurer les détails de l’ID de la nouvelle transaction, accédez à **[!UICONTROL Inventaire > Transactions]**, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL ID de transaction bêta]**. |
 | Prévisions de placement | (Version du 15 octobre) Pour les placements avec une fréquence de placement, la section [!UICONTROL Prévision] des paramètres de placement inclut une nouvelle section [!UICONTROL Maximums estimés], qui indique la capacité supplémentaire disponible avec la configuration de ciblage actuelle. |
 
 ### Nouvelles fonctionnalités d’[!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **17 octobre 2020**
+Dernière mise à jour : **22 janvier 2021, pour la version du 23 janvier**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| [!UICONTROL Rechercher dans les campagnes] | Dans la vue [!UICONTROL Comptes], la colonne [!UICONTROL Accès] vous informe désormais lorsqu’[!DNL Advertising Cloud Search] ne parvient pas à se connecter à un compte de moteur de recherche activé. Pour connaître la cause de l’erreur, placez le curseur sur l’icône d’avertissement. |
-| [!UICONTROL Alertes personnalisées] | L’ancienne version [!UICONTROL bêta des alertes] s’appelle désormais [!UICONTROL Alertes personnalisées]. |
-| [!UICONTROL Alertes personnalisées] | Dans les alertes personnalisées, le workflow d’identification de l’augmentation ou de la diminution des mesures pour la période spécifiée par rapport aux mesures de la période précédente a été simplifié et déplacé vers l’onglet [!UICONTROL Filtres]. |
+| [!UICONTROL Rechercher dans les campagnes]<br> Rapports | Advertising Cloud Search ne signale plus les nouvelles données de position moyenne pour les campagnes Microsoft Advertising. La colonne Position moyenne affiche des valeurs de zéro (0) pour les dates commençant le 23 janvier. Ceci est en préparation à l&#39;abandon par Microsoft des données de position moyenne en janvier 2021.<br>Les données sur la position moyenne recueillies jusqu&#39;au 22 janvier sont toujours disponibles dans les rapports. |
 
-### Tutoriels et cours Ad Cloud
+### Didacticiels et cours Advertising Cloud
 
 Mise à jour : **2 décembre 2020**
 
