@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
+source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
 workflow-type: tm+mt
 source-wordcount: '6772'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Dernière mise à jour : **22 janvier 2021**
 * [Services d’Experience Cloud et administration](#ecloud)
 * [Experience Platform](#platform) (mise à jour : 14 janvier 2021)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **20 janvier 2021**)
+* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **25 janvier 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (mise à jour : 14 janvier 2021)
@@ -159,7 +159,7 @@ Date de publication : **14 janvier 2021**
 | ----------- | ---------- | ------- |
 | Analysis Workspace - URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets [!UICONTROL Workspace] en référençant une URL d’image publique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=fr-FR#analysis-workspace) |
 | Analysis Workspace - Gestionnaires de paramètres et de source combinés | 14 janvier 2021 | Le gestionnaire de la source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule boîte de dialogue. Cela vous permet de gérer facilement votre source et vos paramètres à partir du même emplacement. |
-| Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
+| Analysis Workspace - Sélection de composants | 16 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -169,7 +169,7 @@ Date de publication : **14 janvier 2021**
 | Journey IQ : [!UICONTROL Cross-Channel Analytics] | 11 janvier 2021 | Journey IQ : [!UICONTROL Cross-Channel Analytics] vous permet de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre appareils et cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr-FR#cja-connections) |
 | Analysis Workspace - URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets Workspace en référençant une URL d’image publique. |
 | Analysis Workspace - Gestionnaires de paramètres et de source combinés | 14 janvier 2021 | Le gestionnaire de la source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule boîte de dialogue. Cela vous permet de gérer facilement votre source et vos paramètres à partir du même emplacement. |
-| Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
+| Analysis Workspace - Sélection de composants | 16 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
