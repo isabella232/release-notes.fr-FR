@@ -151,7 +151,7 @@ Date de publication : **14 janvier 2021**
 * [Nouvelles fonctionnalités de Adobe Analytics](#aa-features)  (Mis à jour le 25 janvier 2021)
 * [Nouvelles fonctionnalités du Customer Journey Analytics](#cust-journey)  (Mis à jour le 25 janvier 2021)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mis à jour le 20 janvier 2021)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)  (Mise à jour : 20 janvier 2021)
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
@@ -202,7 +202,7 @@ AN-204659 ; AN-221726 ; AN-230949 ; AN-231984 ; AN-232835 ; AN-233989 ; AN
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Fin de vie d’Ad Hoc Analysis | 21 janvier 2021 | Le 1er mars 2021, Ad Hoc Analysis arrivera en fin de vie. À ce moment-là, tous les projets et planifications qui exploitent ce produit cesseront de fonctionner. Pour obtenir de plus amples informations, voir le site [Discover Workspace](https://adobe.ly/discoverworkspace). |
+| Fin de vie d’Ad Hoc Analysis | 21 janvier 2021 | Le 1er mars 2021, Ad Hoc Analysis atteindra sa date de fin de vie. À cette date, tous les projets et plannings qui exploitent ce produit cesseront de fonctionner. Pour obtenir de plus amples informations, voir le site [Discover Workspace](https://adobe.ly/discoverworkspace). |
 | Mise à jour [!UICONTROL Report Builder] requise | 8 janvier 2021 | D’ici le 30 avril 2021, tous les utilisateurs de [!UICONTROL Report Builder] devront mettre à jour le module [!UICONTROL Report Builder] vers la version 5.6.47 ou une version ultérieure. Cette version comprend une mise à jour importante du processus de connexion. Les utilisateurs qui n’effectuent pas la mise à jour vers la version 5.6.47 ou une version ultérieure ne pourront plus se connecter après le 30 avril 2021. Les versions 5.6.47 et ultérieures de [!UICONTROL Report Builder] prennent uniquement en charge la connexion à Experience Cloud. Elles ne prennent pas en charge les connexions héritées telles que l’authentification unique à SiteCatalyst ou la connexion standard. Pour plus d’informations, voir [Connexion à Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=fr-FR#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 | Fin de vie de trois services d’API Analytics | 6 janvier 2021 | Le 30 avril 2021, les services d’API hérités d’Analytics suivants atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte d’intégration [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Ajout de l’en-tête HSTS à toutes les requêtes HTTPS entrantes | 29 septembre 2020 | Le 29 septembre 2020, nous avons commencé à ajouter l’en-tête HSTS à toutes les requêtes entrantes qui utilisent des connexions HTTPS. Cela indique au navigateur/client d’effectuer toutes les requêtes à venir dans HTTPS, ce qui est considéré comme une bonne pratique de sécurité. À ce stade, nous n’appliquerons pas cette règle pour les requêtes entrantes utilisant HTTP. |
@@ -215,7 +215,7 @@ AN-204659 ; AN-221726 ; AN-230949 ; AN-231984 ; AN-232835 ; AN-233989 ; AN
 
 Pour connaître les dernières mises à jour des versions d’AppMeasurement, reportez-vous aux [notes de mise à jour d’AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html).
 
-### Report Builder  {#arb}
+### Report Builder {#arb}
 
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
@@ -324,7 +324,7 @@ Voir la [documentation relative à l’enregistrement, à la connexion et au pro
 
 ### [!DNL Experience Manager] Formulaires
 
-La documentation relative aux fonctionnalités suivantes incluses dans la version 6.5.7.0 est disponible:
+La documentation relative aux fonctionnalités suivantes incluses dans la version 6.5.7.0 est disponible :
 
 * Les validations côté serveur et la conversion de PDF en formulaire adaptatif s’effectuent plus rapidement après l’installation du Service Pack.
 
@@ -393,9 +393,9 @@ Informations de mise à jour pour Campaign Classic, Campaign Standard et le pann
 
 #### Campaign Classic
 
-[Bulletin de réponse aux incidents](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (mise à jour : **12 janvier 2021**)
+[Bulletin de réponse aux incidents](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) (mise à jour : **12 janvier 2021**)
 
-* Version 20.3.3 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes?lang=fr-FR)
+* Version 20.3.3 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr-FR#release-notes)
 * Version 20.3.1 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * Version 20.2.4 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--20-2.html?lang=fr-FR#release-20-2-4-build-9187)
 * Version 20.1.4 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--20-1.html?lang=fr-FR#release-20-1-4-build-9126)
