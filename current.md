@@ -4,11 +4,11 @@ description: Notes de mise à jour d’Adobe Experience Cloud
 doc-type: release notes
 last-update: January 2021
 author: mfrei
-translation-type: ht
-source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
-workflow-type: ht
-source-wordcount: '6802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e396ac53948a2ea163b09f0545de994c0d7ef001
+workflow-type: tm+mt
+source-wordcount: '6831'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page décrit les nouvelles fonctionnalités, les correctifs et des informa
 Dernière mise à jour : **25 janvier 2021**
 
 * [Statut du système Adobe](#status) (aucune mise à jour)
-* [Services d’Experience Cloud et administration](#ecloud)
+* [Services d’Experience Cloud et administration](#ecloud) (Mis à jour le **10 février 2021**)
 * [Experience Platform](#platform) (mise à jour : **25 janvier 2021**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour : **25 janvier 2021**)
@@ -53,7 +53,11 @@ Voir [Statut d’Adobe - 21 mai 2020](https://docs.adobe.com/content/help/fr-F
 
 La documentation sur les [services et administration d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html) comprend les attributs du client, la bibliothèque d’audiences (le service [!UICONTROL Personnes]), l’activation, la gestion des utilisateurs et des produits, ainsi que les cookies Experience Cloud.
 
-**Voir également**
+**4 février 2021**
+
+* Une mise à jour de l’Experience Cloud supprime l’écran d’introduction à la connexion initiale de l’Experience Cloud. À compter du 4 février, vous serez envoyé directement de `https://experience.adobe.com/login` à l&#39;écran de connexion à l&#39;Adobe.
+
+**Ressources supplémentaires**
 
 * [Notes de mise à jour cumulatives pour les services Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/release-notes/release-notes.html) pour des informations supplémentaires.
 * Notes de mise à jour du [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=fr).
@@ -87,7 +91,7 @@ L’extension du service Experience Cloud ID **5.1.1** a été publiée. Pour pl
 **Voir également**
 
 * [les notes de mise à jour Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=fr) pour plus d’informations sur Experience Platform Launch.
-* les notes de mise à jour de [l’extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html?lang=fr).
+* les notes de mise à jour de [l’extension du service Experience Cloud ID](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html).
 
 ### Adobe Mobile
 
@@ -165,7 +169,7 @@ Date de publication : **14 janvier 2021**
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
-| Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
+| Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
 | Dimensions [!UICONTROL Appareil] et [!UICONTROL Géographie] | 30 octobre 2020 | Ces dimensions sont désormais disponibles par défaut dans le cadre du projet de prise en charge de la [recherche globale](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=fr#use-global-lookups-with-adobe-data-connector-datasets) dans le [!UICONTROL connecteur source] d’Adobe Analytics. Cet ajout très demandé augmente la [parité entre Adobe Analytics et CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=fr#cja-overview). |
 | Journey IQ : [!UICONTROL Cross-Channel Analytics] | 11 janvier 2021 | Journey IQ : [!UICONTROL Cross-Channel Analytics] vous permet de recréer un jeu de données d’événement Adobe Analytics (ou autre) dans le lac de données Experience Platform d’un espace de noms d’identité à un autre. En règle générale, cela signifie recréer le jeu de données d’événement d’un identifiant basé sur un cookie vers un identifiant basé sur une personne. De cette façon, le jeu de données recréé peut être combiné avec d’autres données personnelles dans une connexion CJA, ce qui permet une analyse entre appareils et cross-canal dans Analysis Workspace. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=fr#cja-connections) |
@@ -217,9 +221,9 @@ Pour connaître les dernières mises à jour des versions d’AppMeasurement, re
 
 ### Report Builder {#arb}
 
-| Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
+| Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
-| Mise à jour de connexion à Analytics [!UICONTROL Report Builder] | 14 janvier 2021 | Les améliorations apportées au processus de connexion à [!UICONTROL Report Builder] suppriment les dépendances aux technologies héritées et alignent le processus de connexion avec Adobe Experience Cloud. La connexion à Experience Cloud vous permet d’utiliser votre Adobe ID ou votre Enterprise ID (authentification unique) pour vous connecter à Adobe Experience Cloud. D’ici le 30 avril 2021, tous les utilisateurs de [!UICONTROL Report Builder] devront mettre à jour le module [!UICONTROL Report Builder] vers la version 5.6.47 ou une version ultérieure. Les versions 5.6.47 et ultérieures de [!UICONTROL Report Builder] prennent uniquement en charge la connexion à Experience Cloud. Elles ne prennent pas en charge les connexions héritées, telles que l’authentification unique à SiteCatalyst ou la connexion standard. Pour plus d’informations, voir [Connexion à Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=fr#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
+| Mise à jour de connexion à Analytics [!UICONTROL Report Builder] | 14 janvier 2021 | Les améliorations apportées au processus de connexion à [!UICONTROL Report Builder] suppriment les dépendances aux technologies héritées et alignent le processus de connexion avec Adobe Experience Cloud. La connexion à Experience Cloud vous permet d’utiliser votre Adobe ID ou votre Enterprise ID (authentification unique) pour vous connecter à Adobe Experience Cloud. D’ici le 30 avril 2021, tous les utilisateurs de [!UICONTROL Report Builder] devront mettre à jour le module [!UICONTROL Report Builder] vers la version 5.6.47 ou une version ultérieure. Les versions 5.6.47 et ultérieures de [!UICONTROL Report Builder] prennent uniquement en charge la connexion à Experience Cloud. Elles ne prennent pas en charge les connexions héritées, telles que l’authentification unique à SiteCatalyst ou la connexion standard. Pour plus d’informations, voir [Connexion à Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 
 ### Ressources d’aide à propos d’Analytics
 
@@ -261,7 +265,7 @@ AEM 6.5, Service Pack 7 (6.5.7.0 publiée le 26 novembre 2020) est une mise 
 * **AEM 6.4.8.3**
 AEM 6.4, Service Pack 8, Cumulative Fix Pack 3 (6.4.8.3 publiée le 26 novembre 2020) est une mise à jour importante qui inclut plusieurs correctifs internes et clients depuis la disponibilité générale d’AEM 6.4, Service Pack 8 (6.4.8.0), mars 2020.
    * [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=fr)
-   * [Livrables de la mise à jour d’AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=fr#forms-updates)
+   * [Livrables de la mise à jour d’AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
 
 ### Versions de produit
 
@@ -346,12 +350,12 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 | -----------| ---------- | ---------- | ---------- |
 | 7 décembre 2020 | [Modélisation avancée des données à l’aide des références de fragments](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/fragment-references.html?lang=fr) | Article | Commencez avec Adobe Experience Manager (AEM) et GraphQL. Découvrez comment utiliser la fonction [!UICONTROL référence du fragment] pour la modélisation avancée des données et pour créer une relation entre deux [!UICONTROL fragments de contenu] différents. Découvrez comment modifier une requête GraphQL pour inclure un champ à partir d’un modèle référencé. |
 | 7 décembre 2020 | [Requête AEM à l’aide de GraphQL à partir d’une application externe](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html?lang=fr) | Article | Commencez avec Adobe Experience Manager (AEM) et GraphQL. Explorez les API GraphQL d’AEM à l’aide de l’application WKND GraphQL React. Découvrez comment cette application externe effectue des appels GraphQL à AEM pour en renforcer l’expérience. Apprenez à gérer les erreurs de base. |
-| 7 décembre 2020 | [Exploration des API GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html?lang=fr) | Article | Commencez avec Adobe Experience Manager (AEM) et GraphQL. Explorez les API GraphQL d’AEM à l’aide de l’IDE GraphQL intégré. Découvrez comment AEM génère automatiquement un schéma GraphQL basé sur un modèle de fragment de contenu. Testez la construction de requêtes de base en utilisant la syntaxe GraphQL. |
+| 7 décembre 2020 | [Exploration des API GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html) | Article | Commencez avec Adobe Experience Manager (AEM) et GraphQL. Explorez les API GraphQL d’AEM à l’aide de l’IDE GraphQL intégré. Découvrez comment AEM génère automatiquement un schéma GraphQL basé sur un modèle de fragment de contenu. Testez la construction de requêtes de base en utilisant la syntaxe GraphQL. |
 | Décembre 2020 | [Création de fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/author-content-fragments.html?lang=fr) | Article | Commencez avec Adobe Experience Manager (AEM) et GraphQL. Créez et modifiez un fragment de contenu en fonction d’un [!UICONTROL modèle de fragment de contenu]. Découvrez comment créer des variantes de [!UICONTROL fragments de contenu]. |
 | 7 décembre 2020 | [Définition de modèles de fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/content-fragment-models.html?lang=fr) | Article | Commencez avec Adobe Experience Manager (AEM) et GraphQL. Découvrez comment modéliser du contenu et créer un schéma avec des modèles de fragment de contenu dans AEM. Examinez les modèles existants et créez un nouveau modèle. Découvrez les différents types de données qui peuvent être utilisés pour définir un schéma. |
 | 9 décembre 2020 | [Compatibilité des API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/developer-reference-material-apis.html?lang=fr) | Article | Créez un article accessible qui communique clairement quelles API AEM (npm, Java, HTTP) peuvent être utilisées pour diverses opérations [!UICONTROL Assets]. |
 | 2 décembre 2020 | [Téléchargement de fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html?lang=fr) | Vidéo | Présentation des fonctionnalités de téléchargement des fragments de contenu. |
-| 7 décembre 2020 | [Fonctionnalités éditoriales des fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html?lang=fr) | Vidéo | Présentation vidéo des fonctionnalités avancées de l’éditeur de [!UICONTROL fragments de contenu]. Découvrez comment utiliser les annotations et la comparaison de versions avec les [!UICONTROL fragments de contenu]. |
+| 7 décembre 2020 | [Fonctionnalités éditoriales des fragments de contenu](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | Vidéo | Présentation vidéo des fonctionnalités avancées de l’éditeur de [!UICONTROL fragments de contenu]. Découvrez comment utiliser les annotations et la comparaison de versions avec les [!UICONTROL fragments de contenu]. |
 | 4 décembre 2020 | [Extraction des données OCR avec ou sans code-barres provenant de documents émis par le gouvernement](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/some-useful-integrations/ocr-data-extraction.html?lang=fr#some-useful-integrations) | Article | Remplissez le formulaire adaptatif en extrayant les données des documents émis par le gouvernement, comme un permis de conduire ou un passeport. |
 | 14 décembre 2020 | [Présentation d’AEM Headless avec GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html?lang=fr) | Vidéo | Présentation de l’API GraphQL implémentée dans Adobe Experience Manager ou AEM. L’API GraphQL d’AEM est principalement conçue pour fournir des données de [!UICONTROL fragments de contenu] aux applications en aval dans le cadre d’un déploiement sans tête. |
 | 16 décembre 2020 | [Composant principal Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-core-components.html?lang=fr) | Vidéo | Le composant Image, qui fait partie des composants principaux Experience Manager, intègre Dynamic Media. Découvrez comment le composant Image permet à un auteur de contenu d’utiliser des fonctionnalités de Dynamic Media telles que les paramètres d’image prédéfinis, le recadrage intelligent et les modificateurs d’image sur une page AEM Sites. |
@@ -396,7 +400,7 @@ Informations de mise à jour pour Campaign Classic, Campaign Standard et le pann
 [Bulletin de réponse aux incidents](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) (mise à jour : **12 janvier 2021**)
 
 * Version 20.3.3 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes)
-* Version 20.3.1 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes)
+* Version 20.3.1 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * Version 20.2.4 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--20-2.html?lang=fr#release-20-2-4-build-9187)
 * Version 20.1.4 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--20-1.html?lang=fr#release-20-1-4-build-9126)
 * Version 19.2.4 - [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--19-2.html?lang=fr#release-19-2-4-build-9082)
