@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
+source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 91%
+source-wordcount: '1349'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 91%
 
 ![Bannière](/assets/experience-cloud-banner-3.png)
 
-Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
+Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Cette page contient une version anticipée du contenu et peut être modifiée avant la version définitive qui sera publiée.
+>Cette page contient du contenu de version préliminaire et peut être modifiée avant les dates de publication.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Cible](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers l’aide de la solution)
+* [Cible](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html)  (liens vers l’aide de la solution)
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
@@ -62,7 +62,7 @@ Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud
 
 Fonctionnalités et correctifs.
 
-For product documentation, see [Experience Cloud interface](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html)
+Pour la documentation du produit, voir [Interface Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html)
 
 ### Administration et développeur {#admin}
 
@@ -93,9 +93,9 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 ### [!UICONTROL Journey Orchestration] {#journey}
 
-Using Adobe [!UICONTROL Experience Platform,] orchestrate individual customer journeys at scale across experience channels by intelligently anticipating every individual&#39;s needs in real time, wherever their journey takes them.
+En utilisant l&#39;Adobe [!UICONTROL Experience Platform,] orchestrer les parcours individuels de clients à l&#39;échelle des canaux d&#39;expérience en anticipant intelligemment les besoins de chaque individu en temps réel, où que son parcours les emmène.
 
-#### Additional resources for [!UICONTROL Journey Orchestration]
+#### Ressources supplémentaires pour [!UICONTROL Journey Orchestration]
 
 [Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
@@ -134,7 +134,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 | Fonctionnalité B | Texte |
 | Fonctionnalité C | Texte |
 
-### [!DNL Media Analytics] SDK pour [!DNL iOS] &amp; [!DNL Android] (anciennement SDK VHL) {#aa-va}
+### [!DNL Media Analytics] SDK pour  [!DNL iOS] &amp;  [!DNL Android] (anciennement SDK VHL)  {#aa-va}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
@@ -294,7 +294,7 @@ Pour les notes de mise à jour de Magento, veuillez consulter :
 
 ## Marketo {#marketo}
 
-Marketo Engage est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en s&#39;engageant à travers toutes les étapes de parcours d&#39;achat complexes.
+Marketo Engage est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en s&#39;engageant à toutes les étapes de parcours d&#39;achat complexes.
 
 ### Mises à jour de Core Marketo Engage
 
@@ -307,7 +307,7 @@ Date de publication : 21 février 2020
    * API de règles de redirection de page d’entrée
 * **Mise en cache des descripteurs de formulaire** : améliorations apportées aux pages d’entrée et aux formulaires.
 
-See Marketo release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+Voir les notes de mise à jour de Marketo pour [février 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) pour plus d’informations.
 
 ### Fonctionnalités à venir
 
