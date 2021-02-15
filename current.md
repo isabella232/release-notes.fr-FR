@@ -60,7 +60,7 @@ La documentation sur les [services et administration d’Experience Cloud](http
 
 **4 février 2021**
 
-* **Mise à jour de la connexion :** une mise à jour de l’Experience Cloud supprime l’écran initial de connexion de l’Experience Cloud. À compter du 4 février, vous serez envoyé directement de `https://experience.adobe.com/login` à l&#39;écran de connexion à l&#39;Adobe.
+* **Mise à jour de la connexion :** une mise à jour de l’Experience Cloud supprime l’écran initial de connexion de l’Experience Cloud. À compter du 4 février, vous serez directement renvoyé vers l’écran de connexion d’Adobe depuis `https://experience.adobe.com/login`.
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
