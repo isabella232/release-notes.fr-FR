@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 10f5e323e30ed0c4c8b3b5b2e2236674b2ab6c69
+source-git-commit: 150911084be7da0d1f3c887d76a7b897ac94a173
 workflow-type: tm+mt
 source-wordcount: '6355'
 ht-degree: 33%
@@ -107,7 +107,7 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 
 ## ![Icône](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Date de publication : **14 janvier 2021**
+Date de mise à jour : **18 février 2021**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
