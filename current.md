@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
+source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
 workflow-type: tm+mt
-source-wordcount: '6309'
+source-wordcount: '6310'
 ht-degree: 33%
 
 ---
@@ -128,7 +128,7 @@ Date de mise à jour : **18 février 2021**
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
-| API CJA | 18 février 2021 | Les API CJA sont désormais disponibles. Ces API vous permettent de modifier par programmation des composants et de récupérer des rapports. Consultez la documentation de l’API CJA (lien à suivre) pour plus d’informations. |
+| API CJA | 18 février 2021 | Les API CJA sont désormais disponibles. Ces API vous permettent de modifier par programmation des composants et de récupérer des rapports. Pour plus d’informations, consultez la [documentation de l’API CJA](https://adobe.io/cja-apis/docs). |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
