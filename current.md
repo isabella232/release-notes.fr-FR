@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
+source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
 workflow-type: tm+mt
-source-wordcount: '6381'
+source-wordcount: '6384'
 ht-degree: 33%
 
 ---
@@ -81,7 +81,7 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses s
 | 3 février 2021 | [Présentation de l&#39;assimilation des données par lot](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | Vidéo | Présentation de l’assimilation des données par lot à Adobe Experience Platform. Apprenez à assimiler des données de lot à l’aide de l’API. |
 | 3 février 2021 | [Activation des données vers des applications non Adobes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | Vidéo | Découvrez comment le CDP en temps réel de l’Adobe vous aide à créer de véritables stratégies de personnalisation avec vos audiences. Découvrez également comment il se plie à vos applications existantes d&#39;éco-système et non-Adobes de Microsoft, Google et Facebook. |
 | 21 janvier 2021 | [Intro de cours pour la prise en main des services intelligents pour les marketeurs](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | Vidéo | Une introduction au cours Prise en main des services intelligents pour les marketeurs. |
-| 13 janvier 2021 | [Présentation de la prise en main d’Offer Decisioning pour les marketeurs](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Vidéo | Et introduction au cours Prise en main de Offer Decisioning pour les marketeurs. |
+| 13 janvier 2021 | [Présentation de la prise en main de l’Offer Decisioning pour les marketeurs](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Vidéo | Et introduction au cours Prise en main de l’Offer Decisioning pour les marketeurs. |
 | 31 janvier 2021 | [Former, marquer et produire des modèles à l&#39;aide du modèle de créateur de recettes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | Vidéo | Découvrez comment utiliser le modèle mis à jour du créateur de recettes pour créer une recette à l&#39;aide du schéma de vente au détail et des jeux de données. |
 | 31 janvier 2021 | [Chargement de données dans les blocs-notes JupyterLab](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | Vidéo | Découvrez JupyterLab dans Data Science Workspace. |
 | 12 janvier 2021 | [Créer des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | Vidéo | Découvrez comment créer des stratégies de fusion dans Adobe Experience Platform. |
@@ -122,7 +122,7 @@ Date de mise à jour : **18 février 2021**
 | Fonctionnalité | [Disponibilité générale](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html) - Date cible | Description |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
-| Sélection de la langue des tableaux de bord Analytics | 14 janvier 2021 | Vous pouvez désormais sélectionner une langue dans le tableau de bord Analytics. |
+| Sélection de la langue des tableaux de bord Analytics | 14 janvier 2021 | Accédez à **[!UICONTROL Paramètres]** > **[!UICONTROL Préférences]** > **[!UICONTROL Langue]** pour sélectionner une langue dans le tableau de bord Analytics. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -171,7 +171,7 @@ Nouveaux cours, tutoriels et articles dans [!DNL Analytics] et [!UICONTROL Custo
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
 | 8 février 2021 | [Ajouter des tendances aux visualisations de ligne](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=en) | Vidéo | Dans Paramètres de visualisation, vous pouvez choisir d’ajouter une régression ou de déplacer une courbe de tendance moyenne vers votre série de lignes. Cette fonction permet de représenter un modèle plus clair dans les données. |
-| 8 février 2021 | [Ajouter des modules externes d’implémentation dans le lancement de la plateforme](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Vidéo | Les modules externes d’implémentation sont des éléments de code JavaScript que vous pouvez ajouter à votre mise en oeuvre Analytics pour effectuer le suivi de données personnalisées supplémentaires. Dans cette vidéo, découvrez comment et où ajouter le code dans Platform Launch. |
+| 8 février 2021 | [Ajouter des modules externes d’implémentation dans le Platform Launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Vidéo | Les modules externes d’implémentation sont des éléments de code JavaScript que vous pouvez ajouter à votre mise en oeuvre Analytics pour effectuer le suivi de données personnalisées supplémentaires. Dans cette vidéo, découvrez comment et où ajouter le code en Platform Launch. |
 | 6 janvier 2021 | [Panneau Observateurs simultanés de médias dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) | Vidéo | Déterminer où s’est produit le pic de concurrence ou où des abandons ont eu lieu. Bénéficiez d&#39;un aperçu précieux de la qualité du contenu et de l&#39;engagement des visiteurs, ainsi que d&#39;une aide pour le dépannage ou la planification du volume et de l&#39;échelle. |
 
 ### Ressources d’aide à propos d’Analytics
