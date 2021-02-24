@@ -4,11 +4,11 @@ description: Notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1349'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Cette page contient du contenu de version préliminaire et peut être modifiée avant les dates de publication.
+>Cette page contient une version anticipée du contenu et peut faire lʼobjet de modifications avant les dates de publication.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Cible](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html)  (liens vers l’aide de la solution)
+* [Target](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers lʼaide de la solution)
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
@@ -51,7 +51,7 @@ Fonctionnalités et correctifs.
 
 Voir [État du système Adobe](https://status.adobe.com/).
 
-## Interface d’Experience Cloud{#ecloud}
+## Interface d’Experience Cloud {#ecloud}
 
 Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud, notamment pour l’administration et les services principaux (attributs du client, audiences, déclencheurs, cookies, etc.).
 
@@ -62,7 +62,7 @@ Nouvelles fonctionnalités et correctifs pour l’interface d’Experience Cloud
 
 Fonctionnalités et correctifs.
 
-Pour la documentation du produit, voir [Interface Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html)
+Pour consulter la documentation du produit, accédez à lʼ[interface dʼExperience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/experience-cloud.html)
 
 ### Administration et développeur {#admin}
 
@@ -75,7 +75,7 @@ Pour consulter la documentation du produit, voir [Gestion des utilisateurs et de
 Notes de mise à jour d’[!DNL Experience Platform,] y compris d’[!DNL Experience Platform Launch,] de [!UICONTROL Journey Orchestration], des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services], et des bulletins de sécurité.
 
 * [Service Experience Cloud ID](#ecid)
-* [Notes de mise à jour d’Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
+* [Notes de mise à jour d’Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
 * [Orchestration du parcours](#journey)
 * [Mobile Services et SDK mobiles](#mobile)
@@ -93,13 +93,13 @@ Pour consulter les notes de mise à jour et la documentation du produit, voir [E
 
 ### [!UICONTROL Journey Orchestration] {#journey}
 
-En utilisant l&#39;Adobe [!UICONTROL Experience Platform,] orchestrer les parcours individuels de clients à l&#39;échelle des canaux d&#39;expérience en anticipant intelligemment les besoins de chaque individu en temps réel, où que son parcours les emmène.
+Grâce à Adobe [!UICONTROL Experience Platform,] orchestrez des parcours clients individuels à grande échelle sur les canaux dʼexpérience en anticipant de manière intelligente les besoins de chaque individu en temps réel, quel que soit lʼendroit où leur parcours les mène.
 
 #### Ressources supplémentaires pour [!UICONTROL Journey Orchestration]
 
 [Documentation](https://docs.adobe.com/content/help/fr-FR/journeys/using/journey-orchestration-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéos](https://docs.adobe.com/content/help/fr-FR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
-### [!UICONTROL Mobile Services et SDK Mobile] {#mobile}
+### [!UICONTROL Mobile Services] et [!UICONTROL SDK Mobile] {#mobile}
 
 **Fonctionnalités**
 
@@ -134,7 +134,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 | Fonctionnalité B | Texte |
 | Fonctionnalité C | Texte |
 
-### [!DNL Media Analytics] SDK pour  [!DNL iOS] &amp;  [!DNL Android] (anciennement SDK VHL)  {#aa-va}
+### [!DNL Media Analytics] SDK pour [!DNL iOS] et [!DNL Android] (anciennement SDK VHL) {#aa-va}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
@@ -144,7 +144,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### Data Workbench {#aa-dwb}
 
-Voir les [Notes de mise à jour de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/release-notes/release-notes.translate.html) pour connaître les dernières informations.
+Voir les [Notes de mise à jour de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/release-notes/release-notes.html) pour connaître les dernières informations.
 
 ### AppMeasurement {#appm}
 
@@ -266,8 +266,8 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 ### Ressources supplémentaires
 
-* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/fr/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) – [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/fr/support/campaign/classic.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/fr/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/overview.html) – [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/fr/support/campaign/classic.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-classic-tutorials/overview.html)
 * Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
@@ -294,7 +294,7 @@ Pour les notes de mise à jour de Magento, veuillez consulter :
 
 ## Marketo {#marketo}
 
-Marketo Engage est une solution complète pour la gestion des pistes et les spécialistes du marketing B2B qui cherchent à transformer les expériences client en s&#39;engageant à toutes les étapes de parcours d&#39;achat complexes.
+Marketo Engage est une solution complète de gestion des leads, destinée aux responsables marketing B2B qui veulent transformer les expériences des clients en interagissant avec eux à chaque étape de parcours dʼachat complexes.
 
 ### Mises à jour de Core Marketo Engage
 
@@ -307,7 +307,7 @@ Date de publication : 21 février 2020
    * API de règles de redirection de page d’entrée
 * **Mise en cache des descripteurs de formulaire** : améliorations apportées aux pages d’entrée et aux formulaires.
 
-Voir les notes de mise à jour de Marketo pour [février 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) pour plus d’informations.
+Consultez les notes de mise à jour de Marketo de [février 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) pour plus dʼinformations.
 
 ### Fonctionnalités à venir
 
@@ -330,19 +330,19 @@ Les fonctionnalités suivantes seront publiées tout au long du trimestre :
 
 Pour obtenir des notes de mise à jour cumulatives et historiques, reportez-vous à la page [Notes de mise à jour de Marketo](https://docs.marketo.com/x/CgA6Ag).
 
-### Nouveaux cours et didacticiels sur les noms de solution
+### Nouveaux cours et tutoriels pour le nom de la solution
 
 Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
