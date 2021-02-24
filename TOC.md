@@ -3,13 +3,13 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Notes de mise à jour d’Experience Cloud
 breadcrumb-title: Notes de mise à jour
-user-guide-description: Découvrez les nouvelles fonctionnalités, les correctifs et les avis importants dans Adobe Experience Cloud et Experience Platform.
+user-guide-description: Découvrez les nouvelles fonctionnalités, les correctifs et les avis importants dans Adobe Experience Cloud et Experience Platform.
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
 source-git-commit: a501b2f3cba2797c8ad4e8be8e862bef62075b9d
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 70%
       + [Mars 2019](c-legacy-releases/2019/03072019.md)
       + [Février 2019](c-legacy-releases/2019/02072019.md)
       + [Janvier 2019](c-legacy-releases/2019/01172019.md)
-   + 2018 et versions antérieures {#legacy-rns}
-      + 2018 et versions antérieures {#2018-earlier}
+   + 2018 et antérieur {#legacy-rns}
+      + 2018 et antérieur {#2018-earlier}
          + [2014 et versions antérieures](c-legacy-releases/2018-earlier.md)
