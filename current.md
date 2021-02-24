@@ -1,14 +1,14 @@
 ---
 title: Notes de mise à jour pour les Experience Cloud et les Experience Platform
-description: Découvrez les dernières notes de mise à jour, les nouvelles fonctionnalités et la nouvelle documentation destinée aux Experience Cloud et aux Experience Platform. Trouvez une nouvelle aide et des didacticiels sur le Creative Cloud pour les entreprises et les Documents Cloud.
+description: Découvrez les dernières notes de mise à jour, les nouvelles fonctionnalités et la nouvelle documentation pour Experience Cloud et Experience Platform. Trouvez de nouvelles aides et des tutoriels sur Creative Cloud abonnement Entreprise et Document Cloud.
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
+source-git-commit: c7220fd5298c74ac555ba9d1799194d794b81271
 workflow-type: tm+mt
-source-wordcount: '6384'
-ht-degree: 33%
+source-wordcount: '6403'
+ht-degree: 32%
 
 ---
 
@@ -81,7 +81,7 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses s
 | 3 février 2021 | [Présentation de l&#39;assimilation des données par lot](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | Vidéo | Présentation de l’assimilation des données par lot à Adobe Experience Platform. Apprenez à assimiler des données de lot à l’aide de l’API. |
 | 3 février 2021 | [Activation des données vers des applications non Adobes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | Vidéo | Découvrez comment le CDP en temps réel de l’Adobe vous aide à créer de véritables stratégies de personnalisation avec vos audiences. Découvrez également comment il se plie à vos applications existantes d&#39;éco-système et non-Adobes de Microsoft, Google et Facebook. |
 | 21 janvier 2021 | [Intro de cours pour la prise en main des services intelligents pour les marketeurs](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | Vidéo | Une introduction au cours Prise en main des services intelligents pour les marketeurs. |
-| 13 janvier 2021 | [Présentation de la prise en main de l’Offer Decisioning pour les marketeurs](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Vidéo | Et introduction au cours Prise en main de l’Offer Decisioning pour les marketeurs. |
+| 13 janvier 2021 | [Présentation de la prise en main de l’Offer decisioning pour les marketeurs](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Vidéo | Et introduction au cours Prise en main de l’Offer decisioning pour les spécialistes du marketing. |
 | 31 janvier 2021 | [Former, marquer et produire des modèles à l&#39;aide du modèle de créateur de recettes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | Vidéo | Découvrez comment utiliser le modèle mis à jour du créateur de recettes pour créer une recette à l&#39;aide du schéma de vente au détail et des jeux de données. |
 | 31 janvier 2021 | [Chargement de données dans les blocs-notes JupyterLab](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | Vidéo | Découvrez JupyterLab dans Data Science Workspace. |
 | 12 janvier 2021 | [Créer des stratégies de fusion](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | Vidéo | Découvrez comment créer des stratégies de fusion dans Adobe Experience Platform. |
@@ -171,7 +171,7 @@ Nouveaux cours, tutoriels et articles dans [!DNL Analytics] et [!UICONTROL Custo
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
 | 8 février 2021 | [Ajouter des tendances aux visualisations de ligne](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=en) | Vidéo | Dans Paramètres de visualisation, vous pouvez choisir d’ajouter une régression ou de déplacer une courbe de tendance moyenne vers votre série de lignes. Cette fonction permet de représenter un modèle plus clair dans les données. |
-| 8 février 2021 | [Ajouter des modules externes d’implémentation dans le Platform Launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Vidéo | Les modules externes d’implémentation sont des éléments de code JavaScript que vous pouvez ajouter à votre mise en oeuvre Analytics pour effectuer le suivi de données personnalisées supplémentaires. Dans cette vidéo, découvrez comment et où ajouter le code en Platform Launch. |
+| 8 février 2021 | [Ajouter des modules externes d’implémentation dans le Platform launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Vidéo | Les modules externes d’implémentation sont des éléments de code JavaScript que vous pouvez ajouter à votre mise en oeuvre Analytics pour effectuer le suivi de données personnalisées supplémentaires. Dans cette vidéo, découvrez comment et où ajouter le code dans le Platform launch. |
 | 6 janvier 2021 | [Panneau Observateurs simultanés de médias dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) | Vidéo | Déterminer où s’est produit le pic de concurrence ou où des abandons ont eu lieu. Bénéficiez d&#39;un aperçu précieux de la qualité du contenu et de l&#39;engagement des visiteurs, ainsi que d&#39;une aide pour le dépannage ou la planification du volume et de l&#39;échelle. |
 
 ### Ressources d’aide à propos d’Analytics
@@ -409,15 +409,20 @@ Dernière mise à jour : **28 octobre 2020**
 
 ### Nouvelles fonctionnalités d’[!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **le 22 janvier 2021 pour la version du 23 janvier**
+Dernière mise à jour : **23 février 2021, pour la version du 20 février**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| [!UICONTROL Rechercher dans les campagnes]<br> Rapports | Advertising Cloud Search ne signale plus les nouvelles données de position moyenne pour les campagnes Microsoft Advertising. La colonne Position moyenne affiche des valeurs de zéro (0) pour les dates à partir du 23 janvier. Cela a pour but de préparer l’abandon des données de position moyenne par Microsoft en janvier 2021.<br>Les données de position moyenne collectées jusqu’au 22 janvier sont toujours disponibles dans les rapports. |
+| Toutes | Outils > &quot;Adwords Conversion Tags&quot; est désormais &quot;Google Publics Conversion Tags&quot;.&quot; |
+| Toutes | En avril, les fonctionnalités et vues suivantes seront abandonnées :<br><ul><li>Optimisation > Cartes de Portfolio</li><li>Optimisation > Règles sur l&#39;offre</li><li>Statistiques et rapports > Tableau de bord</li><li>Campagnes :  Prise en charge en attente et programmée des modifications en masse</li></ul> |
 
-### Tutoriels et cours Ad Cloud
+### Tutoriels et cours Advertising Cloud
 
-Mise à jour : **2 décembre 2020**
+Mise à jour : **23 février 2021**
+
+| Tutoriel | Description |
+| -----------| ---------- |
+| [Présentation de l’espace de travail et du Rapports](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | Découvrez comment utiliser vos données Advertising Cloud pour créer des rapports visuels dans Adobe Analytics Analysis Workspace. |
 
 ## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
