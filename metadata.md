@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 solution-title: Formation et assistance
+description: Notes de mise à jour des solutions Experience Cloud
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud.html
 solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: Prise en main
@@ -11,17 +12,17 @@ mini-toc-levels: 3
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.fr-FR
 index: true
 translation-type: tm+mt
-source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
+source-git-commit: 644ea51d605f87693109d6b0e96afbdf365aaa2b
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 96%
 
 ---
 
 
 # Métadonnées pour une utilisation interne
 
-Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier métadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
+Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier metadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
 
 | métadonnées | utilisation |
 |--- |--- |
