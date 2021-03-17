@@ -4,11 +4,11 @@ description: Notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
-workflow-type: ht
-source-wordcount: '1349'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
+workflow-type: tm+mt
+source-wordcount: '1346'
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Voir les [Notes de mise à jour de Data Workbench](https://docs.adobe.com/conte
 * Correction
 * Correction
 
-Voir [Historique des versions d’AppMeasurement](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html) pour consulter un historique des versions d’AppMeasurement sur les plateformes suivantes :
+Voir [Historique des versions d’AppMeasurement](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html) pour consulter un historique des versions d’AppMeasurement sur les plateformes suivantes :
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -337,12 +337,12 @@ Nouveaux tutoriels, vidéos ou cours publiés le mois dernier.
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
 | Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
-| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/fr-FR/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
+| Date, 2020 | [Texte du lien](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vidéo | Description |
