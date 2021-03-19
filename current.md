@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9bf1dccf7e049c290e762410eb56a3f2c040c036
+source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
 workflow-type: tm+mt
-source-wordcount: '5917'
-ht-degree: 37%
+source-wordcount: '6109'
+ht-degree: 36%
 
 ---
 
@@ -229,6 +229,14 @@ AEM 6.4, Service Pack 8, Cumulative Fix Pack 4 (6.4.8.4 publié le 25 février 2
       * Les entreprises peuvent désormais source des ressources à l’aide du portail de marque. La fonction d’approvisionnement des ressources utilise le portail de marque pour aider les clients à contacter les utilisateurs de l’agence afin d’obtenir des ressources pour de nouvelles campagnes marketing, des photos et des projets. Voir [Présentation de l’origine des ressources](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en) dans le Guide du portail de la marque.
       * Le rapport d’utilisation du portail de marque affiche désormais uniquement les utilisateurs principaux. Les utilisateurs inactifs ne s’affichent pas maintenant. Les utilisateurs principaux sont ceux dont le compte est affecté à un profil de produits dans le Admin Console. Voir [Utilisation des rapports](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en) dans le Guide du portail de la marque.
       * Dans le portail des marques, un nouveau paramètre de téléchargement est introduit, qui vous permet de créer un dossier distinct pour chaque fichier lors du téléchargement de dossiers, de collections, etc. Voir [Téléchargement de fichier](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en) dans **Téléchargement de fichiers à partir du portail de marque** dans le Guide du portail de marque.
+   * **Experience Manager Forms en Cloud Service**
+
+      AEM Forms a aidé de nombreuses organisations à offrir des expériences d&#39;intégration et d&#39;inscription remarquables au fil des ans. Ces expériences ont aidé les entreprises à convertir les pistes en ventes réelles, à traiter les données client capturées, à fournir des expériences réactives basées sur le profil d’audience, etc. AEM Forms est désormais disponible en tant que service cloud.
+
+      Vous pouvez utiliser AEM Forms comme Cloud Service pour créer des formulaires numériques, connecter des formulaires à des sources de données existantes, intégrer des formulaires à Adobe Sign pour ajouter des signatures électroniques aux formulaires et générer un Document d’enregistrement (DE) pour archiver des formulaires remplis en tant que fichiers PDF. Vous pouvez également utiliser ce service pour convertir vos PDF forms existants en formulaires numériques. Outre les fonctionnalités standard d’AEM Forms, le service offre plusieurs fonctionnalités natives du cloud, telles que la mise à l’échelle automatique en fonction de la charge, un temps d’arrêt zéro pour les mises à niveau et un environnement de développement natif au cloud. Vous pouvez lire [ce billet de blog](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html) pour en savoir plus sur les fonctionnalités et les fonctionnalités du service.
+
+      La date de disponibilité générale (GA) de l&#39;AEM Forms en tant que Cloud Service est le 25 mars. Vous pouvez contacter votre représentant d’Adobe pour une démonstration ou pour vous inscrire au service.
+
    * **Experience Manager Commerce as a Cloud Service**
 
       * Gestion de l&#39;expérience des produits : Enrichissez les pages du catalogue de produits individuellement avec les fragments d’expérience.
