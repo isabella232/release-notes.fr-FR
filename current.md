@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 35b3735f74ec51bcdb850bbb5b03df823c9e0f38
+source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
 workflow-type: tm+mt
-source-wordcount: '5843'
-ht-degree: 38%
+source-wordcount: '5857'
+ht-degree: 37%
 
 ---
 
@@ -224,7 +224,7 @@ AEM 6.4, Service Pack 8, Cumulative Fix Pack 4 (6.4.8.4 publié le 25 février 2
       * [Modification d&#39;un SPA externe dans un Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=en) : Possibilité Ajoutée de télécharger une application autonome d’une seule page sur une instance de Experience Manager, d’ajouter des sections de contenu modifiables et d’activer la création.
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager Assets en tant que Cloud Service est autorisé à disposer d’une instance préconfigurée du portail des marques. L’utilisateur de Cloud Manager peut activer le portail de marque sur les ressources du Experience Manager en tant que Cloud Service.
+      * Experience Manager Assets en tant que Cloud Service est autorisé à disposer d’une instance préconfigurée du portail des marques. L’utilisateur de Cloud Manager peut activer le portail de marque sur les ressources du Experience Manager en tant que Cloud Service. Voir [Activer le portail de marques à l’aide de Brand Portal](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
       * Les entreprises peuvent désormais source des ressources à l’aide du portail de marque. La fonction d’approvisionnement des ressources utilise le portail de marque pour aider les clients à contacter les utilisateurs de l’agence afin d’obtenir des ressources pour de nouvelles campagnes marketing, des photos et des projets. Voir [Présentation de l’origine des ressources](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en) dans le Guide du portail de la marque.
       * Le rapport d’utilisation du portail de marque affiche désormais uniquement les utilisateurs principaux. Les utilisateurs inactifs ne s’affichent pas maintenant. Les utilisateurs principaux sont ceux dont le compte est affecté à un profil de produits dans le Admin Console. Voir [Utilisation des rapports](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en) dans le Guide du portail de la marque.
       * Dans le portail des marques, un nouveau paramètre de téléchargement est introduit, qui vous permet de créer un dossier distinct pour chaque fichier lors du téléchargement de dossiers, de collections, etc. Voir [Téléchargement de fichier](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en) dans **Téléchargement de fichiers à partir du portail de marque** dans le Guide du portail de marque.
