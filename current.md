@@ -1,13 +1,13 @@
 ---
 title: Dernières notes de mise à jour 
-description: Découvrez les dernières notes de mise à jour, les nouvelles fonctionnalités et la nouvelle documentation des produits et services Experience Cloud. Trouvez une nouvelle aide et des didacticiels sur l’Experience Cloud, le Creative Cloud pour l’entreprise et le Document Cloud.
+description: Découvrez les dernières notes de mise à jour, les nouvelles fonctionnalités et la nouvelle documentation pour les produits et services Experience Cloud. Trouvez de nouvelles aides et des tutoriels sur Experience Cloud, Creative Cloud abonnement Entreprise et Document Cloud.
 doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
+source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
 workflow-type: tm+mt
-source-wordcount: '6109'
+source-wordcount: '6141'
 ht-degree: 36%
 
 ---
@@ -55,7 +55,7 @@ Les dernières mises à jour de l&#39;état du système d&#39;Adobe se trouvent 
 
 ## ![Composants, services et administration de l’interface utilisateur ](/assets/ec_appicon_24.png) IconExperience Cloud  {#ecloud}
 
-Pas de mise à jour effectuée.
+**Recherche unifiée : recherche** unifiée, actuellement disponible pour les Experience Platform, prend désormais en charge la recherche sur les sources et les destinations pour les utilisateurs Experience Platform. Cette fonctionnalité vous permet de rechercher des segments, des jeux de données, des Schémas, des sources et des destinations.
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
