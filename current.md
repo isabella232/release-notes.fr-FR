@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
+source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
 workflow-type: tm+mt
-source-wordcount: '6141'
+source-wordcount: '6120'
 ht-degree: 36%
 
 ---
@@ -231,11 +231,12 @@ AEM 6.4, Service Pack 8, Cumulative Fix Pack 4 (6.4.8.4 publié le 25 février 2
       * Dans le portail des marques, un nouveau paramètre de téléchargement est introduit, qui vous permet de créer un dossier distinct pour chaque fichier lors du téléchargement de dossiers, de collections, etc. Voir [Téléchargement de fichier](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en) dans **Téléchargement de fichiers à partir du portail de marque** dans le Guide du portail de marque.
    * **Experience Manager Forms en Cloud Service**
 
-      AEM Forms a aidé de nombreuses organisations à offrir des expériences d&#39;intégration et d&#39;inscription remarquables au fil des ans. Ces expériences ont aidé les entreprises à convertir les pistes en ventes réelles, à traiter les données client capturées, à fournir des expériences réactives basées sur le profil d’audience, etc. AEM Forms est désormais disponible en tant que service cloud.
+      AEM Forms a aidé de nombreuses organisations à offrir d&#39;excellentes expériences d&#39;inscription et d&#39;inscription au programme au fil des ans. Ces expériences ont aidé les entreprises à convertir les pistes en ventes, à traiter les données client capturées, à proposer des expériences réactives basées sur le profil d’audience, etc. AEM Forms est désormais disponible en tant que service cloud.
 
-      Vous pouvez utiliser AEM Forms comme Cloud Service pour créer des formulaires numériques, connecter des formulaires à des sources de données existantes, intégrer des formulaires à Adobe Sign pour ajouter des signatures électroniques aux formulaires et générer un Document d’enregistrement (DE) pour archiver des formulaires remplis en tant que fichiers PDF. Vous pouvez également utiliser ce service pour convertir vos PDF forms existants en formulaires numériques. Outre les fonctionnalités standard d’AEM Forms, le service offre plusieurs fonctionnalités natives du cloud, telles que la mise à l’échelle automatique en fonction de la charge, un temps d’arrêt zéro pour les mises à niveau et un environnement de développement natif au cloud. Vous pouvez lire [ce billet de blog](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html) pour en savoir plus sur les fonctionnalités et les fonctionnalités du service.
+      Vous pouvez utiliser AEM Forms comme Cloud Service pour créer des formulaires numériques, connecter des formulaires à des sources de données existantes, intégrer des formulaires à Adobe Sign pour ajouter des signatures électroniques aux formulaires, générer un Document d’enregistrement (DE) pour archiver les formulaires envoyés en tant que fichiers PDF. Le service peut également convertir vos PDF forms existants en formulaires numériques. Outre les fonctionnalités standard d’AEM Forms, le service offre plusieurs fonctionnalités natives du cloud, telles que la mise à l’échelle automatique, un temps d’arrêt zéro pour les mises à niveau et un environnement de développement natif du cloud. Lisez [ce billet de blog](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html) pour en savoir plus sur les capacités et les fonctionnalités de AEM Forms en tant que Cloud Service.
 
-      La date de disponibilité générale (GA) de l&#39;AEM Forms en tant que Cloud Service est le 25 mars. Vous pouvez contacter votre représentant d’Adobe pour une démonstration ou pour vous inscrire au service.
+      Vous pouvez contacter votre représentant d’Adobe pour une démonstration ou pour vous inscrire au service.
+
 
    * **Experience Manager Commerce as a Cloud Service**
 
