@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ebeebdb7c1a534934a0e70c6ab2588a96442192f
+source-git-commit: ffd0377c6309d206bbb98ddc9c7e74f938ad4081
 workflow-type: tm+mt
-source-wordcount: '6141'
-ht-degree: 35%
+source-wordcount: '6263'
+ht-degree: 34%
 
 ---
 
@@ -57,8 +57,8 @@ Les mises à jour les plus récentes concernant l&#39;état du système d&#39;Ad
 
 Inclut les informations de mise à jour pour Experience Platform et Experience Platform Launch.
 
-* [Notes de mise à jour d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html). (24 février 2021)
-* [Notes de mise à jour d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=fr). (13 janvier 2021)
+* [Notes de mise à jour d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html). (Mis à jour le 24 février 2021)
+* [Notes de mise à jour d’Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=fr). (Mis à jour le 18 février 2021)
 
 ### Tutoriels et cours sur Experience Platform
 
@@ -115,6 +115,7 @@ Date de lancement : **25 mars 2021**
 | Analysis Workspace : [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] | 25 mars 2021 | La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. [!UICONTROL Les ] préférences utilisateur s’appliquent à tous les nouveaux projets et panneaux. **Remarque :** les paramètres suivants ont été déplacés vers la page de  [!UICONTROL préférences ] utilisateur :<ul><li>Paramètres de rapport : Séparateur des milliers (désormais appelé &quot;format numérique&quot;)</li><li>Paramètres de rapport : Séparateur CSV</li><li>Projets Workspace : Aide > Activer les conseils</li><li>Projets Workspace : Option &quot;Début de nouveaux projets avec ce panneau&quot; du panneau vierge</li></ul> |
 | Analysis Workspace : [!UICONTROL Histogramme] Prédiction de segment dynamique | 25 mars 2021 |  HistogrammeLa prédiction des intervalles dynamiques permet d&#39;utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de intervalles appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
 | [!UICONTROL Utilisation de ] LogAPI | 25 mars 2021 | Il s’agit d’une nouvelle API Analytics v2.0 qui permet l’accès par programmation aux mêmes données du journal d’utilisation disponibles sous [!UICONTROL Admin] > [!UICONTROL Journal] > [!UICONTROL Journal d’utilisation et d’accès]. Des détails supplémentaires sur l&#39;authentification, le schéma et l&#39;exemple de réponse sont disponibles [ici](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md). |
+| Prise en charge des Tableaux de bord Analytics pour les plages de dates personnalisées | 25 mars 2021 | Les créateurs de cartes de performance peuvent créer et appliquer des plages de dates personnalisées aux projets de cartes de performance mobiles. Les créateurs peuvent choisir entre des paramètres prédéfinis d’espace de travail et de plage de dates mobiles familiers ou créer une plage de dates personnalisée. Cette fonctionnalité commencera à être déployée le 25 mars. |
 
 ### Nouvelles fonctionnalités dans Customer Journey Analytics {#cust-journey}
 
@@ -123,6 +124,7 @@ Date de lancement : **25 mars 2021**
 | Prise en charge des [!UICONTROL tableaux de bord Adobe Analytics] | 25 mars 2021 | [!UICONTROL Customer Journey Analytics]  (CJA) prend désormais en charge le  [!UICONTROL créateur de cartes de performance des tableaux de bord ] Adobe Analytics et l’application mobile. Cela permet aux dirigeants et aux utilisateurs d’entreprise de voir leurs IPC inter-canaux en fonction des données CJA, en utilisant la même application que celle qu’ils utilisent déjà pour Adobe Analytics. |
 | Analysis Workspace : [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] | 25 mars 2021 | La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. [!UICONTROL Les ] préférences utilisateur s’appliquent à tous les nouveaux projets et panneaux. **Remarque :** les paramètres suivants ont été déplacés vers la page de  [!UICONTROL préférences ] utilisateur :<ul><li>Projets Workspace : Aide > Activer les conseils</li><li>Projets Workspace : Option &quot;Début de nouveaux projets avec ce panneau&quot; du panneau vierge</li></ul> |
 | Analysis Workspace : [!UICONTROL Histogramme] Prédiction de segment dynamique | 25 mars 2021 |  HistogrammeLa prédiction des intervalles dynamiques permet d&#39;utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de intervalles appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
+| Prise en charge des tableaux de bord Analytics pour le Customer Journey Analytics | 25 mars 2021 | L’application de tableaux de bord Analytics prend désormais en charge le Customer Journey Analytics. Les utilisateurs dotés d’un Customer Journey Analytics peuvent afficher des indicateurs de performance clés à partir de toutes les données saisies dans Adobe Experience Platform dans l’application de tableaux de bord Analytics. Customer Journey Analytics vous permet de combiner plusieurs sources de données pour une vue réelle et multi-canal de l’expérience client. Désormais, grâce à l’application de tableaux de bord Analytics, vous pouvez bénéficier d’une vue globale et à jour de votre activité, à tout moment et en tout lieu. |
 
 ### Correctifs dans Adobe Analytics {#aa-fixes}
 
