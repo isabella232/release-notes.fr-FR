@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3763705cd932a91c26d5c0e6166758241969126d
+source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
 workflow-type: tm+mt
-source-wordcount: '7139'
-ht-degree: 32%
+source-wordcount: '7549'
+ht-degree: 31%
 
 ---
 
@@ -23,9 +23,10 @@ Les solutions et services Experience Cloud sont mis à jour chaque mois. Cette p
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est conservée tout au long du mois et peut contenir du contenu susceptible d’être modifié avant la date de publication. Consultez régulièrement la documentation sur les produits d’Adobe Enterprise et la documentation Experience League.
 
-Dernière mise à jour : **22 mars 2021**
+Dernière mise à jour : **24 mars 2021**
 
-* [Statut du système Adobe](#status) (aucune mise à jour)
+* [Plans directeurs](#blueprints)  d’expérience numérique (nouvelle documentation de mise en oeuvre)
+* [Statut du système Adobe](#status)
 * [Composants, services et administration de l’interface utilisateur Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
@@ -43,6 +44,23 @@ Dernière mise à jour : **22 mars 2021**
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
+## ![](/assets/adobe.png) IcônePlan d&#39;expérience numérique  {#blueprints}
+
+Les plans d’expérience numérique sont des mises en oeuvre répétables qui permettent de répondre aux stratégies et de résoudre les problèmes commerciaux établis. Les plans directeurs accélèrent la valorisation du temps et fournissent un chemin rapide vers la réussite.
+
+| Publication | Description |
+| -----------| ---------- |
+| [Plans d’action Digital Experience](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | Présentation des [!UICONTROL plans directeurs numériques]. Chaque plan directeur offre une série d&#39;artefacts qui expliquent le problème commercial de grande valeur, les architectures, les étapes de mise en oeuvre, les considérations techniques et les liens vers la documentation pertinente. |
+| [Plan d&#39;Audience Activation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | Cette activation audience-première permet aux marques de connecter les interactions client sur plusieurs canaux afin de fournir une audience centralisée qui peut être activée sur tous les canaux. |
+| [Plan directeur du centre d&#39;Activité client](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | Découvrez comment les applications externes peuvent accéder au [!UICONTROL Profil client en temps réel ] de Adobe Experience Platform. |
+| [Plan directeur Customer Journey Analytics](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | Découvrez comment les marques peuvent unifier les données et le comportement des clients à partir de divers canaux et sources d’interaction afin de créer une vue basée sur le parcours de toutes les interactions client. |
+| [Science des données personnalisées pour le schéma directeur des Enrichissements Profils](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-science/overview.html) | Découvrez comment les données de Adobe Experience Platform sont utilisées par [!UICONTROL Data Science Workspace] pour former, déployer et marquer des modèles afin de fournir des informations d’apprentissage automatique. |
+| [Plan de préparation et d&#39;importation des données](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/overview.html) | Découvrez comment mapper les données source au schéma [!UICONTROL Modèle de données d’expérience] (XDM). Ce plan comprend également des transformations sur les données, notamment la mise en forme des dates, le fractionnement des champs, la concaténation et les conversions, ainsi que la jonction, la fusion et le recadrage des enregistrements. |
+| [Exploration des données d&#39;entreprise et schéma directeur des Rapports](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/overview.html) | [!UICONTROL Requête Service] de l’Experience Platform permet d’exécuter des requêtes SQL sur les données. Découvrez comment [!UICONTROL Data Science Workspace] permet d&#39;exécuter des charges de travail d&#39;exploration de données, de science de données et d&#39;apprentissage automatique sur les données. |
+| [Plan d&#39;orchestration des messages à plusieurs canaux](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html) | Découvrez comment les marques peuvent interagir et communiquer de manière proactive avec leurs clients par le biais de canaux tels que les courriels, les SMS et les alertes mobiles. |
+| [Modèle de collecte de données d&#39;entreprise côté serveur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html) | Découvrez comment les données collectées avec Adobe Experience Platform Web et les kits SDK mobiles peuvent être transférées de [!UICONTROL Edge Network] Experience Platform vers une destination souhaitée. |
+| [Modèle de personnalisation Web et mobile](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html) | Découvrez comment utiliser la segmentation des audiences dans plusieurs applications pour personnaliser et optimiser les expériences client. Vous pouvez utiliser les comportements des clients, les données démographiques, le niveau de fidélité et les transactions antérieures pour personnaliser les mises en page, les appels à l’action et le contenu. |
+
 ## ![Icône](/assets/adobe.png) Statut du système Adobe {#status}
 
 [!UICONTROL Statut du système Adobe] fournit des informations détaillées, des mises à jour de statut et des notifications par email relatives aux produits cloud Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/).
@@ -51,7 +69,9 @@ Les mises à jour les plus récentes concernant l&#39;état du système d&#39;Ad
 
 ## ![Composants, services et administration de l’interface utilisateur ](/assets/ec_appicon_24.png) IconExperience Cloud  {#ecloud}
 
-**Recherche unifiée : recherche** unifiée, actuellement disponible pour les Experience Platform, prend désormais en charge la recherche sur les sources et les destinations pour les utilisateurs Experience Platform. Cette fonctionnalité vous permet de rechercher des segments, des jeux de données, des Schémas, des sources et des destinations.
+| Fonctionnalité | Description |
+| -----------| ---------- |
+| Recherche unifiée | La recherche unifiée, actuellement disponible pour les Experience Platform, prend désormais en charge la recherche sur les sources et les destinations pour les utilisateurs Experience Platform. Cette fonctionnalité vous permet de rechercher des segments, des jeux de données, des Schémas, des sources et des destinations. |
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
