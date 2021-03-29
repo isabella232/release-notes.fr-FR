@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
+source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
 workflow-type: tm+mt
-source-wordcount: '7556'
-ht-degree: 31%
+source-wordcount: '7773'
+ht-degree: 30%
 
 ---
 
@@ -429,15 +429,21 @@ Dernière mise à jour : **28 octobre 2020**
 
 ### Nouvelles fonctionnalités d’[!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **le 22 janvier 2021 pour la version du 23 janvier**
+Dernière mise à jour : **29 mars 2022, pour la version du 27 mars**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| [!UICONTROL Rechercher dans les campagnes]<br> Rapports | Advertising Cloud Search ne signale plus les nouvelles données de position moyenne pour les campagnes publicitaires Microsoft®. La colonne Position moyenne affiche des valeurs de zéro (0) pour les dates à partir du 23 janvier. Cela a pour but de préparer l’abandon des données de position moyenne par Microsoft en janvier 2021.<br>Les données de position moyenne collectées jusqu’au 22 janvier sont toujours disponibles dans les rapports. |
+| [!UICONTROL Rechercher dans les campagnes]<br> Rapports | (Campagnes Publicités Microsoft) La prise en charge des offres est désormais disponible pour la stratégie d&#39;offre améliorée par clic (eCPC) de Microsoft, qui est la stratégie d&#39;offre par défaut pour les campagnes publicitaires Microsoft. Vous pouvez désormais spécifier une [!UICONTROL stratégie d&#39;offre] au niveau de la campagne pour vos campagnes. Les options incluent [!UICONTROL CPC manuel] et [!UICONTROL CPC amélioré]. Vous pouvez utiliser [!UICONTROL CPC amélioré] avec la recherche, l&#39;annonce de recherche dynamique existante et les campagnes d&#39;achat.<br>Lorsque vous ajoutez une campagne avec eCPC à un portefeuille Advertising Cloud optimisé, Advertising Cloud optimise les offres de base et — lorsque l&#39;option &quot;Ajuster automatiquement les limites budgétaires de la campagne&quot; est activée — le budget de la campagne. Microsoft applique tous les ajustements d&#39;offre et peut modifier les offres générées par Advertising Cloud au moment de la requête utilisateur en fonction de données et d&#39;informations propriétaires.<br>La colonne  [!UICONTROL Stratégie d&#39;offre ] personnalisée est disponible dans la vue   Campagnes et dans les rapports. |
+| [!UICONTROL Rechercher dans les campagnes]<br> [!UICONTROL Bulletins] | (Campagnes publicitaires Microsoft) Pour les publicités textuelles étendues, la prise en charge d’un troisième titre facultatif ([!UICONTROL Titre de la publicité 3]) et d’une deuxième description facultative ([!UICONTROL Description 2]) est désormais disponible. Le support est disponible dans la vue [!UICONTROL Publicités] et [!UICONTROL Bulksheet]. |
+| [!UICONTROL Informations publicitaires] | Deux nouvelles [!UICONTROL statistiques de publicité] sont disponibles :<ul><li>[!UICONTROL Recettes] différées : Mesure le décalage de conversion (temps écoulé entre un clic de MMR et une conversion ultérieure) d&#39;un portefeuille et montre toute différence de recettes pondérées, de RSI et de précision de modèle en raison de ce décalage.</li><li>[!UICONTROL Correspondance] croisée de requête : Recherche les instances de requêtes de recherche que Google a mises en correspondance avec plusieurs mots-clés et fournit des suggestions pour déterminer où diriger le trafic.</li></ul> |
 
-### Tutoriels et cours Ad Cloud
+### Tutoriels et cours Advertising Cloud
 
-Mise à jour : **2 décembre 2020**
+Mise à jour : **23 février 2021**
+
+| Tutoriel | Description |
+| -----------| ---------- |
+| [Introduction à Workspace et aux rapports](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=fr) | Découvrez comment utiliser vos données Advertising Cloud pour créer des rapports visuels dans Analysis Workspace d’Adobe Analytics. |
 
 ## ![Icône](/assets/magento.png) [!DNL Magento] {#magento}
 
