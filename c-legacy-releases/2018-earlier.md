@@ -1,18 +1,18 @@
 ---
-description: Notes de mise à jour précédentes pour les produits et services Experience Cloud. Trouvez de l’aide et des didacticiels pour Creative Cloud pour l’entreprise et le Document Cloud.
+description: Notes de mise à jour précédentes pour les produits et services Experience Cloud. Retrouvez de nouveaux articles dʼaide et tutoriels pour Creative Cloud abonnement Entreprise et Document Cloud.
 seo-description: Nouvelles fonctionnalités et correctifs d’Adobe Marketing Cloud – 2018 et versions antérieures.
 title: Notes de mise à jour pour 2018 et versions antérieures
 solution: Experience Cloud,Analytics,Target,Advertising Cloud
 seo-title: Notes de mise à jour pour 2018 et versions antérieures pour Adobe Experience Cloud
 uuid: c56a1064-0f2c-4241-93c6-ca4b1f267763
+exl-id: 4e553328-1e96-48d6-addd-ff51be5eb6df
 translation-type: tm+mt
-source-git-commit: 97674547368321244be16e95f20f195c545d945a
+source-git-commit: 22172967833a02a018fc53f7ed4fd3feb1f7dc07
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour pour 2018 et versions antérieures
 
