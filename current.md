@@ -4,14 +4,14 @@ description: Découvrez les dernières notes de mise à jour, les nouvelles fonc
 doc-type: release notes
 last-update: March 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
+source-git-commit: 6146981c558499f22dbdc56bc12e2ebce2d00439
 workflow-type: tm+mt
-source-wordcount: '7773'
-ht-degree: 30%
+source-wordcount: '7872'
+ht-degree: 29%
 
 ---
-
 
 # Notes de mise à jour de Adobe Experience Cloud - Mars 2021
 
@@ -23,7 +23,7 @@ Les solutions et services Experience Cloud sont mis à jour chaque mois. Cette p
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est conservée tout au long du mois et peut contenir du contenu susceptible d’être modifié avant la date de publication. Consultez régulièrement la documentation sur les produits d’Adobe Enterprise et la documentation Experience League.
 
-Dernière mise à jour : **24 mars 2021**
+Dernière mise à jour : **6 avril 2021**
 
 * [Plans directeurs](#blueprints)  d’expérience numérique (nouvelle documentation de mise en oeuvre)
 * [Statut du système Adobe](#status)
@@ -31,7 +31,7 @@ Dernière mise à jour : **24 mars 2021**
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) et [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) **(mis à jour le 6 avril 2021)** et  [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -50,7 +50,7 @@ Les plans d’expérience numérique sont des mises en oeuvre répétables qui p
 
 | Publication | Description |
 | -----------| ---------- |
-| [Plans d’action Digital Experience](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | Présentation des [!UICONTROL plans directeurs numériques]. Chaque plan directeur offre une série d&#39;artefacts qui expliquent le problème commercial de grande valeur, les architectures, les étapes de mise en oeuvre, les considérations techniques et les liens vers la documentation pertinente. |
+| [Plans directeurs de l’expérience digitale](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | Présentation des [!UICONTROL plans directeurs numériques]. Chaque plan directeur offre une série d&#39;artefacts qui expliquent le problème commercial de grande valeur, les architectures, les étapes de mise en oeuvre, les considérations techniques et les liens vers la documentation pertinente. |
 | [Plan d&#39;Audience Activation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | Cette activation audience-première permet aux marques de connecter les interactions client sur plusieurs canaux afin de fournir une audience centralisée qui peut être activée sur tous les canaux. |
 | [Plan directeur du centre d&#39;Activité client](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | Découvrez comment les applications externes peuvent accéder au [!UICONTROL Profil client en temps réel ] de Adobe Experience Platform. |
 | [Plan directeur Customer Journey Analytics](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | Découvrez comment les marques peuvent unifier les données et le comportement des clients à partir de divers canaux et sources d’interaction afin de créer une vue basée sur le parcours de toutes les interactions client. |
@@ -140,7 +140,7 @@ Date de lancement : **25 mars 2021**
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices)  **(mis à jour le 6 avril 2021)**
 * [AppMeasurement](#appm)
 
 ### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
@@ -181,6 +181,7 @@ AN-206099 ; AN-237460; AN-241803; AN-243735; AN-244081; AN-244615; AN-244687; AN
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Changements du flux de données et de l’adresse IP du Data Warehouse | 6 avril 2021 | À compter du 17 juin, les flux de données et le système de diffusion Data Warehouse seront déplacés dans nos centres de données et peuvent donc provoquer un changement d’adresses IP externes visibles par vous.  Vous devez confirmer que tous les blocs CIDR IP du centre de données d’où proviennent vos rapports et flux sont présents dans les pare-feu, pour les systèmes de destination que vous contrôlez. [Voici une liste complète de plages d&#39;adresses IP à placer dans les listes autorisées](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks) de votre pare-feu. |
 | Avis de modifications du menu Analytics à venir | 24 mars 2021 | Le 22 avril 2021, nous mettrons à jour les menus déroulants **[!UICONTROL Composants]**, **[!UICONTROL Outils]** et **[!UICONTROL Admin]** afin de réaliser des gains de performances. Toutes ces pages seront toujours disponibles sous les liens **[!UICONTROL Tous les composants]**, **[!UICONTROL Tous les outils]** et **[!UICONTROL Tous les administrateurs]**. Elles seront simplement supprimées du menu déroulant. Voici les options de menu qui seront supprimées du menu déroulant et placées sur leur page de liens respective :<br><br> [!UICONTROL Composants]<ul><li>[!UICONTROL Signets]</li><li>[!UICONTROL Tableaux de bord]</li><li>[!UICONTROL Cibles]</li><li>[!UICONTROL Événements de calendrier]</li><li>[!UICONTROL Rapports planifiés]</li><li>[!UICONTROL Paramètres des rapports]</li></ul>Outils de <ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL Administration]<ul><li>[!UICONTROL Gestion des utilisateurs]</li><li>[!UICONTROL Importateur de classifications]</li><li>[!UICONTROL Créateur de règles de classification]</li><li>[!UICONTROL Sources de données]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL Paramètres de l’entreprise]</li><li>[!UICONTROL Journaux]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL Gestionnaire de code]</li><li>[!UICONTROL Exclure par adresse IP]</li><li>[!UICONTROL Gestion du trafic]</li></ul> |
 | [!UICONTROL Traitement]  VISTA identique au SiteCatalyst = activé | 17 mars 2021 | Le 17 juin 2021, toutes les suites de rapports seront mises à jour pour que [!UICONTROL Traitement VISTA identique à celui du SiteCatalyst] soit activé. Cette modification a un impact sur le rapports [!UICONTROL Data Warehouse] en traitant les données en fonction des règles de traitement. Pour toute question ou clarification, contactez le service à la clientèle Adobe. |
 | Fin de vie de [!UICONTROL traitement complet] [!UICONTROL Sources de données] | 10 mars 2021 | L’Adobe prévoit d’abandonner [!UICONTROL le traitement complet] [!UICONTROL les sources de données] à l’avenir. À partir du 25 mars 2021, il ne sera plus possible de créer de nouvelles importations de ce type. Utilisez [l&#39;API d&#39;insertion de données en bloc](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour importer ce type de données. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
