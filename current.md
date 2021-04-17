@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 626651efb9a0ae76ac1b2681d178dcf6677e9d6b
+source-git-commit: a030b00ce834306ccf5da00e0c8757e3a2b4fa02
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5426'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Les solutions et services Experience Cloud sont mis à jour chaque mois. Cette p
 
 Dernière mise à jour : **16 avril 2021**
 
-* [Statut du système Adobe](#status) (aucune mise à jour)
+* [Statut du système Adobe](#status)
 * [Composants, services et administration de l’UI Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
