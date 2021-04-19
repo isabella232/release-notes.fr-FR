@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
+source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
 workflow-type: tm+mt
-source-wordcount: '5384'
+source-wordcount: '5381'
 ht-degree: 43%
 
 ---
@@ -186,7 +186,7 @@ Nouveaux tutoriels, vidéos et cours publiés pour Audience Manager.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Avril 2021 | [Présentation du CDP en temps réel pour les utilisateurs d&#39;Audience Manager](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | Cours | Les clients Audiences Manager réimaginent leur gestion de contenu en passant à la plateforme de données client en temps réel de l’Adobe (CDP en temps réel). Ce cours suit une approche par concept, qui aide les utilisateurs de l&#39;Audience Manager à comprendre comment ces concepts sont traités dans le CDP en temps réel. |
+| Avril 2021 | [Présentation du CDP en temps réel pour les utilisateurs d&#39;Audience Manager](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | Cours | Les clients Audiences Manager réimaginent leur gestion de contenu en passant à la plateforme de données client en temps réel de l’Adobe (CDP en temps réel). Ce cours suit une approche par concept, qui aide les utilisateurs d&#39;Audiences Manager à comprendre comment ces concepts sont traités dans le CDP en temps réel. |
 | Avril 2021 | [Présentation des destinations dans le CDP en temps réel pour les utilisateurs d&#39;Audiences Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=en) | Vidéo | Lorsque vous passez d’Audience Manager à [!UICONTROL Plate-forme de données client en temps réel] (CDP en temps réel), il est impératif de connaître les destinations afin que vous sachiez comment activer vos segments d’audience vers les partenaires de destination. Cette vidéo présente les différents types de destination et leur emplacement en temps réel dans les CDP. |
 | Avril 2021 | [Comprendre la gouvernance des données dans Real-time CDP pour les utilisateurs Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=en#other-integrations) | Vidéo | Cette vidéo présente aux utilisateurs Audiences Manager la fonctionnalité de gouvernance des données dans [!UICONTROL Plate-forme de données client en temps réel], en la comparant à ce qui était disponible dans l’Audience Manager. Il aborde la structure [!UICONTROL Utilisation des données et application de l’étiquetage] (DULE) et l’emplacement dans la plate-forme où elle peut être appliquée. |
 | Avril 2021 | [Un tableau de deux perceptions - Marques contre Consommateurs - Événement](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=en#industry) | Article | Aujourd&#39;hui, les spécialistes du marketing sont ensevelis dans l&#39;abondance d&#39;informations consacrées aux pratiques identitaires. Et seulement 37% des professionnels du marketing ont déclaré qu&#39;ils étaient prêts pour un avenir sans cookie, selon des recherches récentes d&#39;Adobe et d&#39;Advanis. Dans ce webinaire, Adobe explique le niveau de préparation et de compréhension des annonceurs et des éditeurs pour un avenir sans cookies, l’impact sur leurs cas d’utilisation et leur perception de l’écosystème dans son ensemble. |
@@ -402,7 +402,7 @@ Nouveaux tutoriels, vidéos et cours publiés pour Adobe Document Cloud.
 | -----------| ---------- | ---------- | ---------- |
 | Avril 2021 | [[Adobe Sign] Envoyer des rappels à l’aide d’Adobe Sign pour Salesforce et Marketo - Vidéo sur les fonctionnalités](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | Vidéo | Dans ce didacticiel vidéo, vous apprendrez comment envoyer un rappel par courriel de Marketo lorsqu’un accord n’est pas signé après un certain temps. Cette intégration utilise Adobe Sign pour la synchronisation Salesforce, Marketo et Marketo et Salesforce. |
 
-### Nouveaux cours et didacticiels de Document Cloud
+### Didacticiels sur les Documents Cloud
 
 | Publication | Nom | Solution | Description |
 | -----------| ---------- | ---------- | ---------- |
