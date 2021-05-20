@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 008fc1b3d5d5b0558075bdb767f2c280c8e3ae79
+source-git-commit: b77d72d109886a82aaebfb5f8d4cf7d6c529ae5e
 workflow-type: tm+mt
-source-wordcount: '5388'
+source-wordcount: '5384'
 ht-degree: 44%
 
 ---
@@ -28,12 +28,12 @@ Dernière mise à jour : **20 mai 2021**
 * [Composants, services et administration de l’UI Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Offer Decisioning](#offer-decisioning)
+* [Offer Decisioning](#offer-decisioning)
 * [](#analytics) Analytics et  [Customer Journey Analytics](#cust-journey)  (mise à jour le 11 mai 2021)
-* [Audience Manager](#aam)
+* [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud)
+* [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -93,8 +93,8 @@ Version de mars 2021 - Découvrez les dernières fonctionnalités des [Notes de 
 
 Date de mise à jour : **20 mai 2021**
 
-* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)  (mise à jour le 11 mai 2021)
-* [Nouvelles fonctionnalités de Customer Journey Analytics](#cust-journey)  (mise à jour le 11 mai 2021)
+* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants pour les administrateurs d’Analytics](#aa-notices)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
@@ -131,7 +131,7 @@ AN-240821; AN-243625; AN-243958; AN-248728; AN-249877; AN-250151; AN-251273; AN-
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Les agents utilisateur du navigateur reflètent des versions de système d’exploitation incorrectes pour Mac OS | 19 mai 2021 | Actuellement, tous les navigateurs principaux signalent de manière incorrecte les utilisateurs de Mac OS X 11 et versions ultérieures comme utilisant Mac OS 10, tel qu’il est enregistré dans la chaîne de l’agent utilisateur du navigateur. Cela a une incidence sur la création de rapports Adobe Analytics, car elle utilise l’agent utilisateur pour déterminer les informations sur les appareils, telles que le système d’exploitation. Cette inexactitude semble avoir été mise en place afin d’éviter des problèmes de compatibilité pour certains sites web. Voir ce [ticket Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454) à titre de référence. Il n&#39;est pas clair quand ni si cela sera rectifié.<br>Certains navigateurs ont d’abord enregistré Mac OS 11 correctement, de sorte qu’il peut y avoir du trafic correspondant à cette valeur. Toutefois, en raison de la création de rapports inexacte, le filtrage pour le système d’exploitation Mac OS 11 ne sera pas utile.<br>Cela est important car, à partir de Safari sur Mac OS 11, Apple a mis à jour les limites d’expiration des cookies ITP pour s’appliquer aux mises en oeuvre CNAME (voir publication de blog  [WebKit](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)).<br>Avant cette mise à jour, ces limites s’appliquaient uniquement aux cookies &quot;côté client&quot; définis via JavaScript. Cette inexactitude rendra difficile l’évaluation du volume de trafic utilisant OS 11 et est donc impacté par le changement ITP. Vous pouvez en savoir plus sur les cookies et Adobe Analytics [ici](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies). |
+| Les agents utilisateur du navigateur reflètent des versions de système d’exploitation incorrectes pour Mac OS | 19 mai 2021 | Actuellement, tous les navigateurs principaux signalent de manière incorrecte les utilisateurs de Mac OS X 11 et versions ultérieures comme utilisant Mac OS 10, tel qu’il est enregistré dans la chaîne de l’agent utilisateur du navigateur. Cela a une incidence sur la création de rapports Adobe Analytics, car elle utilise l’agent utilisateur pour déterminer les informations sur les appareils, telles que le système d’exploitation. Cette inexactitude semble avoir été mise en place afin d’éviter des problèmes de compatibilité pour certains sites web. Voir ce [ticket Bugzilla](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454) à titre de référence. Il n&#39;est pas clair quand ni si cela sera rectifié.<br>Certains navigateurs enregistraient initialement correctement Mac OS 11. Il se peut donc qu’un certain trafic corresponde à cette valeur. Toutefois, en raison de la création de rapports inexacte, le filtrage pour le système d’exploitation Mac OS 11 ne sera pas utile.<br>Cela est important car, à partir de Safari sur Mac OS 11, Apple a mis à jour les limites d’expiration des cookies ITP pour s’appliquer aux mises en oeuvre CNAME (voir publication de blog  [WebKit](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)).<br>Avant cette mise à jour, ces limites s’appliquaient uniquement aux cookies &quot;côté client&quot; définis via JavaScript. Cette inexactitude rendra difficile l’évaluation du volume de trafic utilisant OS 11 et est donc impacté par le changement ITP. Vous pouvez en savoir plus sur les cookies et Adobe Analytics [ici](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies). |
 | Fin de vie de trois services d’API Analytics | 19 mai 2021 | Le 18 août 2021, les services d’API hérités d’Analytics suivants ont atteint leur date de fin de vie et ont été fermés. Toutes les intégrations actuelles créées à l’aide de ces services ont cessé de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Nous avons mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Mises à jour de la région ISO 2021 | 13 mai 2021 | Nous effectuerons les mises à jour de notre région ISO 2021 le 21 mai 2021. Vous devriez vous attendre à voir des mises à jour mineures après cette version. |
 | Fin de vie des sources de données à traitement complet | 12 avril 2021 | Le 31 juillet 2021, Adobe prévoit dʼabandonner les sources de données à traitement complet. À partir du 25 mars 2021, il ne sera plus possible de créer de nouvelles importations de ce type. Utilisez lʼ[API dʼinsertion de données en masse](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour importer ce type de données. |
