@@ -4,10 +4,9 @@ description: Notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
-source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
+source-git-commit: 48000898226fa1d926948dedc64610cee0bc7f65
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1344'
 ht-degree: 99%
 
 ---
@@ -30,14 +29,14 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 **Date de publication : 2020**
 
 * [Statut du système Adobe](#status)
-* [Interface d’Experience Cloud](#ecloud)
+* [Interface d’Experience Cloud ](#ecloud)
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Target](https://docs.adobe.com/content/help/fr-FR/target/using/release-notes/target-release-notes.html) (liens vers lʼaide de la solution)
-* [Advertising Cloud](#adcloud)
+* [Publicité](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
 * [Primetime](https://helpx.adobe.com/fr/primetime/user-guide.html) (liens vers l’aide de la solution)
@@ -45,7 +44,7 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 Vous cherchez la page d’accueil de l’aide ? Voir la [documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html).
 
-## État du système Adobe {#status}
+## Statut du système Adobe {#status}
 
 Fonctionnalités et correctifs.
 
@@ -70,18 +69,18 @@ Fonctionnalités et correctifs.
 
 Pour consulter la documentation du produit, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
+## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Notes de mise à jour d’[!DNL Experience Platform,] y compris d’[!DNL Experience Platform Launch,] de [!UICONTROL Journey Orchestration], des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services], et des bulletins de sécurité.
 
-* [Service Experience Cloud ID](#ecid)
-* [Notes de mise à jour d’Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)
+* [Service Experience Cloud ID](#ecid)
+* [Notes de mise à jour d’Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Orchestration du parcours](#journey)
+* [Journey Orchestration](#journey)
 * [Mobile Services et SDK mobiles](#mobile)
 * [Bulletins et avis de sécurité](https://helpx.adobe.com/fr/security.html) (Tous les produits Adobe)
 
-### [!UICONTROL Service Experience Cloud ID] {#ecid}
+### [!UICONTROL Service Experience Cloud ID] {#ecid}
 
 Fonctionnalités et correctifs.
 
@@ -120,9 +119,9 @@ Pour en savoir plus sur les SDK Mobile, voir [SDK Android 4.x pour solutions E
 
 Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
-* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [SDK Media Analytics pour iOS et Android (anciennement SDK VHL)](#aa-va)
-* [Avis importants à l’intention des administrateurs d’Analytics](analytics-important-notices.md)
+* [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
+* [SDK Media Analytics  pour iOS et Android (anciennement SDK VHL)](#aa-va)
+* [Avis importants pour les administrateurs d’Analytics](analytics-important-notices.md)
 
 Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html).
 
@@ -144,7 +143,7 @@ Pour consulter la documentation du produit, voir [Accueil de l’aide Adobe Anal
 
 ### Data Workbench {#aa-dwb}
 
-Voir les [Notes de mise à jour de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/release-notes/release-notes.html) pour connaître les dernières informations.
+Pour connaître les dernières informations, voir les [Notes de mise à jour de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/release-notes/release-notes.html).
 
 ### AppMeasurement {#appm}
 
@@ -174,7 +173,7 @@ Voir [Historique des versions d’AppMeasurement](https://experienceleague.adobe
 * PHP
 * Symbian
 
-## Audience Manager {#aam}
+## Audience Manager {#aam}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
@@ -189,7 +188,7 @@ Voir [Historique des versions d’AppMeasurement](https://experienceleague.adobe
 * Correction
 * Correction
 
-## Experience Manager {#aem}
+## Experience Manager {#aem}
 
 Nouvelles fonctionnalités, correctifs et mises à jour Adobe Experience Manager (AEM). Adobe recommande aux clients avec des déploiements sur site de déployer le dernier correctif pour garantir des performances et une stabilité optimales et renforcer la sécurité.
 
@@ -260,7 +259,7 @@ Les documents AEM suivants ont été migrés vers une nouvelle plateforme de doc
 * Correction
 * Correction
 
-## Campaign {#ac}
+## Campagne {#ac}
 
 Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages individualisés sur des canaux marketing en ligne et hors ligne. Vous pouvez maintenant anticiper ce que souhaitent vos clients à l’aide d’expériences déterminées par leurs habitudes et leurs préférences.
 
@@ -268,9 +267,9 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 * Adobe Campaign Standard : [Documentation](https://helpx.adobe.com/fr/support/campaign/standard.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/overview.html) – [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic : [Documentation](https://helpx.adobe.com/fr/support/campaign/classic.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) – [Tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-classic-tutorials/overview.html)
-* Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) - [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
+* Panneau de contrôle d’Adobe Campaign : [Documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) – [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## Publicité {#adcloud}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
