@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 22f12b5bc45f0ed2c191c395c55314e646a330f2
+source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
 workflow-type: tm+mt
 source-wordcount: '5062'
 ht-degree: 51%
@@ -413,7 +413,7 @@ Pour obtenir de l’aide sur Document Cloud, voir :
 ## ![Icône](/assets/creative-cloud-24.png) Creative Cloud abonnement Entreprise {#creative-cloud}
 
 | Publication | Nom | Type | Description |
-| -----------| ---------- | ---------- | ---------- |
+| ----------| --------- | --------- | --------- |
 | Juin 2021 | [Essayez le Fresco sur l’iPad (et l’iPhone).](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | Vidéo | Découvrez un tout nouveau monde de dessin et de peinture numériques avec Adobe Fresco dans cet atelier pratique de 15 minutes. Apprenez rapidement à utiliser des calques et des masques de détourage pour intégrer de la peinture et des textures à une forme de base. |
 | Juin 2021 | [Décodage de la soupe alpha des formats graphiques](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | Vidéo | Les fichiers PG, PNG, SVG, GIF et EPS sont généralement utilisés dans la conception, certains pour des pages web, d’autres pour des présentations, des publications et des projets créatifs. Mais... qu&#39;est-ce qu&#39;ils veulent dire, et que devrais-tu choisir ? Découvrez cet atelier pratique de 15 minutes. |
 
