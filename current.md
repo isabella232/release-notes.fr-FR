@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
+source-git-commit: d45e7c6a5329d4e6a211edaeb607547bfb297e4e
 workflow-type: tm+mt
-source-wordcount: '5062'
+source-wordcount: '5042'
 ht-degree: 51%
 
 ---
@@ -58,8 +58,7 @@ Les composants de l’interface centrale d’Experience Cloud incluent des mises
 
 * Aide à l’administration pour les [composants de l’interface centrale](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) et la gestion des utilisateurs
 * Aide et notes de mise à jour pour [Places - Location Service](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)
-* Aide sur [Personnes - Attributs du client et bibliothèque d’audiences](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)
-Pour consulter la documentation du produit sur ces fonctionnalités, voir [Composants de l’interface centrale Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en).
+* Aide sur [Personnes - Attributs du client et bibliothèque d’audiences](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en).
 
 ## ![Icône](/assets/adobe.png) Statut du système Adobe {#status}
 
