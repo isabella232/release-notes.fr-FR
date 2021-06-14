@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
+source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
 workflow-type: tm+mt
-source-wordcount: '4913'
+source-wordcount: '4926'
 ht-degree: 52%
 
 ---
@@ -403,7 +403,9 @@ Pour obtenir de l’aide sur Document Cloud, voir :
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=fr)
 * [Formation et assistance pour Document Cloud](https://helpx.adobe.com/fr/support/document-cloud.html)
 
-## ![Icône](/assets/creative-cloud-24.png) Creative Cloud abonnement Entreprise {#creative-cloud}
+## ![](/assets/creative-cloud-24.png) Icône Creative Cloud abonnement Entreprise  {#creative-cloud}
+
+Nouveaux tutoriels, vidéos ou cours publiés pour Creative Cloud for Enterprise.
 
 | Publication | Nom | Type | Description |
 | ----------| --------- | --------- | --------- |
