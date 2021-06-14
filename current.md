@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26fb9b46a6cf48db7cd98a75439f35a98e342898
+source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
 workflow-type: tm+mt
-source-wordcount: '5042'
-ht-degree: 51%
+source-wordcount: '4910'
+ht-degree: 52%
 
 ---
 
@@ -235,13 +235,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour  Experience Manager (A
       * [Module externe Maven Experience Manager as a Cloud Service SDK Build Analyzer](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en) : Mettez à jour vos projets Maven vers la dernière version, qui inclut une vérification d’API Java™ obsolète et d’autres améliorations.
    * **Experience Manager Sites as a Cloud Service**
 
-      * **Points de terminaison GraphQL :** il est désormais possible d’activer l’API GraphQL du Experience Manager pour les configurations de sites de Experience Manager individuelles et de créer des points de terminaison GraphQL personnalisés pour ces configurations à l’aide d’une nouvelle interface utilisateur de la console GraphQL. L’interface utilisateur permet également de gérer les points de terminaison GraphQL.
-      * **Modèles de contenu, type de données Date&amp;Time amélioré :** il est désormais possible de configurer le type de date Date&amp;Time afin de n’autoriser la création que des informations de date, d’heure ou de date et d’heure.
-      * **Modèles de contenu, type de données Balises amélioré :** il est désormais possible de configurer le type de données Balises pour permettre la création de balises uniques ou multiples.
-      * **Modèles de contenu, nouveau type de données Espace réservé d’onglet :**  le nouveau type de données Espace réservé d’onglet permet de regrouper les types de données dans des sections rendues sous des onglets dans l’éditeur de fragment de contenu.
-   * **Experience Manager Assets as a Cloud Service**
-
-      Vous pouvez désormais vérifier le contenu d’un nouveau [niveau d’aperçu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en) pour simuler l’aspect final de l’expérience comme vous le feriez sur le niveau Publication. Cette nouvelle fonctionnalité est activée par l’assistant de publication gérée de sites du Experience Manager, qui vous permet de choisir une destination de publication entre [!UICONTROL Publier] ou [!UICONTROL Aperçu]. Les expériences sur [!UICONTROL Aperçu] sont ensuite accessibles via une URL dédiée. Après la validation sur [!UICONTROL Aperçu], le contenu peut être publié de [!UICONTROL Auteur] vers [!UICONTROL Publier] comme d’habitude. L’activation du service [!UICONTROL Aperçu] en Experience Manager en tant qu’environnement de Cloud Service se déploie progressivement au cours des prochaines semaines.
+      Vous pouvez désormais vérifier le contenu d’un nouveau [niveau d’aperçu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en) pour simuler l’aspect final de l’expérience comme vous le feriez sur le niveau Publication. Cette nouvelle fonctionnalité est activée par l’assistant de publication gérée de sites Experience Manager, qui vous permet de choisir une destination de publication entre [!UICONTROL Publier] ou [!UICONTROL Aperçu]. Les expériences sur [!UICONTROL Aperçu] sont ensuite accessibles via une URL dédiée. Après la validation sur [!UICONTROL Aperçu], vous pouvez publier le contenu de [!UICONTROL Auteur] vers [!UICONTROL Publier] comme vous le faites habituellement. L’activation du service [!UICONTROL Aperçu] dans les environnements Experience Manager as a Cloud Service se déploie progressivement au cours des prochaines semaines.
 
    * **Experience Manager Assets as a Cloud Service**
 
@@ -254,7 +248,6 @@ Nouvelles fonctionnalités, correctifs et mises à jour  Experience Manager (A
       Nouvelles fonctionnalités de [!UICONTROL Dynamic Media] :
 
       * Le rapport de pixels d’appareil d’imagerie dynamique (RPD) et l’optimisation de la bande passante du réseau vous permettent de fournir des images de meilleure qualité de manière efficace, sur les appareils avec des affichages haute résolution et une bande passante réseau limitée. Voir [FAQ sur l’imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en).
-
 
 
 
