@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
 workflow-type: tm+mt
 source-wordcount: '4984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Experience Manager (AE
 
    >[!NOTE]
    >
-   >La version de juin de Experience Manager as a Cloud Service est désormais disponible. Pour découvrir les nouvelles fonctionnalités, veillez à utiliser au moins Experience Manager 2021.6.5561.
+   >La version de juin d’Experience Manager as a Cloud Service est dès à présent disponible. Pour découvrir les nouvelles fonctionnalités, assurez-vous d’utiliser au moins la version 2021.6.5561 d’Experience Manager.
 
    * **Adobe Experience Manager as a Cloud Service Foundation**
 
@@ -251,7 +251,7 @@ Nouvelles fonctionnalités, correctifs et mises à jour Experience Manager (AE
 
       Nouvelles fonctionnalités de [!UICONTROL Dynamic Media] :
 
-      * Le ratio de pixels de lʼappareil (RPD) et lʼoptimisation de la bande passante réseau de Smart Imaging vous permettent de fournir des images de meilleure qualité de manière efficace sur les appareils avec des affichages haute résolution et une bande passante réseau limitée. Voir la [FAQ sur Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=fr).
+      * Le ratio de pixels de lʼappareil (DPR) et lʼoptimisation de la bande passante réseau de Smart Imaging vous permettent de fournir des images de meilleure qualité de manière efficace sur les appareils avec des affichages haute résolution et une bande passante réseau limitée. Voir la [FAQ sur Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=fr).
 
 
 
@@ -268,8 +268,8 @@ Nouvelles fonctionnalités, correctifs et mises à jour Experience Manager (AE
 Toutes les notes de mise à jour d’Experience Manager sont conservées dans les pages suivantes :
 
 * [Informations de mise à jour d’Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=fr)
-* [Notes de mise à jour de Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
-* [Notes de mise à jour de Cloud Manager d’Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
+* [Notes de mise à jour d’Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=fr)
+* [Notes de mise à jour de Cloud Manager d’Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=fr)
 * [Notes de mise à jour du service de conversion automatisée de formulaires](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=fr)
 * [Notes de mise à jour du Service Pack 6.5 d’Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
 * [Notes de mise à jour du pack de correctifs cumulatifs 6.4 d’Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=fr)
