@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 520aa8c5c69b1e33efb7a1559a6c7b8725083b39
+source-git-commit: 96f2c28dfcebf903d11fa5fc02ab90405e0e4888
 workflow-type: tm+mt
 source-wordcount: '3950'
 ht-degree: 57%
@@ -254,7 +254,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 Pour en savoir plus sur les dernières fonctionnalités, améliorations et correctifs disponibles :
 
-* [Notes de mise à jour de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en)
+* [Notes de mise à jour de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en)
 * [Notes de mise à jour de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr)
 * [Notes de mise à jour de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr)
 
