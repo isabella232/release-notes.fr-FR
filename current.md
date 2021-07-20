@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
+source-git-commit: a168806cc4b7e5ab5e9d1ab9c71583a4b89c020b
 workflow-type: tm+mt
-source-wordcount: '4909'
+source-wordcount: '4923'
 ht-degree: 93%
 
 ---
@@ -213,6 +213,9 @@ Adobe recommande de consulter fréquemment les [mises à jour et feuilles de rou
       * **Système de gestion du contenu de composants natifs Cloud** : la documentation XML pour Adobe Experience Manager est disponible en tant que service cloud. Disposez de lʼenvironnement qui vous permet de créer, gérer et diffuser de la documentation et du contenu à grande échelle.
       * **Documentation optimisée par lʼIA** : fonctionnalité de balisage intelligent permettant dʼidentifier et dʼextraire automatiquement les mots-clés de métadonnées pertinents du texte en vue de lʼétiquetage des métadonnées.
       * **Nouvel aspect pour Web Editor** : nouvel aspect et modification de lʼinterface utilisateur pour la rendre plus intuitive. Lʼarchitecture sous-jacente a été modifiée, passant de CORAL à Spectrum basé sur React.
+
+      Pour plus d’informations, consultez la [documentation XML pour Adobe Experience Manager](https://www.adobe.com/products/xml-documentation-for-experience-manager.html).
+
    * **Cloud Manager en tant que Cloud Service AEM**
 
       * Le [!UICONTROL service dʼaperçu] est déployé de manière progressive sur tous les programmes. Les clients sont avertis dans le produit lorsque leur programme est activé pour le [!UICONTROL service dʼaperçu]. Voir [Accès au service dʼaperçu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=fr#access-preview-service).
