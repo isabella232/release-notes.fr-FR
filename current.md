@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
+source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
 workflow-type: tm+mt
-source-wordcount: '5139'
-ht-degree: 89%
+source-wordcount: '5023'
+ht-degree: 91%
 
 ---
 
@@ -22,14 +22,6 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 >[!NOTE]
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
-
-## Experience League Live
-
-[Mise en oeuvre d’Adobe Analytics - Conseils et astuces](https://www.youtube.com/watch?v=lxOvLCzEGBI)
-
-Vous l&#39;avez vu sur scène au Sommet. Vous l’avez entendu partager des conseils d’expert à Adobe Insider Tours. Vous avez peut-être même eu l’avantage de travailler avec lui sur votre propre mise en oeuvre Adobe Analytics. Maintenant, Eric Matisoff apporte ses trois Conseils de mise en oeuvre préférés d’Adobe Analytics à cette discussion exclusive en direct Experience League.
-
-Rejoignez-nous pour entendre des conseils concrets que toutes les équipes de mise en oeuvre d’Adobe Analytics devraient connaître et demandez à Eric de répondre à vos questions dans la capsule. Il s’agit d’un événement en direct. Il n’est donc pas nécessaire de vous enregistrer à l’avance, mais veillez à le mettre sur votre calendrier afin de ne pas manquer !
 
 Dernière mise à jour : **20 juillet 2021**
 
@@ -146,7 +138,7 @@ Date de publication : **22 juillet 2021**
 
 Rejoignez-nous pour entendre des conseils concrets que toutes les équipes de mise en oeuvre d’Adobe Analytics devraient connaître et demandez à Eric Matisoff de répondre à vos questions dans la capsule. Il s’agit d’un événement en direct. Il n’est donc pas nécessaire de vous enregistrer à l’avance, mais veillez à le mettre sur votre calendrier afin de ne pas manquer !
 
-[Mise en oeuvre d’Adobe Analytics - Conseils et astuces](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+**Événement :** [Mise en oeuvre d’Adobe Analytics - Conseils et astuces](https://www.youtube.com/watch?v=lxOvLCzEGBI)
 
 **Quand :** 29 juillet 2021 à 9 h 00 heure d’été du Pacifique
 
