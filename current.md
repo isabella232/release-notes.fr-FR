@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
+source-git-commit: 563d306d19333cdfe78c7eb1077b9b8309fadd4e
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5036'
 ht-degree: 91%
 
 ---
@@ -23,8 +23,9 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **20 juillet 2021**
+Dernière mise à jour : **22 juillet 2021**
 
+* [Avis d’événement pour Experience League Live](#events)  - 29  **juillet 2021**
 * [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
 * [Statut du système Adobe](#status)
 * [Experience Platform](#platform)
@@ -127,6 +128,7 @@ Voir [Offer decisioning des notes de mise à jour](https://experienceleague.adob
 
 Date de publication : **22 juillet 2021**
 
+* [Avis d’événement pour Experience League Live](#events)
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 19 juillet 2021)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
@@ -134,7 +136,7 @@ Date de publication : **22 juillet 2021**
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
-### Avis d’événement pour la mise en oeuvre Experience League Live - Analytics
+## Avis d’événement pour la mise en oeuvre Experience League Live - Analytics {#events}
 
 Rejoignez-nous pour entendre des conseils concrets que toutes les équipes de mise en oeuvre d’Adobe Analytics devraient connaître et demandez à Eric Matisoff de répondre à vos questions dans la capsule. Il s’agit d’un événement en direct. Il n’est donc pas nécessaire de vous enregistrer à l’avance, mais veillez à le mettre sur votre calendrier afin de ne pas manquer !
 
