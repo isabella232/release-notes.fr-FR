@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
 workflow-type: tm+mt
 source-wordcount: '5034'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,10 +70,10 @@ Les mises à jour les plus récentes et les informations sur la dernière versio
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Inclut des informations de mise à jour et une nouvelle documentation pour le balisage Experience Platform et Platform.
+Inclut les informations de mise à jour de versions et la nouvelle documentation pour Experience Platform et le balisage de Platform.
 
 * **30 juin 2021 :** [Notes de mise à jour dʼExperience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr)
-* **17 mai 2021** [Notes de mise à jour des balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=fr)  (anciennement, Experience Platform Launch)
+* **17 mai 2021 :** [Notes de mise à jour des balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=fr) (anciennement, Experience Platform Launch)
 
 ### Tutoriels et cours sur Experience Platform {#tutorials-platform}
 
@@ -179,7 +179,7 @@ AN-160022 ; AN-186365 ; AN-234768 (CJA) ; AN-253041 ; AN-255098 ; AN-256319
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Remarque | Date d’ajout  ou de mise à jour | Description |
+| Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Fin de vie de trois services d’API Analytics | 15 juillet 2021 | Le **18 août 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner à compter de cette date.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Fin de vie des Data Connectors Adobe | 13 juillet 2020 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **1er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
@@ -264,7 +264,7 @@ Adobe recommande de consulter régulièrement les [mises à jour et feuilles de 
 
       Nouvelles fonctionnalités:
 
-      * « Publier vers le niveau de prévisualisation » sʼaffiche désormais comme état de page dans lʼinterface utilisateur dʼadministration des sites. 
+      * « Publier vers le niveau de prévisualisation » sʼaffiche désormais comme état de page dans lʼinterface utilisateur dʼadministration des sites.
       * « Publier vers le niveau de prévisualisation » affiche désormais lʼURL de prévisualisation à la fin de lʼaction et conserve lʼURL dans les propriétés de la page pour vous permettre de le consulter ultérieurement.
    * **Experience Manager Forms as a Cloud Service**
 
