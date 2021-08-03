@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
+source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
 workflow-type: tm+mt
-source-wordcount: '5034'
-ht-degree: 100%
+source-wordcount: '5036'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **22 juillet 2021**
+Dernière mise à jour : **3 août 2021**
 
 * [Communication dʼévénement pour Experience League Live](#events) - **29 juillet 2021**
 * [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
@@ -32,7 +32,7 @@ Dernière mise à jour : **22 juillet 2021**
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le 19 juillet 2021)
+* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) **(Mise à jour le 3 août 2021)**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -132,7 +132,7 @@ Date de publication : **22 juillet 2021**
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 19 juillet 2021)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants pour les administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (mise à jour le 3 août 2021)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -181,8 +181,8 @@ AN-160022 ; AN-186365 ; AN-234768 (CJA) ; AN-253041 ; AN-255098 ; AN-256319
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Fin de vie de trois services d’API Analytics | 15 juillet 2021 | Le **18 août 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner à compter de cette date.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
-| Fin de vie des Data Connectors Adobe | 13 juillet 2020 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **1er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
+| Fin de vie des connecteurs de données Adobe | 3 août 2021 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **19er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
+| Fin de vie de trois services d’API Analytics | 15 juillet 2021 | Le **18 août 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner à compter de cette date.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Fin de vie des sources de données à traitement complet | 12 avril 2021 | Adobe prévoit dʼabandonner les sources de données à traitement complet **le 31 juillet 2021**. À partir du 25 mars 2021, il ne sera plus possible de créer de nouvelles importations de ce type. Utilisez lʼ[API dʼinsertion de données en masse](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour importer ce type de données. |
 | Mise à jour de la connexion à [!UICONTROL Report Builder] | 9 avril 2021 | Le 14 janvier 2021, les mises à jour de connexion à [!UICONTROL Report Builder] ont supprimé les dépendances aux technologies héritées et aligné le processus de connexion avec Experience Cloud. Experience Cloud utilise votre Enterprise ID (email et mot de passe). Pour garantir un accès ininterrompu à [!UICONTROL Report Builder], mettez à jour le module complémentaire [!UICONTROL Report Builder] vers la version 5.6.47 ou une version ultérieure d’ici **le 22 juillet 2021**. Les versions 5.6.47 et ultérieures de Report Builder prennent uniquement en charge la connexion à Experience Cloud et ne prennent pas en charge lʼauthentification unique (SSO). |
 
