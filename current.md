@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
+source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
 workflow-type: tm+mt
 source-wordcount: '5036'
 ht-degree: 99%
@@ -32,7 +32,7 @@ Dernière mise à jour : **3 août 2021**
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) **(Mise à jour le 3 août 2021)**
+* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) **(Mise à jour le 10 août 2021)**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -130,7 +130,7 @@ Date de publication : **22 juillet 2021**
 
 * [Communication dʼévénement pour Experience League Live](#events)
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 19 juillet 2021)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 10 août 2021)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (mise à jour le 3 août 2021)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
@@ -162,7 +162,7 @@ Rejoignez-nous pour bénéficier de conseils pratiques que toute équipe chargé
 
 | Fonctionnalité | Description | [Disponibilité générale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - Date cible |
 | ----------- | ---------- | ----- |
-| Nouvelle expérience dʼinformations sur les connexions | Cette amélioration de lʼinterface utilisateur des connexions vous permet de savoir si et à quel moment vos données sont prêtes à être utilisées dans les rapports. Elle vous permet également de détecter tout problème lié au traitement des données. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=fr) | 10 août 2021 |
+| Nouvelle expérience dʼinformations sur les connexions | Cette amélioration de lʼinterface utilisateur des connexions vous permet de savoir si et à quel moment vos données sont prêtes à être utilisées dans les rapports. Elle vous permet également de détecter tout problème lié au traitement des données. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=fr) | 19 août 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
