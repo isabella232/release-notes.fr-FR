@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
+source-git-commit: a802b3ea8757944a04c24b3f7b8992e1ffe9bac8
 workflow-type: tm+mt
 source-wordcount: '5002'
 ht-degree: 98%
@@ -389,7 +389,7 @@ Dernière mise à jour : **Pour la version du 24 juillet**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| [!UICONTROL Outils] | Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, Advertising Cloud peut éventuellement télécharger les objectifs du compte vers Google Ads et Microsoft Ads en tant que conversions afin de pouvoir les utiliser pour l’optimisation hybride. Vous pouvez activer la fonction à partir de [!UICONTROL Recherche] > [!UICONTROL Outils] > [!UICONTROL Configuration du téléchargement de conversion]. |
+| [!UICONTROL Outils] | Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, Advertising Cloud peut éventuellement télécharger les objectifs du compte vers Google Ads et Microsoft Ads en tant que conversions afin de pouvoir les utiliser pour l’optimisation hybride. Vous pouvez activer la fonction à partir de **[!UICONTROL Recherche]** > **[!UICONTROL Outils]** > **[!UICONTROL Configuration du téléchargement de conversion]**. |
 
 {style=&quot;table-layout:auto&quot;}
 
