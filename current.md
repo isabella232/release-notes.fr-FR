@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6c6ebfbf878dcdd9db406789f1350e04b42f3d85
+source-git-commit: 7a9c166e6b3efc239e039f7aa2c2d52a7fadd680
 workflow-type: tm+mt
-source-wordcount: '5004'
+source-wordcount: '5003'
 ht-degree: 98%
 
 ---
@@ -385,11 +385,11 @@ Dernière mise à jour : **10 juin 2021 pour la version du 16 juin**
 
 ### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **Pour la version du 24 juillet**
+Dernière mise à jour : **11 août pour la version du 24 juillet**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| [!UICONTROL Outils] | Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, Advertising Cloud peut éventuellement télécharger les objectifs du compte vers Google Ads et Microsoft Ads en tant que conversions afin de pouvoir les utiliser pour l’optimisation hybride. Vous pouvez activer la fonction à partir de **[!UICONTROL Recherche]** > **[!UICONTROL Outils]** > **[!UICONTROL Configuration du téléchargement de conversion]**. |
+| [!UICONTROL Outils] | Si votre compte publicitaire est configuré pour utiliser l’optimisation hybride, [!DNL Advertising Cloud Search] peut éventuellement charger les objectifs des portfolios du compte vers Google Ads en tant que conversions afin que vous puissiez les utiliser pour une optimisation hybride. Vous pouvez activer la fonction à partir de **[!UICONTROL Recherche]** > **[!UICONTROL Outils]** > **[!UICONTROL Configuration du téléchargement de conversion]**. |
 
 {style=&quot;table-layout:auto&quot;}
 
