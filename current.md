@@ -36,7 +36,7 @@ Dernière mise à jour : **11 août 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising Cloud]](#adcloud) (Mise à jour  **le 11 août 2021**)
+*  [[!DNL Advertising Cloud]](#adcloud)**(Mise à jour le 11 août 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -130,9 +130,9 @@ Date de publication : **22 juillet 2021**
 
 * [Communication dʼévénement pour Experience League Live](#events)
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 10 août 2021)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le 10 août 2021)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (mise à jour le 3 août 2021)
+* [Avis importants à lʼintention des administrateurs dʼAnalytics](#aa-notices) (mise à jour le 3 août 2021)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -181,7 +181,7 @@ AN-160022 ; AN-186365 ; AN-234768 (CJA) ; AN-253041 ; AN-255098 ; AN-256319
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Fin de vie des connecteurs de données Adobe | 3 août 2021 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **19er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
+| Fin de vie d&#39;Adobe Data Connectors | 3 août 2021 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **19er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
 | Fin de vie de trois services d’API Analytics | 15 juillet 2021 | Le **18 août 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner à compter de cette date.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Fin de vie des sources de données à traitement complet | 12 avril 2021 | Adobe prévoit dʼabandonner les sources de données à traitement complet **le 31 juillet 2021**. À partir du 25 mars 2021, il ne sera plus possible de créer de nouvelles importations de ce type. Utilisez lʼ[API dʼinsertion de données en masse](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour importer ce type de données. |
 | Mise à jour de la connexion à [!UICONTROL Report Builder] | 9 avril 2021 | Le 14 janvier 2021, les mises à jour de connexion à [!UICONTROL Report Builder] ont supprimé les dépendances aux technologies héritées et aligné le processus de connexion avec Experience Cloud. Experience Cloud utilise votre Enterprise ID (email et mot de passe). Pour garantir un accès ininterrompu à [!UICONTROL Report Builder], mettez à jour le module complémentaire [!UICONTROL Report Builder] vers la version 5.6.47 ou une version ultérieure d’ici **le 22 juillet 2021**. Les versions 5.6.47 et ultérieures de Report Builder prennent uniquement en charge la connexion à Experience Cloud et ne prennent pas en charge lʼauthentification unique (SSO). |
@@ -222,7 +222,7 @@ Adobe recommande de consulter régulièrement les [mises à jour et feuilles de 
 
 * **Experience Manager as a Cloud Service**
 
-   Nouvelles fonctionnalités dans Experience Manager as a Cloud Service:
+   Nouvelles fonctionnalités dans Experience Manager as a Cloud Service :
 
    * **Documentation XML pour Adobe Experience Manager as a Cloud Service**
 
@@ -262,13 +262,13 @@ Adobe recommande de consulter régulièrement les [mises à jour et feuilles de 
       * Vous pouvez directement appliquer un schéma de métadonnées à un dossier dans ses propriétés.
    * **Experience Manager Sites as a Cloud Service**
 
-      Nouvelles fonctionnalités:
+      Nouvelles fonctionnalités :
 
       * « Publier vers le niveau de prévisualisation » sʼaffiche désormais comme état de page dans lʼinterface utilisateur dʼadministration des sites.
       * « Publier vers le niveau de prévisualisation » affiche désormais lʼURL de prévisualisation à la fin de lʼaction et conserve lʼURL dans les propriétés de la page pour vous permettre de le consulter ultérieurement.
    * **Experience Manager Forms as a Cloud Service**
 
-      Nouvelles fonctionnalités:
+      Nouvelles fonctionnalités :
 
       * Les schémas de métadonnées peuvent être appliqués directement aux propriétés du dossier.
       * Lʼoutil d’ingestion en masse de ressources permet dʼajouter des métadonnées lors dʼune ingestion en masse.
@@ -433,7 +433,7 @@ Nouveaux tutoriels, vidéos et cours publiés pour Adobe Document Cloud.
 | Juillet 2021 | [Validation des tâches avec les API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/jobposting.html?lang=fr) | Article | Lors de lʼexploitation dʼun site web avec plusieurs utilisateurs, il est essentiel de concevoir une expérience qui est la plus fluide pour tous. Découvrez comment convertir automatiquement au format PDF tous les documents chargés et les intégrer dans la validation. |
 | Juillet 2021 | [Création et modification de rapports à lʼaide des API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reportcreation.html?lang=fr) | Article | Les fichiers PDF facilitent le partage de documents enrichis, comprenant des tableaux, des graphiques et du contenu interactif, dans un format que tout le monde peut afficher. Découvrez comment partager ces statistiques avec leurs dirigeants, actionnaires, donateurs ou autres parties prenantes. |
 | Juillet 2021 | [Révisions et approbations avec les API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reviews.html?lang=fr) | Article | Découvrez comment résoudre un cas dʼutilisation pratique de révision et dʼapprobation à lʼaide de plusieurs API Adobe Document Services. |
-| Juillet 2021 | [Recherche et indexation à lʼaide des API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/searching.html?lang=fr) | Article | Ce tutoriel explore les formidables fonctionnalités des API Adobe Document Services et leur utilisation facile pour archiver et numériser des documents. Nous explorons ces fonctionnalités en créant une application Node Express JS, puis en intégrant les API Document Services pour lʼarchivage, la numérisation et la transformation de documents. |
+| Juillet 2021 | [Recherche et indexation à lʼaide des API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/searching.html?lang=fr) | Article | Ce tutoriel explore les formidables fonctionnalités des API Adobe Document Services et leur utilisation facile pour archiver et numériser des documents. Nous explorons ces fonctionnalités en créant une application Express NodeJS, puis en intégrant les API Document Services pour lʼarchivage, la numérisation et la transformation de documents. |
 | Juillet 2021 | [Gestion des lettres dʼoffre des employés à lʼaide des API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html?lang=fr) | Article | Ce tutoriel détaille la configuration dʼun projet Node Express qui affichera un formulaire web afin quʼun utilisateur le renseigne avec les informations relatives à un employé. Ces informations utilisent Document Services sur le Web pour générer une lettre dʼoffre au format PDF qui peut ensuite être remise à un client pour signature à lʼaide de lʼAPI Adobe Sign. |
 | Juillet 2021 | [Gestion des contrats juridiques à lʼaide des API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/legal.html?lang=fr) | Article | Dans ce tutoriel, nous abordons en détail les fonctionnalités des API Adobe Document Services pour la génération de champs de saisie personnalisés dans les documents. Nous explorons également la manière dont vous pouvez facilement convertir ces documents générés au format PDF (format document portable) protégé afin dʼéviter toute manipulation des données. |
 | Juillet 2021 | [Création dʼun accord de confidentialité (NDA) à lʼaide des API Adobe Document Services](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html?lang=fr) | Article | Découvrez comment créer un modèle Microsoft® Word pour lʼaccord de confidentialité de votre entreprise. Le module complémentaire gratuit dʼAdobe pour Microsoft® Word, Adobe Document Generation Tagger, vous permet dʼinsérer des « balises » pour saisir les valeurs dynamiques. Vous apprenez également à transmettre les données JSON au modèle et à créer un fichier PDF dynamique. Vous pouvez ensuite envoyer ce PDF par e-mail ou lʼafficher dans le navigateur de vos collaborateurs, en fonction des besoins et des objectifs de votre entreprise. |
