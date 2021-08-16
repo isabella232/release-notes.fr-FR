@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 4bcabafad300591b5dd46afad7032ecb8c9f5bcf
+source-git-commit: cfeac2dbfaef453f24b54450c45d22e737510281
 workflow-type: tm+mt
 source-wordcount: '4362'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -65,13 +65,13 @@ Les composants de lʼinterface centrale Experience Cloud bénéficient de mises
 
 [!UICONTROL Statut du système Adobe] fournit des informations détaillées, des mises à jour de statut et des notifications par email relatives aux produits cloud Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/).
 
-Les mises à jour les plus récentes et les informations sur la dernière version concernant le statut du système Adobe se trouvent sur le lien suivant [Statut du système Adobe - 21 mai 2020](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=fr).
+Vous trouverez les informations de mise à jour les plus récentes sur l’état du système Adobe dans les notes de mise à jour du [21 mai 2020](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=fr) .
 
 ## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 Inclut les informations de mise à jour de versions et la nouvelle documentation pour Experience Platform et le balisage de Platform.
 
-* **Notes de mise à jour de l’Experience Platform du 28 juillet 2021** [](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr)
+* **28 juillet 2021** [Notes de mise à jour des Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr)  (Prochaine version planifiée :  **19 août**)
 * **19 juillet 2021** [Notes de mise à jour des balises Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=fr)  (anciennement, Experience Platform Launch)
 
 ### Tutoriels et cours sur Experience Platform {#tutorials-platform}
@@ -91,7 +91,7 @@ Adobe Journey Optimizer vous permet de gérer des campagnes omnicanales planifi�
 
 ### Dernières versions de produit pour Journey Optimizer
 
-Découvrez les dernières fonctionnalités, améliorations et correctifs dans les [Notes de mise à jour de Journey Orchestration](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en).
+Découvrez les dernières fonctionnalités, améliorations et correctifs des [Notes de mise à jour de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en).
 
 **Ressources supplémentaires pour Journey Optimizer**
 
@@ -381,7 +381,7 @@ Dernière mise à jour : **12 août 2021, pour la version du 21 août**
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![Icône](/assets/magento.png) [!DNL Commerce]  (Magento) {#magento}
+## ![Icône](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
 
 Voir les liens suivants pour consulter les notes de mise à jour dʼAdobe Commerce :
 
