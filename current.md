@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
+source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4360'
-ht-degree: 51%
+source-wordcount: '4363'
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **13 août 2021**
+Dernière mise à jour : **17 août 2021**
 
 * [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
 * [Experience Platform](#platform)
@@ -31,7 +31,7 @@ Dernière mise à jour : **13 août 2021**
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) **Mise à jour le 17 août 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -135,9 +135,9 @@ Voir les [notes de mise à jour dʼOffer Decisioning](https://experienceleague.a
 Date de publication : **19 août 2021**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) **(Mise à jour le 17 août 2021**)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à lʼintention des administrateurs dʼAnalytics](#aa-notices) (mise à jour le 3 août 2021)
+* [Avis importants pour les administrateurs d’Analytics](#aa-notices)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Date de publication : **19 août 2021**
 | Fonctionnalité | Description | [Disponibilité générale](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - Date cible |
 | ----------- | ---------- | ----- |
 | Nouvelle expérience dʼinformations sur les connexions | Cette amélioration de lʼinterface utilisateur des connexions vous permet de savoir si et à quel moment vos données sont prêtes à être utilisées dans les rapports. Elle vous permet également de détecter tout problème lié au traitement des données. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=fr) | 19 août 2021 |
-| Contrôle de la sensibilité à la casse dans les dimensions de la vue de données | Permet de contrôler si Customer Journey Analytics traite les valeurs de dimension comme étant sensibles à la casse. Cela permet la déduplication des lignes ayant la même valeur, mais une casse différente. | 19 août 2021 |
+| Contrôle de la sensibilité à la casse dans les dimensions de la vue de données | Permet de contrôler si Customer Journey Analytics traite les valeurs de dimension comme étant sensibles à la casse. Cela permet la déduplication des lignes ayant la même valeur, mais une casse différente. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) | 19 août 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -244,7 +244,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
       * Lorsque vous partagez des ressources numériques sous la forme d’un lien, les utilisateurs peuvent copier l’URL dans le Presse-papiers. Cette amélioration vous permet de partager vos ressources plus rapidement et plus facilement.
    * **Experience Manager Forms as a Cloud Service**
 
-      * Vous pouvez désormais utiliser le service Automated forms conversion pour [convertir les PDF forms en français, en allemand et en espagnol](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?lang=en#language-specific-meta-model) en formulaires adaptatifs.
+      * Vous pouvez désormais utiliser le service de conversion automatique de formulaire pour [convertir les PDF Forms en français, en allemand et en espagnol](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/extending-the-default-meta-model.html?lang=en#language-specific-meta-model) en formulaires adaptatifs.
       * Ajout d’un panneau distinct à l’éditeur de modèles pour afficher les erreurs liées aux composants de formulaire adaptatif. Cela permet de consolider toutes les erreurs de formulaire adaptatif à un seul emplacement et de réduire le temps de résolution.
 
       Nouvelles fonctionnalités disponibles dans le canal de version préliminaire de Forms
@@ -252,7 +252,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
       * **Experience Manager Forms as a Cloud Service - Communications**  -  [Utilisez AEM Forms as a Cloud Service - ](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/aem-forms-cloud-service-communications.html?lang=en) API de communicationshelp vous combinez des modèles XDP et des données XML pour générer des documents d’impression dans divers formats. Ce service vous permet de générer des documents en mode synchrone. Les API vous permettent de créer des applications qui vous offrent les fonctionnalités suivantes :
          * Générer des documents en complétant les fichiers modèles avec des données XML.
          * Générer des formulaires de sortie dans divers formats, y compris les flux dʼimpression PDF non interactifs.
-         * Générez des fichiers PDF d’impression à partir d’un formulaire XFA au format PDF et d’un formulaire Adobe Acrobat.
+         * Générer des fichiers PDF d’impression à partir d’un formulaire XFA au format PDF et d’un formulaire Adobe Acrobat.
       * **[!UICONTROL Externalisateur de données de variable]**  : vous pouvez enregistrer les données des variables de workflow de Experience Manager sur un système de stockage externe géré par votre organisation.
       * **[!UICONTROL Document d’enregistrement basé sur les formulaires Acroform]**  : vous pouvez également  [utiliser Adobe Acrobat Form PDF (Acroform PDF)](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/generate-document-of-record-for-non-xfa-based-adaptive-forms.html?lang=en)  comme modèle de document d’enregistrement en plus du modèle de formulaire basé sur XFA.
          **Connecteur de magasin de données Microsoft® Azure**  : vous pouvez désormais  [connecter le modèle de données de formulaire à Microsoft® Azure Storage](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/use-form-data-model/configure-azure-storage.html?lang=en). Il vous permet de récupérer et de stocker des données de formulaire adaptatif dans Microsoft® Azure Storage as a BLOB.
@@ -333,9 +333,9 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 Pour en savoir plus sur les dernières fonctionnalités, améliorations et correctifs disponibles :
 
-* Adobe Campaign Classic v8 (version 8.1.14) : pour en savoir plus, consultez les [Notes de mise à jour de Campaign Classic v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)
+* [Campaign v8 8.1.14](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)
 * [Notes de mise à jour de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
-* [Notes de mise à jour de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr)
+* [Notes de mise à jour de Campaign Classic v7 21.1.3](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr)
 
 <!-- ### New [!UICONTROL Campaign] courses and tutorials {#tutorials-campaign}
 
