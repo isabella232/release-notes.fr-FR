@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
 source-wordcount: '4363'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -31,7 +31,7 @@ Dernière mise à jour : **17 août 2021**
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) **Mise à jour le 17 août 2021**
+* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey)  Mise à jour **17 août 2021**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -109,10 +109,10 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Adobe Campaign.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Août 2021 | [Présentation de la création d’un parcours](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | Vidéo | Découvrez les principes de base de la création d’un parcours dans la zone de travail du parcours. |
+| Août 2021 | [Présentation de la création d’un parcours](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | Vidéo | Découvrez les principes de base de création d’un parcours dans la zone de travail du parcours. |
 | Août 2021 | [Configuration des données - Aperçu](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | Vidéo | Découvrez les données de profil client en temps réel et les étapes requises pour configurer les données de profil client pour Journey Optimizer. |
-| Août 2021 | [Mappage des identités](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | Vidéo | Découvrez comment et à quel moment étiqueter un champ de schéma comme identité, comment créer un espace de noms, quand rendre une identité Principale, et comment ingérer et vérifier des données d’identité. |
-| Août 2021 | [Cas pratique : Burst Message](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | Vidéo | Comprendre les cas d’utilisation applicables pour la messagerie instantanée. Découvrez comment configurer un parcours pour les messages instantanés et les bonnes pratiques à appliquer. |
+| Août 2021 | [Mapping d’identités](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | Vidéo | Découvrez comment et à quel moment étiqueter un champ de schéma comme identité, comment créer un espace de noms, quand rendre une identité principale, et comment ingérer et vérifier des données d’identité. |
+| Août 2021 | [Cas pratique : Burst Message](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | Vidéo | Comprenez les cas d’utilisation applicables pour les messages en rafale. Découvrez comment configurer un parcours pour les messages en rafale et les bonnes pratiques à appliquer. |
 
 **Ressources supplémentaires pour Journey Orchestration**
 
@@ -135,7 +135,7 @@ Voir les [notes de mise à jour dʼOffer Decisioning](https://experienceleague.a
 Date de publication : **19 août 2021**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) **(Mise à jour le 17 août 2021**)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)   (Mise à jour le **17 août 2021**)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants pour les administrateurs d’Analytics](#aa-notices)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
@@ -168,7 +168,7 @@ AN-211870; AN-255578; AN-258376; AN-260732; AN-260854; AN-261294; AN-263094; AN-
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Remarque | Date d’ajout ou de mise à jour | Description |
+| Remarque | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Fin de vie d&#39;Adobe Data Connectors | 3 août 2020 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **19er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
 | Fin de vie de trois services d’API Analytics | 15 juillet 2021 | Le **18 août 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à l’aide de ces services cesseront de fonctionner à compter de cette date.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
