@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
+source-git-commit: 9b538a541f0211a3026fb3f8bdd7de834bced917
 workflow-type: tm+mt
-source-wordcount: '4363'
-ht-degree: 54%
+source-wordcount: '4444'
+ht-degree: 53%
 
 ---
 
@@ -373,10 +373,11 @@ Dernière mise à jour : **12 août 2021, pour la version du 11 août**
 
 ### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **12 août 2021, pour la version du 21 août**
+Dernière mise à jour : **20 août 2021, pour la version du 21 août**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
+| — | La nouvelle balise JavaScript Advertising Cloud bêta utilise le service Adobe Experience Cloud ID (ECID) ainsi que l’ef_id et gsurferid hérités pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) et offre une intégration plus étroite avec d’autres produits Experience Cloud.<br><br>La balise JavaScript Advertising Cloud héritée avec le mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour obtenir plus d’informations et des instructions de mise en oeuvre. |
 | [!UICONTROL Portfolios] | Un nouveau [!UICONTROL objectif bêta] avec des recommandations de poids automatisées est disponible pour tous les utilisateurs. La nouvelle interface comprend davantage d’instructions sur la création d’objectifs et la définition du poids initial de l’objectif. Les recommandations de poids ne sont disponibles que pour les mesures d’assistance. |
 
 {style=&quot;table-layout:auto&quot;}
