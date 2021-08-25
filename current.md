@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
+source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
 workflow-type: tm+mt
-source-wordcount: '4430'
+source-wordcount: '4445'
 ht-degree: 53%
 
 ---
@@ -23,10 +23,10 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **20 août 2021**
+Dernière mise à jour : **25 août 2021**
 
 * [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform)  (mise à jour le 25  **août 2021**)
 * [Statut du système Adobe](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
@@ -71,7 +71,13 @@ Vous trouverez les informations de mise à jour les plus récentes sur l’état
 
 Inclut les informations de mise à jour de versions et la nouvelle documentation pour Experience Platform et le balisage de Platform.
 
-* **28 juillet 2021** [Notes de mise à jour des Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr)  (Prochaine version prévue -  **25 août**)
+**Les**  mises à jour du 25 août 2021 des fonctionnalités existantes en Experience Platform incluent :
+
+* Observability Insights
+* Profil client en temps réel
+* Sources
+
+Voir [Notes de mise à jour Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour plus d’informations.
 
 ### Tutoriels et cours sur Experience Platform {#tutorials-platform}
 
