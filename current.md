@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
+source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
-source-wordcount: '4503'
+source-wordcount: '4508'
 ht-degree: 53%
 
 ---
@@ -46,13 +46,11 @@ Dernière mise à jour : **26 août 2021**
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
-## Avis d’événement pour les Experience League en direct : rendez votre prochain segment d’audience plus intelligent que jamais. {#events}
+## ![](/assets/experience-league.png) Icône Experience League Live {#events}
 
-Découvrez le créateur de segments en direct avec Aaron Shields, Yaya Wang et Andres Monroy !
+**26 août 2021**  |  [Rendre votre prochain segment d’audience plus intelligent que jamais](https://www.youtube.com/watch?v=rogVKsTFbWk)  - Découvrez le créateur de segments en Experience Platform avec Doug Moore, Aaron Shields, Yaya Wang et Andres Monroy !
 
-**Événement :** [rendez votre prochain segment d’audience plus intelligent que jamais.](https://www.youtube.com/watch?v=rogVKsTFbWk)
-
-**Quand :** 26 août 2021 à 9 h 00 (heure du Pacifique)
+Pour visionner d’autres vidéos, rendez-vous sur la page [Canal Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) sur YouTube.
 
 ## ![Icône](/assets/ec_appicon_24.png) Composants de lʼinterface utilisateur centrale Experience Cloud {#ecloud}
 
