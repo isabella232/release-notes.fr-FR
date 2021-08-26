@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
+source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
 workflow-type: tm+mt
-source-wordcount: '4445'
+source-wordcount: '4503'
 ht-degree: 53%
 
 ---
@@ -23,8 +23,9 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **25 août 2021**
+Dernière mise à jour : **26 août 2021**
 
+* [Avis d’événement pour Experience League Live](#events)  - 26  **août 2021**
 * [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
 * [Experience Platform](#platform)  (mise à jour le 25  **août 2021**)
 * [Statut du système Adobe](#status)
@@ -44,6 +45,14 @@ Dernière mise à jour : **25 août 2021**
 * [Creative Cloud abonnement Entreprise](#creative-cloud)
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
+
+## Avis d’événement pour les Experience League en direct : rendez votre prochain segment d’audience plus intelligent que jamais. {#events}
+
+Découvrez le créateur de segments en direct avec Aaron Shields, Yaya Wang et Andres Monroy !
+
+**Événement :** [rendez votre prochain segment d’audience plus intelligent que jamais.](https://www.youtube.com/watch?v=rogVKsTFbWk)
+
+**Quand :** 26 août 2021 à 9 h 00 (heure du Pacifique)
 
 ## ![Icône](/assets/ec_appicon_24.png) Composants de lʼinterface utilisateur centrale Experience Cloud {#ecloud}
 
