@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
 source-wordcount: '4508'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Les applications et les services Experience Cloud sont mis à jour chaque mois. 
 
 Dernière mise à jour : **26 août 2021**
 
-* [Avis d’événement pour Experience League Live](#events)  - 26  **août 2021**
+* [Communication dʼévénement pour Experience League Live](#events) - **26 août 2021**
 * [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
-* [Experience Platform](#platform)  (mise à jour le 25  **août 2021**)
+* [Experience Platform](#platform) (mise à jour le **25 août 2021**)
 * [Statut du système Adobe](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) (Mise à jour le **17 août 2021**)
+* [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) (mise à jour le **17 août 2021**)
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -46,11 +46,11 @@ Dernière mise à jour : **26 août 2021**
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
-## ![](/assets/experience-league.png) Icône Experience League Live {#events}
+## ![Icône](/assets/experience-league.png) Experience League Live {#events}
 
-**26 août 2021**  |  [Rendre votre prochain segment d’audience plus intelligent que jamais](https://www.youtube.com/watch?v=rogVKsTFbWk)  - Découvrez le créateur de segments en Experience Platform avec Doug Moore, Aaron Shields, Yaya Wang et Andres Monroy !
+**26 août 2021** | [Rendez vos prochains segments ciblés plus intelligents que jamais](https://www.youtube.com/watch?v=rogVKsTFbWk) : découvrez le créateur de segments d’Experience Platform avec Doug Moore, Aaron Shields, Yaya Wang et Andres Monroy !
 
-Pour visionner d’autres vidéos, rendez-vous sur la page [Canal Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) sur YouTube.
+Pour plus de vidéos, consultez la [chaîne d’Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) sur YouTube.
 
 ## ![Icône](/assets/ec_appicon_24.png) Composants de lʼinterface utilisateur centrale Experience Cloud {#ecloud}
 
@@ -58,7 +58,7 @@ Les composants de lʼinterface centrale Experience Cloud bénéficient de mises
 
 | Fonctionnalité | Date | Description |
 | ------- | ------- | -------|
-| [!UICONTROL Récents unifiés] : prise en charge étendue des objets commerciaux récemment consultés | 10 août 2021 | La fonctionnalité [!UICONTROL Récents unifiés] est étendue à d’autres objets commerciaux dans Journey Optimizer et Experience Platform. Les clients Journey Optimizer peuvent trouver leurs objets récemment consultés (messages, parcours, segments, schémas, jeux de données, sources de données, événements, actions, sources et destinations) à partir de la page d’accueil d’Adobe Journey Optimizer. |
+| [!UICONTROL Éléments récents unifiés] : prise en charge étendue des objets métier récemment consultés | 10 août 2021 | Les [!UICONTROL Éléments récents unifiés] sont étendus à d’autres objets métier dans Journey Optimizer et Experience Platform. Les clients Journey Optimizer peuvent trouver leurs objets récemment consultés (messages, parcours, segments, schémas, jeux de données, sources de données, événements, actions, sources et destinations) à partir de la page d’accueil d’Adobe Journey Optimizer. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -78,13 +78,13 @@ Retrouvez les dernières informations de mise à jour sur le statut l’état du
 
 Inclut les informations de mise à jour de versions et la nouvelle documentation pour Experience Platform et le balisage de Platform.
 
-**Les**  mises à jour du 25 août 2021 des fonctionnalités existantes en Experience Platform incluent :
+Les mises à jour du **25 août 2021** des fonctionnalités existantes dans Experience Platform incluent :
 
 * Observability Insights
 * Profil client en temps réel
 * Sources
 
-Voir [Notes de mise à jour Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour plus d’informations.
+Consultez les [Notes de mise à jour d’Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour plus d’informations.
 
 ### Tutoriels et cours sur Experience Platform {#tutorials-platform}
 
@@ -147,7 +147,7 @@ Voir les [notes de mise à jour dʼOffer Decisioning](https://experienceleague.a
 Date de publication : **19 août 2021**
 
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
-* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (Mise à jour le **17 août 2021**)
+* [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey) (mise à jour le **17 août 2021**)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
 * [Avis importants pour les administrateurs d’Analytics](#aa-notices)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
@@ -389,7 +389,7 @@ Dernière mise à jour : **20 août 2021 pour la version du 21 août**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| — | La nouvelle balise JavaScript Advertising Cloud bêta utilise le service Adobe Experience Cloud ID (ECID) ainsi que l’ef_id et gsurferid hérités pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) et offre une intégration plus étroite avec d’autres produits Experience Cloud.<br><br>La balise JavaScript Advertising Cloud héritée avec le mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour obtenir plus d’informations et des instructions de mise en oeuvre. |
+| — | La nouvelle balise JavaScript Advertising Cloud Beta utilise le service Adobe Experience Cloud ID (ECID) ainsi que l’ef_id et le gsurferid hérités pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et permet une intégration plus étroite à d’autres produits Experience Cloud.<br><br>La balise JavaScript Advertising Cloud héritée avec mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour vous fournir plus d’informations ainsi que des instructions d’implémentation. |
 | [!UICONTROL Portfolios] | Une nouvelle [!UICONTROL Beta Objectifs] avec des recommandations de poids automatisées est disponible pour tous les utilisateurs. La nouvelle interface comprend davantage d’instructions sur la création d’objectifs et la définition du poids initial de l’objectif. Les recommandations de poids ne sont disponibles que pour les mesures d’assistance. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -403,7 +403,7 @@ Voir les liens suivants pour consulter les notes de mise à jour dʼAdobe Commer
 
 ## ![Icône](/assets/target.png) [!DNL Target] {#target}
 
-Dernière mise à jour : **3 août 2021**
+Dernière mise à jour : **3 août 2021**
 
 Voir les [[!DNL Target] notes de mise à jour](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=fr) pour consulter les informations les plus récentes.
 
