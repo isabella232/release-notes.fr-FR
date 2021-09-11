@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 86c72625cfc50612c0a7cf0c9893b3d6dc4e90f4
+source-git-commit: 462d61e20e2a12671be96cf653d639c07fd6bf96
 workflow-type: tm+mt
-source-wordcount: '6299'
+source-wordcount: '6301'
 ht-degree: 39%
 
 ---
@@ -194,10 +194,12 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform et ses s
 
 Fonctionnalités, correctifs et nouveau contenu d’aide pour Journey Orchestration.
 
+**Août 2021**
+
 * **En-têtes dynamiques :** vous pouvez désormais transmettre des données dynamiques dans les paramètres d’en-tête HTTP. Ces paramètres peuvent être utilisés par les systèmes d’intégration qui reçoivent les appels HTTP de l’action de parcours, par exemple l’horodatage ou l’ID de suivi. [En savoir plus...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 * **Chemins d’URL dynamiques :** vous pouvez désormais configurer des chemins d’URL dynamiques pour les actions personnalisées. [En savoir plus...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 
-* **Août 2021**  - Voir les notes de mise à jour du  [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=fr)
+Voir [Notes de mise à jour du Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=fr) pour plus d’informations.
 
 #### Nouveaux tutoriels et cours relatifs à Journey Orchestration {#tutorials-ajo}
 
