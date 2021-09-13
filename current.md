@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 331a26c572b1fc08fe46bd95ed80df1df1986077
+source-git-commit: cc9f1d42093c54689b6d15c640879891e4d4ce24
 workflow-type: tm+mt
-source-wordcount: '6307'
+source-wordcount: '6298'
 ht-degree: 39%
 
 ---
@@ -27,10 +27,10 @@ Dernière mise à jour : **10 septembre 2021**
 
 * [[!DNL Experience League] Événements en direct](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
-* [Statut du système Adobe](#status)
-* [[!DNL Adobe Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey)
+* [Adobe [!UICONTROL État du système]](#status)
+* [[!DNL Adobe Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey) 
 * [[!DNL Adobe Audience Manager]](#aam)
-* [Adobe Experience Platform](#platform)
+* [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Campaign]](#ac)
@@ -39,8 +39,8 @@ Dernière mise à jour : **10 septembre 2021**
 * [[!DNL Adobe Commerce]](#magento)
 * [[!DNL Adobe Marketo Engage]](#marketo)
 * [[!DNL Adobe Workfront]](#workfront)
-* [Document Cloud](#doc-cloud)
-* [Creative Cloud abonnement Entreprise](#creative-cloud)
+* [[!DNL Document Cloud]](#doc-cloud)
+* [[!DNL Creative Cloud for enterprise]](#creative-cloud)
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
@@ -56,7 +56,7 @@ Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.
 
 {style=&quot;table-layout:auto&quot;}
 
-Pour plus de vidéos, consultez la [chaîne d’Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) sur YouTube.
+Pour visionner d’autres vidéos, rendez-vous sur la [chaîne YouTube d’Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw).
 
 ## ![Icône](/assets/ec_appicon_24.png) [!DNL Experience Cloud Central UI Components]  et administration {#ecloud}
 
@@ -120,7 +120,7 @@ Date de publication : **15 septembre 2021**
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Remarque | Date d’ajout ou de mise à jour | Description |
+| Remarque | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Abandon de l’Adobe [!UICONTROL Data Connectors] | 3 août 2020 | Les [!UICONTROL Data Connectors] Adobe sont alimentés par une technologie héritée qui n’est plus viable ni prise en charge. Une nouvelle norme est disponible dans le [Programme Partenaires Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Vous pouvez utiliser cette norme pour prolonger l’offre et la prise en charge de toute intégration. La date de fin de vie officielle est fixée au **19er août 2021**. [En savoir plus…](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=fr) |
 | Fin de vie du traitement complet des[!UICONTROL  sources de données] | 12 avril 2021 | Adobe a mis fin à l’utilisation des sources de données à traitement complet le **31 juillet 2021**. À partir du 25 mars 2021, il ne sera plus possible de créer de nouvelles importations de ce type. Utilisez lʼ[API dʼinsertion de données en masse](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour importer ce type de données. |
@@ -169,7 +169,7 @@ Pas de mise à jour effectuée.
 
 Inclut des informations de mise à jour et une nouvelle documentation pour les services Experience Platform et de Platform ([!UICONTROL Journey Orchestration], [!UICONTROL Offer decisioning] et [!UICONTROL SDK mobile]).
 
-Les mises à jour du **25 août 2021** des fonctionnalités existantes dans Experience Platform incluent :
+**25 août 2021** Les mises à jour apportées aux fonctionnalités existantes d’Experience Platform comprennent :
 
 * **[!UICONTROL Destinations] :** améliorations de l’utilisation des marketeurs capables de   cibler les destinations pour activer en toute transparence les segments vers des destinations existantes.
 * **[!UICONTROL Observability Insights] :**  vous pouvez désormais vous abonner à des alertes importantes liées aux workflows exécutés sur Platform.
@@ -453,7 +453,7 @@ Dernière mise à jour : **20 août 2021 pour la version du 21 août**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| — | La nouvelle balise JavaScript Advertising Cloud bêta utilise le service Adobe Experience Cloud ID (ECID) et les `ef_id` et `gsurferid` hérités pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud propriétaires](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et permet une intégration plus étroite à d’autres produits Experience Cloud.<br><br>La balise JavaScript Advertising Cloud héritée avec le mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour vous fournir plus d’informations ainsi que des instructions d’implémentation. |
+| — | La nouvelle balise JavaScript Advertising Cloud bêta utilise le service Adobe Experience Cloud ID (ECID) et les `ef_id` et `gsurferid` hérités pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) et offre une meilleure intégration avec d’autres produits Experience Cloud.<br><br>La balise JavaScript Advertising Cloud héritée avec le mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour vous fournir davantage d’informations et des instructions de mise en œuvre. |
 | [!UICONTROL Portfolios] | Une nouvelle [!UICONTROL Beta Objectifs] avec des recommandations de poids automatisées est disponible pour tous les utilisateurs. La nouvelle interface comprend davantage d’instructions sur la création d’objectifs et la définition du poids initial de l’objectif. Les recommandations de poids ne sont disponibles que pour les mesures d’assistance. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -512,7 +512,7 @@ Pour obtenir de l’aide sur Document Cloud, voir :
 
 * [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=fr)
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=fr)
-* [Formation et assistance pour Document Cloud](https://helpx.adobe.com/fr/support/document-cloud.html)
+* [Formation et support Adobe Document Cloud](https://helpx.adobe.com/fr/support/document-cloud.html)
 
 ## ![Icône](/assets/creative-cloud-24.png) Creative Cloud abonnement Entreprise {#creative-cloud}
 
