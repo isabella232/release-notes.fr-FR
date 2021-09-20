@@ -229,7 +229,7 @@ Voir [Notes de mise à jour de Journey Orchestration](https://experienceleague.
 
 #### Plus de ressources pour [!UICONTROL Offer Decisioning]
 
-[Centre d’aide](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=fr) - [Notes de mise à jour](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=fr) - [Tutoriels vidéo](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=fr) - [Dernières mises à jour de la documentation](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html?lang=fr)
+[Centre d’aide](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=fr) - [Notes de mise à jour](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=fr#new) - [Tutoriels vidéo](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=fr) - [Dernières mises à jour de la documentation](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html?lang=fr)
 
 ### SDK Adobe Mobile
 
@@ -342,9 +342,9 @@ Voir [Rapports SLA](https://experienceleague.adobe.com/docs/experience-manager-c
 
    Pour consulter la liste de tous les membres, rendez-vous sur le [blog d’Adobe](https://blog.adobe.com/en/publish/2021/09/02/introducing-the-2021-adobe-community-advisors.html#gs.a6braz).
 
-* [Comment envoyer une demande/suggestion de nouvelle fonctionnalité pour Experience Manager ?](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+* [Comment envoyer une demande/suggestion de nouvelle fonctionnalité pour Experience Manager ?](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425?profile.language=fr)
 
-   Le nouveau processus d’envoi de demandes de fonctionnalités pour Experience Manager est dès à présent disponible. Voir [Création d’une idée](https://experienceleaguecommunities.adobe.com/t5/forums/postpage/board-id/adobe-experience-manager-ideas) | Plus de [détails ici](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425) | [Instructions d’envoi](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/m-p/382376#M27427)
+   Le nouveau processus d’envoi de demandes de fonctionnalités pour Experience Manager est dès à présent disponible. Voir [Création d’une idée](https://experienceleaguecommunities.adobe.com/t5/forums/postpage/board-id/adobe-experience-manager-ideas?profile.language=fr) | Plus de [détails ici](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425) | [Instructions d’envoi](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/m-p/382376?profile.language=fr#M27427)
 
 ### Nouveaux cours et tutoriels sur Experience Manager {#tutorials-aem}
 
@@ -458,7 +458,7 @@ Dernière mise à jour : **20 août 2021 pour la version du 21 août**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| — | La nouvelle balise JavaScript Advertising Cloud bêta utilise le service Adobe Experience Cloud ID (ECID) ainsi que les anciennes valeurs `ef_id` et `gsurferid` pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) et offre une meilleure intégration à d’autres produits Experience Cloud.<br><br>L’ancienne balise JavaScript Advertising Cloud avec le mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour vous fournir davantage d’informations et des instructions de mise en œuvre. |
+| — | La nouvelle balise JavaScript Advertising Cloud bêta utilise le service Adobe Experience Cloud ID (ECID) ainsi que les anciennes valeurs `ef_id` et `gsurferid` pour mesurer les conversions. La nouvelle balise crée des [cookies s_ecid Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=fr) et offre une meilleure intégration à d’autres produits Experience Cloud.<br><br>L’ancienne balise JavaScript Advertising Cloud avec le mappage ITP sera abandonnée en septembre 2021.<br><br>Votre gestionnaire de compte Adobe vous contactera pour vous fournir davantage d’informations et des instructions de mise en œuvre. |
 | [!UICONTROL Portfolios] | Une nouvelle [!UICONTROL Beta Objectifs] avec des recommandations de poids automatisées est disponible pour tous les utilisateurs. La nouvelle interface comprend davantage d’instructions sur la création d’objectifs et la définition du poids initial de l’objectif. Les recommandations de poids ne sont disponibles que pour les mesures d’assistance. |
 
 {style=&quot;table-layout:auto&quot;}
