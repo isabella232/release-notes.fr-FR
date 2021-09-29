@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
+source-git-commit: acd15846c8be6d3fd4ad9bdb8688912013d92f74
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 99%
@@ -212,7 +212,7 @@ Voir [Notes de mise à jour et journaux des modifications](https://aep-sdks.gitb
 
 Voir [Notes de mise à jour de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=fr) pour plus d’informations.
 
-#### Nouveaux tutoriels et cours Journey Optimizer {#tutorials-ajo}
+### Nouveaux tutoriels et cours Journey Optimizer {#tutorials-ajo}
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
