@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
+source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 99%
@@ -206,8 +206,6 @@ Fonctionnalités, correctifs et nouveau contenu d’aide pour Journey Orchestra
 
 Voir [Notes de mise à jour de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=fr) pour plus d’informations.
 
-{style=&quot;table-layout:auto&quot;}
-
 #### Ressources supplémentaires pour Journey Orchestration
 
 [Centre d’aide](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=fr) - [Notes de mise à jour](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Tutoriels vidéo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=fr) - [Dernières mises à jour de la documentation](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=fr)
@@ -247,6 +245,8 @@ Voir [Notes de mise à jour de Journey Optimizer](https://experienceleague.adob
 | Août 2021 | [Configuration des données de profil client - Aperçu](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html?lang=fr) | Vidéo | Découvrez les données de profil client en temps réel et les étapes requises pour configurer les données de profil client pour Journey Optimizer. |
 | Août 2021 | [Mapping d’identités](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html?lang=fr) | Vidéo | Découvrez comment et à quel moment étiqueter un champ de schéma comme identité, comment créer un espace de noms, quand rendre une identité principale, et comment ingérer et vérifier des données d’identité. |
 | Août 2021 | [Cas d’utilisation - Message en rafale](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=fr) | Vidéo | Comprenez les cas d’utilisation applicables pour les messages en rafale. Découvrez comment configurer un parcours pour les messages en rafale et les bonnes pratiques à appliquer. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Ressources supplémentaires pour Journey Optimizer
 
