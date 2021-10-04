@@ -5,9 +5,10 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: 8b36fbc422c8b7b2bf3f2a7497a5dc51495e0562
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5271'
 ht-degree: 40%
 
 ---
@@ -180,7 +181,7 @@ Derniers tutoriels, vidéos ou cours publiés pour les Experience Platform et le
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Octobre 2021 | [[!DNL Platform] Administration](https://experienceleague.corp.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | Cours | Découvrez les activités d’administration pour Experience Platform, notamment la gestion des autorisations et des environnements de test. |
+| Octobre 2021 | [[!DNL Platform] Administration](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | Cours | Découvrez les activités d’administration pour Experience Platform, notamment la gestion des autorisations et des environnements de test. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -339,9 +340,13 @@ Pour en savoir plus sur les dernières fonctionnalités, améliorations et corre
 
 Derniers tutoriels et cours pour Adobe Campaign.
 
-| Publication | Nom | Application | Description |
+| Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Octobre 2021 | [Création de campagnes avancées avec Adobe Campaign V8 pour les utilisateurs professionnels](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Campaign V8 | Découvrez comment configurer et exécuter des campagnes marketing avancées à l’aide d’Adobe Campaign V8. Découvrez les prérequis, créez et configurez des campagnes avancées, des diffusions et gérez les abonnements. |
+| Octobre 2021 | [Création de campagnes avancées avec Adobe Campaign V8 pour les utilisateurs professionnels](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Cours | Découvrez comment configurer et exécuter des campagnes marketing avancées à l’aide d’Adobe Campaign V8. Découvrez les prérequis, créez et configurez des campagnes avancées, des diffusions et gérez les abonnements. |
+| Octobre 2021 | [Utilisation des API SOAP dans les workflows - Introduction](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | Tutoriel | Découvrez comment utiliser les API Adobe Campaign Soap et créer un workflow de diffusion avancé basé sur les données reçues via l’API. |
+| Octobre 2021 | [Créer des événements](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | Tutoriel | Découvrez comment configurer un événement, spécifier le point de terminaison de diffusion en continu et la charge utile d’un événement. |
+| Octobre 2021 | [Configuration des sources de données](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutoriel | Découvrez ce qu’est une source de données et comment configurer des sources de données Experience Platform et externes. |
+| Octobre 2021 | [Cas d’utilisation - messages d’éclatement](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | Tutoriel | Comprenez les cas d’utilisation applicables pour les messages en rafale. Découvrez comment configurer un parcours pour les messages en rafale et les bonnes pratiques à appliquer. |
 
 {style=&quot;table-layout:auto&quot;}
 
