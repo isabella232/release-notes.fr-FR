@@ -373,7 +373,7 @@ Dernière mise à jour : **28 septembre 2021**
 | Fonctionnalité | Description |
 | ------- | ----------- |
 | Vues de la gestion des campagnes | Une colonne &quot;[!UICONTROL Date de création]&quot; est désormais disponible dans les jeux de colonnes personnalisés pour les vues [!UICONTROL Campagnes], [!UICONTROL Packages], [!UICONTROL Emplacements] et [!UICONTROL Publicités]. Vous pouvez également filtrer les vues [!UICONTROL Emplacements] et [!UICONTROL Publicités] par [!UICONTROL Date de création]. |
-| Offres garanties par programmation | (Version du 8 septembre) Vous pouvez désormais modifier l’[!UICONTROL offre maxi] pour l’emplacement par défaut d’une offre programmée garantie (PG). Cependant, comme les offres PG ont toujours un CPM fixe, seuls les clients internationaux doivent modifier l’[!UICONTROL offre max] pour prendre en compte les frais de change de devise. |
+| Offres garanties par programmation | (Version du 8 septembre) Vous pouvez désormais modifier l’[!UICONTROL offre maxi] pour l’emplacement par défaut d’une offre garantie par programmation (PG). Cependant, comme les offres PG ont toujours un CPM fixe, seuls les clients internationaux doivent modifier l’[!UICONTROL offre max] pour prendre en compte les frais de change de devise. |
 |  | (Version du 8 septembre) Les utilisateurs disposant de l’autorisation &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; peuvent désormais envoyer une publicité à [!DNL FreeWheel Programmatic Creative API] à partir de la vue [!UICONTROL Publicités] ou de la vue [!UICONTROL Emplacements]. Vous pouvez toujours envoyer une publicité à partir de la vue [!UICONTROL Offres]. |
 
 {style=&quot;table-layout:auto&quot;}
