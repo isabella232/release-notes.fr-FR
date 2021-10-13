@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: bc6e1a293674c9554cb5c4bb18e3e39bb8c38213
+source-git-commit: d2d02b2130c11f1971220646ac19f4fa6f0ab5da
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '5553'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 >
 >Abonnez-vous à la [mise à jour produit prioritaire d’Adobe](https://www.adobe.com/subscription/priority-product-update.html) pour recevoir chaque mois des notifications par email concernant les mises à jour de cette page. Cette page est tenue à jour tout au long du mois. Par conséquent, veuillez consulter régulièrement les mises à jour des produits Adobe Enterprise et de la documentation Experience League.
 
-Dernière mise à jour : **7 octobre 2021**
+Dernière mise à jour : **13 octobre 2021**
 
 * [[!DNL Experience League] Événements en direct](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
@@ -32,7 +32,7 @@ Dernière mise à jour : **7 octobre 2021**
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
-* [[!DNL Adobe Experience Manager]](#aem)
+* [[!DNL Adobe Experience Manager]](#aem) (mise à jour  **le 13 octobre 2021**)
 * [[!DNL Adobe Campaign]](#ac)
 * [[!DNL Adobe Advertising Cloud]](#adcloud)
 * [[!DNL Adobe Target]](#target)
@@ -239,6 +239,8 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs des [No
 
 Adobe recommande de consulter la page des [mises à jour et feuilles de route Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=fr) afin de se tenir au courant des informations de mise à jour.
 
+**Mise à jour 10/13/2021 :** Consultez la  [vidéo de présentation de la version de ](https://video.tv.adobe.com/v/337381) septembre 2021 pour découvrir les nouvelles fonctionnalités.
+
 ### Communauté
 
 * [Adobe Developers Live](https://developerevents.adobe.com/events/details/adobe-developer-events-developer-experience-presents-adobe-developers-live/?cid=Kautuk)  | 4-5 octobre 2021, 7:00 PDT
@@ -292,7 +294,7 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 | Octobre 2021 | [Envoi de documents et liaison de ressources](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/link-send.html?lang=en) | Vidéo | Découvrez comment envoyer des documents Workfront à Assets Essentials et lier des ressources Assets Essentials à Workfront. |
 | Octobre 2021 | [Configuration de l’intégration](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/configure.html?lang=en) | Vidéo | Découvrez comment configurer l’intégration d’Adobe Workfront et d’Assets Essentials. |
 | Octobre 2021 | [Qu’est-ce qu’une signature numérique ?](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/getting-started/getting-started-signing/sign-with-a-digital-signature.html?lang=en) | Vidéo | Découvrez les signatures numériques basées sur des certificats, qui respectent les réglementations juridiques les plus strictes du monde entier et fournissent le plus haut niveau d’assurance de l’identité d’un signataire. |
-| Octobre 2021 | [Créateur de segments dans Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-builder-overview.html?lang=en#) | Vidéo | Divisez et segmentez vos données avec la segmentation dans Adobe Analytics. Cette vidéo vous guide tout au long du [!UICONTROL créateur de segments] et vous donne un aperçu de base. |
+| Octobre 2021 | [Créateur de segments dans Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-builder-overview.html?lang=en#) | Vidéo | Divisez et segmentez vos données avec la segmentation dans Adobe Analytics. Cette vidéo vous guide tout au long du [!UICONTROL créateur de segments] et vous donne un aperçu de base. |
 | Octobre 2021 | [Mappage des métadonnées](https://experienceleague.adobe.com/docs/experience-manager-learn/assets-essentials/workfront/map-metadata.html?lang=en) | Vidéo | Découvrez comment configurer le mappage des métadonnées entre les champs Workfront et les propriétés Assets Essentials, et comment configurer Assets Essentials pour afficher les valeurs mappées. |
 
 {style=&quot;table-layout:auto&quot;}
