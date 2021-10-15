@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: d2d02b2130c11f1971220646ac19f4fa6f0ab5da
+source-git-commit: 506c543d97a19bf88e7ba767c82893b02704ea8b
 workflow-type: tm+mt
-source-wordcount: '5553'
+source-wordcount: '5631'
 ht-degree: 38%
 
 ---
@@ -349,7 +349,7 @@ Derniers tutoriels et cours pour Adobe Campaign.
 | Octobre 2021 | [Création de campagnes avancées avec Adobe Campaign V8 pour les utilisateurs professionnels](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Cours | Découvrez comment configurer et exécuter des campagnes marketing avancées à l’aide d’Adobe Campaign V8. Découvrez les prérequis, créez et configurez des campagnes avancées, des diffusions et gérez les abonnements. |
 | Octobre 2021 | [Utilisation des API SOAP dans les workflows - Introduction](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | Tutoriel | Découvrez comment utiliser les API Adobe Campaign Soap et créer un workflow de diffusion avancé basé sur les données reçues via l’API. |
 | Octobre 2021 | [Créer des événements](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | Tutoriel | Découvrez comment configurer un événement, spécifier le point de terminaison de diffusion en continu et la charge utile d’un événement. |
-| Octobre 2021 | [Configuration des sources de données](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutoriel | Découvrez ce qu’est une source de données et comment configurer des sources de données Experience Platform et externes. |
+| Octobre 2021 | [Configuration des sources de données](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutoriel | Comprenez ce qu’est une source de données. Découvrez également comment configurer Experience Platform et des sources de données externes. |
 | Octobre 2021 | [Cas d’utilisation - messages d’éclatement](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | Tutoriel | Comprenez les cas d’utilisation applicables pour les messages en rafale. Découvrez comment configurer un parcours pour les messages en rafale et les bonnes pratiques à appliquer. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -370,22 +370,21 @@ Notes de mise à jour dʼ[!DNL Adobe Advertising Cloud].
 
 ### Nouveautés de la version [!DNL Advertising Cloud DSP] {#adcloud-dsp}
 
-Dernière mise à jour : **28 septembre 2021**
+Dernière mise à jour : **7 octobre 2021**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| Vues de la gestion des campagnes | Une colonne &quot;[!UICONTROL Date de création]&quot; est désormais disponible dans les jeux de colonnes personnalisés pour les vues [!UICONTROL Campagnes], [!UICONTROL Packages], [!UICONTROL Emplacements] et [!UICONTROL Publicités]. Vous pouvez également filtrer les vues [!UICONTROL Emplacements] et [!UICONTROL Publicités] par [!UICONTROL Date de création]. |
-| Offres garanties par programmation | (Version du 8 septembre) Vous pouvez désormais modifier l’[!UICONTROL offre maxi] pour l’emplacement par défaut d’une offre programmée garantie (PG). Cependant, comme les offres PG ont toujours un CPM fixe, seuls les clients internationaux doivent modifier l’[!UICONTROL offre max] pour prendre en compte les frais de change de devise. |
-|  | (Version du 8 septembre) Les utilisateurs disposant de l’autorisation &quot;[!DNL FreeWheel Programmatic Guaranteed]&quot; peuvent désormais envoyer une publicité à [!DNL FreeWheel Programmatic Creative API] à partir de la vue [!UICONTROL Publicités] ou de la vue [!UICONTROL Emplacements]. Vous pouvez toujours envoyer une publicité à partir de la vue [!UICONTROL Offres]. |
+| Documentation | Toutes les [DSP et autres documents Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html) sur [!DNL Experience League] sont désormais automatiquement traduites dans toutes les langues disponibles. Pour modifier la langue affichée, utilisez le menu &quot;Changer la langue&quot; en bas à gauche d’une page. |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **28 septembre 2021**
+Dernière mise à jour : **7 octobre 2021**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
+| [!UICONTROL Rapports], Centre  [!UICONTROL de notifications] | (Version du 9 octobre) Toutes les notifications par e-mail relatives aux rapports, que Advertising Cloud Search envoie lorsqu’un rapport personnalisé ou planifié est terminé ou en échec, sont désormais gérées par [!UICONTROL Centre de notifications]. Les notifications électroniques et les notifications web sont activées par défaut pour les rapports, mais vous pouvez éventuellement modifier les paramètres de notification. Avec cette modification :<ul><li>Les destinataires des emails sont limités aux utilisateurs enregistrés et authentifiés de Advertising Cloud Search ayant accès au compte publicitaire. Cela permet de s’assurer qu’aucune donnée confidentielle n’est envoyée à des utilisateurs non autorisés.</li><li>Le format et le contenu de l&#39;email utilisent le modèle [!UICONTROL Centre de notifications], qui inclut des détails supplémentaires sur le rapport et des liens de téléchargement direct pour tous les formats de rapport.</li><li>Les notifications de rapport sont un nouveau type de notification, avec ses propres préférences de notification, dans [!UICONTROL Centre de notifications].</li></ul>Si vous utilisez une automatisation pour extraire des rapports des notifications électroniques, vous devrez peut-être mettre à jour la logique de filtrage afin d’assurer la continuité du processus. |
 | Informations publicitaires | D’autres informations sont disponibles en mode bêta. |
 
 {style=&quot;table-layout:auto&quot;}
