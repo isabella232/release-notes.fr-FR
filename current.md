@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
+source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
 workflow-type: tm+mt
-source-wordcount: '4131'
-ht-degree: 64%
+source-wordcount: '4147'
+ht-degree: 63%
 
 ---
 
@@ -124,7 +124,7 @@ Date de publication : **28 octobre 2021**
 | [!UICONTROL Durée de lecture des médias] | La fonctionnalité de [!UICONTROL Durée] de lecture des médias en flux continu dʼAdobe fournit des informations précieuses sur lʼengagement des observateurs. Elle permet aux organisations de médias dʼobtenir des informations plus approfondies et granulaires sur lʼinteraction client, minute par minute, grâce à une analyse avancée de la durée de la lecture et de fonctionnalités dʼanalyse par tranches horaires. Vous pouvez observer la durée de visionnage de vos flux multimédias à un moment précis. Vous pouvez fractionner la durée de lecture selon différentes granularités, y compris de nouvelles granularités de 5 minutes, 15 minutes et 30 minutes. [En savoir plus](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=fr) | 18 octobre 2021 |
 | [!UICONTROL Créateur de segments] rapides | Permet aux utilisateurs professionnels dʼappliquer rapidement des segments de base dans un workflow de projet simplifié et en ligne. Il nʼest pas nécessaire de passer par le [!UICONTROL Créateur de segments]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr) | 21 octobre 2021 |
 | Améliorations apportées à la recherche du rail gauche dans Analysis Workspace | Recherche sur le rail de gauche 1) donne la priorité aux correspondances exactes au-dessus des correspondances larges, en plus de continuer à tenir compte de la récence et de la pertinence des composants. 2) Les caractères correspondants seront mis en évidence pour rendre les résultats de la recherche plus compréhensibles. 3) La recherche de classifications liées à une dimension sera plus facile. 4) Enfin, la recherche prend en charge les caractères génériques (`*`), afin que vous puissiez trouver plus facilement les composants spécifiques dont vous avez besoin. Remarque : la recherche par caractères génériques ne prend pas en charge pour le moment les éléments de dimension. | 21 octobre 2021 |
-| Thème sombre pour Analysis Workspace | Lʼoption dʼaffichage Thème sombre est disponible. | 21 octobre 2021 |
+| Thème sombre | [Lʼoption dʼaffichage Thème sombre est disponible.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 21 octobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -135,7 +135,7 @@ Date de publication : **28 octobre 2021**
 | Plages de dates de niveau minute dans Analysis Workspace | Vous pouvez appliquer une période de niveau minute sous les paramètres avancés de votre calendrier du panneau ou lors de la création d’une période personnalisée. Si vous créez des rapports sur une période qui s’étend sur plusieurs jours, l’heure de début s’applique au premier jour et l’heure de fin s’applique au dernier jour de la période. | 18 octobre 2021 |
 | [!UICONTROL Créateur de filtres] rapides | Permet aux utilisateurs professionnels dʼappliquer rapidement des segments de base dans un workflow de projet simplifié et en ligne. Il nʼest pas nécessaire de passer par le [!UICONTROL Créateur de filtres]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 21 octobre 2021 |
 | Améliorations apportées à la recherche du rail gauche dans Analysis Workspace | Recherche sur le rail de gauche 1) donne la priorité aux correspondances exactes au-dessus des correspondances larges, en plus de continuer à tenir compte de la récence et de la pertinence des composants. 2) Les caractères correspondants seront mis en évidence pour rendre les résultats de la recherche plus compréhensibles. 3) La recherche de classifications liées à une dimension sera plus facile. 4) Enfin, la recherche prend en charge les caractères génériques (`*`), afin que vous puissiez trouver plus facilement les composants spécifiques dont vous avez besoin. Remarque : la recherche par caractères génériques ne prend pas en charge pour le moment les éléments de dimension. | 21 octobre 2021 |
-| Thème sombre pour Analysis Workspace | Lʼoption dʼaffichage Thème sombre est disponible. | 21 octobre 2021 |
+| Thème sombre | [Lʼoption dʼaffichage Thème sombre est disponible.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 21 octobre 2021 |
 | Intervalle de recherche en amont pour l’affectation de dimension | Une fenêtre rétroactive de 90 jours au maximum est ajoutée au paramètre d’affectation de dimension sous Persistance dans la configuration des vues de données . [En savoir plus](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 28 octobre 2021 |
 
 {style=&quot;table-layout:auto&quot;}
