@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
 workflow-type: tm+mt
 source-wordcount: '4131'
-ht-degree: 60%
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 
 ![Bannière](assets/experience-cloud-banner-3.png)
 
-[!DNL Experience Cloud]Les applications et les services sont mis à jour chaque mois. Cette page est votre destination de référence lorsque vous recherchez les dernières mises à jour, la documentation et les tutoriels pour [!DNL Experience Cloud] et [!DNL Experience Platform]. Vous trouverez également de nouvelles documentations pour [!DNL Creative Cloud for enterprise] et [!DNL Document Cloud].
+[!DNL Experience Cloud] applications et les services sont mis à jour chaque mois. Cette page est votre destination de référence lorsque vous recherchez les dernières mises à jour, la documentation et les tutoriels pour [!DNL Experience Cloud] et [!DNL Experience Platform]. Vous trouverez également de nouvelles documentations pour [!DNL Creative Cloud for enterprise] et [!DNL Document Cloud].
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.
 | Date de l’événement | Heure | Nom de l’événement | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 21 octobre 2021 | À la demande | [Qui a cliqué là-dessus ? Création de rapports avancés concernant les clics sur les liens avec Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Événement vidéo en direct | La création de rapports sur lʼinteraction des utilisateurs avec votre propriété Web ou mobile constitue une étape essentielle pour comprendre le parcours de vos clients. Adobe Analytics vous permet de comprendre les clics se produisant dans votre application : qui clique ? Sur quoi ? Pourquoi ? Et où ? Grâce aux conseils des experts dʼAdobe Analytics, apprenez à utiliser les classifications dʼActivity Map et lʼattribution personnalisée afin de mieux comprendre lʼinteraction client. |
-| 4 octobre 2021 | À la demande | [Les développeurs Adobe Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | Vidéo | L’événement a-t-il manqué ou la recherche d’une relecture d’une session spécifique est-elle recherchée ? Trouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils de développement qui optimisent la conception, les workflows de création de contenu, les services de document et la gestion de l’expérience client dans tous les secteurs d’activité. Affichez l’adresse du résumé, découvrez les API d’Analytics, la couche de données client, Adobe I/O des projets Open Source, etc. |
+| 4 octobre 2021 | À la demande | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | L’événement a-t-il manqué ou la recherche d’une relecture d’une session spécifique est-elle recherchée ? Trouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils de développement qui optimisent la conception, les workflows de création de contenu, les services de document et la gestion de l’expérience client dans tous les secteurs d’activité. Affichez l’adresse du résumé, découvrez les API d’Analytics, la couche de données client, Adobe I/O des projets Open Source, etc. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -381,7 +381,7 @@ Dernière mise à jour : **7 octobre 2021**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| Documentation | Tous [DSP et autre documentation Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] est désormais traduit automatiquement dans toutes les langues disponibles. Pour modifier la langue affichée, utilisez le menu &quot;Changer la langue&quot; en bas à gauche d’une page. |
+| Documentation | Tous [DSP et autre documentation Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html?lang=fr) on [!DNL Experience League] est désormais traduit automatiquement dans toutes les langues disponibles. Pour modifier la langue affichée, utilisez le menu « Modifier la langue » situé en bas à gauche d’une page. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -391,7 +391,7 @@ Dernière mise à jour : **7 octobre 2021**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| [!UICONTROL Rapports], [!UICONTROL Centre de notifications] | (Version du 9 octobre) Toutes les notifications par e-mail relatives aux rapports, que Advertising Cloud Search envoie lorsqu’un rapport personnalisé ou planifié est terminé ou en échec, sont désormais gérées par [!UICONTROL Centre de notifications]. Les notifications électroniques et les notifications web sont activées par défaut pour les rapports, mais vous pouvez éventuellement modifier les paramètres de notification. Avec cette modification :<ul><li>Les destinataires des emails sont limités aux utilisateurs enregistrés et authentifiés de Advertising Cloud Search ayant accès au compte publicitaire. Cette fonctionnalité garantit qu’aucune donnée confidentielle n’est envoyée à des utilisateurs non autorisés.</li><li>Le format et le contenu de l&#39;email utilisent la variable [!UICONTROL Centre de notifications] , qui comprend des détails supplémentaires sur le rapport et des liens de téléchargement direct pour tous les formats de rapport.</li><li>Les notifications de rapports sont un nouveau type de notification, avec leurs propres préférences, dans [!UICONTROL Centre de notifications].</li></ul>Si vous utilisez une automatisation pour extraire des rapports des notifications électroniques, vous devrez peut-être mettre à jour la logique de filtrage afin d’assurer la continuité du processus. |
+| [!UICONTROL Rapports], [!UICONTROL Centre de notifications] | (Version du 9 octobre) Toutes les notifications par e-mail des rapports, envoyées par Advertising Cloud Search lorsqu’un rapport personnalisé ou planifié est terminé ou a échoué, sont désormais gérées par le [!UICONTROL Centre de notifications]. Les notifications par e-mail et les notifications web sont activées par défaut pour les rapports, mais vous pouvez éventuellement modifier les paramètres de notification. Avec cette modification :<ul><li>Les destinataires des emails sont limités aux utilisateurs enregistrés et authentifiés de Advertising Cloud Search ayant accès au compte publicitaire. Cette fonctionnalité garantit qu’aucune donnée confidentielle n’est envoyée à des utilisateurs non autorisés.</li><li>Le format et le contenu de l’e-mail utilisent le modèle du [!UICONTROL Centre de notifications], qui inclut des détails supplémentaires sur le rapport et des liens de téléchargement direct pour tous les formats de rapport.</li><li>Les notifications de rapport sont un nouveau type de notification, avec ses propres préférences, dans le [!UICONTROL Centre de notifications].</li></ul>Si vous utilisez une automatisation pour extraire des rapports des notifications par e-mail, vous devrez peut-être mettre à jour la logique de filtrage pour assurer la continuité du processus. |
 | Informations publicitaires | Des informations supplémentaires sont disponibles dans le mode Beta. |
 
 {style=&quot;table-layout:auto&quot;}
