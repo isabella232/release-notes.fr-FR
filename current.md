@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 3a80d5d73e7b701242c7318729d5394062c544f8
+source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
 workflow-type: tm+mt
-source-wordcount: '4455'
+source-wordcount: '4456'
 ht-degree: 59%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 59%
 
 Mois de publication : **Novembre 2021**
 
-Dernière mise à jour : **22 octobre 2021**
+Dernière mise à jour : **28 octobre 2021**
 
 * [[!DNL Experience League] Événements en direct](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
@@ -41,7 +41,7 @@ Dernière mise à jour : **22 octobre 2021**
 * [[!DNL Journey Orchestration]](#journey-orch)
 * [[!DNL Adobe Marketo Engage]](#marketo)
 * [[!DNL Adobe Workfront]](#workfront)
-* [[!DNL Adobe Advertising Cloud]](#adcloud)
+* [[!DNL Adobe Advertising Cloud]](#adcloud) (**27 octobre 2021**)
 * [[!DNL Document Cloud]](#doc-cloud)
 * [[!DNL Creative Cloud for enterprise]](#creative-cloud)
 
