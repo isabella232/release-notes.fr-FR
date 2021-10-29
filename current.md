@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
+source-git-commit: 3a80d5d73e7b701242c7318729d5394062c544f8
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 63%
+source-wordcount: '4455'
+ht-degree: 59%
 
 ---
 
@@ -372,16 +372,32 @@ Consultez la page [[!DNL Workfront] versions](https://one.workfront.com/s/produc
 
 Notes de mise à jour dʼ[!DNL Adobe Advertising Cloud].
 
+* [Nouvelles fonctionnalités dans [!DNL Advertising Cloud]](#adcloud-all)
 * [Nouveautés de la version  [!DNL Advertising Cloud DSP]](#adcloud-dsp)
 * [Nouveautés de la version  [!DNL Advertising Cloud Search]](#adcloud-search)
 
-### Nouveautés de la version [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+### Nouvelles fonctionnalités dans [!DNL Advertising Cloud] {#adcloud-all}
 
-Dernière mise à jour : **7 octobre 2021**
+Dernière mise à jour : **27 octobre 2021**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| Documentation | Tous [DSP et autre documentation Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html?lang=fr) on [!DNL Experience League] est désormais traduit automatiquement dans toutes les langues disponibles. Pour modifier la langue affichée, utilisez le menu « Modifier la langue » situé en bas à gauche d’une page. |
+| Analytics pour Advertising Cloud | Si votre entreprise souhaite ne plus utiliser l’Adobe Analytics hérité `visitorAPI.js` à la bibliothèque Adobe Experience Platform (`alloy.js`) pour la collecte de données, vous devrez apporter quelques modifications pour activer le regroupement des identifiants. Voir &quot;[En utilisant la variable [!DNL Last Event Service] Bibliothèque JavaScript avec Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Nouveautés de la version [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+
+Dernière mise à jour : **27 octobre 2021**
+
+| Fonctionnalité | Description |
+| ------- | ----------- |
+| Rapports personnalisés | Vous pouvez désormais créer et gérer des [!DNL Amazon S3] et différents types d’emplacements de distribution FTP, appelés *[!DNL report destinations]*, pour vos rapports personnalisés. Une fois que vous avez configuré les destinations de rapport, vous pouvez configurer chacun de vos nouveaux rapports personnalisés à diffuser vers un ou plusieurs emplacements d’un seul type de destination ou vers des destinataires par courrier électronique. Mises à jour de votre [!DNL Amazon S3] Les informations d’identification et FTP n’interrompent pas la remise des rapports.<br><br>Vos rapports existants sont toujours envoyés aux destinataires de messagerie spécifiés. Pour configurer une diffusion vers une autre destination de rapport, créez un rapport avec la nouvelle destination. |
+| [!UICONTROL Packages], [!UICONTROL Emplacements], et [!UICONTROL Publicités] views | Lorsque vous affichez des données pour un seul jour, les graphiques de tendance incluent désormais des données horaires. Placez le curseur sur n’importe quel point pour afficher les données de cette heure. |
+| [!UICONTROL Placements] | L’emplacement [!UICONTROL Inspecteur] inclut désormais un [!UICONTROL Inventaire] qui affiche toutes les offres et les mesures associées pour l’emplacement. Utilisez les informations pour effectuer des ajustements rapides ou résoudre les problèmes sans générer de rapport personnalisé. |
+| [!UICONTROL Publicités] | (Utilisateurs autorisés à inclure des numéros Clearcasthorloge dans leurs publicités) DSP ne présente plus d’erreur si vous utilisez un numéro d’horloge joint à une autre publicité. **Remarque :**  La bonne pratique consiste à utiliser un numéro d’horloge unique pour chaque publicité vidéo. Sinon, l’éditeur n’approuvera pas toutes les publicités. |
+| [!UICONTROL ID de transaction] | Le [!UICONTROL Identifiant de transaction] les paramètres et autres emplacements de l’interface utilisateur reflètent la nouvelle valorisation de marque pour [!DNL Magnite] SSP :<br><ul><li>Le SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) est désormais &quot;[!DNL Magnite CTV].&quot;</li><li>Dans les semaines à venir, [!DNL Rubicon]&quot; se transforme en &quot;[!DNL Magnite DV+],&quot; où [!DNL DV+] désigne l’affichage, la vidéo et d’autres formats tels que l’audio.</li></ul> |
+| [!DNL Freewheel] offres garanties par programmation | Vous pouvez maintenant trouver l’état des publicités pour [!DNL Freewheel] offres garanties par programmation à partir de [!UICONTROL Publicités] vue. Auparavant, vous ne pouviez vérifier l’état que dans la variable [!UICONTROL Offres] vue. |
 
 {style=&quot;table-layout:auto&quot;}
 
