@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
+source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
-source-wordcount: '4456'
-ht-degree: 59%
+source-wordcount: '4513'
+ht-degree: 58%
 
 ---
 
@@ -53,6 +53,7 @@ Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.
 
 | Date de l’événement | Heure | Nom de l’événement | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
+| 18 novembre 2021 | TBA | Soyez plus rapide que jamais avec la création rapide de site dans Experience Manager | Événement vidéo en direct | Experience Manager Sites comprend plusieurs fonctionnalités permettant d’accélérer la diffusion d’une expérience web attrayante. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’un modèle de site prédéfini. Plus de détails à venir ! |
 | 21 octobre 2021 | À la demande | [Qui a cliqué là-dessus ? Création de rapports avancés concernant les clics sur les liens avec Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Événement vidéo en direct | La création de rapports sur lʼinteraction des utilisateurs avec votre propriété Web ou mobile constitue une étape essentielle pour comprendre le parcours de vos clients. Adobe Analytics vous permet de comprendre les clics se produisant dans votre application : qui clique ? Sur quoi ? Pourquoi ? Et où ? Grâce aux conseils des experts dʼAdobe Analytics, apprenez à utiliser les classifications dʼActivity Map et lʼattribution personnalisée afin de mieux comprendre lʼinteraction client. |
 | 4 octobre 2021 | À la demande | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | L’événement a-t-il manqué ou la recherche d’une relecture d’une session spécifique est-elle recherchée ? Trouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils de développement qui optimisent la conception, les workflows de création de contenu, les services de document et la gestion de l’expérience client dans tous les secteurs d’activité. Affichez l’adresse du résumé, découvrez les API d’Analytics, la couche de données client, Adobe I/O des projets Open Source, etc. |
 
