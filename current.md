@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
+source-git-commit: f5fa780e217bd43eb835442326692e3a056f16c3
 workflow-type: tm+mt
-source-wordcount: '4513'
-ht-degree: 100%
+source-wordcount: '5070'
+ht-degree: 94%
 
 ---
 
@@ -47,17 +47,43 @@ Dernière mise à jour : **28 octobre 2021**
 
 Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home) pour trouver de la documentation technique et sur les produits, des cours préparés par Adobe, des tutoriels vidéo, des réponses rapides, des informations provenant de la communauté et des formations dispensées par un instructeur.
 
-## ![Icône](/assets/experience-league.png) [!DNL Experience League] Événements en direct {#events}
+## ![Icône](/assets/experience-league.png) [!DNL Experience League] Événements {#events}
 
-Les [événements en direct dʼExperience League](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) sont des discussions avec des experts dʼAdobe et des invités spéciaux qui sont essentiels pour vous apporter la technologie dʼAdobe. Consultez le planning suivant et rejoignez-nous en direct ou regardez les événements enregistrés précédemment.
+Les événements Experience League sont un excellent endroit pour obtenir des réponses d’experts en produits à Adobe. Consultez notre _Saut de café et questions-réponses de la communauté_, des événements vidéo en direct Experience League (également disponibles à la demande) et des événements de développement en direct Adobe. Les planifications et les événements sont les suivants :
+
+### Experience League Live{#exl-live}
+
+[Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) est une émission en direct en streaming produite par l’équipe Experience League. Vous avez la possibilité de vous connecter avec des experts Adobes en produits et de découvrir des conseils pratiques, des astuces et des stratégies que vous pouvez appliquer aux applications Adobe Experience Cloud.
 
 | Date de l’événement | Heure | Nom de l’événement | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 18 novembre 2021 | À venir | Effectuez une mise en ligne plus rapide que jamais avec la création rapide de site dans Experience Manager | Événement vidéo en direct | Experience Manager Sites comprend plusieurs fonctionnalités permettant d’accélérer la diffusion d’une expérience web attrayante. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’un modèle de site prédéfini. Plus de détails à venir ! |
-| 21 octobre 2021 | À la demande | [Qui a cliqué là-dessus ? Création de rapports avancés concernant les clics sur les liens avec Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Événement vidéo en direct | La création de rapports sur lʼinteraction des utilisateurs avec votre propriété Web ou mobile constitue une étape essentielle pour comprendre le parcours de vos clients. Adobe Analytics vous permet de comprendre les clics se produisant dans votre application : qui clique ? Sur quoi ? Pourquoi ? Et où ? Grâce aux conseils des experts dʼAdobe Analytics, apprenez à utiliser les classifications dʼActivity Map et lʼattribution personnalisée afin de mieux comprendre lʼinteraction client. |
-| 4 octobre 2021 | À la demande | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | Vous avez manqué lʼévénement ou souhaitez revoir une session spécifique ? Retrouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez le discours liminaire, découvrez les API dʼAnalytics, la couche de données client, les projets open source Adobe I/O et bien plus encore. |
+| 18 novembre 2021 | 18 h (heure de Paris) | [Soyez plus rapide que jamais, grâce à la création rapide de sites dans Adobe Experience Manager](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Événement vidéo en direct | Déployez des expériences web personnalisées et riches en fonctionnalités en jours, sans développement principal. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’un modèle de site prédéfini. Rejoignez-nous pour une présentation en direct et une démonstration avec Shankari Panchapakesan et Gabriel Walt, responsables Adobes de produits. Vous verrez peut-être même du code en direct ! |
+| 21 octobre 2021 | 18 h (heure de Paris) | [Qui a cliqué là-dessus ? Création de rapports avancés concernant les clics sur les liens avec Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | À la demande | La création de rapports sur lʼinteraction des utilisateurs avec votre propriété Web ou mobile constitue une étape essentielle pour comprendre le parcours de vos clients. Adobe Analytics vous permet de comprendre les clics se produisant dans votre application : qui clique ? Sur quoi ? Pourquoi ? Et où ? Grâce aux conseils des experts dʼAdobe Analytics, apprenez à utiliser les classifications dʼActivity Map et lʼattribution personnalisée afin de mieux comprendre lʼinteraction client. |
+| 23 septembre 2021 | À la demande | [Conseils d’experts pour que vos campagnes de vacances se démarquent](https://www.youtube.com/watch?v=bsU1lAv0xes) | Événement vidéo en direct | Comme il n’est jamais trop tôt pour commencer vos achats de vacances, il n’est jamais trop tôt non plus pour commencer à planifier une campagne marketing à succès pour les vacances. Avec Adobe Campaign, vous pouvez concevoir, planifier et exécuter des campagnes qui réalisent tous les vœux de vacances de votre entreprise.<br>Mais connaissez-vous tous les conseils pour lancer des campagnes qui terminent lʼannée en apothéose ? Rejoignez Sandra pour une discussion en direct avec trois experts dʼAdobe, qui vous impressionneront par leur niveau dʼexpertise collective dans ce domaine. |
+| 26 août 2021 | À la demande | [Rendez votre prochain segment ciblé plus smart que jamais](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=fr) | Enregistrement d’événement | Le succès de chaque bonne campagne marketing dépend du ciblage précis de votre audience. Avec le nouveau [!UICONTROL créateur de segments] d’Adobe Experience Platform, vous pouvez créer votre prochain segment d’audience à l’aide des données de profil et du comportement temporel des utilisateurs sur l’ensemble des canaux. Il n’existe pas meilleur moyen de s’assurer que vos messages parviennent aux personnes qui ont le plus besoin de les entendre. |
+| 29 juillet 2021 | À la demande | [Mes trois meilleurs conseils de mise en œuvre d’Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=fr) | Enregistrement d’événement | Vous l’avez vu sur scène au cours de l’Adobe Summit. Vous l’avez entendu partager des conseils d’expert à Adobe Insider Tours. Vous avez peut-être même eu l’honneur de travailler avec lui sur votre propre mise en œuvre d’Adobe Analytics. Eric Matisoff apporte ses trois conseils préférés de mise en œuvre d’Adobe Analytics à cette discussion exclusive en direct sur Experience League. |
 
 {style=&quot;table-layout:auto&quot;}
+
+### Saut de café et questions-réponses de la communauté{#coffee}
+
+des entretiens avec des experts en Adobe et des invités spéciaux qui vous aideront à vous familiariser avec la technologie de l’Adobe. Saut de café Q&amp;A de la communauté Consultez le calendrier suivant et joignez-vous à nous en direct ou regardez les événements enregistrés précédemment.
+
+Passez une heure avec un invité spécial et posez vos questions dans les communautés Experience League, où vous pouvez obtenir des réponses de la part des experts produit de Adobe.
+
+| Nom de l’événement | Date et heure | Rubrique | Type | Description |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| Saut de café et questions-réponses de la communauté | 10 novembre (Wed.) @ 8am PT | Adobe Target | Forum Q&amp;R | Passez une heure avec Cristinel Anastasoaie, chef de produit. Obtenez des réponses à vos questions sur l’interface d’Adobe Target, les intégrations, les autorisations d’entreprise et les espaces de travail. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
+|  | 11 novembre (jeudi) @ 8 h PT | Adobe Target | Forum Q&amp;R | Passez une heure avec Cristinel Anastasoaie, chef de produit. Obtenez des réponses à vos questions sur l’interface d’Adobe Target, les intégrations, les autorisations d’entreprise et les espaces de travail. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
+| 18 novembre 2021 | À venir | Effectuez une mise en ligne plus rapide que jamais avec la création rapide de site dans Experience Manager | Événement vidéo en direct | Experience Manager Sites comprend plusieurs fonctionnalités permettant d’accélérer la diffusion d’une expérience web attrayante. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’un modèle de site prédéfini. Plus de détails à venir ! |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Adobe du développeur en direct{#dev-live}
+
+| Nom de l’événement | Date et heure | Rubrique | Type | Description |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 4 octobre 2021 | À la demande | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | Vous avez manqué lʼévénement ou souhaitez revoir une session spécifique ? Retrouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez le discours liminaire, découvrez les API dʼAnalytics, la couche de données client, les projets open source Adobe I/O et bien plus encore. |
 
 Pour visionner d’autres vidéos, rendez-vous sur la [chaîne YouTube d’Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw).
 
