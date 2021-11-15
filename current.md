@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 093805df07a22c65a279b4708e420867793cb16b
+source-git-commit: 18e7570cc950555d53a82bbb67555c3a273e2cbc
 workflow-type: tm+mt
-source-wordcount: '4783'
-ht-degree: 92%
+source-wordcount: '4782'
+ht-degree: 93%
 
 ---
 
@@ -76,7 +76,7 @@ Passez une heure avec un invité spécial et posez vos questions dans les commun
 
 | Nom de l’événement | Date et heure | Application | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target - Configuration et interface utilisateur d’administration, intégration A4T, intégration AEM, interface utilisateur générale  | 8 décembre (Mer) @ 8 h PT | Adobe Target | Forum Q&amp;R | Nous serons rejoints par Robert Calangiu, alias @Robert_Calangiu, responsable produit principal pour Adobe Target, dans la communauté Adobe Target pour discuter directement avec vous de vos questions Adobe Target concernant ses domaines d&#39;expertise. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Target - Configuration et interface utilisateur d’administration, intégration A4T, intégration AEM, interface utilisateur générale  | 8 décembre (Mer.) @ 8 h PT | Adobe Target | Forum Q&amp;R | Nous serons rejoints par Robert Calangiu, alias @Robert_Calangiu, responsable produit principal pour Adobe Target, dans la communauté Adobe Target pour discuter directement avec vous de vos questions Adobe Target concernant ses domaines d&#39;expertise. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
 | Adobe Campaign - Import de données via d’autres applications | 2 décembre 2021 @ 8 h PT | Adobe Campaign | Forum Q&amp;R | Import de données via d’autres applications - Bonnes pratiques pour importer des données via SFTP/API à l’aide de workflows techniques avec Zariely Garcia, conseillère technique principale. <br>[Détails](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
