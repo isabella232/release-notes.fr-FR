@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 2877f5206f1baeb4d9ea33529e476bbfe220ac7a
+source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
-source-wordcount: '4804'
+source-wordcount: '4724'
 ht-degree: 92%
 
 ---
@@ -61,10 +61,11 @@ Les planifications et les événements sont les suivants :
 
 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) est une émission en direct en streaming produite par l’équipe Experience League. Vous avez la possibilité de vous connecter avec des experts Adobes en produits et de découvrir des conseils pratiques, des astuces et des stratégies que vous pouvez appliquer aux applications Adobe Experience Cloud.
 
+Événements à venir :
+
 | Date de l’événement | Heure | Nom de l’événement | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 18 novembre 2021 | 18 h (heure de Paris) | [Soyez plus rapide que jamais, grâce à la création rapide de sites dans Adobe Experience Manager](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Événement vidéo en direct | Déployez des expériences web personnalisées et riches en fonctionnalités en jours, sans développement principal. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’une méthode prédéfinie [!UICONTROL Modèle de site]. Rejoignez-nous pour une présentation en direct et une démonstration avec Shankari Panchapakesan, chef de produit Adobe, Gabriel Walt et Danny Gordon. Vous verrez peut-être même du code en direct ! |
-| 21 octobre 2021 | 18 h (heure de Paris) | [Qui a cliqué là-dessus ? Création de rapports avancés concernant les clics sur les liens avec Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | À la demande | La création de rapports sur lʼinteraction des utilisateurs avec votre propriété Web ou mobile constitue une étape essentielle pour comprendre le parcours de vos clients. Adobe Analytics vous permet de comprendre les clics se produisant dans votre application : qui clique ? Sur quoi ? Pourquoi ? Et où ? Grâce aux conseils des experts dʼAdobe Analytics, apprenez à utiliser les classifications dʼActivity Map et lʼattribution personnalisée afin de mieux comprendre lʼinteraction client. |
 
 {style=&quot;table-layout:auto&quot;}
 
