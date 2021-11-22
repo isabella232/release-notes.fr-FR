@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
+source-git-commit: 89342047732a95ba2669eb58397d6a1dc936a8a3
 workflow-type: tm+mt
-source-wordcount: '4724'
-ht-degree: 95%
+source-wordcount: '4803'
+ht-degree: 94%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 95%
 
 Mois de publication : **novembre 2021**
 
-Dernière mise à jour : **15 novembre 2021**
+Dernière mise à jour : **22 novembre 2021**
 
 * [[!DNL Experience League] Événements](#events) (Mise à jour le 15 novembre 2021)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
 * [[!UICONTROL Statut du système] Adobe](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics)(Mise à jour : 22 novembre 2021)
+* [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Commerce]](#magento)
@@ -144,7 +145,7 @@ Date de publication : **28 octobre 2021**
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants pour les administrateurs d’Analytics](#aa-notices)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mise à jour le 22 novembre 2021)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -196,6 +197,7 @@ AN-270649
 
 | Remarque | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Type de collecte de données régionale &quot;Global + Chine&quot; | 22 novembre 2021 | &quot;Global + Chine&quot; est un nouveau type de collecte de données régionale qui simplifie le routage du trafic pour les clients globaux à l’aide de la variable [!UICONTROL Package de module complémentaire d’optimisation des performances en Chine]. Auparavant, vous deviez déterminer si les données devaient être acheminées vers le point de terminaison de collecte Chine ou l’un des points de terminaison de collecte globale. Maintenant, choisissez cette collecte de données régionale **type** pour permettre à Adobe de déterminer le point de terminaison optimal de la collection en fonction de la géolocalisation de l’utilisateur. |
 | Fin de vie de trois services d’API Analytics | 16 septembre 2021 | Le **20 octobre 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à lʼaide de ces services cessent de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://developer.adobe.com/console) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Fin de vie du traitement complet dans les sources de données | 18 octobre 2021 | Le **31 janvier 2022**, Adobe arrêtera le traitement complet, qui permet aux utilisateurs d’ingérer des données d’accès hors ligne dans Analytics. Cette fonctionnalité est disponible via l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=fr ) |
 
