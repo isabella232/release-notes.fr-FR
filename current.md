@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 89342047732a95ba2669eb58397d6a1dc936a8a3
 workflow-type: tm+mt
 source-wordcount: '4803'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Mois de publication : **novembre 2021**
 
 Dernière mise à jour : **22 novembre 2021**
 
-* [[!DNL Experience League] Événements](#events) (Mise à jour le 15 novembre 2021)
+* [[!DNL Experience League] Événements](#events) (mise à jour le 15 novembre 2021)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
 * [[!UICONTROL Statut du système] Adobe](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -50,11 +50,11 @@ Besoin d’aide ? Consultez [Adobe Experience League](https://experienceleague
 
 ## ![Icône](/assets/experience-league.png) [!DNL Experience League] Événements {#events}
 
-Les événements Experience League sont un excellent endroit pour obtenir des réponses d’experts en produits Adobe. Voici les événements disponibles :
+Les événements Experience League sont un excellent endroit pour obtenir des réponses d’experts en produits Adobe. Vous trouverez ci-dessous les événements disponibles :
 
-* [Experience League Live](#exl-live): Événements vidéo en direct et à la demande sur YouTube
-* [Saut de café et questions-réponses de la communauté](#coffee): Conversations avec les responsables produits sur le forum de la communauté
-* [Adobe du développeur en direct](#dev-live): Événements vidéo à la demande disponibles sur Experience League
+* [Experience League Live](#exl-live) : événements vidéo en direct et à la demande sur YouTube
+* [Pauses café questions-réponses de la communauté](#coffee) : conversations avec les chefs de produit sur le forum de la communauté
+* [Adobe Developer’s Live](#dev-live) : événements vidéo à la demande disponibles sur Experience League
 
 Les planifications et les événements sont les suivants :
 
@@ -62,24 +62,24 @@ Les planifications et les événements sont les suivants :
 
 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) est une émission produite par l’équipe d’Experience League et diffusée en direct. Elle vous offre la possibilité d’entrer en contact avec des experts en produits Adobe et de découvrir des conseils pratiques, des astuces et des stratégies à mettre en pratique avec les applications Adobe Experience Cloud.
 
-Événements à venir :
+Événements à venir :
 
 | Date de l’événement | Heure | Nom de l’événement | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 18 novembre 2021 | 18 h (heure de Paris) | [Effectuez une mise en ligne plus rapide que jamais avec la création rapide de site dans Adobe Experience Manager](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Événement vidéo en direct | Déployez des expériences web personnalisées et riches en fonctionnalités en quelques jours, sans développement back-end. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’une méthode prédéfinie [!UICONTROL Modèle de site]. Rejoignez-nous pour une présentation en direct et une démonstration avec Shankari Panchapakesan, chef de produit Adobe, Gabriel Walt et Danny Gordon. Vous verrez peut-être même du codage en direct ! |
+| 18 novembre 2021 | 18 h (heure de Paris) | [Effectuez une mise en ligne plus rapide que jamais avec la création rapide de site dans Adobe Experience Manager](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Événement vidéo en direct | Déployez des expériences web personnalisées et riches en fonctionnalités en quelques jours, sans développement back-end. Découvrez comment utiliser une approche à code faible pour créer un site dans Adobe Experience Manager à l’aide d’un [!UICONTROL modèle de site] prédéfini. Rejoignez-nous pour une présentation et une démonstration en direct avec Shankari Panchapakesan, Gabriel Walt et Danny Gordon, chefs de produit chez Adobe. Vous verrez peut-être même du codage en direct ! |
 
 {style=&quot;table-layout:auto&quot;}
 
-Pour les épisodes précédents, voir [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
+Pour accéder aux épisodes précédents, rendez-vous sur [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
-### Session Community Q&amp;A Coffee Breaks (Pause-café Questions/réponses de la communauté Adobe Target) {#coffee}
+### Pauses café questions-réponses de la communauté {#coffee}
 
-Passez une heure avec un invité spécial et posez vos questions dans les communautés Experience League, où vous pouvez obtenir des réponses de la part des experts produits Adobe!
+Passez une heure avec un invité spécial et posez vos questions dans les communautés Experience League, où vous pouvez obtenir des réponses de la part des experts produits Adobe !
 
 | Nom de l’événement | Date et heure | Application | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target - Configuration et interface utilisateur d’administration, intégration A4T, intégration AEM, interface utilisateur générale  | Mercredi 8 décembre à 8 h PT | Adobe Target | Forum Q&amp;R | Nous serons rejoints par Robert Calangiu, alias @Robert_Calangiu, responsable produit principal pour Adobe Target, dans la communauté Adobe Target pour discuter directement avec vous de vos questions Adobe Target concernant ses domaines d&#39;expertise. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=fr) |
-| Adobe Campaign - Import de données via d’autres applications | Jeudi 2 décembre 2021 @ 8 h PT | Adobe Campaign | Forum Q&amp;R | Import de données via d’autres applications - Bonnes pratiques pour importer des données via SFTP/API à l’aide de workflows techniques avec Zariely Garcia, conseillère technique principale. <br>[Détails](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Target - Configuration et interface utilisateur d’administration, intégration A4T, intégration AEM, interface utilisateur générale | Mercredi 8 décembre à 17 h CET | Adobe Target | Forum Q&amp;R | La communauté Adobe Target sera rejointe par Robert Calangiu, alias @Robert_Calangiu, chef de produit principal pour Adobe Target, qui discutera directement avec vous de vos questions relatives à ses domaines d’expertise. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=fr) |
+| Adobe Campaign - Import de données via d’autres applications | Jeudi 2 décembre 2021 à 17 h CET | Adobe Campaign | Forum Questions-Réponses | Import de données via d’autres applications - Bonnes pratiques d’import de données via SFTP/API à l’aide de workflows techniques avec Zariely Garcia, conseillère technique principale. <br>[Détails](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -87,7 +87,7 @@ Passez une heure avec un invité spécial et posez vos questions dans les commun
 
 | Nom de l’événement | Date et heure | Rubrique | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 4-5 octobre 2021 | À la demande | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | Vous avez manqué lʼévénement ou souhaitez revoir une session spécifique ? Retrouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez le discours liminaire, découvrez les API dʼAnalytics, la couche de données client, les projets open source Adobe I/O et bien plus encore. |
+| 4-5 octobre 2021 | À la demande | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | Vous avez manqué lʼévénement ou souhaitez revoir une session spécifique ? Retrouvez-les sur Experience League. Developers Live présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez le discours liminaire, découvrez les API dʼAnalytics, la couche de données client, les projets open source Adobe I/O et bien plus encore. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -406,11 +406,11 @@ Consultez la page [[!DNL Workfront] versions](https://one.workfront.com/s/produc
 
 Notes de mise à jour dʼ[!DNL Adobe Advertising Cloud].
 
-* [Nouvelles fonctionnalités dans [!DNL Advertising Cloud]](#adcloud-all)
+* [Nouvelles fonctionnalités dans  [!DNL Advertising Cloud]](#adcloud-all)
 * [Nouveautés de la version  [!DNL Advertising Cloud DSP]](#adcloud-dsp)
 * [Nouveautés de la version  [!DNL Advertising Cloud Search]](#adcloud-search)
 
-### Nouvelles fonctionnalités dans[!DNL Advertising Cloud] {#adcloud-all}
+### Nouvelles fonctionnalités dans [!DNL Advertising Cloud] {#adcloud-all}
 
 Dernière mise à jour : **27 octobre 2021**
 
