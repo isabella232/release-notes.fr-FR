@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e4a4bc3cb484b045f0f1b400e1ba77d0178a90fd
+source-git-commit: 81cf97e0a4f0280549c23a68b45ff3a7088dd644
 workflow-type: tm+mt
-source-wordcount: '4811'
-ht-degree: 99%
+source-wordcount: '4902'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 99%
 
 Mois de publication : **novembre 2021**
 
-Dernière mise à jour : **22 novembre 2021**
+Dernière mise à jour : **4 janvier 2022**
 
 * [[!DNL Experience League] Événements](#events) (mise à jour le 15 novembre 2021)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
 * [[!UICONTROL Statut du système] Adobe](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) (Mise à jour : 22 novembre 2021)
+* [[!DNL Adobe Analytics]](#analytics) (**Mise à jour : 4 janvier 2022**)
 * [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -145,7 +145,7 @@ Date de publication : **28 octobre 2021**
 * [Nouvelles fonctionnalités d’Adobe Analytics](#aa-features)
 * [Nouvelles fonctionnalités dans Customer Journey Analytics](#cust-journey)
 * [Correctifs dans Adobe Analytics](#aa-fixes)
-* [Avis importants à lʼintention des administrateurs dʼAnalytics](#aa-notices) (mise à jour : 22 novembre 2021)
+* [Avis importants à l’intention des administrateurs d’Analytics](#aa-notices) (Mise à jour le 4 janvier 2022)
 * [Cours et tutoriels pour Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -197,8 +197,9 @@ AN-270649
 
 | Remarque | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Fin de vie des rapports et analyses | 4 janvier 2022 | Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques de l’Adobe. La plupart des fonctions de Reports &amp; Analytics sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. [Cette remarque](https://spark.adobe.com/page/6WnF8JK6IRDhf) explique le processus de fin de vie. |
 | Type de collecte de données régionale « Global + Chine » | 22 novembre 2021 | « Global + Chine » est un nouveau type de collecte de données régionale (RDC) qui simplifie le routage du trafic pour les clients globaux à l’aide du [!UICONTROL Package de modules complémentaires d’optimisation des performances en Chine]. Auparavant, vous deviez déterminer si les données devaient être acheminées vers le point d’entrée de collecte Chine ou l’un des points d’entrée de collecte globale. Maintenant, vous pouvez choisir ce **type** de collecte de données régionale afin de permettre à Adobe de déterminer le point d’entrée de collecte optimal en fonction de la géolocalisation de l’utilisateur. |
-| Fin de vie de trois services d’API Analytics | 16 septembre 2021 | Le **20 octobre 2021**, les services dʼAPI hérités dʼAnalytics qui sont indiqués ci-dessous atteindront leur date de fin de vie et seront fermés. Les intégrations actuelles créées à lʼaide de ces services cessent de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://developer.adobe.com/console) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
+| Fin de vie de trois services d’API Analytics | 16 septembre 2021 | Activé **20 octobre 2021**, les services d’API hérités d’Analytics suivants ont atteint leur date de fin de vie et ont été fermés. Les intégrations actuelles créées à l’aide de ces services ont cessé de fonctionner ce jour-là.<ul><li>API Analytics 1.3</li><li>API Analytics 1.4 SOAP</li><li>Legacy OAuth Authentication (OAuth et JWT)</li></ul>Adobe a mis à disposition une [FAQ sur la fin de vie des API héritées](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) pour répondre à vos questions et vous donner des conseils sur la marche à suivre. Les intégrations d’API qui utilisent ces services peuvent migrer vers les [API Analytics 1.4 REST](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou vers les [API Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). Les comptes OAuth hérités peuvent migrer vers un compte dʼintégration [Adobe I/O](https://developer.adobe.com/console) Analytics, qui peut être utilisé pour accéder aux API Analytics 1.4 et 2.0. |
 | Fin de vie du traitement complet dans les sources de données | 18 octobre 2021 | Le **31 janvier 2022**, Adobe arrêtera le traitement complet, qui permet aux utilisateurs d’ingérer des données d’accès hors ligne dans Analytics. Cette fonctionnalité est disponible via l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=fr ) |
 
 {style=&quot;table-layout:auto&quot;}
