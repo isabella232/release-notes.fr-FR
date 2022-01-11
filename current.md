@@ -1,6 +1,6 @@
 ---
 title: Dernières notes de mise à jour
-description: Découvrez les dernières notes de mise à jour, les nouvelles fonctionnalités et la nouvelle documentation pour les produits et services  [!DNL Experience Cloud] . Découvrez de nouvelles aide et des tutoriels sur [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], et [!DNL Document Cloud].
+description: Découvrez les dernières notes de mise à jour, les nouvelles fonctionnalités et la nouvelle documentation pour les produits et services [!DNL Experience Cloud] . Trouvez de nouvelles ressources dʼaide et des tutoriels sur [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise] et [!DNL Document Cloud].
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -58,7 +58,7 @@ Les événements Experience League sont un excellent endroit pour obtenir des r
 
 Les planifications et les événements sont les suivants :
 
-### Experience League Live {#exl-live}
+### Experience League Live{#exl-live}
 
 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) est une émission produite par l’équipe d’Experience League et diffusée en direct. Elle vous offre la possibilité d’entrer en contact avec des experts en produits Adobe et de découvrir des conseils pratiques, des astuces et des stratégies à mettre en pratique avec les applications Adobe Experience Cloud.
 
@@ -72,18 +72,18 @@ Les planifications et les événements sont les suivants :
 
 Pour accéder aux épisodes précédents, rendez-vous sur [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
-### Pauses café questions-réponses de la communauté {#coffee}
+### Pauses café questions-réponses de la communauté{#coffee}
 
 Passez une heure avec un invité spécial et posez vos questions dans les communautés Experience League, où vous pouvez obtenir des réponses de la part des experts produits Adobe !
 
 | Nom de l’événement | Date et heure | Application | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | Adobe Target - Configuration et interface utilisateur d’administration, intégration A4T, intégration AEM, interface utilisateur générale | Mercredi 8 décembre à 8 heures PT | Adobe Target | Forum Q&amp;R | La communauté Adobe Target sera rejointe par Robert Calangiu, alias @Robert_Calangiu, chef de produit principal pour Adobe Target, qui discutera directement avec vous de vos questions relatives à ses domaines d’expertise. <br>[Détails](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697?profile.language=fr) |
-| Adobe Campaign - Import de données via d’autres applications | Jeudi 2 décembre 2021 à 17 h CET | Adobe Campaign | Forum Questions-Réponses | Import de données via d’autres applications - Bonnes pratiques pour importer des données via SFTP/API à l’aide de workflows techniques avec Zariely Garcia, conseillère technique principale. <br>[Détails](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Campaign - Import de données via d’autres applications | Jeudi 2 décembre 2021 à 17 h CET | Adobe Campaign | Forum Q&amp;R | Import de données via d’autres applications - Bonnes pratiques pour importer des données via SFTP/API à l’aide de workflows techniques avec Zariely Garcia, conseillère technique principale. <br>[Détails](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Developer&#39;s Live {#dev-live}
+### Adobe Developer&#39;s Live{#dev-live}
 
 | Nom de l’événement | Date et heure | Rubrique | Type | Description |
 | -----------| ---------- | ---------- | ---------- |---------- |
@@ -195,7 +195,7 @@ AN-270649
 
 ### Avis importants destinés aux administrateurs d’[!DNL Analytics] {#aa-notices}
 
-| Remarque | Date d’ajout  ou de mise à jour | Description |
+| Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | Fin de vie des rapports et analyses | 4 janvier 2022 | Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques de l’Adobe. La plupart des fonctions de Reports &amp; Analytics sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. [Cette remarque](https://spark.adobe.com/page/6WnF8JK6IRDhf) explique le processus de fin de vie. |
 | Type de collecte de données régionale « Global + Chine » | 22 novembre 2021 | « Global + Chine » est un nouveau type de collecte de données régionale (RDC) qui simplifie le routage du trafic pour les clients globaux à l’aide du [!UICONTROL Package de modules complémentaires d’optimisation des performances en Chine]. Auparavant, vous deviez déterminer si les données devaient être acheminées vers le point d’entrée de collecte Chine ou l’un des points d’entrée de collecte globale. Maintenant, vous pouvez choisir ce **type** de collecte de données régionale afin de permettre à Adobe de déterminer le point d’entrée de collecte optimal en fonction de la géolocalisation de l’utilisateur. |
@@ -240,7 +240,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
 
 ### Vidéos de présentation des versions
 
-* [Présentation de la version de décembre 2021](https://video.tv.adobe.com/v/339278) vidéo des nouvelles fonctionnalités.
+* [Présentation de la version de décembre 2021](https://video.tv.adobe.com/v/339278) : vidéo des nouvelles fonctionnalités.
 * [Présentation de la version dʼoctobre 2021](https://video.tv.adobe.com/v/338253) : vidéo des nouvelles fonctionnalités.
 * [Présentation de la version de septembre 2021](https://video.tv.adobe.com/v/337381) : vidéo des nouvelles fonctionnalités.
 
@@ -367,9 +367,9 @@ Derniers tutoriels pour Journey Optimizer :
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Octobre 2021 | [Configuration et gestion des données dans  [!DNL Journey Optimizer]  pour les ingénieurs de données](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2&amp;lang=fr) | Cours | Découvrez comment configurer et gérer les données nécessaires à la gestion des parcours dans Journey Optimizer. |
-| Octobre 2021 | [Prise en main de  [!DNL Journey Optimizer]  pour les administrateurs et responsables de parcours](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1&amp;lang=fr) | Cours | Apprenez tout ce que vous devez savoir afin de créer votre premier parcours. |
-| Octobre 2021 | [Configuration de  [!DNL Journey Optimizer]  pour les administrateurs de parcours](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1&amp;lang=fr) | Cours | Comprenez lʼarchitecture de [!DNL Journey Optimizer] et les points dʼintégration. Découvrez comment configurer [!DNL Journey Optimizer]. |
+| Octobre 2021 | [Configuration et gestion des données dans [!DNL Journey Optimizer] pour les ingénieurs de données](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2&amp;lang=fr) | Cours | Découvrez comment configurer et gérer les données nécessaires à la gestion des parcours dans Journey Optimizer. |
+| Octobre 2021 | [Prise en main de [!DNL Journey Optimizer] pour les administrateurs et responsables de parcours](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1&amp;lang=fr) | Cours | Apprenez tout ce que vous devez savoir afin de créer votre premier parcours. |
+| Octobre 2021 | [Configuration de [!DNL Journey Optimizer] pour les administrateurs de parcours](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1&amp;lang=fr) | Cours | Comprenez lʼarchitecture de [!DNL Journey Optimizer] et les points dʼintégration. Découvrez comment configurer [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -418,7 +418,7 @@ Dernière mise à jour : **27 octobre 2021**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| Analytics pour Advertising Cloud | Si votre organisation souhaite passer de l’ancienne bibliothèque Adobe Analytics `visitorAPI.js` à la bibliothèque Adobe Experience Platform (`alloy.js`) pour la collecte de données, vous devrez apporter quelques modifications pour activer le regroupement des identifiants. Voir « [Utilisation de la bibliothèque JavaScript  [!DNL Last Event Service]  avec le  [!DNL Web SDK] Adobe Experience Platform](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html?lang=fr) ». |
+| Analytics pour Advertising Cloud | Si votre organisation souhaite passer de l’ancienne bibliothèque Adobe Analytics `visitorAPI.js` à la bibliothèque Adobe Experience Platform (`alloy.js`) pour la collecte de données, vous devrez apporter quelques modifications pour activer le regroupement des identifiants. Voir « [Utilisation de la bibliothèque JavaScript [!DNL Last Event Service] avec le [!DNL Web SDK] Adobe Experience Platform](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html?lang=fr) ». |
 
 {style=&quot;table-layout:auto&quot;}
 
