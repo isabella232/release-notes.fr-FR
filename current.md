@@ -72,7 +72,7 @@ Les planifications et les événements sont les suivants :
 
 Les épisodes précédents sont disponibles à l’adresse [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
-### Pauses café questions-réponses de la communauté{#coffee}
+### Pauses café questions-réponses de la communauté {#coffee}
 
 Passez une heure avec un invité spécial et envoyez vos questions dans les communautés Experience League. Obtenez les réponses aux questions des experts du produit chez Adobe !
 
@@ -83,7 +83,7 @@ Passez une heure avec un invité spécial et envoyez vos questions dans les comm
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Developer&#39;s Live{#dev-live}
+### Adobe Developer&#39;s Live {#dev-live}
 
 | Événement | Date et heure | Type | Description |
 | -----------| ---------- | ---------- |---------- |
