@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e8e9579245a74552a4dc9ee88eb45375162de6e1
+source-git-commit: 1b16256611eb979c223368409f6887d8c6826332
 workflow-type: tm+mt
-source-wordcount: '6416'
-ht-degree: 42%
+source-wordcount: '6587'
+ht-degree: 41%
 
 ---
 
@@ -289,6 +289,28 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
 
 
 
+
+### Communauté
+
+* **Webinaire GEM Experience Manager - as a Cloud Service Experience Manager** | Examen de 2021 et perspectives 2022
+
+   **Date**: Mardi 25 janvier 2022
+   **Heure**: 8 h 00 (heure du Pacifique) ou 17 h 00 (heure du Pacifique) ou 21 h 30 (heure du Pacifique)
+   **Durée**: 60 minutes
+   **Coût**: Libre !
+
+   * [Inscrivez-vous ici](https://adobe.ly/3tAh3OC)
+   * [Questions](https://adobe.ly/3zJrS0f)
+
+* [Annonce des membres de la communauté de l’année 2021](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-community-members-of-the-year-2021/td-p/436782)
+
+   Nous voulons envoyer un grand merci à tous ceux qui ont participé à [communauté des Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) en 2021 et ont aidé d&#39;autres à résoudre leurs problèmes.
+
+   Chaque année, la Communauté Experience Cloud honore le membre qui va au-delà de sa fonction et fournit un soutien incroyable aux autres avec le prix Community Member of the Year. Nous vous annonçons ici que nous saluons les efforts d&#39;une manière publique. [@Asutosh_Jena_](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/7532759)  et [@Vijayalakshmi_S](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/11077056) en tant que membres de la Communauté de l&#39;année 2021.
+
+* [Contenu Experience League pour janvier 2022](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-content-for-month-of-january-2022/td-p/437137)
+
+   [Liste de tout le contenu du Experience Manager publié dans l’Experience League](https://adobe.ly/3tuGuRH)
 
 ### Nouveaux cours et tutoriels sur Experience Manager {#tutorials-aem}
 
