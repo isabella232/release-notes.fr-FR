@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a5fd2d7d8668a3b75718d24a8af14498e2192a1a
+source-git-commit: 3ecd5dfeeee5692b7fb5c5fa4dcac497b3c49ce0
 workflow-type: tm+mt
-source-wordcount: '6575'
-ht-degree: 40%
+source-wordcount: '6573'
+ht-degree: 41%
 
 ---
 
@@ -25,12 +25,12 @@ Découvrez les dernières mises à jour de la version [Produits Adobe Experience
 
 **Janvier 2022**
 
-Dernière mise à jour : **14 janvier 2022**
+Dernière mise à jour : **26 janvier 2022**
 
 * [[!DNL Experience League] Événements](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
 * [[!UICONTROL Statut du système] Adobe](#status)
-* [[!DNL Adobe Experience Platform]](#platform)
+* [[!DNL Adobe Experience Platform]](#platform) (Mise à jour : **26 janvier 2022**)
 * [[!DNL Adobe Analytics]](#analytics)
 * [[!DNL Customer Journey Analytics]](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
@@ -111,10 +111,9 @@ Lisez le [dernières notes de mise à jour](https://experienceleague.adobe.com/d
 
 Mise à jour des informations et de la nouvelle documentation pour l’Experience Platform et [!UICONTROL SDK Mobile]:
 
-* Prochaine version planifiée : **26 janvier 2022**
-* Dernière version : **17 novembre 2021**
+* Version : **26 janvier 2022**
 
-Voir [Notes de mise à jour des Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour rester à jour.
+Voir [Notes de mise à jour des Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr) pour lire la dernière version.
 
 ### Nouveaux tutoriels et cours pour les Experience Platform {#tutorials-platform}
 
@@ -186,7 +185,7 @@ AN-253294; AN-254976; AN-255377; AN-255561; AN-258550; AN-259336; AN-263935; AN-
 | ----------- | ---------- | ---------- |
 | Expiration de l’extension liste autorisée EOL pour les intégrations héritées d’Analytics OAuth/JWT | 14 janvier 2022 | Activé **25 mai 2022**, la variable [API Analytics 1.3, API SOAP 1.4 et API OAuth/JWT héritées d’Analytics](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) L’extension de liste autorisée expire. Il a été proposé de fournir aux clients utilisant des [!DNL Adobe Analytics] Informations d’identification OAuth/JWT supplémentaires pour migrer leurs intégrations client vers [Informations d’identification Adobe IMS](https://developer.adobe.com/console). Cette expiration affecte (mais ne se limite pas à) [!DNL Adobe Analytics Livestream] et [!DNL Adobe Campaign] clients qui n’ont pas terminé leurs migrations IMS requises. Clients qui utilisent actuellement des [!DNL Analytics] Les informations d’identification OAuth/JWT via l’extension de liste autorisée et qui ne terminent pas leur migration vers les informations d’identification IMS d’ici au 25 mai 2022 perdront l’accès aux services Adobe. Les clients Livestream peuvent se référer à ces [instructions](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) lors de la migration de leurs applications clientes vers les informations d’identification IMS. [!DNL Campaign] les clients peuvent contacter leur équipe de compte d’Adobe au sujet de la mise à niveau vers la dernière version de [!DNL Campaign]. |
 | Abandon pour [!DNL Reports & Analytics] | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner et ses rapports et fonctionnalités associés.[!DNL Reports & Analytics] Rapports, visualisations et technologie sous-jacente qui optimisent [!DNL Reports & Analytics] ne répondent plus aux normes technologiques d’Adobe. Le plus [!DNL Reports & Analytics] fonctions disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la sortie d&#39;Analysis Workspace en 2015, [!DNL Reports & Analytics] Les fonctionnalités ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
-| Mise à niveau des services SFTP (Secure File Transfer Protocol) | 13 janvier 2022 | Activé **2 mai 2022**, [!DNL Adobe Analytics] mettra à niveau ses services SFTP (Secure File Transfer Protocol) afin de fournir une sécurité améliorée pour les transferts de fichiers. Avec cette modification, certaines configurations de client SFTP ne seront plus prises en charge. Nous ajouterons également quelques options de connexion disponibles par **1 mars 2022**. Cela aura uniquement un impact sur les données envoyées à ou récupérées à partir d’Adobe Analytics par SFTP. Le protocole FTP ne sera pas affecté. Pour éviter les interruptions de service, veillez à ce que vos clients SFTP (code, outils, services) soient conformes aux modifications détaillées. [here](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
+| Mise à niveau des services SFTP (Secure File Transfer Protocol) | 13 janvier 2022 | Activé **2 mai 2022**, [!DNL Adobe Analytics] mettra à niveau ses services SFTP (Secure File Transfer Protocol) afin de fournir une sécurité améliorée pour les transferts de fichiers. Suite à la mise à niveau, certaines configurations de clients SFTP ne seront plus prises en charge. Nous ajouterons également plusieurs options de connexion, qui seront disponibles dʼici le **1er mars 2022**. Seules les données envoyées ou récupérées depuis Adobe Analytics au moyen du protocole SFTP seront affectées. Le protocole FTP ne sera pas affecté. Pour éviter les interruptions de service, veillez à ce que vos clients SFTP (code, outils, services) soient conformes aux modifications détaillées. [here](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 | _Global + Chine_ Type RDC | 22 novembre 2021 | _Global + Chine_ est un nouveau type de collecte de données régionale (RDC) qui simplifie le routage du trafic pour les clients globaux à l’aide de la variable [!UICONTROL Package de module complémentaire d’optimisation des performances en Chine]. Auparavant, vous deviez déterminer si les données devaient être acheminées vers le point d’entrée de collecte Chine ou l’un des points d’entrée de collecte globale. Maintenant, vous pouvez choisir ce *type* de collecte de données régionale afin de permettre à Adobe de déterminer le point d’entrée de collecte optimal en fonction de la géolocalisation de l’utilisateur. |
 | Fin de vie du traitement complet dans les sources de données | 18 octobre 2021 | Le **31 janvier 2022**, Adobe arrêtera le traitement complet, qui permet aux utilisateurs d’ingérer des données d’accès hors ligne dans Analytics. Cette fonctionnalité est disponible via l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=fr ) |
 
