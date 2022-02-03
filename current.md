@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 36c608bd0501936778dc791aac7f3c92bc6ce187
+source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
 workflow-type: tm+mt
-source-wordcount: '6609'
+source-wordcount: '6611'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ Découvrez les dernières mises à jour de versions des [produits Adobe Experie
 
 **Janvier 2022**
 
-Dernière mise à jour : **26 janvier 2022**
+Dernière mise à jour : **3 février 2022**
 
 * [Événements [!DNL Experience League]](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administration](#ecloud)
@@ -37,7 +37,7 @@ Dernière mise à jour : **26 janvier 2022**
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL XML Documentation for Adobe Experience Manager]](#xml-doc)
 * [[!DNL Adobe Commerce]](#magento)
-* [[!DNL Adobe Target]](#target)
+* [[!DNL Adobe Target]](#target) (Mise à jour : **3 février 2022**)
 * [[!DNL Adobe Campaign]](#ac)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Journey Orchestration]](#journey-orch)
