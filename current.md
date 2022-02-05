@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
+source-git-commit: 9e16facc25424bb8ce23e35230b7503195cf1a3d
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 99%
+source-wordcount: '6534'
+ht-degree: 98%
 
 ---
 
@@ -527,12 +527,11 @@ Dernière mise à jour : **27 octobre 2021**
 
 ### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **7 octobre 2021**
+Dernière mise à jour : **4 février 2022**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| [!UICONTROL Rapports], [!UICONTROL Centre de notifications] | (Version du 9 octobre) Toutes les notifications par e-mail des rapports, envoyées par Advertising Cloud Search lorsqu’un rapport personnalisé ou planifié est terminé ou a échoué, sont désormais gérées par le [!UICONTROL Centre de notifications]. Les notifications par e-mail et les notifications web sont activées par défaut pour les rapports, mais vous pouvez éventuellement modifier les paramètres de notification. Avec cette modification :<ul><li>Les destinataires dʼe-mails sont limités aux utilisateurs enregistrés et authentifiés dʼAdvertising Cloud Search qui ont accès au compte de lʼannonceur. Cette fonctionnalité garantit quʼaucune donnée confidentielle nʼest envoyée à des utilisateurs non autorisés.</li><li>Le format et le contenu de l’e-mail utilisent le modèle du [!UICONTROL Centre de notifications], qui inclut des détails supplémentaires sur le rapport et des liens de téléchargement direct pour tous les formats de rapport.</li><li>Les notifications de rapport sont un nouveau type de notification, avec ses propres préférences, dans le [!UICONTROL Centre de notifications].</li></ul>Si vous utilisez une automatisation pour extraire des rapports des notifications par e-mail, vous devrez peut-être mettre à jour la logique de filtrage pour assurer la continuité du processus. |
-| Informations publicitaires | Des informations supplémentaires sont disponibles dans le mode Beta. |
+| [!UICONTROL Feuilles d’envoi groupées], [!UICONTROL Centre de notifications] | (Version du 22 janvier) Toutes les notifications par courrier électronique envoyées par Advertising Cloud Search lorsqu’une opération de feuille d’envoi groupé est terminée ou a échoué sont désormais gérées par [!UICONTROL Centre de notifications].<br><br>[!UICONTROL Feuilles d’envoi groupées] est un nouveau type de notification, avec ses propres préférences de notification, dans [!UICONTROL Centre de notifications]. Les notifications électroniques et les notifications web sont activées par défaut, mais vous pouvez éventuellement modifier les paramètres de notification.<br><br>Le format et le contenu des notifications électroniques utilisent la variable [!UICONTROL Centre de notifications] et inclut un lien de téléchargement direct pour le fichier de feuille d’envoi groupé ou le fichier d’erreur associé. |
 
 {style=&quot;table-layout:auto&quot;}
 
