@@ -1,22 +1,22 @@
 ---
-title: Notes de mise à jour d’Adobe Experience Cloud
-description: Notes de mise à jour d’Experience Cloud
+title: Notes de mise à jour d’Adobe Experience Cloud
+description: Notes de mise à jour d’Experience Cloud
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
+source-git-commit: e415b562703712157d907d3e3995ff5adad4db1e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '716'
 ht-degree: 93%
 
 ---
 
 
-# MODÈLE - Notes de mise à jour d’Adobe Experience Cloud - Mois 2021
+# MODÈLE - Notes de mise à jour d’Adobe Experience Cloud - Mois 2021
 
 ![Bannière](/assets/experience-cloud-banner-3.png)
 
-Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
+Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -29,11 +29,11 @@ Nouvelles fonctionnalités et correctifs d’Adobe Experience Cloud.
 Dernière mise à jour : **Septembre 2021**
 
 * [Événements en direct des Experience League](#events)
-* [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
+* [Composants de lʼinterface centrale dʼExperience Cloud](#ecloud)
+* [Statut du système Adobe](#status)
 * [Experience Platform](#platform)
 * [Services d’application Experience Platform](#services)
-* [Statut du système Adobe](#status)
-* [Journey Optimizer](#journey-opt)
+* [Journey Optimizer](#journey-opt)
 * [[!DNL Analytics]](#analytics) et [Customer Journey Analytics](#cust-journey)
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
@@ -50,17 +50,11 @@ Dernière mise à jour : **Septembre 2021**
 
 Fonctionnalités et correctifs.
 
-Voir [État du système Adobe](https://status.adobe.com/).
+Voir [État du système Adobe](https://status.adobe.com/fr).
 
 ## ![Icône](/assets/ec_appicon_24.png) Composants de lʼinterface utilisateur centrale Experience Cloud {#ecloud}
 
 Les composants de lʼinterface centrale Experience Cloud bénéficient de mises à jour des fonctionnalités accessibles sur la page dʼaccueil unifiée des produits, telles que lʼautoassistance, la recherche et les préférences de compte utilisateur. Retrouvez ici des mises à jour pour les services Personnes, Places (Emplacement) et pour la gestion des produits.
-
-| Fonctionnalité | Date | Description |
-| ------- | ------- | -------|
-| Fonctionnalité | Septembre 2021 | Description |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL Services principaux] {#core-services}
 
@@ -70,29 +64,29 @@ Fonctionnalités et correctifs.
 
 Fonctionnalités et correctifs.
 
-## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
+## ![Icône](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Notes de mise à jour d’[!DNL Experience Platform,] y compris d’[!DNL Experience Platform Launch,] de [!UICONTROL Journey Orchestration], des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services], et des bulletins de sécurité.
+Notes de mise à jour d’[!DNL Experience Platform,] y compris d’[!DNL Experience Platform Launch,] de [!UICONTROL Journey Orchestration], des services [!UICONTROL Offres], [!UICONTROL Personnes], [!UICONTROL Places], et [!UICONTROL Mobile Services], et des bulletins de sécurité.
 
 * [Service Experience Cloud ID](#ecid)
 * [Notes de mise à jour d’Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/release-notes/latest.html)
-* [Experience Platform Launch](#launch)
+* [Experience Platform Launch](#launch)
 * [Journey Orchestration](#journey)
 * [Mobile Services et SDK mobiles](#mobile)
 
-### [!UICONTROL Service Experience Cloud ID] {#ecid}
+### [!UICONTROL Service Experience Cloud ID] {#ecid}
 
 Fonctionnalités et correctifs.
 
-### [!UICONTROL Experience Platform Launch] {#launch}
+### [!UICONTROL Experience Platform Launch] {#launch}
 
 Voir
 
 ### [!UICONTROL Journey Orchestration] {#journey}
 
-Grâce à Adobe [!UICONTROL Experience Platform,] orchestrez des parcours clients individuels à grande échelle sur les canaux dʼexpérience en anticipant de manière intelligente les besoins de chaque individu en temps réel, quel que soit lʼendroit où leur parcours les mène.
+Grâce à Adobe [!UICONTROL Experience Platform,] orchestrez des parcours clients individuels à grande échelle sur les canaux dʼexpérience en anticipant de manière intelligente les besoins de chaque individu en temps réel, quel que soit lʼendroit où leur parcours les mène.
 
-#### Ressources supplémentaires pour [!UICONTROL Journey Orchestration]
+#### Ressources supplémentaires pour [!UICONTROL Journey Orchestration]
 
 text
 
@@ -111,9 +105,9 @@ Description des nouvelles fonctionnalités. Utilisez des en-têtes ou un tableau
 
 ## Analytics {#analytics}
 
-Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
+Nouvelles fonctionnalités et correctifs d’Adobe Analytics :
 
-### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
+### Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
@@ -148,7 +142,7 @@ Texte.
 * Correction
 * Correction
 
-## Audience Manager {#aam}
+## Audience Manager {#aam}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
@@ -236,7 +230,7 @@ Adobe Campaign offre un moyen intuitif et automatisé d’envoyer des messages 
 
 Texte
 
-## Publicité {#adcloud}
+## Advertising {#adcloud}
 
 | Fonctionnalité | Description |
 | ------- | ------- |
@@ -263,7 +257,7 @@ Marketo Engage est une solution complète de gestion des leads, destinée aux re
 
 Date de publication : 21 février 2020
 
-* **Microsoft® Dynamics  _Change Owner in Microsoft®_ Action de flux**  : modifiez un prospect ou un propriétaire de contact directement à partir de Marketo Engage.
+* **Microsoft® Dynamics _Changer de propriétaire dans Microsoft®_ Action de flux :** Modifiez un prospect ou un propriétaire de contact directement à partir du Marketo Engage.
 * **Améliorations des appels d’API :**
    * API de gestion des utilisateurs
    * API de schéma d’objet personnalisé
