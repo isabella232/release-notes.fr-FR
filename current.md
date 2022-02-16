@@ -6,9 +6,9 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
+source-git-commit: f4b652db4759a65f38afe0fbd6dca07301875277
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4963'
 ht-degree: 50%
 
 ---
@@ -473,10 +473,11 @@ Dernière mise à jour : **27 octobre 2021**
 
 ### Nouveautés de la version [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : **4 février 2022**
+Dernière mise à jour : **16 février 2022**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
+| [!UICONTROL Campagnes], [!UICONTROL Feuilles de support] | (Version du 22 janvier) ([!DNL Microsoft Advertising accounts]) Vous pouvez désormais créer et gérer des annonces responsives sur le Réseau de Recherche (RSA) à partir du [!UICONTROL Campagnes] > [!UICONTROL Publicités] afficher et à partir de [!UICONTROL Campagnes] > [!UICONTROL Feuilles d’envoi groupées]. |
 | [!UICONTROL Feuilles d’envoi groupées], [!UICONTROL Centre de notifications] | (Version du 22 janvier) Toutes les notifications par courrier électronique envoyées par Advertising Cloud Search lorsqu’une opération de feuille d’envoi groupé est terminée ou a échoué sont désormais gérées par [!UICONTROL Centre de notifications].<br><br>[!UICONTROL Feuilles d’envoi groupées] est un nouveau type de notification, avec ses propres préférences de notification, dans [!UICONTROL Centre de notifications]. Les notifications électroniques et les notifications web sont activées par défaut, mais vous pouvez éventuellement modifier les paramètres de notification.<br><br>Le format et le contenu des notifications électroniques utilisent la variable [!UICONTROL Centre de notifications] et inclut un lien de téléchargement direct pour le fichier de feuille d’envoi groupé ou le fichier d’erreur associé. |
 
 {style=&quot;table-layout:auto&quot;}
