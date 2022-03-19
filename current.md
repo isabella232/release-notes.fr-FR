@@ -108,7 +108,7 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Mars 2022 | [Tutoriel sur la mise en oeuvre de Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html) | Cours | Découvrez comment mettre en oeuvre des applications Adobe Experience Cloud dans votre application mobile à l’aide du SDK Adobe Experience Platform Mobile. |
+| Mars 2022 | [Tutoriel sur la mise en oeuvre de Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html) | Cours | Découvrez comment mettre en oeuvre des applications Adobe Experience Cloud dans votre application mobile à l’aide du SDK Mobile de Adobe Experience Platform. |
 | Mars 2022 | [Génération d’identifiants d’appareil propriétaires](https://experienceleague.adobe.com/docs/platform-learn/data-collection/edge-network/generate-first-party-device-ids.html) | Vidéo | Découvrez comment générer des identifiants d’appareil propriétaires et comment ils fonctionnent. |
 | Mars 2022 | [Configuration des flux de données](https://experienceleague.adobe.com/docs/platform-learn/data-collection/edge-network/configure-datastreams.html) | Vidéo | Découvrez comment créer et configurer des flux de données pour les implémentations de SDK Web et Mobile. |
 
