@@ -6,10 +6,10 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e0d19d7aa41529dd32231cc2975eb5b03b7c8956
+source-git-commit: c99f4d0cb202a3abbc0db601371e84adba591f40
 workflow-type: tm+mt
-source-wordcount: '5786'
-ht-degree: 50%
+source-wordcount: '5681'
+ht-degree: 49%
 
 ---
 
@@ -69,14 +69,6 @@ Les événements Experience League sont un excellent endroit pour apprendre, int
 [!DNL Adobe System Status] fournit des informations détaillées, des mises à jour de statut et des notifications par e-mail relatives aux produits Adobe. Il prévient également des pannes du service, des perturbations et des activités de maintenance. Consultez le site [status.adobe.com](https://status.adobe.com/fr).
 
 ## ![Icône](/assets/ec_appicon_24.png) Experience Cloud - composants et administration de l’interface centrale {#ecloud}
-=======
-Date de publication : **16 novembre 2021**
-
-**Nouveautés**
-
-* Adobe Status signale désormais les incidents au niveau des produits. Les pages Status Cloud et Produit ont un nouveau look et des filtres améliorés basés sur le rapport des incidents au niveau du produit. Il vous est ainsi plus facile de comprendre comment votre produit est affecté sur [status.adobe.com](https://status.adobe.com/) et dans vos notifications par e-mail. Si vous n’êtes pas abonné, suivez ce lien pour configurer vos préférences d’abonnement personnalisées : [https://status.adobe.com/fr/proactive-notifications/manage](https://status.adobe.com/fr/proactive-notifications/manage)..
-
-* La page d’accueil de Status est désormais personnalisée avec des événements filtrés en fonction de vos droits et de vos abonnements aux produits. Vous pouvez consulter cela sur **status.adobe.com** > onglet **[!UICONTROL Mes événements]**.
 
 Experience Cloud [composants de l’interface utilisateur centrale](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr) inclure les fonctionnalités disponibles sur la page d’accueil et l’en-tête du produit persistant ; Ces fonctionnalités incluent les paramètres de profil utilisateur, les préférences et la recherche. Vous trouverez également de l’aide sur la gestion des utilisateurs et des produits, les attributs du client et les audiences Experience Cloud.
 
