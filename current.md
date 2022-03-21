@@ -6,9 +6,9 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3f75b897e739d296d4b69d0f85d50ef4fa661ff0
+source-git-commit: 06f9e80782bf7c1f34feda8ab39e6832d76f0bc1
 workflow-type: tm+mt
-source-wordcount: '5702'
+source-wordcount: '5696'
 ht-degree: 49%
 
 ---
@@ -102,7 +102,7 @@ Nouveaux tutoriels, vidéos ou cours publiés pour Experience Platform.
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Mars 2022 | [Tutoriel sur la mise en oeuvre de Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html) | Cours | Découvrez comment mettre en oeuvre des applications Adobe Experience Cloud dans votre application mobile à l’aide du SDK Adobe Experience Platform Mobile. |
+| Mars 2022 | [Tutoriel sur la mise en oeuvre de Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html) | Cours | Découvrez comment mettre en oeuvre des applications Adobe Experience Cloud dans votre application mobile à l’aide du SDK Mobile de Adobe Experience Platform. |
 | Mars 2022 | [Génération d’identifiants d’appareil propriétaires](https://experienceleague.adobe.com/docs/platform-learn/data-collection/edge-network/generate-first-party-device-ids.html) | Vidéo | Découvrez comment générer des identifiants d’appareil propriétaires et comment ils fonctionnent. |
 | Mars 2022 | [Configuration des flux de données](https://experienceleague.adobe.com/docs/platform-learn/data-collection/edge-network/configure-datastreams.html) | Vidéo | Découvrez comment créer et configurer des flux de données pour les implémentations de SDK Web et Mobile. |
 
@@ -116,7 +116,7 @@ Voir [Notes de mise à jour et journaux des modifications](https://aep-sdks.gitb
 
 Date de lancement : **23 mars 2022**
 
-* Adobe Analytics [notes de mise à jour](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr) (**nouvel emplacement**) (Réviseurs, accédez à `https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=en`)
+* [Notes de mise à jour](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr) dʼAdobe Analytics (**nouvel emplacement**)
 * [Documentation et tutoriels du produit](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) Adobe Analytics
 
 ### AppMeasurement {#appm}
@@ -146,7 +146,7 @@ Nouveaux tutoriels, vidéos et cours publiés pour Adobe Analytics.
 
 Date de lancement : **23 mars 2022**
 
-* Customer Journey Analytics [notes de mise à jour](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=fr)  (**nouvel emplacement**) (Réviseurs, accédez à `https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en`)
+* [Notes de mise à jour](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=fr) de Customer Journey Analytics  (**nouvel emplacement**)
 * [Documentation et tutoriels du produit](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=fr) Customer Journey Analytics
 
 ## ![Icône](/assets/audience-manager.png) Audience Manager {#aam}
