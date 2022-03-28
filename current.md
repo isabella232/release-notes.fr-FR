@@ -6,10 +6,10 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: eb5f320b029eb30f548c2016ac51e52c14de8199
+source-git-commit: fe574c18fe36112968b6e58ddb8103239eed9632
 workflow-type: tm+mt
 source-wordcount: '5696'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -133,12 +133,12 @@ Nouveaux tutoriels, vidéos et cours publiés pour Adobe Analytics.
 | -----------| ---------- | ---------- | ---------- |
 | Mars 2022 | [Conseils et astuces pour simplifier et consacrer moins de temps à la formation des utilisateurs](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/key-admin-skills/simplify-training-users.html?lang=en) | Vidéo et article | Découvrez à quel point une organisation Adobe Analytics bien formée peut être essentielle pour réussir dans votre entreprise. |
 | Mars 2022 | [Créer une communauté plus forte](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/key-admin-skills/empowered-community.html) | Vidéo et article | Découvrez la valeur d’une communauté Analytics dotée de pouvoirs et comment en créer et en prendre en charge une. |
-| Mars 2022 | [Création de règles de traitement des canaux marketing](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/create-marketing-channel-processing-rules.html?lang=en) | Vidéo | Découvrez comment configurer [!UICONTROL Règles de traitement] pour [!UICONTROL Canaux marketing]. |
-| Mars 2022 | [Configuration des canaux marketing dans votre suite de rapports](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/set-up-marketing-channels.html) | Vidéo | Dans cette vidéo, découvrez comment configurer les rapports des canaux marketing dans votre suite de rapports Analytics. |
+| Mars 2022 | [Créer des règles de traitement des canaux marketing](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/create-marketing-channel-processing-rules.html?lang=en) | Vidéo | Découvrez comment configurer [!UICONTROL Règles de traitement] pour [!UICONTROL Canaux marketing]. |
+| Mars 2022 | [Configurer des canaux marketing dans votre suite de rapports](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/set-up-marketing-channels.html) | Vidéo | Dans cette vidéo, découvrez comment configurer les rapports des canaux marketing dans votre suite de rapports Analytics. |
 | Mars 2022 | [Transition vers Adobe Analytics à partir de Google Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/transitioning-from-other-platforms/transition-from-google-analytics.html?lang=en) | Vidéo | Un guide complet pour la transition vers [!DNL Adobe Analytics] de [!DNL Google Analytics]. |
-| Mars 2022 | [Configuration des variables de hiérarchie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-hierarchy-variables.html?lang=en) | Vidéo | Découvrez comment et à quel moment configurer des variables de hiérarchie pour votre site. Cette fonctionnalité peut être utilisée pour afficher une vue hiérarchique des pages de votre site et le volume de trafic qui atteint chaque noeud. |
-| Mars 2022 | [Traitement et partage dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/curation-and-sharing-in-analysis-workspace.html?lang=en) | Vidéo | Découvrez comment travailler avec le traitement et le partage de projets dans Analysis Workspace. |
-| Mars 2022 | [Lien direct vers un projet dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html?lang=en) | Vidéo | Découvrez comment démocratiser plus efficacement les analyses en créant des liens raccourcis qui amènent vos collègues directement à vos projets Analysis Workspace. |
+| Mars 2022 | [Configurer les variables de hiérarchie](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-hierarchy-variables.html?lang=en) | Vidéo | Découvrez comment et à quel moment configurer des variables de hiérarchie pour votre site. Cette fonctionnalité peut être utilisée pour afficher une vue hiérarchique des pages de votre site et le volume de trafic qui atteint chaque noeud. |
+| Mars 2022 | [Traiter et partager dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/curation-and-sharing-in-analysis-workspace.html?lang=en) | Vidéo | Découvrez comment travailler avec le traitement et le partage de projets dans Analysis Workspace. |
+| Mars 2022 | [Lien direct vers un projet dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html?lang=en) | Vidéo | Découvrez comment démocratiser plus efficacement les analyses en créant des liens raccourcis qui amènent vos collègues directement à vos projets Analysis Workspace. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -390,7 +390,7 @@ Derniers tutoriels pour Journey Optimizer :
 
 | Publication | Nom | Type | Description |
 | -----------| ---------- | ---------- | ---------- |
-| Mars 2022 | [Utilisation et gestion des expressions enregistrées dans la bibliothèque de personnalisation](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/personalize-content/use-and-manage-saved-expressions-in-personalization-library.html?lang=en) | Vidéo | Découvrez comment utiliser des éléments de bibliothèque de personnalisation enregistrés dans un message et comment créer et gérer des éléments de bibliothèque de personnalisation. |
+| Mars 2022 | [Utiliser et gérer les expressions enregistrées dans la bibliothèque de personnalisation](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/personalize-content/use-and-manage-saved-expressions-in-personalization-library.html?lang=en) | Vidéo | Découvrez comment utiliser les éléments enregistrés de la bibliothèque de personnalisation dans un message ainsi que comment créer et gérer les éléments de la bibliothèque de personnalisation. |
 
 ### Ressources supplémentaires pour [!DNL Journey Optimizer]
 
