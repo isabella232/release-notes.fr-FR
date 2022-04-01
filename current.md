@@ -6,10 +6,10 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c85a79e12550790ce932d45dcb0f9940f48c72ac
+source-git-commit: 7edf353026f9e8a595771602ea67eafd1bb77d96
 workflow-type: tm+mt
 source-wordcount: '5733'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ Les événements Experience League sont un excellent endroit pour apprendre, in
 | [AEM Gems](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-gems-build-sites-faster-with-aem-headless-and-app-builder/m-p/440205#M31629) | Webinaire Adobe Live | Uitlisez Bootstrap et déployez rapidement des applications d’une seule page (SPA) à l’aide des workflows et des outils [!UICONTROL App Builder] d’Adobe, sans avoir besoin des compétences Experience Manager traditionnelles nécessaires telles que Java™ et Sling. Avec Experience Manager Headless, les professionnels du marketing et les développeurs peuvent tous avoir l’expertise nécessaire dans leur propre domaine : les développeurs contrôlent la structure globale de l’application, le style et le routage, tandis que les professionnels du marketing déterminent le contenu et son affichage.<br>**Date :** mercredi 23 mars - [Détails &amp; enregistrement](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-gems-build-sites-faster-with-aem-headless-and-app-builder/m-p/440205#M31629) |
 | [Adobe Analytics : raconter des histoires percutantes avec des données](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b%E2%80%A6%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) | Webinaire Adobe Live | La narration des données est efficace quand elle atteint l’équilibre entre art et science. Alors, pourquoi en faire trop ? Amy Ard, championne d’Adobe Analytics, présente trois parties destinées à guider la narration de données sans pour autant diminuer la créativité :<ul><li>Identifier l’opportunité ou le problème</li><li>Expliquer à l’aide des données</li><li>Offrir une solution</li></ul>**Date :** jeudi 31 mars - [Détails et enregistrement](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b…%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) |
 | [Experience Makers - Échange de compétences pour Adobe Workfront](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true) | Webinaire Adobe Live | Nous sommes ravis d’annoncer la première édition d’Experience Makers - L’échange de compétences pour Adobe Workfront aura lieu le 13 avril. Cet événement d’apprentissage numérique gratuit de 3 heures est entièrement axé sur Workfront. Les clients ont la possibilité de poser des questions en direct aux experts et aux pairs qui connaissent le mieux la gestion de travail. Que vous soyez nouveau sur Workfront ou un expert chevronné, tout le monde y trouvera son compte. <br>**Date :** mercredi 13 avril - [Détails et enregistrement](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true) |
-| [Adobe [!DNL Developers Live]](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | [!DNL Developers Live] présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez le discours liminaire, découvrez les API dʼAnalytics, la couche de données client, les projets open source Adobe I/O et bien plus encore. |
+| [Adobe [!DNL Developers Live]](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | [!DNL Developers Live] présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez l’adresse du mot-clé, découvrez les API Analytics, la couche de données client, les projets open source Adobe Developer, et bien plus encore. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -177,7 +177,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
 
 * **Experience Manager as a Cloud Service**
 
-   Regardez la [Vidéo de présentation de la version de mars 2022](https://video.tv.adobe.com/v/341465) pour un résumé des fonctionnalités ajoutées dans la version 2022.3.0 (mars 2022). Depuis la vidéo de ce mois-ci, Adobe a activé le sous-titrage localisé en français (FR), allemand (DE) et japonais (JP).
+   Regardez la [Vidéo de présentation de la version de mars 2022](https://video.tv.adobe.com/v/341465) pour un résumé des fonctionnalités ajoutées dans la version 2022.3.0 (mars 2022). Beginning with the video this month, Adobe has enabled localized closed captioning in French (FR), German (DE) and Japanese (JP).
 
    * [Vidéo de présentation de la version de janvier 2022](https://video.tv.adobe.com/v/340120) mettant en avant les nouvelles fonctionnalités.
    * [Vidéo de présentation de la version de décembre 2021](https://video.tv.adobe.com/v/339278) mettant en avant les nouvelles fonctionnalités.
@@ -260,7 +260,7 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 | -----------| ---------- | ---------- | ---------- | ------|
 | Mars 2022 | [Commencer le développement avec AEM Headless](https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html?lang=fr) | Cours | Créez une page de destination AEM Headless qui rassemble tout le contenu dʼAEM Headless sur Experience League. | AEM Headless |
 | Mars 2022 | [Créer votre premier site web dans Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/?lang=fr#dashboard/learning) | Cours | Générez rapidement un nouveau site web dans Experience Manager à l’aide d’un modèle de site prédéfini. | AEM Sites |
-| Mars 2022 | [Extraire le nœud du fichier xml des données envoyées](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/custom-workflow-steps/extract-xml-node.html?lang=fr) | Vidéo | Découvrez cette étape de workflow personnalisé permettant de créer un document XML en extrayant le nœud d’un autre document XML. Utilisez ce workflow lorsque vous souhaitez fusionner les données envoyées avec le modèle XDP pour générer un document PDF. | AEM Forms |
+| Mars 2022 | [Extraire le nœud du fichier xml des données envoyées](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/custom-workflow-steps/extract-xml-node.html?lang=fr) | Vidéo | Découvrez cette étape de processus personnalisée pour créer un document XML en extrayant le noeud d’un autre document XML. Utilisez ce workflow lorsque vous souhaitez fusionner les données envoyées avec le modèle XDP pour générer un document PDF. | AEM Forms |
 | Mars 2022 | [Enregistrer le document dans le système de fichiers](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/custom-workflow-steps/write-payload-document.html?lang=fr) | Vidéo | Découvrez comment enregistrer les documents générés dans le workflow dans le système de fichiers. | AEM Forms |
 | Mars 2022 | [Fonctions personnalisées](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/custom-functions-aem-forms.html?lang=fr) | Vidéo | AEM Forms 6.5 offre la possibilité de configurer des fonctions JavaScript pour définir des règles métier complexes à l’aide de l’éditeur de règles. | AEM Forms |
 | Mars 2022 | [Expert Series : connecteur amélioré de Workfront pour Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=fr) | Vidéo | Rejoignez les experts des produits Workfront et Experience Manager Assets dʼAdobe dans cette série de vidéos en quatre parties, où ils discutent des avantages et inconvénients du connecteur amélioré de Workfront pour Experience Manager. | AEM Assets, Workfront |
@@ -342,7 +342,7 @@ Nouvelle documentation et nouveaux tutoriels pour Adobe Commerce sur Experience
 
 ## ![Icône](/assets/target.png) [!DNL Adobe Target] {#target}
 
-Dernière mise à jour : **21 mars 2022**
+Last Updated: **March 21, 2022**
 
 * Pour obtenir des informations sur la version préliminaire, consultez la section [Version préliminaire d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=fr).
 * Pour obtenir des informations à jour, consultez la section [Notes de mise à jour d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/release-notes.html?lang=fr).
@@ -530,7 +530,7 @@ Consultez les [tutoriels Creative Cloud abonnement Enterprise](https://experien
 
 ## ![Icône](/assets/experience-league.png) Gestion des données client - Voix {#voices}
 
-[Voix pour la gestion des données client](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/overview.html?lang=fr) est votre destination en tant que leader et spécialiste des pratiques techniques et marketing de gestion des données client. Cette collection de tutoriels est votre guichet unique pour bénéficier de l’avis de vos pairs, trouver de l’inspiration et découvrir les développements dans le domaine du MarTech. Aucune inscription requise, cliquez et regardez.
+[Voix pour la gestion des données client](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/overview.html?lang=fr) est votre destination en tant que leader et spécialiste des pratiques techniques et marketing de gestion des données client. Cette collection de tutoriels est votre guichet unique pour bénéficier de l’avis de vos pairs, trouver de l’inspiration et découvrir les développements dans le domaine du MarTech. Aucune inscription n’est requise, il vous suffit de cliquer et de regarder.
 
 ## ![Icône](/assets/experience-league.png) Plans directeurs de Digital Experience {#blueprints}
 
