@@ -6,10 +6,10 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7edf353026f9e8a595771602ea67eafd1bb77d96
+source-git-commit: fa2627b8bdd7e9b9f4159b366767c30f46721369
 workflow-type: tm+mt
-source-wordcount: '5733'
-ht-degree: 98%
+source-wordcount: '5815'
+ht-degree: 96%
 
 ---
 
@@ -25,9 +25,9 @@ Vous êtes prêt à commencer ? [Répondez à un petit quiz de 5 minutes pour 
 >
 >Pour recevoir une notification mensuelle par e-mail des mises à jour de cette page, abonnez-vous à la [Mise à jour prioritaire des produits Adobe](https://www.adobe.com/subscription/priority-product-update.html). Consultez régulièrement ce site pour rester au courant de ce qui se passe sur Experience League.
 
-Dernière mise à jour : **21 mars 2022**
+Dernière mise à jour : **1 avril 2022**
 
-* [Évènements [!DNL Experience League]](#events)
+* [[!DNL Experience League] events](#events) (**1er avril**)
 * [[!DNL Adobe System Status]](#status)
 * [Experience Cloud - Composants de l’interface centrale et administration](#ecloud)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -56,10 +56,11 @@ Les événements Experience League sont un excellent endroit pour apprendre, in
 
 | Événement | Type | Description |
 | -----------|---------- | ----|
+| [Experience Makers - Échange de compétences pour Adobe Workfront](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true) | Webinaire Adobe Live | Nous sommes ravis d&#39;annoncer la première édition de _Experience Makers - Échange de compétences pour Adobe Workfront_. <br>Cet événement d’apprentissage numérique gratuit de trois heures se concentre entièrement sur Workfront. Vous pouvez poser des questions à des experts et à des pairs qui connaissent le mieux la gestion du travail. Que vous soyez nouveau sur Workfront ou un expert chevronné, tout le monde y trouvera son compte.<br>**Date :** Mercredi 13 avril à 9h00 - 12 h 00 heure d&#39;été (heure d&#39;été). [Détails et enregistrement](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true): Adobe recommande de s’enregistrer même si vous ne pouvez pas y assister, de sorte que vous ayez accès aux enregistrements à la demande. |
+| [Principes d’administration du système Adobe Workfront : Concevoir une expérience utilisateur idéale](https://webinars.on24.com/adobe_workfront/AdminEssentialsUserExp?partnerref=field) | Webinaire Adobe Live | Rejoignez Mary Ann Erickson, responsable du succès client chez Adobe Workfront, et Steve Enos, analyste des opérations créatives chez Liberty Mutual Insurance pour découvrir comment concevoir une expérience utilisateur idéale. <br>**Date :** Mercredi 27 avril. Heure : 8 h (heure d&#39;été) / 16 h (heure d&#39;été). <br>[Détails et enregistrement](https://webinars.on24.com/adobe_workfront/AdminEssentialsUserExp?partnerref=field) |
 | [Experience League LIVE](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) | Vidéo en direct et à la demande | Une émission produite par l’équipe d’Experience League et diffusée en direct. Elle offre l’occasion de communiquer avec des experts en produits Adobe. Découvrez des conseils pratiques, des astuces et des stratégies que vous pouvez utiliser pour les applications Adobe Experience Cloud.<br> [Détails et événements passés](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) |
 | [AEM Gems](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-gems-build-sites-faster-with-aem-headless-and-app-builder/m-p/440205#M31629) | Webinaire Adobe Live | Uitlisez Bootstrap et déployez rapidement des applications d’une seule page (SPA) à l’aide des workflows et des outils [!UICONTROL App Builder] d’Adobe, sans avoir besoin des compétences Experience Manager traditionnelles nécessaires telles que Java™ et Sling. Avec Experience Manager Headless, les professionnels du marketing et les développeurs peuvent tous avoir l’expertise nécessaire dans leur propre domaine : les développeurs contrôlent la structure globale de l’application, le style et le routage, tandis que les professionnels du marketing déterminent le contenu et son affichage.<br>**Date :** mercredi 23 mars - [Détails &amp; enregistrement](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-gems-build-sites-faster-with-aem-headless-and-app-builder/m-p/440205#M31629) |
 | [Adobe Analytics : raconter des histoires percutantes avec des données](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b%E2%80%A6%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) | Webinaire Adobe Live | La narration des données est efficace quand elle atteint l’équilibre entre art et science. Alors, pourquoi en faire trop ? Amy Ard, championne d’Adobe Analytics, présente trois parties destinées à guider la narration de données sans pour autant diminuer la créativité :<ul><li>Identifier l’opportunité ou le problème</li><li>Expliquer à l’aide des données</li><li>Offrir une solution</li></ul>**Date :** jeudi 31 mars - [Détails et enregistrement](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b…%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) |
-| [Experience Makers - Échange de compétences pour Adobe Workfront](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true) | Webinaire Adobe Live | Nous sommes ravis d’annoncer la première édition d’Experience Makers - L’échange de compétences pour Adobe Workfront aura lieu le 13 avril. Cet événement d’apprentissage numérique gratuit de 3 heures est entièrement axé sur Workfront. Les clients ont la possibilité de poser des questions en direct aux experts et aux pairs qui connaissent le mieux la gestion de travail. Que vous soyez nouveau sur Workfront ou un expert chevronné, tout le monde y trouvera son compte. <br>**Date :** mercredi 13 avril - [Détails et enregistrement](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true) |
 | [Adobe [!DNL Developers Live]](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | [!DNL Developers Live] présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez l’adresse du mot-clé, découvrez les API Analytics, la couche de données client, les projets open source Adobe Developer, et bien plus encore. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -177,7 +178,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
 
 * **Experience Manager as a Cloud Service**
 
-   Regardez la [Vidéo de présentation de la version de mars 2022](https://video.tv.adobe.com/v/341465) pour un résumé des fonctionnalités ajoutées dans la version 2022.3.0 (mars 2022). Beginning with the video this month, Adobe has enabled localized closed captioning in French (FR), German (DE) and Japanese (JP).
+   Regardez la [Vidéo de présentation de la version de mars 2022](https://video.tv.adobe.com/v/341465) pour un résumé des fonctionnalités ajoutées dans la version 2022.3.0 (mars 2022). Depuis la vidéo de ce mois-ci, Adobe a activé le sous-titrage localisé en français (FR), allemand (DE) et japonais (JP).
 
    * [Vidéo de présentation de la version de janvier 2022](https://video.tv.adobe.com/v/340120) mettant en avant les nouvelles fonctionnalités.
    * [Vidéo de présentation de la version de décembre 2021](https://video.tv.adobe.com/v/339278) mettant en avant les nouvelles fonctionnalités.
@@ -342,7 +343,7 @@ Nouvelle documentation et nouveaux tutoriels pour Adobe Commerce sur Experience
 
 ## ![Icône](/assets/target.png) [!DNL Adobe Target] {#target}
 
-Last Updated: **March 21, 2022**
+Dernière mise à jour : **21 mars 2022**
 
 * Pour obtenir des informations sur la version préliminaire, consultez la section [Version préliminaire d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=fr).
 * Pour obtenir des informations à jour, consultez la section [Notes de mise à jour d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/release-notes.html?lang=fr).
