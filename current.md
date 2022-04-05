@@ -6,10 +6,10 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fa2627b8bdd7e9b9f4159b366767c30f46721369
+source-git-commit: b3dc987d687b4feb7a5108bf5949ffd8e15f1211
 workflow-type: tm+mt
-source-wordcount: '5815'
-ht-degree: 96%
+source-wordcount: '5848'
+ht-degree: 94%
 
 ---
 
@@ -25,9 +25,9 @@ Vous êtes prêt à commencer ? [Répondez à un petit quiz de 5 minutes pour 
 >
 >Pour recevoir une notification mensuelle par e-mail des mises à jour de cette page, abonnez-vous à la [Mise à jour prioritaire des produits Adobe](https://www.adobe.com/subscription/priority-product-update.html). Consultez régulièrement ce site pour rester au courant de ce qui se passe sur Experience League.
 
-Dernière mise à jour : **1 avril 2022**
+Dernière mise à jour : **5 avril 2022**
 
-* [[!DNL Experience League] events](#events) (**1er avril**)
+* [[!DNL Experience League] events](#events) (**5 avril** - Redémarrage d’AEM Gems)
 * [[!DNL Adobe System Status]](#status)
 * [Experience Cloud - Composants de l’interface centrale et administration](#ecloud)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -54,12 +54,14 @@ Besoin d’aide ? Rendez-vous sur [Adobe Experience League](https://experienc
 
 Les événements Experience League sont un excellent endroit pour apprendre, interagir et obtenir des réponses d’experts en produits Adobe !
 
+Mise à jour **5 avril 2022**
+
 | Événement | Type | Description |
 | -----------|---------- | ----|
+| [AEM Gems](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/overview.html?lang=en) | Webinaire Adobe Live | AEM mises à jour Gems pour 2022 sont disponibles ! AEM Gems est notre série de webinaires sur Adobe Experience Manager, présentés par des experts en Adobe. <br>Pour obtenir les derniers AEM Gems, voir [Adobe Experience Manager as a Cloud Service : Révision 2021 et perspectives 2022](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2022/aemcloudservice-2021-review-and-outlook.html?lang=en) et [Créer des sites plus rapidement avec AEM sans affichage et générateur d’applications](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2022/build-sites-faster-with-headless-and-appbuilder.html?lang=en).<br>Consultez fréquemment ces notes de mise à jour ou abonnez-vous aux [Mise à jour produit prioritaire des Adobes](https://www.adobe.com/subscription/priority-product-update.html) pour rester au top des Gems AEM et autres événements Experience League. |
 | [Experience Makers - Échange de compétences pour Adobe Workfront](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true) | Webinaire Adobe Live | Nous sommes ravis d&#39;annoncer la première édition de _Experience Makers - Échange de compétences pour Adobe Workfront_. <br>Cet événement d’apprentissage numérique gratuit de trois heures se concentre entièrement sur Workfront. Vous pouvez poser des questions à des experts et à des pairs qui connaissent le mieux la gestion du travail. Que vous soyez nouveau sur Workfront ou un expert chevronné, tout le monde y trouvera son compte.<br>**Date :** Mercredi 13 avril à 9h00 - 12 h 00 heure d&#39;été (heure d&#39;été). [Détails et enregistrement](https://events.bizzabo.com/385867?promo=CustomerM&amp;tr=true): Adobe recommande de s’enregistrer même si vous ne pouvez pas y assister, de sorte que vous ayez accès aux enregistrements à la demande. |
 | [Principes d’administration du système Adobe Workfront : Concevoir une expérience utilisateur idéale](https://webinars.on24.com/adobe_workfront/AdminEssentialsUserExp?partnerref=field) | Webinaire Adobe Live | Rejoignez Mary Ann Erickson, responsable du succès client chez Adobe Workfront, et Steve Enos, analyste des opérations créatives chez Liberty Mutual Insurance pour découvrir comment concevoir une expérience utilisateur idéale. <br>**Date :** Mercredi 27 avril. Heure : 8 h (heure d&#39;été) / 16 h (heure d&#39;été). <br>[Détails et enregistrement](https://webinars.on24.com/adobe_workfront/AdminEssentialsUserExp?partnerref=field) |
 | [Experience League LIVE](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) | Vidéo en direct et à la demande | Une émission produite par l’équipe d’Experience League et diffusée en direct. Elle offre l’occasion de communiquer avec des experts en produits Adobe. Découvrez des conseils pratiques, des astuces et des stratégies que vous pouvez utiliser pour les applications Adobe Experience Cloud.<br> [Détails et événements passés](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) |
-| [AEM Gems](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-gems-build-sites-faster-with-aem-headless-and-app-builder/m-p/440205#M31629) | Webinaire Adobe Live | Uitlisez Bootstrap et déployez rapidement des applications d’une seule page (SPA) à l’aide des workflows et des outils [!UICONTROL App Builder] d’Adobe, sans avoir besoin des compétences Experience Manager traditionnelles nécessaires telles que Java™ et Sling. Avec Experience Manager Headless, les professionnels du marketing et les développeurs peuvent tous avoir l’expertise nécessaire dans leur propre domaine : les développeurs contrôlent la structure globale de l’application, le style et le routage, tandis que les professionnels du marketing déterminent le contenu et son affichage.<br>**Date :** mercredi 23 mars - [Détails &amp; enregistrement](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-gems-build-sites-faster-with-aem-headless-and-app-builder/m-p/440205#M31629) |
 | [Adobe Analytics : raconter des histoires percutantes avec des données](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b%E2%80%A6%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) | Webinaire Adobe Live | La narration des données est efficace quand elle atteint l’équilibre entre art et science. Alors, pourquoi en faire trop ? Amy Ard, championne d’Adobe Analytics, présente trois parties destinées à guider la narration de données sans pour autant diminuer la créativité :<ul><li>Identifier l’opportunité ou le problème</li><li>Expliquer à l’aide des données</li><li>Offrir une solution</li></ul>**Date :** jeudi 31 mars - [Détails et enregistrement](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b…%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) |
 | [Adobe [!DNL Developers Live]](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | [!DNL Developers Live] présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez l’adresse du mot-clé, découvrez les API Analytics, la couche de données client, les projets open source Adobe Developer, et bien plus encore. |
 
@@ -364,7 +366,7 @@ Nouveaux tutoriels et cours publiés pour Adobe Campaign.
 
 | Publication | Nom | Type | Description | Applications |
 | ------| ----- | -----| ------ | --- |
-| Mars 2022 | [Intégration à Experience Manager - Présentation](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-manager/overview.html?lang=fr) | Vidéo | Connectez Adobe Campaign à Adobe Experience Manager et gérez les modèles de diffusion d’e-mails, les ressources et les formulaires dans Experience Manager. | AEM, Campaign v8 |
+| Mars 2022 | [Intégration à Experience Manager - Présentation](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-manager/overview.html?lang=en) | Vidéo | Connectez Adobe Campaign à Adobe Experience Manager et gérez les modèles de diffusion d’e-mails, les ressources et les formulaires dans Experience Manager. | AEM, Campaign v8 |
 | Mars 2022 | [Configurer Campaign pour l’intégration dʼExperience Manager](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-manager/configure-campaign-for-aem-integration.html?lang=fr) | Vidéo | Découvrez comment configurer l’intégration entre Experience Manager et Campaign, y compris les paramètres importants à prendre en compte et les pièges potentiels à éviter. | AEM, Campaign v8 |
 | Mars 2022 | [Approuver et publier une page Experience Manager dans Campaign](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-manager/create-a-campaign-delivery-with-content-from-experience-manager/approve-and-publish-aem-content-to-campaign.html?lang=fr) | Vidéo | Découvrez comment créer une newsletter dans Experience Manager et comment l’approuver et la publier dans Campaign. | AEM, Campaign v8 |
 | Mars 2022 | [Synchroniser et envoyer une diffusion e-mail Experience Manager dans Campaign](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-manager/create-a-campaign-delivery-with-content-from-experience-manager/synchronize-and-send-an-aem-delivery-in-campaign.html?lang=fr) | Vidéo | Découvrez comment tester et envoyer un email à partir d’Adobe Campaign à l’aide d’une newsletter qui a été créée dans Experience Manager. | AEM, Campaign v8 |
@@ -531,7 +533,7 @@ Consultez les [tutoriels Creative Cloud abonnement Enterprise](https://experien
 
 ## ![Icône](/assets/experience-league.png) Gestion des données client - Voix {#voices}
 
-[Voix pour la gestion des données client](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/overview.html?lang=fr) est votre destination en tant que leader et spécialiste des pratiques techniques et marketing de gestion des données client. Cette collection de tutoriels est votre guichet unique pour bénéficier de l’avis de vos pairs, trouver de l’inspiration et découvrir les développements dans le domaine du MarTech. Aucune inscription n’est requise, il vous suffit de cliquer et de regarder.
+[Voix pour la gestion des données client](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/overview.html?lang=en) est votre destination en tant que leader et spécialiste des pratiques techniques et marketing de gestion des données client. Cette collection de tutoriels est votre guichet unique pour bénéficier de l’avis de vos pairs, trouver de l’inspiration et découvrir les développements dans le domaine du MarTech. Aucune inscription n’est requise, il vous suffit de cliquer et de regarder.
 
 ## ![Icône](/assets/experience-league.png) Plans directeurs de Digital Experience {#blueprints}
 
