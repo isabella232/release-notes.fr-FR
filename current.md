@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 88d7c6385f680dba693d856585679c517589441d
 workflow-type: tm+mt
 source-wordcount: '5828'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ Mise à jour **5 avril 2022**
 | [Principes d’administration du système Adobe Workfront : Concevoir une expérience utilisateur idéale](https://webinars.on24.com/adobe_workfront/AdminEssentialsUserExp?partnerref=field) | Webinaire Adobe Live | Rejoignez Mary Ann Erickson, responsable du succès client chez Adobe Workfront, et Steve Enos, analyste des opérations créatives chez Liberty Mutual Insurance pour découvrir comment concevoir une expérience utilisateur idéale. <br>**Date :** Mercredi 27 avril. Heure : 8 h (heure d&#39;été) / 16 h (heure d&#39;été). <br>[Détails et enregistrement](https://webinars.on24.com/adobe_workfront/AdminEssentialsUserExp?partnerref=field) |
 | [Experience League LIVE](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=fr) | Vidéo en direct et à la demande | Une émission produite par l’équipe d’Experience League et diffusée en direct. Elle offre l’occasion de communiquer avec des experts en produits Adobe. Découvrez des conseils pratiques, des astuces et des stratégies que vous pouvez utiliser pour les applications Adobe Experience Cloud.<br> [Détails et événements passés](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) |
 | [Adobe Analytics : raconter des histoires percutantes avec des données](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b%E2%80%A6%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) | Webinaire Adobe Live | La narration des données est efficace quand elle atteint l’équilibre entre art et science. Alors, pourquoi en faire trop ? Amy Ard, championne d’Adobe Analytics, présente trois parties destinées à guider la narration de données sans pour autant diminuer la créativité :<ul><li>Identifier l’opportunité ou le problème</li><li>Expliquer à l’aide des données</li><li>Offrir une solution</li></ul>**Date :** jeudi 31 mars - [Détails et enregistrement](https://engage.adobe.com/adobe-analytics-telling-impactful-stories.html?s_rtid=7015Y0%5b…%5d15Y000003A5SbQAK&amp;sfid=&amp;acctid=&amp;ecp=&amp;sdid=JCNCWJFP&amp;mv=display) |
-| [Adobe [!DNL Developers Live]](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | [!DNL Developers Live] présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez l’adresse du mot-clé, découvrez les API Analytics, la couche de données client, les projets open source Adobe Developer, et bien plus encore. |
+| [Adobe [!DNL Developers Live]](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=fr) | Vidéo | [!DNL Developers Live] présente les dernières avancées technologiques et les outils les plus récents pour les développeurs. Ils rendent possible la conception, les workflows de création de contenu, les services de document et la gestion de lʼexpérience client dans tous les secteurs dʼactivité. Affichez le discours liminaire, découvrez les API dʼAnalytics, la couche de données client, les projets open source Adobe Developer et bien plus encore. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -180,7 +180,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
 
 * **Experience Manager as a Cloud Service**
 
-   Regardez la [Vidéo de présentation de la version de mars 2022](https://video.tv.adobe.com/v/341465) pour un résumé des fonctionnalités ajoutées dans la version 2022.3.0 (mars 2022). <!-- Beginning with the video this month, Adobe has enabled localized closed captioning in French (FR), German (DE) and Japanese (JP). -->
+   Regardez la [vidéo de présentation de la version de mars 2022](https://video.tv.adobe.com/v/341465) pour un résumé des fonctionnalités ajoutées dans la version 2022.3.0 (mars 2022). <!-- Beginning with the video this month, Adobe has enabled localized closed captioning in French (FR), German (DE) and Japanese (JP). -->
 
    * [Vidéo de présentation de la version de janvier 2022](https://video.tv.adobe.com/v/340120) mettant en avant les nouvelles fonctionnalités.
    * [Vidéo de présentation de la version de décembre 2021](https://video.tv.adobe.com/v/339278) mettant en avant les nouvelles fonctionnalités.
@@ -203,7 +203,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
          * Configuration de la détection des ressources en double dans un référentiel.
          * Configuration de l’ajout de filigranes numériques aux images.
       * Les administrateurs peuvent désormais configurer le service de messagerie pour les téléchargements volumineux. Les utilisateurs peuvent ainsi choisir dʼ[activer les notifications par e-mail pour les téléchargements volumineux](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/download-assets-from-aem.html?lang=fr#enable-email-notifications-for-large-downloads) dans l’interface dʼExperience Manager Assets. Une fois le processus de téléchargement terminé, l’utilisateur reçoit une notification par e-mail avec le lien de téléchargement du dossier zip archivé.
-      * La fonctionnalité [Gestion de la publication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr) bénéficie dʼune interface utilisateur améliorée. Les utilisateurs peuvent publier ou dépublier du contenu vers et depuis la destination sélectionnée, ainsi quʼ[Ajouter du contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr#add-content) à la liste de publication depuis lʼensemble du référentiel de gestion des ressources numériques. Ils peuvent également [Inclure les paramètres des dossiers](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr#include-folder-settings) pour publier le contenu des dossiers sélectionnés et appliquer des filtres, ainsi que [planifier la publication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr#publish-assets-later) à une date ou heure ultérieure.
+      * La fonctionnalité [Gestion de la publication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr) bénéficie dʼune interface utilisateur améliorée. Les utilisateurs peuvent publier ou dépublier du contenu vers et depuis la destination sélectionnée, ainsi quʼ[Ajouter du contenu](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr#add-content) à la liste de publication depuis lʼensemble du référentiel de gestion des ressources numériques (DAM). Ils peuvent également [Inclure les paramètres des dossiers](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr#include-folder-settings) pour publier le contenu des dossiers sélectionnés et appliquer des filtres, ainsi que [planifier la publication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=fr#publish-assets-later) à une date ou heure ultérieure.
 
       _Correctif_
 
@@ -214,7 +214,7 @@ Adobe recommande de consulter la page des [mises à jour et feuilles de route Ex
 
       * **Experience Manager Forms as a Cloud Service - Communications** : les [API de communication](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/using-communications/aem-forms-cloud-service-communications.html?lang=fr) vous permettent de combiner un modèle et des données XML pour générer des documents dʼimpression dans différents formats. Le service vous permet de générer des documents dans les modes synchrone et par lots. Les API vous permettent de créer des applications pour effectuer les opérations suivantes :
 
-         * Générer des documents en complétant les fichiers modèles avec des données XML.
+         * de générer des documents en complétant les fichiers modèles avec des données XML ;
          * de générer des formulaires dans divers formats, y compris les flux d’impression PDF non interactifs ;
          * de générer des fichiers PDF d’impression à partir de fichiers PDF de formulaire XFA ;
          * de générer des documents PDF, PostScript, PCL et ZPL en blocs en fusionnant plusieurs jeux de données avec les modèles sources.
@@ -263,7 +263,7 @@ Nouveaux tutoriels, vidéos et cours publiés le mois dernier.
 | -----------| ---------- | ---------- | ---------- | ------|
 | Mars 2022 | [Commencer le développement avec AEM Headless](https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html?lang=fr) | Cours | Créez une page de destination AEM Headless qui rassemble tout le contenu dʼAEM Headless sur Experience League. | AEM Headless |
 | Mars 2022 | [Créer votre premier site web dans Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/?lang=fr#dashboard/learning) | Cours | Générez rapidement un nouveau site web dans Experience Manager à l’aide d’un modèle de site prédéfini. | AEM Sites |
-| Mars 2022 | [Extraire le nœud du fichier xml des données envoyées](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/custom-workflow-steps/extract-xml-node.html?lang=fr) | Vidéo | Découvrez cette étape de processus personnalisée pour créer un document XML en extrayant le noeud d’un autre document XML. Utilisez ce workflow lorsque vous souhaitez fusionner les données envoyées avec le modèle XDP pour générer un document PDF. | AEM Forms |
+| Mars 2022 | [Extraire le nœud du fichier xml des données envoyées](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/custom-workflow-steps/extract-xml-node.html?lang=fr) | Vidéo | Découvrez cette étape de processus personnalisé permettant de créer un document XML en extrayant le nœud d’un autre document XML. Utilisez ce workflow lorsque vous souhaitez fusionner les données envoyées avec le modèle XDP pour générer un document PDF. | AEM Forms |
 | Mars 2022 | [Enregistrer le document dans le système de fichiers](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/custom-workflow-steps/write-payload-document.html?lang=fr) | Vidéo | Découvrez comment enregistrer les documents générés dans le workflow dans le système de fichiers. | AEM Forms |
 | Mars 2022 | [Fonctions personnalisées](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/custom-functions-aem-forms.html?lang=fr) | Vidéo | AEM Forms 6.5 offre la possibilité de configurer des fonctions JavaScript pour définir des règles métier complexes à l’aide de l’éditeur de règles. | AEM Forms |
 | Mars 2022 | [Expert Series : connecteur amélioré de Workfront pour Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=fr) | Vidéo | Rejoignez les experts des produits Workfront et Experience Manager Assets dʼAdobe dans cette série de vidéos en quatre parties, où ils discutent des avantages et inconvénients du connecteur amélioré de Workfront pour Experience Manager. | AEM Assets, Workfront |
@@ -345,7 +345,7 @@ Nouvelle documentation et nouveaux tutoriels pour Adobe Commerce sur Experience
 
 ## ![Icône](/assets/target.png) [!DNL Adobe Target] {#target}
 
-Dernière mise à jour : **21 mars 2022**
+Dernière mise à jour : **21 mars 2022**
 
 * Pour obtenir des informations sur la version préliminaire, consultez la section [Version préliminaire d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=fr).
 * Pour obtenir des informations à jour, consultez la section [Notes de mise à jour d’Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/release-notes.html?lang=fr).
@@ -533,7 +533,7 @@ Consultez les [tutoriels Creative Cloud abonnement Enterprise](https://experien
 
 ## ![Icône](/assets/experience-league.png) Gestion des données client - Voix {#voices}
 
-[Voix pour la gestion des données client](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/overview.html?lang=en) est votre destination en tant que leader et spécialiste des pratiques techniques et marketing de gestion des données client. Cette collection de tutoriels est votre guichet unique pour bénéficier de l’avis de vos pairs, trouver de l’inspiration et découvrir les développements dans le domaine du MarTech. Aucune inscription n’est requise, il vous suffit de cliquer et de regarder.
+[Voix pour la gestion des données client](https://experienceleague.adobe.com/docs/customer-data-management-voices-events/events/overview.html?lang=en) est votre destination en tant que leader et spécialiste des pratiques techniques et marketing de gestion des données client. Cette collection de tutoriels est votre guichet unique pour bénéficier de l’avis de vos pairs, trouver de l’inspiration et découvrir les développements dans le domaine du MarTech. Aucune inscription requise, cliquez et regardez, tout simplement.
 
 ## ![Icône](/assets/experience-league.png) Plans directeurs de Digital Experience {#blueprints}
 
