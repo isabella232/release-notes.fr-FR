@@ -6,10 +6,10 @@ last-update: March 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 88d7c6385f680dba693d856585679c517589441d
+source-git-commit: bbdac176cdaed65d6312a1274551d8da517764c6
 workflow-type: tm+mt
-source-wordcount: '5828'
-ht-degree: 95%
+source-wordcount: '5956'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Vous êtes prêt à commencer ? [Répondez à un petit quiz de 5 minutes pour 
 >
 >Pour recevoir une notification mensuelle par e-mail des mises à jour de cette page, abonnez-vous à la [Mise à jour prioritaire des produits Adobe](https://www.adobe.com/subscription/priority-product-update.html). Consultez régulièrement ce site pour rester au courant de ce qui se passe sur Experience League.
 
-Dernière mise à jour : **5 avril 2022**
+Dernière mise à jour : **7 avril 2022**
 
 * [[!DNL Experience League] events](#events) (**5 avril** - Redémarrage d’AEM Gems)
 * [[!DNL Adobe System Status]](#status)
@@ -483,14 +483,15 @@ Last updated: **October 27, 2021**
 
 ### Nouvelles fonctionnalités d’[!DNL Advertising Cloud Search] {#adcloud-search}
 
-Dernière mise à jour : le **14 mars 2022** pour la publication du 12 mars
+Dernière mise à jour : **7 avril 2022**
 
 | Fonctionnalité | Description |
 | ------- | ----------- |
-| [!UICONTROL Portfolios] | Par défaut, l’optimisation hybride est disponible au niveau de la campagne. Vous pouvez désormais activer, de manière facultative, l’optimisation hybride au niveau du groupe publicitaire. La fonctionnalité d’optimisation définit alors des cibles CPA ou ROAS de [!DNL Google] au niveau du groupe publicitaire pour un contrôle plus précis des performances.<br>Tout portfolio nécessite une période d’apprentissage avant son lancement afin de posséder une couverture de modèle suffisante. Par exemple, si vous modifiez un portfolio hybride pour passer dʼune optimisation au niveau de la campagne à une optimisation au niveau du groupe publicitaire, planifiez le lancement du portfolio dʼici environ deux semaines. Ce délai permet de sʼassurer que la fonctionnalité dʼoptimisation dispose du temps nécessaire pour apprendre les groupes publicitaires inclus et générer des cibles.<br>Afin de prendre en charge l’optimisation au niveau du groupe publicitaire, les simulations personnalisées peuvent désormais inclure les résultats par groupe publicitaire. Exécutez une simulation personnalisée avec les résultats au niveau du groupe publicitaire avant de lancer un portfolio hybride avec optimisation au niveau du groupe publicitaire. |
-| [!UICONTROL Portfolios] <br> [!UICONTROL Campagnes] | (Fonctionnalité Beta, campagnes [!DNL Microsoft® Advertising]) Vous pouvez désormais configurer les campagnes de recherche afin d’utiliser la stratégie d’enchères [!UICONTROL Maximiser les conversions] et éventuellement définir un coût maximum par clic.<br>Si vous participez déjà à la version Beta de l’optimisation hybride pour d’autres stratégies d’enchères automatiques, vous avez automatiquement accès à la stratégie [!UICONTROL Maximiser les conversions]. Vous pouvez ainsi inclure des campagnes avec la stratégie [!UICONTROL Maximiser les conversions] dans les portfolios hybrides. Pour utiliser cette stratégie dans un portfolio hybride, vous devez activer le téléchargement des objectifs Advertising Cloud Search vers [!DNL Microsoft® Ads]. Si vous ne participez pas déjà à la version Beta et souhaitez la rejoindre, contactez votre gestionnaire de compte [!DNL Adobe]. |
-| Campagne [!UICONTROL Audiences]<br><br>Campagne [!UICONTROL Feuilles d’envoi groupé] | (Campagnes [!DNL Microsoft® Advertising]) À l’exception des audiences de marché, vous pouvez désormais utiliser toutes vos audiences [!DNL Microsoft® Advertising] comme cibles au niveau de la campagne ou au niveau du [!UICONTROL groupe publicitaire]. Auparavant, vous pouviez uniquement les utiliser comme cibles au niveau du [!UICONTROL groupe publicitaire]. |
-| Campagne [!UICONTROL Audiences] | (Fonctionnalité Beta, comptes [!DNL Microsoft® Advertising] éligibles à la [!UICONTROL Correspondance client]) Vous pouvez désormais créer et gérer des audiences de correspondance client en chargeant des fichiers CSV avec des adresses e-mail. Les données doivent être hachées à l’aide de l’algorithme SHA-256. |
+| [!UICONTROL Campagnes]<br><br>[!UICONTROL Informations publicitaires] | (7 avril) [!DNL Google Ads] comptes) Advertising Cloud Search transfère tous les appels API depuis l’ancien [!DNL Google AdWords API] à la dernière [!DNL Google Ads API]. Passage au nouveau [!DNL Google Ads API] assure la continuité des fonctionnalités existantes et permet l’accès à [!DNL Google’s] dernier [!DNL Ads] fonctions.<br><br>Certaines fonctionnalités n’ont pas encore été mises à jour vers la nouvelle API et sont temporairement indisponibles :<ul><li>Extensions d’emplacement :<ul>Les extensions d’emplacement ne sont pas visibles dans la variable [!UICONTROL Extensions] vue.</li><li>Vous ne pouvez pas créer d’extension.</li><li>Les filtres sur les emplacements ne fonctionnent pas.</li></li></ul><li>[!UICONTROL Informations publicitaires]: Le [!UICONTROL Partage d’impression perdu] et [!UICONTROL Query Cross Matching Beta] les analyses ne seront plus disponibles à partir du 11 avril.</li></ul>Nous prévoyons de restaurer les fonctionnalités d’extension de localisation d’ici la fin avril. Une fois que nous avons déterminé quand [!UICONTROL Informations publicitaires] Les modules peuvent également être restaurés. Nous enverrons une mise à jour avec la date estimée. |
+| [!UICONTROL Portfolios] | (Version du 12 mars) Par défaut, l’optimisation hybride est disponible au niveau de la campagne. Vous pouvez désormais activer, de manière facultative, l’optimisation hybride au niveau du groupe publicitaire. La fonctionnalité d’optimisation définit alors des cibles CPA ou ROAS de [!DNL Google] au niveau du groupe publicitaire pour un contrôle plus précis des performances.<br>Tout portfolio nécessite une période d’apprentissage avant son lancement afin de posséder une couverture de modèle suffisante. Par exemple, si vous modifiez un portfolio hybride pour passer dʼune optimisation au niveau de la campagne à une optimisation au niveau du groupe publicitaire, planifiez le lancement du portfolio dʼici environ deux semaines. Ce délai permet de sʼassurer que la fonctionnalité dʼoptimisation dispose du temps nécessaire pour apprendre les groupes publicitaires inclus et générer des cibles.<br>Afin de prendre en charge l’optimisation au niveau du groupe publicitaire, les simulations personnalisées peuvent désormais inclure les résultats par groupe publicitaire. Exécutez une simulation personnalisée avec les résultats au niveau du groupe publicitaire avant de lancer un portfolio hybride avec optimisation au niveau du groupe publicitaire. |
+| [!UICONTROL Portfolios] <br> [!UICONTROL Campagnes] | (Version 12 de Match ; Fonction bêta pour [!DNL Microsoft® Advertising] (campagnes) : vous pouvez maintenant configurer les campagnes de recherche pour utiliser la variable [!UICONTROL Maximiser les conversions] stratégie d’offre et éventuellement définir un coût maximum par clic.<br>Si vous participez déjà à la version Beta de l’optimisation hybride pour d’autres stratégies d’enchères automatiques, vous avez automatiquement accès à la stratégie [!UICONTROL Maximiser les conversions]. Vous pouvez ainsi inclure des campagnes avec la stratégie [!UICONTROL Maximiser les conversions] dans les portfolios hybrides. Pour utiliser cette stratégie dans un portfolio hybride, vous devez activer le téléchargement des objectifs Advertising Cloud Search vers [!DNL Microsoft® Ads]. Si vous ne participez pas déjà à la version Beta et souhaitez la rejoindre, contactez votre gestionnaire de compte [!DNL Adobe]. |
+| Campagne [!UICONTROL Audiences]<br><br>Campagne [!UICONTROL Feuilles d’envoi groupé] | (Version du 12 mars) [!DNL Microsoft® Advertising] (campagnes) : vous pouvez désormais utiliser n’importe lequel de vos [!DNL Microsoft® Advertising] audiences, à l’exception des audiences dans le marché, comme cibles au niveau de la campagne ou [!UICONTROL adgroup]cibles de niveau -1. Auparavant, vous pouviez uniquement les utiliser comme cibles au niveau du [!UICONTROL groupe publicitaire]. |
+| Campagne [!UICONTROL Audiences] | (Version du 12 mars) Fonction bêta pour [!DNL Microsoft® Advertising] comptes éligibles [!UICONTROL Correspondance client]) Vous pouvez désormais créer et gérer des audiences de correspondance client en chargeant des fichiers CSV avec des adresses électroniques. Les données doivent être hachées à l’aide de l’algorithme SHA-256. |
 
 {style=&quot;table-layout:auto&quot;}
 
