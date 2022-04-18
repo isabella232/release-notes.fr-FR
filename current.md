@@ -4,11 +4,11 @@ description: Découvrez les dernières notes de mise à jour, les nouvelles fonc
 doc-type: release notes
 last-update: April 2022
 author: mfrei
-mini-toc-levels: 1
+mini-toc-levels: 2
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3d9450a10069ac060d21d844c6d5cc6e8d7b9bad
+source-git-commit: 559fef013ec51e9c617f8e274089a50ee8498051
 workflow-type: tm+mt
-source-wordcount: '6115'
+source-wordcount: '6118'
 ht-degree: 43%
 
 ---
@@ -350,8 +350,8 @@ En savoir plus sur [XML Documentation for AEM](https://www.adobe.com/fr/products
 
 Voir les liens suivants pour consulter les notes de mise à jour dʼAdobe Commerce :
 
-* [Adobe Commerce et Magento Open Source](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
-* [infrastructure cloud pour Adobe Commerce](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
+* [Notes de mise à jour d’Adobe Commerce et de Magento Open Source 2.4.x](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
+* [Notes de mise à jour de Cloud Suite](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
 ### Nouvelles ressources pour Adobe Commerce {#new-commerce}
 
